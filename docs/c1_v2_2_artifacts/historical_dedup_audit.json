@@ -1,0 +1,519 @@
+[
+  {
+    "representative_id": "K2-0135571b8ba28f8e99e3",
+    "member_ids": [
+      "K2-0135571b8ba28f8e99e3",
+      "K2-37a964407f5ad3b03a2d",
+      "K2-3c344dc507c412d55598",
+      "K2-538342e9a41eaa50c11b",
+      "K2-5c7976728d5642980689"
+    ],
+    "members": 5,
+    "topics": [
+      "nutrition"
+    ],
+    "distinct_texts": 5,
+    "distinct_condition_variants": 5,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-039e2ebee8d9027b6100",
+    "member_ids": [
+      "K2-039e2ebee8d9027b6100",
+      "K2-e5fa9208f6a4b9d89050"
+    ],
+    "members": 2,
+    "topics": [
+      "sleep"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-045a7759680b805de4f8",
+    "member_ids": [
+      "K2-045a7759680b805de4f8",
+      "K2-d4ddf8b2ff2c68eead9c",
+      "K2-e4be502423cf83bcdcb5",
+      "K2-f05d54ac8a2bf3058d0f"
+    ],
+    "members": 4,
+    "topics": [
+      "healthy_aging",
+      "physical_activity"
+    ],
+    "distinct_texts": 4,
+    "distinct_condition_variants": 3,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-0c712ca1eda932d66f17",
+    "member_ids": [
+      "K2-0c712ca1eda932d66f17",
+      "K2-2459d0b210a66f1dd47f"
+    ],
+    "members": 2,
+    "topics": [
+      "stress"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-0d34ac0e578f072e55f1",
+    "member_ids": [
+      "K2-0d34ac0e578f072e55f1",
+      "K2-713e19f1f0ccef67739e"
+    ],
+    "members": 2,
+    "topics": [
+      "sleep"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 1,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-169ea45bda088788a893",
+    "member_ids": [
+      "K2-169ea45bda088788a893",
+      "K2-1e55f6c87aeec70d02e8",
+      "K2-3198635ec888312ee0b1",
+      "K2-3b3436a6532552b64c49",
+      "K2-625b9bcbc50d56f2cb64",
+      "K2-907ecb470eb5ed75e3c9",
+      "K2-9496d3ff79930c4becd9",
+      "K2-a57869448966fbf20b3b",
+      "K2-a8afe181434b12f2a37f",
+      "K2-adfc4a2e4e948fa23bb5",
+      "K2-b85211e5ca8471d95a7a",
+      "K2-cb8335b519b5d459f4aa",
+      "K2-cf53759407e578e75050",
+      "K2-cf53863962c9b1d1b861",
+      "K2-d5f080adb39b804a07b0"
+    ],
+    "members": 15,
+    "topics": [
+      "healthy_aging",
+      "nutrition",
+      "physical_activity"
+    ],
+    "distinct_texts": 15,
+    "distinct_condition_variants": 13,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-1bb060ee66bbd20bf705",
+    "member_ids": [
+      "K2-1bb060ee66bbd20bf705",
+      "K2-6de5275b64dd1ea385e4"
+    ],
+    "members": 2,
+    "topics": [
+      "healthy_aging",
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-1d56245ffb492646772a",
+    "member_ids": [
+      "K2-1d56245ffb492646772a",
+      "K2-62b49954700f16dbc970",
+      "K2-848a536c7c29d62c74a7",
+      "K2-aa3543c124faff24e233",
+      "K2-af25c7424acbd49b7053"
+    ],
+    "members": 5,
+    "topics": [
+      "healthy_aging",
+      "stress"
+    ],
+    "distinct_texts": 5,
+    "distinct_condition_variants": 5,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-1f31376454e8c694d2c7",
+    "member_ids": [
+      "K2-1f31376454e8c694d2c7",
+      "K2-fa8b6b9e98fe627edd8e"
+    ],
+    "members": 2,
+    "topics": [
+      "stress"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-2041fc36b70e37974fc9",
+    "member_ids": [
+      "K2-2041fc36b70e37974fc9",
+      "K2-4c17de005fa92131e8a0",
+      "K2-51b22b20945347c7471f"
+    ],
+    "members": 3,
+    "topics": [
+      "healthy_aging",
+      "sleep"
+    ],
+    "distinct_texts": 3,
+    "distinct_condition_variants": 3,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-23e7a3ab3cf37b1fd68c",
+    "member_ids": [
+      "K2-23e7a3ab3cf37b1fd68c",
+      "K2-d34ca982cfb43fc4ec82"
+    ],
+    "members": 2,
+    "topics": [
+      "healthy_aging",
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-24dcdfbc9e395e210225",
+    "member_ids": [
+      "K2-24dcdfbc9e395e210225",
+      "K2-ab17cfdb08d654b03e01"
+    ],
+    "members": 2,
+    "topics": [
+      "healthy_aging",
+      "stress"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-2c95bf149af5a93d1f8c",
+    "member_ids": [
+      "K2-2c95bf149af5a93d1f8c",
+      "K2-63423e0bc4327d59a72c",
+      "K2-64df9bc9e6a71ba26cdd"
+    ],
+    "members": 3,
+    "topics": [
+      "physical_activity"
+    ],
+    "distinct_texts": 3,
+    "distinct_condition_variants": 3,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-2f31b13b1e00bc685fcc",
+    "member_ids": [
+      "K2-2f31b13b1e00bc685fcc",
+      "K2-f202e8940b19323b8b4b"
+    ],
+    "members": 2,
+    "topics": [
+      "sleep"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-3455704a0d87585e3768",
+    "member_ids": [
+      "K2-3455704a0d87585e3768",
+      "K2-df428165f0a1ef6221f1"
+    ],
+    "members": 2,
+    "topics": [
+      "healthy_aging"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-439e3a91b955002d3776",
+    "member_ids": [
+      "K2-439e3a91b955002d3776",
+      "K2-49c98b5149c886034d95"
+    ],
+    "members": 2,
+    "topics": [
+      "sleep"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-46b7210126160724f642",
+    "member_ids": [
+      "K2-46b7210126160724f642",
+      "K2-4985ac8a15eb1e198ded"
+    ],
+    "members": 2,
+    "topics": [
+      "nutrition"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-539c7754b84e3613352a",
+    "member_ids": [
+      "K2-539c7754b84e3613352a",
+      "K2-9cb676fea02f9dbb2af6",
+      "K2-d8397449d6396f16630d"
+    ],
+    "members": 3,
+    "topics": [
+      "healthy_aging"
+    ],
+    "distinct_texts": 3,
+    "distinct_condition_variants": 3,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-56c336343e20744bdd85",
+    "member_ids": [
+      "K2-56c336343e20744bdd85",
+      "K2-9a27b025af7fce8a8dee"
+    ],
+    "members": 2,
+    "topics": [
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-5ce8bd5ce137ac8c9b29",
+    "member_ids": [
+      "K2-5ce8bd5ce137ac8c9b29",
+      "K2-67040fb1bc010e202eb4",
+      "K2-9542afebcd57f9c1d4df",
+      "K2-9a70870014c1a308c7be",
+      "K2-d0a52f6cf11bbab0af5c",
+      "K2-e3993a33a874dd570604"
+    ],
+    "members": 6,
+    "topics": [
+      "healthy_aging",
+      "physical_activity"
+    ],
+    "distinct_texts": 6,
+    "distinct_condition_variants": 6,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-6758cc172d21dade304e",
+    "member_ids": [
+      "K2-6758cc172d21dade304e",
+      "K2-6c57d5516de8f75bce19",
+      "K2-71ffe286597c2107a320",
+      "K2-7a47e8e7c50f06b2ded1",
+      "K2-a05bd15e3516713916b3",
+      "K2-ebb8ea0988f0365c2b87"
+    ],
+    "members": 6,
+    "topics": [
+      "healthy_aging",
+      "sleep"
+    ],
+    "distinct_texts": 6,
+    "distinct_condition_variants": 6,
+    "member_supported_ids": [
+      "K2-6c57d5516de8f75bce19"
+    ],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-73132c7d47292e866f30",
+    "member_ids": [
+      "K2-73132c7d47292e866f30",
+      "K2-dda4b8bdba62816f769a"
+    ],
+    "members": 2,
+    "topics": [
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-73490d74a3835a928a5e",
+    "member_ids": [
+      "K2-73490d74a3835a928a5e",
+      "K2-d462320c14b3f48b06b3"
+    ],
+    "members": 2,
+    "topics": [
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-74cba26d27c488e11774",
+    "member_ids": [
+      "K2-74cba26d27c488e11774",
+      "K2-8513f7dd0a867c59b816",
+      "K2-99b4598bb854b5cfc1c8"
+    ],
+    "members": 3,
+    "topics": [
+      "healthy_aging",
+      "physical_activity"
+    ],
+    "distinct_texts": 3,
+    "distinct_condition_variants": 3,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-820a1e350500d8a489d9",
+    "member_ids": [
+      "K2-820a1e350500d8a489d9",
+      "K2-f162a3abe7a3fff848a3"
+    ],
+    "members": 2,
+    "topics": [
+      "healthy_aging",
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-8286f2e9970d54788e34",
+    "member_ids": [
+      "K2-8286f2e9970d54788e34",
+      "K2-98469dd99568e01153f1",
+      "K2-b84182f4284a412c3df5",
+      "K2-c92dcc693577efd72721"
+    ],
+    "members": 4,
+    "topics": [
+      "healthy_aging"
+    ],
+    "distinct_texts": 4,
+    "distinct_condition_variants": 4,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-94d8d981624a84dc3ff3",
+    "member_ids": [
+      "K2-94d8d981624a84dc3ff3",
+      "K2-a911304227c91fd14aa6",
+      "K2-a9b5b567045f4b7fa4d1",
+      "K2-f87cfd81ec96193076f7"
+    ],
+    "members": 4,
+    "topics": [
+      "healthy_aging"
+    ],
+    "distinct_texts": 4,
+    "distinct_condition_variants": 4,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-96b9013a688a26ff76c4",
+    "member_ids": [
+      "K2-96b9013a688a26ff76c4",
+      "K2-db49b0399fa678d75520"
+    ],
+    "members": 2,
+    "topics": [
+      "sleep"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-b7518f29fe1461440c07",
+    "member_ids": [
+      "K2-b7518f29fe1461440c07",
+      "K2-c42d5ab7277d0c869cff"
+    ],
+    "members": 2,
+    "topics": [
+      "stress"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-bdb3ebc618a2c3df52a0",
+    "member_ids": [
+      "K2-bdb3ebc618a2c3df52a0",
+      "K2-d8733677fad5987d1a8d"
+    ],
+    "members": 2,
+    "topics": [
+      "healthy_aging",
+      "nutrition"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  },
+  {
+    "representative_id": "K2-cd4b54e54a400a240d75",
+    "member_ids": [
+      "K2-cd4b54e54a400a240d75",
+      "K2-db96af31c418313bdffa"
+    ],
+    "members": 2,
+    "topics": [
+      "physical_activity"
+    ],
+    "distinct_texts": 2,
+    "distinct_condition_variants": 2,
+    "member_supported_ids": [],
+    "representative_has_supported": false
+  }
+]

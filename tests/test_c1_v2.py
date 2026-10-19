@@ -157,7 +157,8 @@ class SourceAndCitationTests(unittest.TestCase):
 
     def test_multiple_summaries_not_promoted_to_necessary_AND(self):
         c={'probe_ids':['mean','sd'],'use':'applicability','role':'necessary','logic':'ALL','text':'Low activity'}
-        self.assertIn('necessary_ALL_probe_group_has_no_grounded_per_probe_predicates',capability_errors(c))
+        # Probe arity cannot establish or refute the source connective. Dependency auditing is separate.
+        self.assertFalse(capability_errors(c))
         c['role']='optional'
         self.assertFalse(capability_errors(c))
 

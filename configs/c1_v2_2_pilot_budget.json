@@ -1,0 +1,17 @@
+{
+  "version": "c1-v2.2-bounded-repair-pilot-v1",
+  "authorized_cap_cny": 3,
+  "authorization": "Sub-budget within the user's existing CNY 200 authorization; no extension of the task cap",
+  "max_calls": 48,
+  "model": "qwen-plus",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "temperature": 0,
+  "enable_thinking": false,
+  "max_tokens": 3000,
+  "max_input_bytes": 60000,
+  "input_cny_per_million": 0.8,
+  "output_cny_per_million": 2,
+  "price_source": "https://help.aliyun.com/en/model-studio/qwen-plus",
+  "price_checked": "2026-10-19",
+  "no_automatic_retries": true
+}

@@ -47,7 +47,7 @@ class V2Client:
     def _send(self, request):
         require(bool(self.api_key), "BLOCKED_API_KEY_REQUIRED")
         req=urllib.request.Request(self.config["base_url"]+"/chat/completions",
-             data=json.dumps(request,ensure_ascii=False).encode(),
+             data=json.dumps(request,ensure_ascii=False,separators=(",",":")).encode(),
              headers={"Content-Type":"application/json","Authorization":"Bearer "+self.api_key})
         with urllib.request.urlopen(req,timeout=90) as response:
             return json.loads(response.read())
@@ -67,7 +67,7 @@ class V2Client:
                 return SilverClient.decode(cached["response"]), {**cached,"cache_hit":True}
             require(not attempt.exists(), "prior uncertain/failed attempt retained; no automatic retry")
             require(bool(self.api_key) or self.transport!=self._send, "BLOCKED_API_KEY_REQUIRED")
-            payload_bytes=len(json.dumps(request,ensure_ascii=False).encode())
+            payload_bytes=len(json.dumps(request,ensure_ascii=False,separators=(",",":")).encode())
             require(payload_bytes<=self.config["max_input_bytes"], "BLOCKED_INPUT_SIZE_CAP")
             # UTF-8 bytes + overhead is deliberately more pessimistic than a chars/4 token estimate.
             reserve=((payload_bytes+1024)*self.config["input_cny_per_million"]+
