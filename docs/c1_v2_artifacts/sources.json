@@ -1,0 +1,123 @@
+{
+  "wearable": {
+    "url": "https://media.githubusercontent.com/media/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/WearableQA_raw.json",
+    "accessed_at": "2026-10-19T09:37:20.132923+00:00",
+    "final_url": "https://media.githubusercontent.com/media/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/WearableQA_raw.json",
+    "http_status": 200,
+    "etag": "\"73dedd7290d80b1f0e78f1c51771ef3252a809da66e2484d2cc78cc844c140df\"",
+    "last_modified": "Mon, 19 Oct 2026 09:37:20 GMT",
+    "status": "FETCHED",
+    "sha256": "73dedd7290d80b1f0e78f1c51771ef3252a809da66e2484d2cc78cc844c140df",
+    "bytes": 40962333
+  },
+  "readme": {
+    "url": "https://raw.githubusercontent.com/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/README.md",
+    "accessed_at": "2026-10-19T09:37:20.133612+00:00",
+    "final_url": "https://raw.githubusercontent.com/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/README.md",
+    "http_status": 200,
+    "etag": "\"6a479bd14cb4edbcdf4ec41155e7055196b8a55b1c2919b29e9ca836af1e6db8\"",
+    "last_modified": null,
+    "status": "FETCHED",
+    "sha256": "8c20200668d56338b162481a5a8dacc80430f06272bcadec272cdd2717e24028",
+    "bytes": 11997
+  },
+  "license": {
+    "url": "https://raw.githubusercontent.com/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/LICENSE",
+    "accessed_at": "2026-10-19T09:37:20.133612+00:00",
+    "final_url": "https://raw.githubusercontent.com/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/LICENSE",
+    "http_status": 200,
+    "etag": "\"709b129af0045a21c8e79729d768d8b6fd892a1767f7cbe37f4d4f82dc89f775\"",
+    "last_modified": null,
+    "status": "FETCHED",
+    "sha256": "9b75fd79329c7e7111ec553b4fde91926cd0a91cd34b5ad9a299fade79913691",
+    "bytes": 20125
+  },
+  "renderer": {
+    "url": "https://raw.githubusercontent.com/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/render_raw.py",
+    "accessed_at": "2026-10-19T09:37:20.133612+00:00",
+    "final_url": "https://raw.githubusercontent.com/facebookresearch/WearableQA/39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3/render_raw.py",
+    "http_status": 200,
+    "etag": "\"534d08188bf210b56c67b056bc63468dfc763e656abbbde1fa5708f109ab762f\"",
+    "last_modified": null,
+    "status": "FETCHED",
+    "sha256": "8a72c7de34fc2c025f3d6cce0952e8e7c0abb85adc0e86b78755117b865ad88f",
+    "bytes": 9815
+  },
+  "hf": {
+    "url": "https://huggingface.co/api/datasets/facebook/WearableQA/revision/38ddf7fd0efbe9ce6da66e75b560a33c50dc6721",
+    "accessed_at": "2026-10-19T09:37:21.031051+00:00",
+    "final_url": "https://huggingface.co/api/datasets/facebook/WearableQA/revision/38ddf7fd0efbe9ce6da66e75b560a33c50dc6721",
+    "http_status": 200,
+    "etag": "W/\"935-WGoBSMkT0hrSGPieQ2nYPbfrNCk\"",
+    "last_modified": null,
+    "status": "FETCHED",
+    "sha256": "ba2224c38b186e3b68ba44a35784307c1eb1a16ca4583b8133496421fdbec1ec",
+    "bytes": 2357
+  },
+  "medline": {
+    "url": "https://medlineplus.gov/xml/mplus_topics_2026-10-17.xml",
+    "accessed_at": "2026-10-19T09:37:21.095388+00:00",
+    "final_url": "https://medlineplus.gov/xml/mplus_topics_2026-10-17.xml",
+    "http_status": 200,
+    "etag": "\"02e44841a213f3ee7a247fe8ffa3df8e-4\"",
+    "last_modified": "Sat, 17 Oct 2026 06:34:41 GMT",
+    "status": "FETCHED",
+    "sha256": "fdbae009b6be2c2f535050049fc17147d79e9e0cb2f3ca12fdac700634469c5f",
+    "bytes": 30125306
+  },
+  "medline_terms": {
+    "url": "https://medlineplus.gov/about/using/usingcontent/",
+    "accessed_at": "2026-10-19T09:37:21.211272+00:00",
+    "final_url": "https://medlineplus.gov/about/using/usingcontent/",
+    "http_status": 200,
+    "etag": "\"37903a654905683648f3bbf0fedae2c3\"",
+    "last_modified": "Sat, 17 Oct 2026 04:19:49 GMT",
+    "status": "FETCHED",
+    "sha256": "111b6f1052bc2b82d6210897e029cc68c31db67ab3a15a86346f94b0f353d7f0",
+    "bytes": 25583
+  },
+  "myhf": {
+    "url": "https://odphp.health.gov/myhealthfinder/api/v4/topicsearch.json?Lang=en",
+    "accessed_at": "2026-10-19T09:37:21.795695+00:00",
+    "final_url": "https://odphp.health.gov/myhealthfinder/api/v4/topicsearch.json?Lang=en",
+    "http_status": 200,
+    "etag": null,
+    "last_modified": null,
+    "status": "FETCHED",
+    "sha256": "05dda8e2a43e37da057ae1c79359f23ef51642421ccce4cc8a8059332d66b654",
+    "bytes": 1605122
+  },
+  "myhf_terms": {
+    "url": "https://odphp.health.gov/our-work/national-health-initiatives/health-literacy/consumer-health-content/free-web-content/apis-developers/terms-use",
+    "accessed_at": "2026-10-19T09:37:22.523926+00:00",
+    "final_url": "https://odphp.health.gov/our-work/national-health-initiatives/health-literacy/consumer-health-content/free-web-content/apis-developers/terms-use",
+    "http_status": 200,
+    "etag": "\"1792402315\"",
+    "last_modified": "Mon, 19 Oct 2026 09:31:55 GMT",
+    "status": "FETCHED",
+    "sha256": "ec68435ba4d3d9c567337707eb509731322969ecb46a0fe14c9cc7eb0609e741",
+    "bytes": 50349
+  },
+  "myhf_docs": {
+    "url": "https://odphp.health.gov/our-work/national-health-initiatives/health-literacy/consumer-health-content/free-web-content/apis-developers/how-use-api",
+    "accessed_at": "2026-10-19T09:37:24.692737+00:00",
+    "final_url": "https://odphp.health.gov/our-work/national-health-initiatives/health-literacy/consumer-health-content/free-web-content/apis-developers/how-use-api",
+    "http_status": 200,
+    "etag": "\"1792400580\"",
+    "last_modified": "Mon, 19 Oct 2026 09:03:00 GMT",
+    "status": "FETCHED",
+    "sha256": "a3a0610d8d48db24aafcffc167059613d44faacc4d4179c7e123569cf572e9b8",
+    "bytes": 52134
+  },
+  "qwen_price": {
+    "url": "https://help.aliyun.com/en/model-studio/qwen-plus",
+    "accessed_at": "2026-10-19T09:37:24.869129+00:00",
+    "final_url": "https://help.aliyun.com/en/model-studio/qwen-plus",
+    "http_status": 200,
+    "etag": null,
+    "last_modified": null,
+    "status": "FETCHED",
+    "sha256": "077bf3fb86ac826842b08696728a74d861b04aa5d28b439ebceb762f7335862b",
+    "bytes": 186346
+  }
+}

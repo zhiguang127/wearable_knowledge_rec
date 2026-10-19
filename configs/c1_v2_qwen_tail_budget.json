@@ -1,0 +1,21 @@
+{
+  "version": "c1-v2-qwen-budget-tail-shard-v1",
+  "authorized_cap_cny": 25,
+  "authorization": "Suballocation of the same user-authorized CNY 200 task budget, not additional authorization",
+  "max_calls": 400,
+  "model": "qwen-plus",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "temperature": 0,
+  "enable_thinking": false,
+  "max_tokens": 3000,
+  "max_input_bytes": 60000,
+  "input_cny_per_million": 0.8,
+  "output_cny_per_million": 2,
+  "price_source": "https://help.aliyun.com/en/model-studio/qwen-plus",
+  "price_checked": "2026-10-19",
+  "price_tier": "China mainland, non-thinking, input <=128K; no discounts assumed",
+  "no_automatic_retries": true,
+  "billing_note": "Usage-based estimates, not an invoice; all attempts reserve pessimistically. This authorization is specific to this run.",
+  "parent_budget": "configs/c1_v2_qwen_budget.json",
+  "scope": "Source-order knowledge indices 202..401 only; completed records shared, no outcome selection"
+}

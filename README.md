@@ -1,6 +1,8 @@
 # Wearable Knowledge Recommendation
 
-基于纵向可穿戴数据的可解释健康知识推荐。当前为 **离线迁移与工程校验完成**，不是医学验证、人工 Gold 数据集或新方法效果结论。旧项目 `D:\Python\py_projects\c1_pilot` 保持原样；本项目有独立 Git 仓库，无远程推送。
+新增独立任务 **C1 Benchmark V2**：真实 WearableQA 日级数据、带来源的健康教育知识、确定性 Probe 与两阶段 `qwen-plus` 自动 Silver 审查。包含 **14 天冷启动**及 42/90/180 天历史；原 PMData、历史标签与实验不回写。入口、复现命令、实测数量与限制见 [C1 Benchmark V2](docs/C1_BENCHMARK_V2.md) 和 [V2 自动审查协议](docs/C1_V2_SILVER_PROTOCOL.md)。下文迁移与旧实验的停止条件仅描述其原轮次，不覆盖这个新授权任务。
+
+基于纵向可穿戴数据的可解释健康知识推荐。当前为 **离线迁移与工程校验完成**，不是医学验证、人工 Gold 数据集或新方法效果结论。旧项目 `D:\Python\py_projects\c1_pilot` 保持原样；本项目有独立 Git 仓库，后续工作通过独立分支与 Draft PR 交付。
 
 ## 已有资产
 

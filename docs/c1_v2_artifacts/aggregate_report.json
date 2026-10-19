@@ -1,0 +1,1155 @@
+{
+  "release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "summary": {
+    "version": "c1-benchmark-v2.1",
+    "participants": 200,
+    "source_questions": 4084,
+    "source_daily_rows": 119795,
+    "windows": 2276,
+    "excluded_windows": 124,
+    "windows_by_history_length": {
+      "14": 600,
+      "42": 593,
+      "90": 573,
+      "180": 510
+    },
+    "split": {
+      "train": {
+        "participants": 140,
+        "windows": 1587
+      },
+      "dev": {
+        "participants": 30,
+        "windows": 346
+      },
+      "test": {
+        "participants": 30,
+        "windows": 343
+      }
+    },
+    "knowledge_candidates": 402,
+    "knowledge_excluded": 113,
+    "knowledge_topics": {
+      "sleep": 40,
+      "physical_activity": 78,
+      "healthy_aging": 64,
+      "stress": 46,
+      "nutrition": 174
+    },
+    "probe_definitions": 288,
+    "units": {
+      "steps": "count/day",
+      "rhr": "bpm",
+      "hrv": "source_unit_unspecified",
+      "sleep_duration": "hours",
+      "sleep_efficiency": "source_ratio_scale_unverified",
+      "deep_percentage": "percent",
+      "rem_percentage": "percent",
+      "bed_time_std": "minutes",
+      "exercise_hours": "hours/day",
+      "exercise_count": "count/day",
+      "exercise_avg_hr": "bpm",
+      "exercise_mets": "source_MET_aggregation_unspecified",
+      "active_burn": "source_calories",
+      "calories_bmr": "source_calories",
+      "vo2_max": "source_unit_unspecified",
+      "avg_stress_level": "source_device_score"
+    },
+    "source_counts": {
+      "daily_rows": 119795,
+      "valid:exercise_count": 119770,
+      "valid:vo2_max": 34932,
+      "valid:bed_time_std": 118019,
+      "valid:rhr": 112512,
+      "valid:sleep_duration": 107116,
+      "valid:sleep_efficiency": 107073,
+      "valid:deep_percentage": 91638,
+      "valid:active_burn": 98838,
+      "valid:calories_bmr": 88660,
+      "valid:exercise_hours": 71009,
+      "valid:exercise_mets": 67008,
+      "valid:exercise_avg_hr": 59683,
+      "valid:steps": 112294,
+      "valid:rem_percentage": 90116,
+      "valid:avg_stress_level": 77664,
+      "valid:hrv": 16951
+    },
+    "human_gold": false,
+    "boundaries": [
+      "Candidates are not reviewed/approved knowledge.",
+      "No MCQ ground truth reused as applicability labels.",
+      "Source dates, IDs, daily rows, splits and labels are private Git-ignored artifacts.",
+      "Daily aggregates cannot reconstruct events, posture, moderate/vigorous minutes or sleep start clocks."
+    ]
+  },
+  "evaluation": {
+    "release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+    "windows": 2276,
+    "probe_definitions": 288,
+    "probe_attempts": 655488,
+    "probe_statuses": {
+      "COMPUTED": 372147,
+      "INSUFFICIENT_INFORMATION": 283341
+    },
+    "probes_computable_in_at_least_one_window": 288,
+    "elapsed_wall_seconds_including_serialization": 63.066336199990474,
+    "summed_compute_seconds": 38.7114491,
+    "single_probe_median_ms": 0.0519,
+    "single_probe_p95_ms": 0.1191,
+    "all_probes_per_window_median_ms": 26.236700039589778,
+    "knowledge_size_reports": [
+      {
+        "requested_size": 26,
+        "actual_candidate_size": 26,
+        "reviewed_size": 0,
+        "topic_counts": {
+          "sleep": 26
+        },
+        "exact_duplicates_after_collapse": 0,
+        "near_duplicate_pairs": 0,
+        "pair_denominator": 325,
+        "near_duplicate_threshold": 0.6,
+        "near_duplicate_pair_rate": 0.0
+      },
+      {
+        "requested_size": 100,
+        "actual_candidate_size": 100,
+        "reviewed_size": 0,
+        "topic_counts": {
+          "sleep": 40,
+          "physical_activity": 60
+        },
+        "exact_duplicates_after_collapse": 0,
+        "near_duplicate_pairs": 0,
+        "pair_denominator": 4950,
+        "near_duplicate_threshold": 0.6,
+        "near_duplicate_pair_rate": 0.0
+      },
+      {
+        "requested_size": 300,
+        "actual_candidate_size": 300,
+        "reviewed_size": 0,
+        "topic_counts": {
+          "sleep": 40,
+          "physical_activity": 78,
+          "healthy_aging": 64,
+          "stress": 46,
+          "nutrition": 72
+        },
+        "exact_duplicates_after_collapse": 0,
+        "near_duplicate_pairs": 0,
+        "pair_denominator": 44850,
+        "near_duplicate_threshold": 0.6,
+        "near_duplicate_pair_rate": 0.0
+      },
+      {
+        "requested_size": 500,
+        "actual_candidate_size": 402,
+        "reviewed_size": 0,
+        "topic_counts": {
+          "sleep": 40,
+          "physical_activity": 78,
+          "healthy_aging": 64,
+          "stress": 46,
+          "nutrition": 174
+        },
+        "exact_duplicates_after_collapse": 0,
+        "near_duplicate_pairs": 1,
+        "pair_denominator": 80601,
+        "near_duplicate_threshold": 0.6,
+        "near_duplicate_pair_rate": 1.24067939603727e-05
+      }
+    ],
+    "annotation_status": "PENDING_SEPARATE_QWEN_RUN",
+    "conclusion": "Descriptive compute costs do not establish delayed discovery value; joint necessary conditions require source review.",
+    "hardware": {
+      "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+      "logical_cpus": 28
+    },
+    "knowledge_condition_claims_confirmed": 0,
+    "decision_accuracy": null,
+    "clinical_benefit": null
+  },
+  "annotation": {
+    "version": "c1-v2-qwen-silver-1",
+    "validator_version": "c1-v2-capability-checks-2",
+    "release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+    "plan": {
+      "planned_max_calls": 1044,
+      "pessimistic_cny": 57.231244800000006,
+      "cap_cny": 200,
+      "full_cartesian_calls_avoided": 1829904,
+      "selection": "All fixed-scope candidates; finite train-only label sample"
+    },
+    "candidate_count": 402,
+    "knowledge_reviewed": 402,
+    "knowledge_statuses": {
+      "REVIEW_REQUIRED": 200,
+      "SILVER_ACCEPTED": 201,
+      "SILVER_REJECTED": 1
+    },
+    "active_unique_knowledge": 133,
+    "knowledge_two_stage_completed": 401,
+    "knowledge_program_validation_errors": {
+      "citation_quote_not_in_source": 36,
+      "clock_event_or_schedule_inputs_not_available": 4,
+      "unsupported_condition_role": 6,
+      "unsupported_AND": 6,
+      "necessary_ALL_probe_group_has_no_grounded_per_probe_predicates": 11,
+      "bedtime_aggregate_unknown_lookback_cannot_fully_verify_condition": 1,
+      "source_text_altered": 15,
+      "supported_condition_without_executable_evidence": 138,
+      "required_intensity_or_activity_type_not_observed": 3,
+      "$.conditions[2].use: enum mismatch": 3,
+      "$.conditions[2].role: enum mismatch": 1,
+      "$.conditions[3].role: enum mismatch": 1,
+      "device_aggregate_does_not_verify_symptom_or_psychological_condition": 6,
+      "$.conditions[1].use: enum mismatch": 1,
+      "citation_source_identity_mismatch": 1
+    },
+    "knowledge_stage_disagreements": 4,
+    "knowledge_review_coverage": 1.0,
+    "active_topics": {
+      "sleep": 16,
+      "physical_activity": 35,
+      "healthy_aging": 29,
+      "stress": 19,
+      "nutrition": 34
+    },
+    "conditions": {
+      "necessary": 63,
+      "restriction": 7,
+      "optional": 46,
+      "alternative": 2,
+      "uncertain": 79
+    },
+    "condition_uses": {
+      "applicability": 187,
+      "explanation": 7,
+      "sufficiency": 2,
+      "priority": 1
+    },
+    "knowledge_with_multiple_probe_references": 10,
+    "necessary_ALL_condition_groups": 0,
+    "indexed_unique_probes": 17,
+    "labels": 120,
+    "label_statuses": {
+      "REVIEW_REQUIRED": 119,
+      "SILVER_ACCEPTED": 1
+    },
+    "applicability": {
+      "insufficient_information": 120
+    },
+    "labels_by_history_days": {
+      "14": 60,
+      "42": 60
+    },
+    "accepted_label_applicability": {
+      "insufficient_information": 1
+    },
+    "raw_stage1_applicability": {
+      "insufficient_information": 120
+    },
+    "label_program_validation_errors": {
+      "citation_quote_not_in_source": 2
+    },
+    "label_conflicts": 0,
+    "knowledge_uncertainty_rate": 0.4975124378109453,
+    "label_uncertainty_rate": 1.0,
+    "label_review_required_rate": 0.9916666666666667,
+    "label_pair_coverage": 0.00039642163404997555,
+    "labeled_participants": 60,
+    "cost": {
+      "attempts": 1067,
+      "responses": 1067,
+      "failures": 1,
+      "reserved_cny": 16.2929192,
+      "prompt_tokens": 2624468,
+      "completion_tokens": 766814,
+      "usage_priced_cny": 3.6332024,
+      "unknown_cost_attempts": 0,
+      "cap_cny": 200,
+      "actual_invoice_cny": null,
+      "model_requested": "qwen-plus",
+      "models_returned": [
+        "qwen-plus"
+      ],
+      "ledger_count": 2,
+      "accounting": "Combined task-level usage and retained pessimistic reservations; not an invoice"
+    },
+    "human_gold": false,
+    "human_reviewers": 0,
+    "clinical_validation": false,
+    "boundaries": [
+      "Automatic two-stage model audit is not independent human verification.",
+      "Only a finite train-only pair sample; unreviewed pairs remain unknown, never not_applicable.",
+      "Nearest-three duplicate/conflict review is not an exhaustive semantic equivalence proof.",
+      "Multiple descriptive probes do not establish necessary joint evidence or delayed knowledge discovery value."
+    ],
+    "label_validator_version": "c1-v2-evidence-missingness-3",
+    "parent_annotation_release_id": "ac7f571d84e955a3e8d89ff393abd5c4d2375a7eb8ed8a98d54053b9cf4d3aa1",
+    "offline_revalidation_new_model_calls": 0,
+    "revalidation_reason": "Permit exact null evidence only to document insufficient information; definite labels still require computed numeric evidence."
+  },
+  "quality_audit": {
+    "status": "PASS_ARTIFACT_CONSISTENCY_ONLY",
+    "release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+    "annotation_release_id": "97475b21f6bb812896edbd41f9f8256651b8b92509cbcb49b52ff8b7d0413336",
+    "counts": {
+      "request_response_chains": 1042,
+      "source_quote_spans": 1900,
+      "review:SILVER_ACCEPTED": 201,
+      "review:REVIEW_REQUIRED": 200,
+      "review:SILVER_REJECTED": 1,
+      "personal_statistics_recomputed": 104
+    },
+    "preserved_validation_errors": {
+      "supported_condition_without_executable_evidence": 138,
+      "citation_quote_not_in_source": 38,
+      "device_aggregate_does_not_verify_symptom_or_psychological_condition": 6,
+      "necessary_ALL_probe_group_has_no_grounded_per_probe_predicates": 11,
+      "source_text_altered": 15,
+      "unsupported_condition_role": 6,
+      "unsupported_AND": 6,
+      "required_intensity_or_activity_type_not_observed": 3,
+      "$.conditions[2].use: enum mismatch": 3,
+      "bedtime_aggregate_unknown_lookback_cannot_fully_verify_condition": 1,
+      "clock_event_or_schedule_inputs_not_available": 4,
+      "$.conditions[1].use: enum mismatch": 1,
+      "citation_source_identity_mismatch": 1,
+      "$.conditions[2].role: enum mismatch": 1,
+      "$.conditions[3].role: enum mismatch": 1
+    },
+    "source_integrity": {
+      "source_files_rehashed": 11,
+      "status": "PASS_EXACT_SOURCE_BYTES"
+    },
+    "human_gold": false,
+    "semantic_correctness_proven": false,
+    "label_count": 120
+  },
+  "window_metric_coverage": {
+    "active_burn": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "avg_stress_level": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "bed_time_std": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.9285714285714286,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "calories_bmr": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "deep_percentage": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.9285714285714286,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "exercise_avg_hr": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.5333333333333333,
+      "p10": 0.0,
+      "p90": 0.9285714285714286,
+      "max": 1.0
+    },
+    "exercise_count": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.9523809523809523,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "exercise_hours": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.6428571428571429,
+      "p10": 0.022222222222222223,
+      "p90": 0.9444444444444444,
+      "max": 1.0
+    },
+    "exercise_mets": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.6190476190476191,
+      "p10": 0.011111111111111112,
+      "p90": 0.9444444444444444,
+      "max": 1.0
+    },
+    "hrv": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 0.9761904761904762,
+      "max": 1.0
+    },
+    "rem_percentage": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.9285714285714286,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "rhr": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.5222222222222223,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "sleep_duration": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.9722222222222222,
+      "p10": 0.38333333333333336,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "sleep_efficiency": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.9722222222222222,
+      "p10": 0.38333333333333336,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "steps": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 1.0,
+      "p10": 0.7,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "vo2_max": {
+      "n": 2276,
+      "min": 0.0,
+      "median": 0.14285714285714285,
+      "p10": 0.0,
+      "p90": 0.7,
+      "max": 1.0
+    }
+  },
+  "participant_metric_coverage": {
+    "active_burn": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.9974437627811861,
+      "p10": 0.022494887525562373,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "avg_stress_level": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.9744376278118609,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "bed_time_std": {
+      "n": 200,
+      "min": 0.18200408997955012,
+      "median": 1.0,
+      "p10": 0.7255639097744361,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "calories_bmr": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.9959100204498977,
+      "p10": 0.0,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "deep_percentage": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.9202453987730062,
+      "p10": 0.0,
+      "p90": 0.99079754601227,
+      "max": 1.0
+    },
+    "exercise_avg_hr": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.5528153467187209,
+      "p10": 0.0,
+      "p90": 0.9090909090909091,
+      "max": 1.0
+    },
+    "exercise_count": {
+      "n": 200,
+      "min": 0.3394683026584867,
+      "median": 1.0,
+      "p10": 0.7433537832310838,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "exercise_hours": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.602760736196319,
+      "p10": 0.06748466257668712,
+      "p90": 0.9314928425357873,
+      "max": 1.0
+    },
+    "exercise_mets": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.5812306840721435,
+      "p10": 0.05623721881390593,
+      "p90": 0.9263803680981595,
+      "max": 1.0
+    },
+    "hrv": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.0,
+      "p10": 0.0,
+      "p90": 0.8170426065162907,
+      "max": 1.0
+    },
+    "rem_percentage": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.9074642126789365,
+      "p10": 0.0,
+      "p90": 0.9877300613496932,
+      "max": 1.0
+    },
+    "rhr": {
+      "n": 200,
+      "min": 0.03374233128834356,
+      "median": 0.9886944599367913,
+      "p10": 0.45363408521303256,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "sleep_duration": {
+      "n": 200,
+      "min": 0.03884711779448621,
+      "median": 0.9488752556237219,
+      "p10": 0.45363408521303256,
+      "p90": 0.9938650306748467,
+      "max": 1.0
+    },
+    "sleep_efficiency": {
+      "n": 200,
+      "min": 0.03884711779448621,
+      "median": 0.9488752556237219,
+      "p10": 0.45363408521303256,
+      "p90": 0.9938650306748467,
+      "max": 1.0
+    },
+    "steps": {
+      "n": 200,
+      "min": 0.19799498746867167,
+      "median": 0.9887525562372188,
+      "p10": 0.6353383458646616,
+      "p90": 1.0,
+      "max": 1.0
+    },
+    "vo2_max": {
+      "n": 200,
+      "min": 0.0,
+      "median": 0.17024539877300615,
+      "p10": 0.0,
+      "p90": 0.6431492842535788,
+      "max": 1.0
+    }
+  },
+  "coverage_note": "Participant ratios weight available windows; overlapping horizon windows are descriptive repeated measurements, not independent days or participants.",
+  "all_probes_batch_ms_by_history": {
+    "14": {
+      "n": 600,
+      "min": 14.509100001305342,
+      "median": 19.456250010989606,
+      "p10": 17.14489998994395,
+      "p90": 20.934300031512976,
+      "max": 47.71339998114854
+    },
+    "42": {
+      "n": 593,
+      "min": 16.796100011561066,
+      "median": 24.756599974352866,
+      "p10": 20.92169999377802,
+      "p90": 26.97569999145344,
+      "max": 61.684400017838925
+    },
+    "90": {
+      "n": 573,
+      "min": 20.25370002957061,
+      "median": 29.34739994816482,
+      "p10": 24.187899951357394,
+      "p90": 31.637099978979677,
+      "max": 68.58419999480247
+    },
+    "180": {
+      "n": 510,
+      "min": 27.51630003331229,
+      "median": 36.85254999436438,
+      "p10": 31.852399988565594,
+      "p90": 39.01680000126362,
+      "max": 84.82859999639913
+    }
+  },
+  "probe_status_by_history": {
+    "14": {
+      "COMPUTED": 64625,
+      "INSUFFICIENT_INFORMATION": 108175
+    },
+    "42": {
+      "COMPUTED": 105593,
+      "INSUFFICIENT_INFORMATION": 65191
+    },
+    "90": {
+      "COMPUTED": 105008,
+      "INSUFFICIENT_INFORMATION": 60016
+    },
+    "180": {
+      "COMPUTED": 96921,
+      "INSUFFICIENT_INFORMATION": 49959
+    }
+  },
+  "knowledge_size_comparison": [
+    {
+      "pool": "source_candidates",
+      "requested_size": 26,
+      "actual_size": 26,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 14,
+        "stress": 3,
+        "physical_activity": 3,
+        "sleep": 1,
+        "healthy_aging": 5
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 325,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "source_candidates",
+      "requested_size": 100,
+      "actual_size": 100,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 42,
+        "stress": 16,
+        "physical_activity": 16,
+        "sleep": 6,
+        "healthy_aging": 20
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 4950,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "source_candidates",
+      "requested_size": 300,
+      "actual_size": 300,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 129,
+        "stress": 35,
+        "physical_activity": 53,
+        "sleep": 32,
+        "healthy_aging": 51
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 44850,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "source_candidates",
+      "requested_size": 500,
+      "actual_size": 402,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 174,
+        "stress": 46,
+        "physical_activity": 78,
+        "sleep": 40,
+        "healthy_aging": 64
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 1,
+      "near_duplicate_pair_denominator": 80601,
+      "near_duplicate_pair_rate": 1.24067939603727e-05,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "silver_active",
+      "requested_size": 26,
+      "actual_size": 26,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 7,
+        "stress": 4,
+        "sleep": 3,
+        "physical_activity": 3,
+        "healthy_aging": 9
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 325,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "silver_active",
+      "requested_size": 100,
+      "actual_size": 100,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 22,
+        "stress": 16,
+        "sleep": 13,
+        "physical_activity": 25,
+        "healthy_aging": 24
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 4950,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "silver_active",
+      "requested_size": 300,
+      "actual_size": 133,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 34,
+        "stress": 19,
+        "sleep": 16,
+        "physical_activity": 35,
+        "healthy_aging": 29
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 8778,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    },
+    {
+      "pool": "silver_active",
+      "requested_size": 500,
+      "actual_size": 133,
+      "selection": "nested SHA256 order independent of labels",
+      "topics": {
+        "nutrition": 34,
+        "stress": 19,
+        "sleep": 16,
+        "physical_activity": 35,
+        "healthy_aging": 29
+      },
+      "topic_count": 5,
+      "near_duplicate_pairs": 0,
+      "near_duplicate_pair_denominator": 8778,
+      "near_duplicate_pair_rate": 0.0,
+      "trigram_jaccard_threshold": 0.6
+    }
+  ],
+  "exact_duplicate_exclusions": 0,
+  "knowledge_exclusion_reasons": {
+    "short_fragment_or_link_not_independent_knowledge": 94,
+    "clinical_or_medication_content_quarantined": 19
+  },
+  "conditions_per_knowledge": {
+    "n": 133,
+    "min": 0,
+    "median": 2,
+    "p10": 0,
+    "p90": 3,
+    "max": 7
+  },
+  "executable_probe_count_per_knowledge": {
+    "n": 133,
+    "min": 0,
+    "median": 0,
+    "p10": 0,
+    "p90": 0,
+    "max": 12
+  },
+  "supported_condition_probe_count_per_knowledge": {
+    "n": 133,
+    "min": 0,
+    "median": 0,
+    "p10": 0,
+    "p90": 0,
+    "max": 0
+  },
+  "multiple_evidence_candidates": [
+    {
+      "knowledge_id": "K2-cd4b54e54a400a240d75",
+      "title": "Get Active / Get ready to get more active. / 2",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/diabetes/get-active",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "Current physical activity pattern includes walking 3 days/week for 30 minutes OR biking to work 2 days/week",
+          "role": "uncertain",
+          "logic": "ANY",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-975d17074b70be5a2478",
+            "P2-e5bad20d992a204fb62e",
+            "P2-135b34fa6359a1e84633"
+          ]
+        },
+        {
+          "condition_id": "C2",
+          "text": "Ability to incrementally increase duration or frequency of existing activity",
+          "role": "uncertain",
+          "logic": "ALL",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-af17832354176baae9d0",
+      "title": "Keep Your Heart Healthy / Am I at risk for heart disease? / 7",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/keep-your-heart-healthy",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "Heart disease is the leading cause of death for both men and women in the United States.",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        },
+        {
+          "condition_id": "C2",
+          "text": "You are at higher risk if you have high cholesterol, high blood pressure, or diabetes; smoke; have overweight or obesity; don't get enough physical activity; don't eat a healthy diet; or had preeclampsia during pregnancy.",
+          "role": "uncertain",
+          "logic": "ANY",
+          "use": "applicability",
+          "dataset_support": "partial",
+          "probe_ids": [
+            "P2-975d17074b70be5a2478",
+            "P2-23495fe7d1ec31d897fb",
+            "P2-15624ba2c29a35e6d4f6",
+            "P2-814238b828a35bb3f127",
+            "P2-f6cd7e678c432eb396ad",
+            "P2-5e4c4b98359781fa8a6b",
+            "P2-af0ae47c415f6ed366dd",
+            "P2-dd1f294743e3d2264ad8",
+            "P2-e5bad20d992a204fb62e",
+            "P2-aa82a9da3ee7988e18d3",
+            "P2-1a44cd7f30a82c1a8d87",
+            "P2-c087c1ce08f31ddb62bf"
+          ]
+        },
+        {
+          "condition_id": "C3",
+          "text": "Your age and family history also affect your risk for heart disease — specifically, being a woman over age 55, a man over age 45, or having a first-degree relative with premature heart disease (father/brother before age 55; mother/sister before age 65).",
+          "role": "uncertain",
+          "logic": "ANY",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-8b4a753b5601ca8231fc",
+      "title": "Stress / What causes long-term stress? / 4",
+      "source_url": "https://medlineplus.gov/stress.html",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "Presence of long-term (chronic) stress lasting weeks, months, or longer",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-af8e3de071f5cdb84dc6",
+      "title": "Stress / What is stress? / 1",
+      "source_url": "https://medlineplus.gov/stress.html",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "The user is experiencing stress",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-008e64d019c49e610113",
+      "title": "Manage Stress / Eat healthy. / 1",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "The individual consumes caffeine from drinks like coffee, tea, or soda.",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        },
+        {
+          "condition_id": "C2",
+          "text": "The individual experiences stress.",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "partial",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-1d56245ffb492646772a",
+      "title": "Manage Stress / 0:The Basics: Overview / 3",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "Presence of stress that is hard to avoid",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        },
+        {
+          "condition_id": "C2",
+          "text": "Intent or capacity to engage in stress management behaviors",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-1f31376454e8c694d2c7",
+      "title": "Manage Stress / 0:The Basics: Overview / 2",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "User experiences stress",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        },
+        {
+          "condition_id": "C2",
+          "text": "User has capacity to plan or modify behavior (e.g., task prioritization, media consumption, event preparation)",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-24dcdfbc9e395e210225",
+      "title": "Manage Stress / Don’t use alcohol, tobacco, or drugs to cope with stress. / 3",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "User is exposed to stress",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        },
+        {
+          "condition_id": "C2",
+          "text": "User consumes alcohol",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-76e80d617a2389fc4433",
+      "title": "Manage Stress / Relax your muscles. / 1",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "Presence of stress-related muscle tension",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "uncertain",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    },
+    {
+      "knowledge_id": "K2-b7518f29fe1461440c07",
+      "title": "Manage Stress / 0:The Basics: Overview / 4",
+      "source_url": "https://odphp.health.gov/myhealthfinder/health-conditions/heart-health/manage-stress",
+      "conditions": [
+        {
+          "condition_id": "C1",
+          "text": "Presence of stress (subjective or measured)",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "partial",
+          "probe_ids": [
+            "P2-b905ad59e817b2fca342",
+            "P2-0b76609017642b298883",
+            "P2-affc5b800be9ee8bdfff",
+            "P2-fa9c17d51fbfae59d030"
+          ]
+        },
+        {
+          "condition_id": "C2",
+          "text": "Ability to engage in self-management behaviors (e.g., slowing down, physical activity, healthy eating, sleep routine, leisure, social connection)",
+          "role": "uncertain",
+          "logic": "UNKNOWN",
+          "use": "applicability",
+          "dataset_support": "unsupported",
+          "probe_ids": [
+            "P2-f6cd7e678c432eb396ad",
+            "P2-5e4c4b98359781fa8a6b",
+            "P2-af0ae47c415f6ed366dd",
+            "P2-dd1f294743e3d2264ad8"
+          ]
+        },
+        {
+          "condition_id": "C3",
+          "text": "Lack of resolution via self-management, requiring professional support",
+          "role": "optional",
+          "logic": "ALL",
+          "use": "priority",
+          "dataset_support": "unsupported",
+          "probe_ids": []
+        }
+      ],
+      "status": "CANDIDATE_ONLY_NOT_CONFIRMED_JOINT_NECESSITY"
+    }
+  ],
+  "dataset_support_roles": {
+    "unsupported": 127,
+    "uncertain": 60,
+    "partial": 10
+  },
+  "condition_logic": {
+    "ALL": 79,
+    "ANY": 34,
+    "UNKNOWN": 84
+  },
+  "silver_condition_status_is_not_gold": true,
+  "conclusions": {
+    "full_computation": "CHEAP_IN_THIS_MEASURED_SETTING",
+    "joint_evidence_dependencies": "NO_CONFIRMED_JOINT_NECESSARY_DEPENDENCY_OR_DELAYED_DISCOVERY_GAIN",
+    "delayed_discovery_gain": null,
+    "clinical_benefit": null,
+    "recommendation_accuracy": null,
+    "caveat": "Source-grounded education and model-only conditions do not establish personal health benefit or independent Gold. No KUV/M1/RL/AFA implemented."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "required": [
+    "probe_id",
+    "metric",
+    "window_days",
+    "offset_days",
+    "operation",
+    "comparison",
+    "required_fields",
+    "unit",
+    "min_coverage"
+  ],
+  "properties": {
+    "probe_id": {
+      "type": "string"
+    },
+    "metric": {
+      "type": "string",
+      "enum": [
+        "steps",
+        "rhr",
+        "hrv",
+        "sleep_duration",
+        "sleep_efficiency",
+        "deep_percentage",
+        "rem_percentage",
+        "bed_time_std",
+        "exercise_hours",
+        "exercise_count",
+        "exercise_avg_hr",
+        "exercise_mets",
+        "active_burn",
+        "calories_bmr",
+        "vo2_max",
+        "avg_stress_level"
+      ]
+    },
+    "window_days": {
+      "type": "integer"
+    },
+    "offset_days": {
+      "type": "integer"
+    },
+    "operation": {
+      "type": "string",
+      "enum": [
+        "mean",
+        "median",
+        "sd",
+        "slope",
+        "adjacent_change",
+        "mean_difference"
+      ]
+    },
+    "comparison": {
+      "type": "string",
+      "enum": [
+        "none",
+        "previous_28_days"
+      ]
+    },
+    "required_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unit": {
+      "type": "string"
+    },
+    "min_coverage": {
+      "type": "number"
+    }
+  },
+  "additionalProperties": false
+}

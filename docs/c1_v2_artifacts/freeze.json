@@ -1,0 +1,22 @@
+{
+  "version": "c1-v2-public-metadata-v1",
+  "source_release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "personal_rows": 0,
+  "human_gold": false,
+  "content": "Aggregate statistics, source identities and nonpersonal knowledge/probe metadata only",
+  "files": {
+    "aggregate_report.json": "5ff80ea4a3149a771a4751bffd5526fdb3453135390383673c032fd2a90e033e",
+    "canonical_duplicates.json": "cb0cbcd54a694d9caf6ce61c1ae78699998a7d5ff2eec1ab447f619d67f5ea3c",
+    "dependency_index.json": "1be925bb3316dafb35e8bf04f44fe1abad0afb040ef40ca6bc6c5deb13acb062",
+    "knowledge_index.jsonl": "0cd94c2d830ad18d939ae3a01881966f1be9ca164d12faa32f26fbf729052cd4",
+    "probes.json": "5b025960080033f02c23ea7a318ed0093cc8877b4d22725049358d164f82d7c5",
+    "qa_report.json": "7c9ba0725757410a199877e2f5c766d0a3450bbfcd6d711e4238cd6a339a4898",
+    "schemas/knowledge_audit.json": "698442b766ab269fa1f61c45964a3468bbefa53cb93ac24ca80a5e17f88055bc",
+    "schemas/knowledge_review.json": "1cd9ea965bc952f13876c275cb9e2325f67fe64d5c8f8391631ffe3012397eb1",
+    "schemas/label.json": "e64663265d42cc89f6a0945f34d2f84817a49e6ea4145e864be71488c307ca95",
+    "schemas/label_audit.json": "f2c18bcc7ef270beda0ff11742f2e30adf96abdac35df4ad9e0c97b2e3003a1e",
+    "schemas/probe.json": "74ef6cdb83007f24809c49ed79f973596692d1c2c5105a80d5cf671323f2a0d8",
+    "sources.json": "174432200ab124c0c7059752daeb692ab4ded39d08a6c17a78b4b0db1a8861bc"
+  },
+  "release_id": "508755d2a9c3dc3e98abd10cec373b52b331095e79c903336f2a33ca226aa044"
+}
