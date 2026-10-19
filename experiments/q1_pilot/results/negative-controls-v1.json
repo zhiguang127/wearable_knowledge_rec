@@ -1,0 +1,26 @@
+{
+  "config_id": "91c2d19817169f320ad125a7633741e42f97cd80c6624d4b572f78db3f5cb2aa",
+  "status": "PASS",
+  "windows": 38,
+  "participants": 14,
+  "records": 114,
+  "methods": {
+    "RankingSHAP": {
+      "records": 38,
+      "max_abs_attribution": 0.0
+    },
+    "ShaRP": {
+      "records": 38,
+      "max_abs_attribution": 0.0
+    },
+    "ShapleyFlow": {
+      "records": 38,
+      "max_abs_attribution": 0.0
+    }
+  },
+  "raw_pipeline_scorer_calls": 7258,
+  "query_requests": 124222,
+  "all_candidate_score_node_evaluations": 68096,
+  "new_paid_calls": 0,
+  "manifest_sha256": "3d8cc6e85e5c06bc6e7f0c6a6304091b6243145b098200f8ffa9eb63d4e59342"
+}

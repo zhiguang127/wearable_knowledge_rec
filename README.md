@@ -1,6 +1,6 @@
 # Wearable Knowledge Recommendation
 
-基于纵向可穿戴数据的可解释健康知识推荐。当前为 **离线迁移与工程校验完成**，不是医学验证、人工 Gold 数据集或新方法效果结论。旧项目 `D:\Python\py_projects\c1_pilot` 保持原样；本项目有独立 Git 仓库，无远程推送。
+基于纵向可穿戴数据的可解释健康知识推荐。离线迁移与工程校验完成；新增的 Q1-Pilot 是透明实验政策上的排序解释诊断，不是医学验证、人工 Gold 数据集或新方法效果结论。旧项目 `D:\Python\py_projects\c1_pilot` 保持原样；本项目有独立 Git 仓库，无远程推送。
 
 ## 已有资产
 
@@ -66,4 +66,4 @@ python -m src.validate --source-root D:\Python\py_projects\c1_pilot
 
 Git 只保存代码、配置和非个人审计信息。原始/伪匿名健康记录、逐条 Silver、划分身份清单、模型请求/响应、盲审映射及身份密钥不进入 Git；API Key 没有迁移。PMData 保留原 CC BY-NC 4.0 许可和原始下载清单；知识网页、模型权重及第三方源码不被重新授权或打包公开。
 
-本轮到此停止：没有新付费调用、大规模 Baseline、SFT/DPO/RL、新算法或人工标注。后续应先解决来源争议和独立评审，再讨论方法。
+迁移轮次到此停止，没有新增模型调用、训练、新算法或人工标注。后续独立任务 Q1-Pilot 在 [实验入口](experiments/q1_pilot/README.md) 中运行透明政策、来源一致干预、精确 Shapley 与官方解释方法。它不依赖真实优先级 Gold；真实健康价值评价仍需独立来源审查与评审。历史发布和迁移验收记录保持不变。

@@ -1,0 +1,4195 @@
+{
+  "config_id": "91c2d19817169f320ad125a7633741e42f97cd80c6624d4b572f78db3f5cb2aa",
+  "phase": "full",
+  "seconds": 454.62686530000065,
+  "eligible_participants": 14,
+  "eligible_windows": 38,
+  "screened_windows": 48,
+  "exclusions": {
+    "INSUFFICIENT_BASELINE_SLEEP_CLOCK": 6,
+    "INSUFFICIENT_CURRENT_SLEEP_CLOCK": 4
+  },
+  "donor_window_counts": {
+    "latest": 38,
+    "earliest": 38
+  },
+  "unique_donor_blocks": 76,
+  "candidate_pairs": 1,
+  "panels": {
+    "p1": 5,
+    "a1_duration_and_timing": 4
+  },
+  "record_status_counts": {
+    "TASK_ADAPTED_AND_RUN": 3420
+  },
+  "method_status_counts": {
+    "RankingSHAP": {
+      "TASK_ADAPTED_AND_RUN": 1976
+    },
+    "RankingSHAP_listwise": {
+      "TASK_ADAPTED_AND_RUN": 76
+    },
+    "ShaRP": {
+      "TASK_ADAPTED_AND_RUN": 304
+    },
+    "ShaRP_outcome": {
+      "TASK_ADAPTED_AND_RUN": 228
+    },
+    "ShapleyFlow": {
+      "TASK_ADAPTED_AND_RUN": 76
+    },
+    "behavior": {
+      "TASK_ADAPTED_AND_RUN": 114
+    },
+    "derived_negative_control": {
+      "TASK_ADAPTED_AND_RUN": 114
+    },
+    "donor_diagnostics": {
+      "TASK_ADAPTED_AND_RUN": 76
+    },
+    "exact_source": {
+      "TASK_ADAPTED_AND_RUN": 342
+    },
+    "heldout_delete": {
+      "TASK_ADAPTED_AND_RUN": 114
+    }
+  },
+  "native_smokes": {
+    "RankingShap": {
+      "status": "NATIVE_REPRODUCED",
+      "commit": "36e45975f34ee167261af56c69521d55c998b282",
+      "seconds": 1.0150426999898627,
+      "attributions": [
+        [
+          2,
+          0.6222222222222222
+        ],
+        [
+          1,
+          0.28888888888888886
+        ],
+        [
+          4,
+          0.0666666666666667
+        ],
+        [
+          5,
+          0.06666666666666654
+        ],
+        [
+          3,
+          -0.044444444444444293
+        ]
+      ],
+      "sample": "author talent-search qualified query, 100 author-generated background samples",
+      "baseline_initialization": "unmodified author zero placeholder; task adapter explicitly reinitializes real baseline"
+    },
+    "ShaRP": {
+      "status": "NATIVE_REPRODUCED",
+      "commit": "6543226b7c4952aab61a15a977964344cabbf929",
+      "seconds": 0.005469899973832071,
+      "individual": [
+        12.14,
+        6.359999999999999
+      ],
+      "pairwise": [
+        -7.5,
+        -9.5
+      ],
+      "sample": "author examples/plot_basic_usage.py numerical workflow, plotting omitted; cache=False avoids Windows Manager subprocess"
+    },
+    "Shapley-Flow": {
+      "status": "NATIVE_REPRODUCED",
+      "commit": "0d9063f81759d4317de6c33d7782e5ec4a4cde85",
+      "seconds": 0.018704399990383536,
+      "edges": [
+        [
+          "x1",
+          "target",
+          1.0
+        ],
+        [
+          "x1",
+          "x2",
+          1.0
+        ],
+        [
+          "x2",
+          "target",
+          1.0
+        ]
+      ],
+      "sample": "author sample_build_graph x1->x2 and y=x1+x2; author CreditFlow",
+      "output_cut": 2.0
+    }
+  },
+  "aggregate_metrics": [
+    {
+      "method": "RankingSHAP",
+      "panel": "a1_duration_and_timing",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 62,
+      "records": 38,
+      "mae": {
+        "mean": 5.0711512982962125e-17,
+        "ci95": [
+          3.778842542147518e-17,
+          6.761947376729063e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.3286253326827556e-17,
+        "participant_mean_max": 1.4453017293772045e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.758567531283082e-17,
+        "ci95": [
+          2.263401106750691e-17,
+          5.3446004236047344e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 9.251858538542972e-17
+      },
+      "seconds": {
+        "mean": 0.10470671190982796,
+        "ci95": [
+          0.10003801073443833,
+          0.10794014286061394
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.07855020003626123,
+        "participant_mean_max": 0.11035505001200363
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "a1_duration_and_timing",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 62,
+      "records": 38,
+      "mae": {
+        "mean": 6.114642109443844e-17,
+        "ci95": [
+          4.6446016400198473e-17,
+          7.765468988740225e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.6552153166612036e-17,
+        "participant_mean_max": 1.3619988624579014e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 5.699805706780937e-17,
+        "ci95": [
+          2.9077269692563625e-17,
+          9.433591474121494e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.8503717077085943e-16
+      },
+      "seconds": {
+        "mean": 0.10509528452461209,
+        "ci95": [
+          0.10340211785833596,
+          0.10667238094832837
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09780600003432482,
+        "participant_mean_max": 0.1105737666754673
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "earliest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 62,
+      "records": 38,
+      "mae": {
+        "mean": 4.4587384104509034e-17,
+        "ci95": [
+          3.4050832039362206e-17,
+          5.562000168746372e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.1250362580715887e-17,
+        "participant_mean_max": 8.442320916420461e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.502489303876982e-17,
+        "ci95": [
+          1.2556093730879747e-17,
+          6.046750401976298e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.4802973661668753e-16
+      },
+      "seconds": {
+        "mean": 0.10514666190595433,
+        "ci95": [
+          0.10289568572174869,
+          0.1073106619047134
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09757700001743312,
+        "participant_mean_max": 0.11377039999933913
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 16,
+      "records": 114,
+      "mae": {
+        "mean": 0.0058453093798088735,
+        "ci95": [
+          0.003510361164644512,
+          0.008727061261795876
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0010998911757763956,
+        "participant_mean_max": 0.018190523593118613
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9841269841269842,
+        "ci95": [
+          0.973015873015873,
+          0.9936507936507937
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.9333333333333333,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9841269841269841,
+        "ci95": [
+          0.9603174603174603,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8888888888888888,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.9903328490647816e-17,
+        "ci95": [
+          2.0100764086715383e-17,
+          4.0366739933047605e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 6.1679056923619804e-18,
+        "participant_mean_max": 6.78469626159818e-17
+      },
+      "seconds": {
+        "mean": 0.02945245396704339,
+        "ci95": [
+          0.028206169043043038,
+          0.03072694524229201
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.024421822221484035,
+        "participant_mean_max": 0.03256395554894374
+      },
+      "scorer_calls": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      },
+      "unique_coalitions": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 32,
+      "records": 114,
+      "mae": {
+        "mean": 0.00687478439501044,
+        "ci95": [
+          0.00417965587936439,
+          0.01020422238313471
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0012918460047637048,
+        "participant_mean_max": 0.02128212165160994
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.973015873015873,
+        "ci95": [
+          0.9555555555555556,
+          0.9904761904761905
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.888888888888889,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9920634920634921,
+        "ci95": [
+          0.9761904761904762,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8888888888888888,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.390532310108393e-17,
+        "ci95": [
+          5.975158639475669e-18,
+          2.2468799307890073e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 5.551115123125783e-17
+      },
+      "seconds": {
+        "mean": 0.0536239523808324,
+        "ci95": [
+          0.05116195396874987,
+          0.05585220396806974
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.04464101109705451,
+        "participant_mean_max": 0.05998664444390064
+      },
+      "scorer_calls": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      },
+      "unique_coalitions": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 62,
+      "records": 114,
+      "mae": {
+        "mean": 5.0711512982962125e-17,
+        "ci95": [
+          3.778842542147518e-17,
+          6.761947376729063e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.3286253326827556e-17,
+        "participant_mean_max": 1.4453017293772045e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.758567531283082e-17,
+        "ci95": [
+          2.263401106750691e-17,
+          5.3446004236047344e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 9.251858538542972e-17
+      },
+      "seconds": {
+        "mean": 0.10405915515637765,
+        "ci95": [
+          0.10049182380917335,
+          0.10703105396509821
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.08844386667220129,
+        "participant_mean_max": 0.11206981108989567
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 128,
+      "records": 114,
+      "mae": {
+        "mean": 0.0026299517112043816,
+        "ci95": [
+          0.0016790034957520946,
+          0.0036657986985588324
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.00059582948329134,
+        "participant_mean_max": 0.006173284240205899
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9886621315192744,
+        "ci95": [
+          0.9761904761904762,
+          0.9977324263038548
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.9206349206349206,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9841269841269842,
+        "ci95": [
+          0.9523809523809523,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.7777777777777778,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.177572843297199e-17,
+        "ci95": [
+          2.2028234615578505e-17,
+          4.3615904538845435e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 3.469446951953614e-18,
+        "participant_mean_max": 7.401486830834377e-17
+      },
+      "seconds": {
+        "mean": 0.21391867103040338,
+        "ci95": [
+          0.21031610991820576,
+          0.2174634071453179
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.20098240000273412,
+        "participant_mean_max": 0.22507090001211813
+      },
+      "scorer_calls": {
+        "mean": 130,
+        "ci95": [
+          130,
+          130
+        ],
+        "participants": 14,
+        "participant_mean_min": 130,
+        "participant_mean_max": 130
+      },
+      "unique_coalitions": {
+        "mean": 130,
+        "ci95": [
+          130,
+          130
+        ],
+        "participants": 14,
+        "participant_mean_min": 130,
+        "participant_mean_max": 130
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 16,
+      "records": 114,
+      "mae": {
+        "mean": 0.02258555786239696,
+        "ci95": [
+          0.016224269670470446,
+          0.02947456214932578
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.007581291895801144,
+        "participant_mean_max": 0.054285574837251147
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.8259637188208616,
+        "ci95": [
+          0.7970521541950113,
+          0.8520408163265306
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.7142857142857143,
+        "participant_mean_max": 0.9047619047619048
+      },
+      "top_source_hit": {
+        "mean": 0.9682539682539683,
+        "ci95": [
+          0.9126984126984127,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.6666666666666666,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.5690428620418427e-17,
+        "ci95": [
+          1.5309623057827057e-17,
+          3.673208122147715e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 5.859510407743882e-17
+      },
+      "seconds": {
+        "mean": 0.03155613452494551,
+        "ci95": [
+          0.02991487857856093,
+          0.03305507222091639
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.024299666692968458,
+        "participant_mean_max": 0.03549393333054872
+      },
+      "scorer_calls": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      },
+      "unique_coalitions": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 254,
+      "records": 114,
+      "mae": {
+        "mean": 1.0451442732405412e-16,
+        "ci95": [
+          8.098667549248716e-17,
+          1.2985313559685076e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 4.3151246464923076e-17,
+        "participant_mean_max": 1.727213117177819e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 7.45931094670027e-17,
+        "ci95": [
+          4.105512226478443e-17,
+          1.0970060838558094e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 2.220446049250313e-16
+      },
+      "seconds": {
+        "mean": 0.4223703448427379,
+        "ci95": [
+          0.4154687111126444,
+          0.4283847349202944
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.3911400000215508,
+        "participant_mean_max": 0.43784821110441247
+      },
+      "scorer_calls": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      },
+      "unique_coalitions": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 32,
+      "records": 114,
+      "mae": {
+        "mean": 0.010306231980134722,
+        "ci95": [
+          0.0067337178644947425,
+          0.014095851624891744
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0022187462943353857,
+        "participant_mean_max": 0.021824724840547514
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9433106575963719,
+        "ci95": [
+          0.9160997732426304,
+          0.9693877551020408
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8412698412698413,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9682539682539683,
+        "ci95": [
+          0.9206349206349206,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.6666666666666666,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.42861286636753e-17,
+        "ci95": [
+          1.5171946591479692e-17,
+          3.39234813079909e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 5.551115123125783e-17
+      },
+      "seconds": {
+        "mean": 0.058314984922559696,
+        "ci95": [
+          0.05631371904515647,
+          0.060122270637380314
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.05220670000805209,
+        "participant_mean_max": 0.06313457776559517
+      },
+      "scorer_calls": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      },
+      "unique_coalitions": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 64,
+      "records": 114,
+      "mae": {
+        "mean": 0.00507707253503047,
+        "ci95": [
+          0.0033344921416051704,
+          0.006943664729982074
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0011599457869855294,
+        "participant_mean_max": 0.010980897198056198
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9863945578231292,
+        "ci95": [
+          0.9750566893424036,
+          0.9965986394557823
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.9365079365079365,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9761904761904762,
+        "ci95": [
+          0.9444444444444444,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.7777777777777778,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.485968127915298e-17,
+        "ci95": [
+          2.3432534572321632e-17,
+          4.851718674081165e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.3129646346357427e-18,
+        "participant_mean_max": 9.868649107779169e-17
+      },
+      "seconds": {
+        "mean": 0.1081492452390699,
+        "ci95": [
+          0.10564762777796695,
+          0.11056218651148292
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09922036666345473,
+        "participant_mean_max": 0.11621056667192736
+      },
+      "scorer_calls": {
+        "mean": 66,
+        "ci95": [
+          66,
+          66
+        ],
+        "participants": 14,
+        "participant_mean_min": 66,
+        "participant_mean_max": 66
+      },
+      "unique_coalitions": {
+        "mean": 66,
+        "ci95": [
+          66,
+          66
+        ],
+        "participants": 14,
+        "participant_mean_min": 66,
+        "participant_mean_max": 66
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "earliest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 62,
+      "records": 38,
+      "mae": {
+        "mean": 5.604464753835387e-17,
+        "ci95": [
+          4.2859544451849594e-17,
+          7.097393935789633e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.312964634635743e-17,
+        "participant_mean_max": 1.3024882098792526e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.849433999072343e-17,
+        "ci95": [
+          1.8173293557852265e-17,
+          6.088053341880509e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1102230246251565e-16
+      },
+      "seconds": {
+        "mean": 0.10478828214399982,
+        "ci95": [
+          0.10084348214773595,
+          0.10779279523870043
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.08433330000843853,
+        "participant_mean_max": 0.11055013333680108
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 16,
+      "records": 114,
+      "mae": {
+        "mean": 0.009757118146650338,
+        "ci95": [
+          0.0063990729451267585,
+          0.014026905027177457
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0014316436250206852,
+        "participant_mean_max": 0.027635022249183707
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9801587301587301,
+        "ci95": [
+          0.9619047619047619,
+          0.9944444444444445
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8888888888888888,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9880952380952381,
+        "ci95": [
+          0.9642857142857143,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8333333333333334,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.7755575615628914e-17,
+        "ci95": [
+          1.530962305782706e-17,
+          4.328548101961176e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1256427888560614e-16
+      },
+      "seconds": {
+        "mean": 0.02917468928573062,
+        "ci95": [
+          0.027295684128711445,
+          0.03067069444509726
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.01947003333286072,
+        "participant_mean_max": 0.032995933336981885
+      },
+      "scorer_calls": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      },
+      "unique_coalitions": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 32,
+      "records": 114,
+      "mae": {
+        "mean": 0.010949455032405016,
+        "ci95": [
+          0.007026930427392594,
+          0.016006034308454944
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.001652778758170557,
+        "participant_mean_max": 0.03236887403081821
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9587301587301588,
+        "ci95": [
+          0.9380952380952381,
+          0.9777777777777777
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8666666666666667,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9880952380952381,
+        "ci95": [
+          0.9642857142857143,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8333333333333334,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.1317005533753456e-17,
+        "ci95": [
+          4.9288174952356894e-18,
+          1.9164564115553297e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.700743415417188e-17
+      },
+      "seconds": {
+        "mean": 0.055926349997799475,
+        "ci95": [
+          0.054208565870621464,
+          0.057580628967751554
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.05060535554851716,
+        "participant_mean_max": 0.06101081110925103
+      },
+      "scorer_calls": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      },
+      "unique_coalitions": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": 62,
+      "records": 114,
+      "mae": {
+        "mean": 6.114642109443844e-17,
+        "ci95": [
+          4.6446016400198473e-17,
+          7.765468988740225e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.6552153166612036e-17,
+        "participant_mean_max": 1.3619988624579014e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 5.699805706780937e-17,
+        "ci95": [
+          2.9077269692563625e-17,
+          9.433591474121494e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.8503717077085943e-16
+      },
+      "seconds": {
+        "mean": 0.1050325690487784,
+        "ci95": [
+          0.10230211071653425,
+          0.10745179206539418
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09143696667160839,
+        "participant_mean_max": 0.11175357778039244
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 128,
+      "records": 114,
+      "mae": {
+        "mean": 0.004343643130583755,
+        "ci95": [
+          0.0026174300972478955,
+          0.006572518558575066
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0008291319686297859,
+        "participant_mean_max": 0.013832986841312813
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9863945578231292,
+        "ci95": [
+          0.9773242630385488,
+          0.9954648526077098
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.9523809523809523,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9841269841269842,
+        "ci95": [
+          0.9523809523809523,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.7777777777777778,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.659440475512979e-17,
+        "ci95": [
+          2.1505064043458514e-17,
+          5.509812183221573e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1102230246251565e-16
+      },
+      "seconds": {
+        "mean": 0.21461805119132993,
+        "ci95": [
+          0.20901133333488056,
+          0.2188809968287214
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.18587083332628632,
+        "participant_mean_max": 0.22467069999159625
+      },
+      "scorer_calls": {
+        "mean": 130,
+        "ci95": [
+          130,
+          130
+        ],
+        "participants": 14,
+        "participant_mean_min": 130,
+        "participant_mean_max": 130
+      },
+      "unique_coalitions": {
+        "mean": 130,
+        "ci95": [
+          130,
+          130
+        ],
+        "participants": 14,
+        "participant_mean_min": 130,
+        "participant_mean_max": 130
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 16,
+      "records": 114,
+      "mae": {
+        "mean": 0.03535780565104006,
+        "ci95": [
+          0.024454105155883386,
+          0.04944322096596684
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.011368881573273752,
+        "participant_mean_max": 0.0966840760672776
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.7664399092970522,
+        "ci95": [
+          0.7154195011337868,
+          0.8106575963718821
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.5873015873015873,
+        "participant_mean_max": 0.9047619047619048
+      },
+      "top_source_hit": {
+        "mean": 0.9444444444444444,
+        "ci95": [
+          0.9047619047619048,
+          0.9841269841269841
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.7777777777777778,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.0357660829594124e-17,
+        "ci95": [
+          2.122971111076378e-17,
+          4.124786931767074e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 9.25185853854297e-18,
+        "participant_mean_max": 7.401486830834377e-17
+      },
+      "seconds": {
+        "mean": 0.03201180396856563,
+        "ci95": [
+          0.031049745634571458,
+          0.03296374047908651
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0291552444622438,
+        "participant_mean_max": 0.03476671112002805
+      },
+      "scorer_calls": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      },
+      "unique_coalitions": {
+        "mean": 18,
+        "ci95": [
+          18,
+          18
+        ],
+        "participants": 14,
+        "participant_mean_min": 18,
+        "participant_mean_max": 18
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 254,
+      "records": 114,
+      "mae": {
+        "mean": 1.640165557933607e-16,
+        "ci95": [
+          1.216481291113096e-16,
+          2.119621700793521e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 5.99563801384484e-17,
+        "participant_mean_max": 3.4773977678851747e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.1275702593849246e-16,
+        "ci95": [
+          5.096782784179476e-17,
+          1.9362818227093504e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 4.810966440042345e-16
+      },
+      "seconds": {
+        "mean": 0.420936675790082,
+        "ci95": [
+          0.4114736924532317,
+          0.4279574936455382
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.3742634333126868,
+        "participant_mean_max": 0.44043733332849416
+      },
+      "scorer_calls": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      },
+      "unique_coalitions": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 32,
+      "records": 114,
+      "mae": {
+        "mean": 0.01829501056071174,
+        "ci95": [
+          0.011334848524352608,
+          0.02732647305717395
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.003329414139099996,
+        "participant_mean_max": 0.053685683427077746
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9280045351473922,
+        "ci95": [
+          0.8917233560090703,
+          0.9614512471655329
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.8095238095238095,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9206349206349206,
+        "ci95": [
+          0.8412698412698413,
+          0.9841269841269842
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.5555555555555556,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 4.117903108449706e-17,
+        "ci95": [
+          2.6254902132442627e-17,
+          5.650242178895886e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1873218457796813e-16
+      },
+      "seconds": {
+        "mean": 0.05865047063696058,
+        "ci95": [
+          0.05662470952827587,
+          0.060267861111603295
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.048449733352754265,
+        "participant_mean_max": 0.06260704445756143
+      },
+      "scorer_calls": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      },
+      "unique_coalitions": {
+        "mean": 34,
+        "ci95": [
+          34,
+          34
+        ],
+        "participants": 14,
+        "participant_mean_min": 34,
+        "participant_mean_max": 34
+      }
+    },
+    {
+      "method": "RankingSHAP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": 64,
+      "records": 114,
+      "mae": {
+        "mean": 0.008142186396452897,
+        "ci95": [
+          0.005191855822265702,
+          0.011819304687609796
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0016776708055045702,
+        "participant_mean_max": 0.022014807843931436
+      },
+      "sign_agreement_nonzero": {
+        "mean": 0.9807256235827664,
+        "ci95": [
+          0.9705215419501134,
+          0.9909297052154195
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.9365079365079365,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 0.9642857142857143,
+        "ci95": [
+          0.9246031746031746,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.7777777777777778,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.552052831762034e-17,
+        "ci95": [
+          1.971526998094276e-17,
+          5.804439821204936e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.2335811384723962e-16
+      },
+      "seconds": {
+        "mean": 0.10619001944354432,
+        "ci95": [
+          0.10023112618456786,
+          0.10987638055678597
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.07352526664423446,
+        "participant_mean_max": 0.11252233333652839
+      },
+      "scorer_calls": {
+        "mean": 66,
+        "ci95": [
+          66,
+          66
+        ],
+        "participants": 14,
+        "participant_mean_min": 66,
+        "participant_mean_max": 66
+      },
+      "unique_coalitions": {
+        "mean": 66,
+        "ci95": [
+          66,
+          66
+        ],
+        "participants": 14,
+        "participant_mean_min": 66,
+        "participant_mean_max": 66
+      }
+    },
+    {
+      "method": "RankingSHAP_listwise",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "kendall",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 1.066304231860347e-17,
+        "ci95": [
+          6.259116351317111e-18,
+          1.549376533156666e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 2.7948322668515225e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 13,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 13,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.3712576048197619e-17,
+        "ci95": [
+          6.814985084194599e-18,
+          2.168404344971009e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 5.551115123125783e-17
+      },
+      "seconds": {
+        "mean": 0.12342922261658325,
+        "ci95": [
+          0.12131297142782603,
+          0.12520760833632225
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.11333889997331426,
+        "participant_mean_max": 0.1282850000037191
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "RankingSHAP_listwise",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "kendall",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 1.0783509226657415e-17,
+        "ci95": [
+          6.870055670733546e-18,
+          1.478645248570707e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.3492293702041833e-18,
+        "participant_mean_max": 2.2262284608369025e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 8.591011500075616e-18,
+        "ci95": [
+          3.96508223080413e-18,
+          1.4352771616712868e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.5850951836854015e-17
+      },
+      "seconds": {
+        "mean": 0.12377903214240048,
+        "ci95": [
+          0.12155777381988064,
+          0.12581248689232216
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.11528540001017973,
+        "participant_mean_max": 0.1290302999841515
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "a1_duration_and_timing",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 4.487435348905183e-17,
+        "ci95": [
+          3.2747638237592924e-17,
+          6.021495375180704e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0251733875390714e-17,
+        "participant_mean_max": 1.133352670971514e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.882588000833878e-16,
+        "ci95": [
+          1.1953070808278284e-16,
+          2.732602504062513e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 3.700743415417188e-17,
+        "participant_mean_max": 4.996003610813204e-16
+      },
+      "seconds": {
+        "mean": 0.11198897738497526,
+        "ci95": [
+          0.10992941428585687,
+          0.11407592143431039
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.1065207666833885,
+        "participant_mean_max": 0.11812180001288652
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "a1_duration_and_timing",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 2.887204570991458e-17,
+        "ci95": [
+          2.2907212805414965e-17,
+          3.596453492159059e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 8.745897524716403e-18,
+        "participant_mean_max": 6.083578856724219e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.3452367526801098e-16,
+        "ci95": [
+          9.450112650083177e-17,
+          1.8507847371076363e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.191891195797325e-16
+      },
+      "seconds": {
+        "mean": 0.11062964761055939,
+        "ci95": [
+          0.10615139404433735,
+          0.11432562856533054
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09405986667843536,
+        "participant_mean_max": 0.11826683334462966
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "earliest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 4.682032429308037e-17,
+        "ci95": [
+          3.176411198112393e-17,
+          6.434008487473998e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.0383000842727483e-17,
+        "participant_mean_max": 1.3916337218391718e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.3216940769347102e-16,
+        "ci95": [
+          8.921435019309294e-17,
+          1.8008081798235426e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.7007434154171886e-16
+      },
+      "seconds": {
+        "mean": 0.11224171904489465,
+        "ci95": [
+          0.11024351904606668,
+          0.11413122022973507
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.1036162500095088,
+        "participant_mean_max": 0.1173445499734953
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 4.487435348905183e-17,
+        "ci95": [
+          3.2747638237592924e-17,
+          6.021495375180704e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0251733875390714e-17,
+        "participant_mean_max": 1.133352670971514e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.882588000833878e-16,
+        "ci95": [
+          1.1953070808278284e-16,
+          2.732602504062513e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 3.700743415417188e-17,
+        "participant_mean_max": 4.996003610813204e-16
+      },
+      "seconds": {
+        "mean": 0.11175996310027715,
+        "ci95": [
+          0.10783131310156369,
+          0.11504234404682868
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09484166667486231,
+        "participant_mean_max": 0.11941266667175417
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 8.932228639151448e-17,
+        "ci95": [
+          6.579042039991802e-17,
+          1.1125414748064983e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.8803637715698237e-17,
+        "participant_mean_max": 1.8303139675176125e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 4.0278626994585295e-16,
+        "ci95": [
+          2.4649594534832346e-16,
+          5.855104760820766e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.3877787807814457e-17,
+        "participant_mean_max": 1.3322676295501878e-15
+      },
+      "seconds": {
+        "mean": 0.4720709976210769,
+        "ci95": [
+          0.4630692869049242,
+          0.4797986345289419
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.43004170001950115,
+        "participant_mean_max": 0.4926038000266999
+      },
+      "scorer_calls": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      },
+      "unique_coalitions": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "earliest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 2.9507508649899144e-17,
+        "ci95": [
+          2.252085822172767e-17,
+          3.75297442483772e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.1853943752508183e-17,
+        "participant_mean_max": 6.712416116765812e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.16804714049105e-16,
+        "ci95": [
+          8.095376221225099e-17,
+          1.5860328923216522e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 2.9605947323337506e-16
+      },
+      "seconds": {
+        "mean": 0.1136013273803872,
+        "ci95": [
+          0.11153034999318022,
+          0.11535391785409523
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.10569570000128199,
+        "participant_mean_max": 0.11910649998268734
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 2.887204570991458e-17,
+        "ci95": [
+          2.2907212805414965e-17,
+          3.596453492159059e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 8.745897524716403e-18,
+        "participant_mean_max": 6.083578856724219e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.3452367526801098e-16,
+        "ci95": [
+          9.450112650083177e-17,
+          1.8507847371076363e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.191891195797325e-16
+      },
+      "seconds": {
+        "mean": 0.11168317380846322,
+        "ci95": [
+          0.1079923095239792,
+          0.11477870714484847
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09536340000340715,
+        "participant_mean_max": 0.11807236667179193
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 5.640949017417439e-17,
+        "ci95": [
+          4.347908855041274e-17,
+          6.855578129819205e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.4166908387143924e-17,
+        "participant_mean_max": 8.803721640582296e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.2154896964618078e-16,
+        "ci95": [
+          1.5496863052059476e-16,
+          2.9374650859873935e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 4.85722573273506e-17,
+        "participant_mean_max": 5.551115123125783e-16
+      },
+      "seconds": {
+        "mean": 0.47252988928188905,
+        "ci95": [
+          0.46305831071125186,
+          0.4802381738041904
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.42140230000950396,
+        "participant_mean_max": 0.4961131333451097
+      },
+      "scorer_calls": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      },
+      "unique_coalitions": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      }
+    },
+    {
+      "method": "ShaRP_outcome",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "negative_rank",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 4.26246339811444e-17,
+        "ci95": [
+          1.9660199394403815e-17,
+          7.51162800391227e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 2.220446049250313e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 13,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 13,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.4558728067043085e-16,
+        "ci95": [
+          1.0788327902979572e-16,
+          4.4318054517217e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.3322676295501878e-15
+      },
+      "seconds": {
+        "mean": 0.11465959642442786,
+        "ci95": [
+          0.11076564760878682,
+          0.11759601309521324
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09534743333157773,
+        "participant_mean_max": 0.1214260666553552
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP_outcome",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "pair",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 2.7535293269473127e-18,
+        "ci95": [
+          1.6521175961683876e-19,
+          5.7273410000504104e-18
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.5419764230904953e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 5,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 5,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 1.5199481884749165e-17,
+        "ci95": [
+          6.60847038467355e-19,
+          3.172065784643304e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 8.326672684688674e-17
+      },
+      "seconds": {
+        "mean": 0.1139905309599791,
+        "ci95": [
+          0.11030557381205394,
+          0.11671497619300637
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09574023331515491,
+        "participant_mean_max": 0.12066660000709817
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP_outcome",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "top2",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 1.2831446663574477e-17,
+        "ci95": [
+          4.0752234038820224e-18,
+          2.4946975702142652e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 7.401486830834377e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 9,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 9,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 7.674086234202161e-17,
+        "ci95": [
+          2.412091690405846e-17,
+          1.495992483330475e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 4.440892098500626e-16
+      },
+      "seconds": {
+        "mean": 0.11539450238203808,
+        "ci95": [
+          0.11260132262014806,
+          0.11771249405033554
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.10456336666053782,
+        "participant_mean_max": 0.12153613332581396
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP_outcome",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "negative_rank",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 4.356083395230649e-17,
+        "ci95": [
+          2.0045693500176437e-17,
+          7.847558581799841e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 2.4054832200211723e-16
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.3278336930012585e-16,
+        "ci95": [
+          1.0689200847209469e-16,
+          4.265767633306777e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.3322676295501878e-15
+      },
+      "seconds": {
+        "mean": 0.11759746071627541,
+        "ci95": [
+          0.11489204404850689,
+          0.12110572857948552
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.11098200001288205,
+        "participant_mean_max": 0.1358421666858097
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP_outcome",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "pair",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 3.3593057788757217e-18,
+        "ci95": [
+          1.101411730778925e-19,
+          9.031576192387186e-18
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.700743415417188e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 5,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 5,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.0816681711721685e-17,
+        "ci95": [
+          9.912705577010326e-19,
+          5.551115123125783e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 2.220446049250313e-16
+      },
+      "seconds": {
+        "mean": 0.11615759761549443,
+        "ci95": [
+          0.11395886904072194,
+          0.11802356190691214
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.10680859995773062,
+        "participant_mean_max": 0.12029696667256455
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "ShaRP_outcome",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "top2",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 1.0738764375094519e-17,
+        "ci95": [
+          2.0926822884799576e-18,
+          2.2909364000201642e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 7.401486830834377e-17
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 10,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 10,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 6.492822152941764e-17,
+        "ci95": [
+          1.3051729009730263e-17,
+          1.3828224279929404e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 4.440892098500626e-16
+      },
+      "seconds": {
+        "mean": 0.11637706547168948,
+        "ci95": [
+          0.11417858570071292,
+          0.11819741667187329
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.1066809999756515,
+        "participant_mean_max": 0.12169720001596336
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "a1_duration_and_timing",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.3212252226165848e-17,
+        "ci95": [
+          9.49967617796823e-18,
+          3.865955175034027e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 8.095376221225099e-17
+      },
+      "seconds": {
+        "mean": 0.09927792619869467,
+        "ci95": [
+          0.09709882619582848,
+          0.10117752857955306
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09080710000125691,
+        "participant_mean_max": 0.1040082666828918
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "a1_duration_and_timing",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 8.054073281320889e-18,
+        "ci95": [
+          2.64338815386942e-18,
+          1.466254366599444e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.700743415417188e-17
+      },
+      "seconds": {
+        "mean": 0.09672182024708793,
+        "ci95": [
+          0.09339633096464067,
+          0.09940344286761024
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.08120170002803206,
+        "participant_mean_max": 0.10153460000098373
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "earliest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.42861286636753e-17,
+        "ci95": [
+          8.260587980841938e-18,
+          4.5102810375396984e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1102230246251565e-16
+      },
+      "seconds": {
+        "mean": 0.0959195773764458,
+        "ci95": [
+          0.09278061904755998,
+          0.09835563213606033
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0817117000115104,
+        "participant_mean_max": 0.10160409999662079
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.3212252226165848e-17,
+        "ci95": [
+          9.49967617796823e-18,
+          3.865955175034027e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 8.095376221225099e-17
+      },
+      "seconds": {
+        "mean": 0.09741767976083793,
+        "ci95": [
+          0.09362976547535731,
+          0.10044507142516695
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.08342893334338441,
+        "participant_mean_max": 0.1044788666573974
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "additive",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 3.651179887532137e-17,
+        "ci95": [
+          1.2721305490496586e-17,
+          6.294568041401557e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.5728159515523052e-16
+      },
+      "seconds": {
+        "mean": 0.3976794249978238,
+        "ci95": [
+          0.3897045797569999,
+          0.40534383808595265
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.37638463334102806,
+        "participant_mean_max": 0.42119236666864407
+      },
+      "scorer_calls": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      },
+      "unique_coalitions": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "earliest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.536000510118475e-17,
+        "ci95": [
+          6.6084703846735505e-18,
+          4.791141028888324e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1102230246251565e-16
+      },
+      "seconds": {
+        "mean": 0.09732963927672245,
+        "ci95": [
+          0.09543963808738183,
+          0.09918485237202342
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.09091816667933017,
+        "participant_mean_max": 0.10309114999836311
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 8.054073281320889e-18,
+        "ci95": [
+          2.64338815386942e-18,
+          1.466254366599444e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 3.700743415417188e-17
+      },
+      "seconds": {
+        "mean": 0.09507867381034885,
+        "ci95": [
+          0.09063488809486098,
+          0.09890830237418413
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.08047936666601647,
+        "participant_mean_max": 0.1030517000084122
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "interaction",
+      "donor_strategy": "latest",
+      "n_groups": 8,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": 1,
+        "ci95": [
+          1,
+          1
+        ],
+        "participants": 14,
+        "participant_mean_min": 1,
+        "participant_mean_max": 1
+      },
+      "top_source_hit": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.0,
+        "participant_mean_max": 1.0
+      },
+      "efficiency_residual": {
+        "mean": 2.5112187461759493e-17,
+        "ci95": [
+          8.591011500075616e-18,
+          4.625929269271485e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.1102230246251565e-16
+      },
+      "seconds": {
+        "mean": 0.3935420011895032,
+        "ci95": [
+          0.38505960595198085,
+          0.40168750713790013
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.3578333000186831,
+        "participant_mean_max": 0.4167092333276135
+      },
+      "scorer_calls": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      },
+      "unique_coalitions": {
+        "mean": 256,
+        "ci95": [
+          256,
+          256
+        ],
+        "participants": 14,
+        "participant_mean_min": 256,
+        "participant_mean_max": 256
+      }
+    },
+    {
+      "method": "exact_source",
+      "panel": "p1",
+      "policy": "item_only",
+      "donor_strategy": "latest",
+      "n_groups": 6,
+      "qoi": "margin",
+      "kernel_nsamples": "full",
+      "records": 38,
+      "mae": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "sign_agreement_nonzero": {
+        "mean": null,
+        "ci95": null,
+        "participants": 0
+      },
+      "top_source_hit": {
+        "mean": null,
+        "ci95": null,
+        "participants": 0
+      },
+      "efficiency_residual": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "seconds": {
+        "mean": 0.09499832023339834,
+        "ci95": [
+          0.09099108332330139,
+          0.09964537499694243
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.08126239998576541,
+        "participant_mean_max": 0.11646683333674446
+      },
+      "scorer_calls": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      },
+      "unique_coalitions": {
+        "mean": 64,
+        "ci95": [
+          64,
+          64
+        ],
+        "participants": 14,
+        "participant_mean_min": 64,
+        "participant_mean_max": 64
+      }
+    }
+  ],
+  "behavior": [
+    {
+      "policy": "additive",
+      "control": "history_minus60",
+      "windows": 38,
+      "margin_delta": {
+        "mean": -0.5,
+        "ci95": [
+          -0.5,
+          -0.5
+        ],
+        "participants": 14,
+        "participant_mean_min": -0.5000000000000001,
+        "participant_mean_max": -0.49999999999999994
+      },
+      "responsive_windows": 38,
+      "pair_changed": 5,
+      "top1_changed": 5,
+      "top2_changed": 4
+    },
+    {
+      "policy": "additive",
+      "control": "current_minus60",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 1.5,
+        "ci95": [
+          1.5,
+          1.5
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.5,
+        "participant_mean_max": 1.5
+      },
+      "responsive_windows": 38,
+      "pair_changed": 20,
+      "top1_changed": 20,
+      "top2_changed": 21
+    },
+    {
+      "policy": "additive",
+      "control": "clock_alternating",
+      "windows": 38,
+      "margin_delta": {
+        "mean": -1.1730932745454448,
+        "ci95": [
+          -1.3345778215692816,
+          -1.013259783846425
+        ],
+        "participants": 14,
+        "participant_mean_min": -1.655431378448288,
+        "participant_mean_max": -0.565398775247923
+      },
+      "responsive_windows": 38,
+      "pair_changed": 8,
+      "top1_changed": 9,
+      "top2_changed": 0
+    },
+    {
+      "policy": "additive",
+      "control": "reverse_current",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "additive",
+      "control": "unused_context",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "interaction",
+      "control": "history_minus60",
+      "windows": 38,
+      "margin_delta": {
+        "mean": -0.5477855428301858,
+        "ci95": [
+          -0.6403232134928564,
+          -0.45526051329622763
+        ],
+        "participants": 14,
+        "participant_mean_min": -0.8885714285714286,
+        "participant_mean_max": -0.3071969696969697
+      },
+      "responsive_windows": 38,
+      "pair_changed": 4,
+      "top1_changed": 4,
+      "top2_changed": 7
+    },
+    {
+      "policy": "interaction",
+      "control": "current_minus60",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 1.8369566827594954,
+        "ci95": [
+          1.720152978222998,
+          1.9623442419964696
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.509238383838384,
+        "participant_mean_max": 2.2597641093474428
+      },
+      "responsive_windows": 38,
+      "pair_changed": 14,
+      "top1_changed": 14,
+      "top2_changed": 20
+    },
+    {
+      "policy": "interaction",
+      "control": "clock_alternating",
+      "windows": 38,
+      "margin_delta": {
+        "mean": -1.6006631183379771,
+        "ci95": [
+          -1.7827503235853537,
+          -1.3973443251806372
+        ],
+        "participants": 14,
+        "participant_mean_min": -2.068681212535103,
+        "participant_mean_max": -0.8205437703485586
+      },
+      "responsive_windows": 38,
+      "pair_changed": 4,
+      "top1_changed": 4,
+      "top2_changed": 0
+    },
+    {
+      "policy": "interaction",
+      "control": "reverse_current",
+      "windows": 38,
+      "margin_delta": {
+        "mean": -0.02849909237188481,
+        "ci95": [
+          -0.11252690987069114,
+          0.04058111824285542
+        ],
+        "participants": 14,
+        "participant_mean_min": -0.48056594365494887,
+        "participant_mean_max": 0.17339438339438348
+      },
+      "responsive_windows": 38,
+      "pair_changed": 1,
+      "top1_changed": 1,
+      "top2_changed": 3
+    },
+    {
+      "policy": "interaction",
+      "control": "unused_context",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "item_only",
+      "control": "history_minus60",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "item_only",
+      "control": "current_minus60",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "item_only",
+      "control": "clock_alternating",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "item_only",
+      "control": "reverse_current",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    },
+    {
+      "policy": "item_only",
+      "control": "unused_context",
+      "windows": 38,
+      "margin_delta": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 0.0
+      },
+      "responsive_windows": 0,
+      "pair_changed": 0,
+      "top1_changed": 0,
+      "top2_changed": 0
+    }
+  ],
+  "flow": {
+    "records": 76,
+    "max_cut_residual": 7.105427357601002e-15,
+    "max_node_conservation_residual": 5.329070518200751e-15,
+    "total_all_candidate_score_evaluations": 136192,
+    "total_raw_pipeline_scorer_calls": 4749
+  },
+  "total_resources": {
+    "raw_pipeline_scorer_calls": 245821,
+    "query_requests": 743508,
+    "method_seconds": 418.5131731998408
+  },
+  "external_ranker": "BLOCKED_EXTERNAL_RANKER_VALIDATION",
+  "TimeSHAP": "BLOCKED_OPTIONAL_NOT_IMPLEMENTED_NOT_RUN",
+  "decision": "INCONCLUSIVE",
+  "decision_scope": "Only two hand-written policies; no external real ranker. Numeric controls cannot establish general algorithm failure.",
+  "gate1": "See exact-budget residuals and edge-cut checks; never infer failure from low-budget noise or cross-game differences",
+  "gate2": "No new algorithm necessity established",
+  "new_paid_calls": 0,
+  "training_runs": 0,
+  "human_gold_used": false,
+  "coverage": {
+    "participants_screened": 16,
+    "windows_screened": 48,
+    "eligible_participants": 14,
+    "eligible_windows": 38,
+    "excluded_windows": 10,
+    "exclusion_reasons": {
+      "INSUFFICIENT_BASELINE_SLEEP_CLOCK": 6,
+      "INSUFFICIENT_CURRENT_SLEEP_CLOCK": 4
+    },
+    "donor_window_strategy_assignments": {
+      "latest": 38,
+      "earliest": 38
+    },
+    "distinct_real_donor_blocks": 76,
+    "background_samples_per_condition": 1,
+    "donor_interpretation": "one selected real week per strategy, reused across all source groups; NOT six independent backgrounds",
+    "max_one_sided_seam_jump_minutes": 375.0,
+    "coverage_delta_min": -10,
+    "coverage_delta_max": 17
+  },
+  "full_budget_same_game": [
+    {
+      "method": "RankingSHAP",
+      "records": 608,
+      "participant_mae": {
+        "mean": 8.460354483154435e-17,
+        "ci95": [
+          6.763918913138634e-17,
+          1.0292996984578952e-16
+        ],
+        "participants": 14,
+        "participant_mean_min": 3.525238188746097e-17,
+        "participant_mean_max": 1.5265594823027478e-16
+      },
+      "max_absolute_error": 1.6653345369377348e-15,
+      "max_efficiency_residual": 1.3322676295501878e-15,
+      "failed_records": 0
+    },
+    {
+      "method": "ShaRP",
+      "records": 304,
+      "participant_mae": {
+        "mean": 4.619405098832515e-17,
+        "ci95": [
+          3.8552099570745723e-17,
+          5.307899696047273e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 2.1291020162184093e-17,
+        "participant_mean_max": 6.669650364406661e-17
+      },
+      "max_absolute_error": 1.7763568394002505e-15,
+      "max_efficiency_residual": 2.220446049250313e-15,
+      "failed_records": 0
+    },
+    {
+      "method": "RankingSHAP_listwise",
+      "records": 76,
+      "participant_mae": {
+        "mean": 1.072327577263044e-17,
+        "ci95": [
+          6.656657147895128e-18,
+          1.481140634523253e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 1.4456028966473393e-18,
+        "participant_mean_max": 2.42861286636753e-17
+      },
+      "max_absolute_error": 1.214306433183765e-16,
+      "max_efficiency_residual": 1.1102230246251565e-16,
+      "failed_records": 0
+    },
+    {
+      "method": "ShaRP_outcome",
+      "records": 228,
+      "participant_mae": {
+        "mean": 1.9311419012990486e-17,
+        "ci95": [
+          9.811742835022258e-18,
+          3.38867675836316e-17
+        ],
+        "participants": 14,
+        "participant_mean_min": 0.0,
+        "participant_mean_max": 1.0177044392397268e-16
+      },
+      "max_absolute_error": 1.3322676295501878e-15,
+      "max_efficiency_residual": 1.3322676295501878e-15,
+      "failed_records": 0
+    }
+  ],
+  "primary_raw_behavior": [
+    {
+      "policy": "additive",
+      "windows": 38,
+      "margin_change_min": -1.7624036552616729,
+      "margin_change_max": 3.290966106457196,
+      "pair_order_changed": 3,
+      "canonical_top1_changed": 4,
+      "canonical_top2_changed": 6,
+      "max_exact_efficiency": 2.220446049250313e-16
+    },
+    {
+      "policy": "interaction",
+      "windows": 38,
+      "margin_change_min": -2.760675033550314,
+      "margin_change_max": 7.200640487577984,
+      "pair_order_changed": 3,
+      "canonical_top1_changed": 3,
+      "canonical_top2_changed": 6,
+      "max_exact_efficiency": 1.1102230246251565e-16
+    }
+  ],
+  "canonical_flow": {
+    "config_id": "91c2d19817169f320ad125a7633741e42f97cd80c6624d4b572f78db3f5cb2aa",
+    "records": 76,
+    "windows": 38,
+    "participants": 14,
+    "status": "TASK_ADAPTED_AND_RUN",
+    "seconds": 27.273293799953535,
+    "canonical_seed_replay_identical": true,
+    "max_cut_residual": 6.661338147750939e-15,
+    "max_node_conservation_residual": 5.329070518200751e-15,
+    "total_raw_scorer_calls": 9576,
+    "total_all_candidate_score_node_evaluations": 272384,
+    "noncoalition_probes": 456,
+    "probe_scorer_calls": 532,
+    "responsive_probes": 444,
+    "pair_changed_probes": 22,
+    "no_attribution_error_for_different_game": true,
+    "source_game_comparison": "NOT_PERFORMED_EDGE_GAME_DISTINCT",
+    "new_paid_calls": 0
+  },
+  "decision_detail": {
+    "overall": "INCONCLUSIVE",
+    "gate1": "NOT_OBSERVED_IN_TESTED_POLICIES",
+    "gate2": "NO_NEW_ALGORITHM_JUSTIFICATION",
+    "scoped_action": "NO-GO for developing a new algorithm motivated by this tested same-source masking phenomenon",
+    "reason": "No independent real ranker or untouched cohort. On tested policies aligned official methods match exact references; finite-budget noise and interface fixes explain observed discrepancies."
+  },
+  "exact_reference_records": 342,
+  "derived_control": {
+    "records": 114,
+    "coalitions_per_record": 512,
+    "max_own_game_efficiency_residual": 4.440892098500626e-16,
+    "independent_derived_score_evaluations": 58368,
+    "cross_game_mae": null
+  },
+  "failure_denominator": {
+    "planned_condition_records": 3420,
+    "actual_condition_records": 3420,
+    "failed_or_blocked_records": 0,
+    "excluded_before_conditions": 10
+  },
+  "additional_resources": {
+    "derived_score_feature_calls": 58368,
+    "behavior_raw_pipeline_scorer_calls": 684,
+    "native_smokes_not_query_budget_comparisons": true,
+    "canonical_flow": 9576,
+    "noncoalition_probe_calls": 532
+  },
+  "provenance": {
+    "full_manifest_sha256": "ca5fb36f9b329d2b47de630e66e467d3ec467c48c48a3997be11bffee135c3fa",
+    "full_records_sha256": "b0f79c28dcf1a75fab2adb9c7879f54a9a13805d42c6a9288ece55162ef3dfcf",
+    "source_snapshot_sha256": "ae773ea092b00644b6a2177115a3f4345d7051615db89904b4a6a1be4fa16910",
+    "canonical_flow_manifest_sha256": "15ec77e20ff4e8f21c6b816f33c6b4e33f96f7f10fad7ac0b330870bc1b3abd8",
+    "config_file_sha256": "b9ccfec06e3d50890be5f02267b79070a01ed4ce942c6086d9c1403e6ef13748",
+    "analysis_code_sha256": "f08e408b73b1575373ac3c0b8dc0f0f8caa61687b3120c0bc3d85c88508495d6"
+  }
+}
