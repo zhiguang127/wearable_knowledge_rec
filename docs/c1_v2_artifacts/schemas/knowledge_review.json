@@ -1,0 +1,179 @@
+{
+  "type": "object",
+  "properties": {
+    "knowledge_id": {
+      "type": "string"
+    },
+    "source_supported": {
+      "type": "boolean"
+    },
+    "independently_recommendable": {
+      "type": "boolean"
+    },
+    "education_only": {
+      "type": "boolean"
+    },
+    "normalized_text": {
+      "type": "string"
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "condition_id": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "necessary",
+              "optional",
+              "alternative",
+              "restriction",
+              "uncertain"
+            ]
+          },
+          "logic": {
+            "type": "string",
+            "enum": [
+              "ALL",
+              "ANY",
+              "UNKNOWN"
+            ]
+          },
+          "probe_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "dataset_support": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "partial",
+              "unsupported",
+              "uncertain"
+            ]
+          },
+          "source_citations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "anchor_id": {
+                  "type": "string"
+                },
+                "source_sha256": {
+                  "type": "string"
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "anchor_id",
+                "source_sha256",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "insufficient_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "use": {
+            "type": "string",
+            "enum": [
+              "applicability",
+              "sufficiency",
+              "priority",
+              "explanation"
+            ]
+          }
+        },
+        "required": [
+          "condition_id",
+          "text",
+          "role",
+          "logic",
+          "probe_ids",
+          "dataset_support",
+          "source_citations",
+          "insufficient_information",
+          "use"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "duplicate_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conflict_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "anchor_id": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "anchor_id",
+          "source_sha256",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unsupported_and": {
+      "type": "boolean"
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "knowledge_id",
+    "source_supported",
+    "independently_recommendable",
+    "education_only",
+    "normalized_text",
+    "conditions",
+    "duplicate_ids",
+    "conflict_ids",
+    "source_citations",
+    "unsupported_and",
+    "uncertainties",
+    "rationale"
+  ],
+  "additionalProperties": false
+}

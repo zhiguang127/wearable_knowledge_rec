@@ -1,0 +1,32 @@
+{
+  "version": "c1-benchmark-v2.1",
+  "wearableqa_commit": "39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3",
+  "wearableqa_sha256": "73dedd7290d80b1f0e78f1c51771ef3252a809da66e2484d2cc78cc844c140df",
+  "wearableqa_bytes": 40962333,
+  "hf_revision_audited": "38ddf7fd0efbe9ce6da66e75b560a33c50dc6721",
+  "medline_url": "https://medlineplus.gov/xml/mplus_topics_2026-10-17.xml",
+  "medline_sha256": "fdbae009b6be2c2f535050049fc17147d79e9e0cb2f3ca12fdac700634469c5f",
+  "myhealthfinder_sha256": "05dda8e2a43e37da057ae1c79359f23ef51642421ccce4cc8a8059332d66b654",
+  "baseline_days": 28,
+  "current_days": 14,
+  "history_lengths": [14, 42, 90, 180],
+  "windows_per_participant_per_length": 3,
+  "minimum_probe_coverage": 0.7,
+  "split_counts": [140, 30, 30],
+  "split_salt": "c1-benchmark-v2-participant-v1",
+  "knowledge_target": [300, 500],
+  "knowledge_scope": ["sleep", "physical_activity", "stress", "nutrition", "healthy_aging"],
+  "qwen": {
+    "model": "qwen-plus",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "temperature": 0,
+    "enable_thinking": false,
+    "max_tokens": 3000,
+    "max_input_bytes": 60000,
+    "input_cny_per_million": 0.8,
+    "output_cny_per_million": 2.0,
+    "price_source": "https://help.aliyun.com/en/model-studio/qwen-plus",
+    "price_checked": "2026-10-19",
+    "budget_authorization": "configs/c1_v2_qwen_budget.json"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "knowledge_id": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "SUPPORTED",
+        "REVIEW_REQUIRED",
+        "REJECTED"
+      ]
+    },
+    "applicability": {
+      "type": "string",
+      "enum": [
+        "applicable",
+        "not_applicable",
+        "insufficient_information"
+      ]
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "probe_id": {
+            "type": "string"
+          },
+          "result_sha256": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "end_date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "probe_id",
+          "result_sha256",
+          "value",
+          "unit",
+          "start_date",
+          "end_date"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "source_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "anchor_id": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "anchor_id",
+          "source_sha256",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "knowledge_id",
+    "verdict",
+    "applicability",
+    "issues",
+    "evidence",
+    "source_citations",
+    "rationale"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,4322 @@
+[
+  {
+    "probe_id": "P2-075c40eec5dc3d53463d",
+    "metric": "steps",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-358dd3c3b0ecb95e4c80",
+    "metric": "steps",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4b1b922d45267c2411e5",
+    "metric": "steps",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-67ef5bf83cb3bb952cc2",
+    "metric": "steps",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ec7dd7766f4179b808fb",
+    "metric": "steps",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-75b03fd88f000c1363c6",
+    "metric": "steps",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-975d17074b70be5a2478",
+    "metric": "steps",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9a007b00b8eb2aee45c0",
+    "metric": "steps",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-23495fe7d1ec31d897fb",
+    "metric": "steps",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-15624ba2c29a35e6d4f6",
+    "metric": "steps",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-1a22e0b6956dc3d2ec5b",
+    "metric": "steps",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-814238b828a35bb3f127",
+    "metric": "steps",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-15ebd87634d90c08fd80",
+    "metric": "steps",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-fefded48b455256401a7",
+    "metric": "steps",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6468ff29d58a5504d44d",
+    "metric": "steps",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f49205f153762306ec04",
+    "metric": "steps",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-34243bf4b79280f10977",
+    "metric": "steps",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-626310339ed3122b7442",
+    "metric": "steps",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.steps",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a755750ffcd94755ef33",
+    "metric": "rhr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f2644d5a2aaa0debf085",
+    "metric": "rhr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b4c16ac4ce1cd855ae90",
+    "metric": "rhr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-cfe78b54ff03c6d81ad1",
+    "metric": "rhr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-8a4236311f915fdd9b85",
+    "metric": "rhr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-157565d0ac9b7bd9a163",
+    "metric": "rhr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-bb1e7f6cc3e60a4d5d46",
+    "metric": "rhr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-607b71b288a4e5f0d71e",
+    "metric": "rhr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0cf52a755c040b8f015e",
+    "metric": "rhr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a387c2d9371ee20547ef",
+    "metric": "rhr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3481d051dd7ec9da7c54",
+    "metric": "rhr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9d68bcc9d9fb5099cece",
+    "metric": "rhr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ca5fd2c01fa7bb7e8353",
+    "metric": "rhr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-abd8380a6bdb5d990601",
+    "metric": "rhr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-5757ff2f040f033bed33",
+    "metric": "rhr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-85e1ced56d56e1dbd0ed",
+    "metric": "rhr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-029736c3c4f550aab1f6",
+    "metric": "rhr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3f2c7485f3c8044ecba1",
+    "metric": "rhr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.rhr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-97a1237f16d070d51df8",
+    "metric": "hrv",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-bf954d9a6c207703f5ec",
+    "metric": "hrv",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-588284ee75b604e05478",
+    "metric": "hrv",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-273eabeb8155c82161c0",
+    "metric": "hrv",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a4c89b5b2a46acd89a53",
+    "metric": "hrv",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f42688ca27bbb671c74a",
+    "metric": "hrv",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-eb3f46144d6af7ac53d8",
+    "metric": "hrv",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b6c4056efdb4c389cf09",
+    "metric": "hrv",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-d588024eeb35f10f1bf3",
+    "metric": "hrv",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-71dc2727d9d82f723785",
+    "metric": "hrv",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a2d8abb9707510d354dd",
+    "metric": "hrv",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ffe05b32c3bb471cd076",
+    "metric": "hrv",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-560c1fbb9e36c186ed5c",
+    "metric": "hrv",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-01f35efdb6b9b4e97f7a",
+    "metric": "hrv",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-1b66d39a3fffac4dd223",
+    "metric": "hrv",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-70a133e6cbf4d5795434",
+    "metric": "hrv",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e40d4c75194e5785c453",
+    "metric": "hrv",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f0c990038e2ce9d7db4c",
+    "metric": "hrv",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.hrv",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b3b40747bfb646bc526a",
+    "metric": "sleep_duration",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f6b1fca24b44af0e57cd",
+    "metric": "sleep_duration",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-cd12058fa1f71c9cba54",
+    "metric": "sleep_duration",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-96a3fbd5debc12e34cb9",
+    "metric": "sleep_duration",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-de8c340eaf41f330e727",
+    "metric": "sleep_duration",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a06b65fbed69cff83a05",
+    "metric": "sleep_duration",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f6cd7e678c432eb396ad",
+    "metric": "sleep_duration",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3179240533008afa99b1",
+    "metric": "sleep_duration",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-5e4c4b98359781fa8a6b",
+    "metric": "sleep_duration",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-af0ae47c415f6ed366dd",
+    "metric": "sleep_duration",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-418c5f53fb7167bb760f",
+    "metric": "sleep_duration",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-dd1f294743e3d2264ad8",
+    "metric": "sleep_duration",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ff073b378fb731a6e93c",
+    "metric": "sleep_duration",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ab4360ad703a38234e95",
+    "metric": "sleep_duration",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-543dbf895fc8b74e92c1",
+    "metric": "sleep_duration",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b6b484afa1df06e706a4",
+    "metric": "sleep_duration",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c4948f3c3acab869b24b",
+    "metric": "sleep_duration",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-85f104570d300faa48ce",
+    "metric": "sleep_duration",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.sleep_duration",
+      "quality_flags"
+    ],
+    "unit": "hours",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9e891582c3547ef1e02d",
+    "metric": "sleep_efficiency",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-8636aa6f9b2d0919e5bc",
+    "metric": "sleep_efficiency",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2ad7c1e7a81a2fc05d40",
+    "metric": "sleep_efficiency",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-fcde881cdab78ffe21c9",
+    "metric": "sleep_efficiency",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-59c4536c93d49cd342cb",
+    "metric": "sleep_efficiency",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e87a6b28050e6c566bef",
+    "metric": "sleep_efficiency",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-52f631cc0bb355efd7e8",
+    "metric": "sleep_efficiency",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-99d64d0869a2e326a5bd",
+    "metric": "sleep_efficiency",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9ac1c090cdd46706f885",
+    "metric": "sleep_efficiency",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-230b79e4baa86c4c047f",
+    "metric": "sleep_efficiency",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-819025f646cd5b0876ae",
+    "metric": "sleep_efficiency",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c34c23e62133786c4119",
+    "metric": "sleep_efficiency",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e630b0512643a43b3de5",
+    "metric": "sleep_efficiency",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0dc11a2235902a0cd0b4",
+    "metric": "sleep_efficiency",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e705ecc762bbdb8c2301",
+    "metric": "sleep_efficiency",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4bc8126408345b4a1319",
+    "metric": "sleep_efficiency",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-220bdfb02b0225bca28a",
+    "metric": "sleep_efficiency",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9533f8e3087f7fe10af1",
+    "metric": "sleep_efficiency",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.sleep_efficiency",
+      "quality_flags"
+    ],
+    "unit": "source_ratio_scale_unverified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a44d1c1c4c27d0ae7dae",
+    "metric": "deep_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ab1302c1a49ca382d071",
+    "metric": "deep_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f6a154e7b6f0f6624b81",
+    "metric": "deep_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b21d6d2960d7b55f632d",
+    "metric": "deep_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b477f2255b6369d50e1d",
+    "metric": "deep_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-72410e2c6ab4f656506a",
+    "metric": "deep_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-cb37650c8a036ff4e320",
+    "metric": "deep_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c855401f8cb4765d10bf",
+    "metric": "deep_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e4a1c3d6ae76d4a81404",
+    "metric": "deep_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-8a253fb3d0f6c0248aa2",
+    "metric": "deep_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3ce78d57b6dd617d002a",
+    "metric": "deep_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a3dd7aec742ab5ba1347",
+    "metric": "deep_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-98bb1abe25dea7f4cdc6",
+    "metric": "deep_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0d24855e7e549e4d32fb",
+    "metric": "deep_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6813327dc462ddba1737",
+    "metric": "deep_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-d11c6650f95f507ae1eb",
+    "metric": "deep_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-677124a39aaf178fd567",
+    "metric": "deep_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2302c931150383c6ad7f",
+    "metric": "deep_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.deep_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c0d44896862b47a15209",
+    "metric": "rem_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9d0ff4465589e67c612c",
+    "metric": "rem_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-07104abd96087684244c",
+    "metric": "rem_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-8cabaa0039f719b0c6b9",
+    "metric": "rem_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ecc9ab6350b8412af0f5",
+    "metric": "rem_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0ed243a18fc7a46edbc6",
+    "metric": "rem_percentage",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3c5f9c56de9ef02fda07",
+    "metric": "rem_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-fa90427e5431c9dd23ea",
+    "metric": "rem_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-59ed541ad249ff34efe6",
+    "metric": "rem_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6fa862af21ccb43ba722",
+    "metric": "rem_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-889959d4591b2cada87d",
+    "metric": "rem_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-259396749df074c08b38",
+    "metric": "rem_percentage",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-8d9cd8a91386576122e7",
+    "metric": "rem_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3c391df4a8400ee3c323",
+    "metric": "rem_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a5a5764c690c64a9298e",
+    "metric": "rem_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-eb4ad6a3ceb85b6f72bf",
+    "metric": "rem_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-353294048aed30ca7b2b",
+    "metric": "rem_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f32780918af29e30e97f",
+    "metric": "rem_percentage",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.rem_percentage",
+      "quality_flags"
+    ],
+    "unit": "percent",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2b41c10474c924219b83",
+    "metric": "bed_time_std",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f504f4f17a7abb2b3892",
+    "metric": "bed_time_std",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ace51b320e832158fe2e",
+    "metric": "bed_time_std",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f9c1257d00d77cb1b05d",
+    "metric": "bed_time_std",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-da1a423f8ef450426a9f",
+    "metric": "bed_time_std",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-60e68f4909762451084e",
+    "metric": "bed_time_std",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2c6ddbd77b249d351fa8",
+    "metric": "bed_time_std",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-63e670183595ddfd535e",
+    "metric": "bed_time_std",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-afd189e0ace81eb2ae21",
+    "metric": "bed_time_std",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-11f09d39e53771882fca",
+    "metric": "bed_time_std",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4301916103146b7ec3f3",
+    "metric": "bed_time_std",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-19d5207b6c427ca95722",
+    "metric": "bed_time_std",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6fb56343dfaa7d7151e7",
+    "metric": "bed_time_std",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3263278c89a4d09bead3",
+    "metric": "bed_time_std",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c9507e3396cc4513d22c",
+    "metric": "bed_time_std",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e1b863a1fc83f2dbbfb3",
+    "metric": "bed_time_std",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-1cb021bc25242828beb7",
+    "metric": "bed_time_std",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-eae527101af25c2eea5d",
+    "metric": "bed_time_std",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.bed_time_std",
+      "quality_flags"
+    ],
+    "unit": "minutes",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-875a92aebea248226dee",
+    "metric": "exercise_hours",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-74e5439986d74db4fac4",
+    "metric": "exercise_hours",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-7c2e8bdf731694aca37b",
+    "metric": "exercise_hours",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-53f801d0dc9346defe3c",
+    "metric": "exercise_hours",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9ecf6166c9e988e0e367",
+    "metric": "exercise_hours",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b0f0e0727d7e0d19b97f",
+    "metric": "exercise_hours",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e5bad20d992a204fb62e",
+    "metric": "exercise_hours",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-258200fc611dcedda717",
+    "metric": "exercise_hours",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-aa82a9da3ee7988e18d3",
+    "metric": "exercise_hours",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-1a44cd7f30a82c1a8d87",
+    "metric": "exercise_hours",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-911471c46bfc19abf1f4",
+    "metric": "exercise_hours",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c087c1ce08f31ddb62bf",
+    "metric": "exercise_hours",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-dfaf8591ee01b40d8fcc",
+    "metric": "exercise_hours",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ca0d342c64a7f5934602",
+    "metric": "exercise_hours",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0e62ba17a34432315179",
+    "metric": "exercise_hours",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-81a81940b2d817cba085",
+    "metric": "exercise_hours",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-aab23416c6de3d68340c",
+    "metric": "exercise_hours",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2326b2b11669b64acdfa",
+    "metric": "exercise_hours",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_hours",
+      "quality_flags"
+    ],
+    "unit": "hours/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-556a329dce3425074b9e",
+    "metric": "exercise_count",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-bb8f1d7a4b3a76525f2e",
+    "metric": "exercise_count",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a71f5ced4aa4dadedb5b",
+    "metric": "exercise_count",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e9b5f01e1620f092a2b8",
+    "metric": "exercise_count",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-df79b46628fd0fe92499",
+    "metric": "exercise_count",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ba804b715ce3632033c1",
+    "metric": "exercise_count",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-135b34fa6359a1e84633",
+    "metric": "exercise_count",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-cd2dd66f2fab26e8ba7d",
+    "metric": "exercise_count",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f7ef23d823d8897453e4",
+    "metric": "exercise_count",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-235bbea0916a96fcfcb7",
+    "metric": "exercise_count",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-88b87e7051c26b085fa2",
+    "metric": "exercise_count",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0aa5d160400176fc670b",
+    "metric": "exercise_count",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-5ffbf8ddc8c24d1b5db9",
+    "metric": "exercise_count",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-5f57eec3a9604cc1ee86",
+    "metric": "exercise_count",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-aa1c88372939e44dcd5f",
+    "metric": "exercise_count",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4500e0082e3daf85e17b",
+    "metric": "exercise_count",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ab866d57e381da31f932",
+    "metric": "exercise_count",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ecc2fe9d850f65c92969",
+    "metric": "exercise_count",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_count",
+      "quality_flags"
+    ],
+    "unit": "count/day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-d8db79b3781e16e617ef",
+    "metric": "exercise_avg_hr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ac5d8061eb1e94f8840e",
+    "metric": "exercise_avg_hr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b3738fa68877f6bd3c15",
+    "metric": "exercise_avg_hr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-aadbc4f720d641661fc0",
+    "metric": "exercise_avg_hr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-642be1069a94be89bb92",
+    "metric": "exercise_avg_hr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b81a15e51bca981e1724",
+    "metric": "exercise_avg_hr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-45649cd8e94a57a7498e",
+    "metric": "exercise_avg_hr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-38b10e9e95f91d6be935",
+    "metric": "exercise_avg_hr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-5ee1ecef55177aad93ae",
+    "metric": "exercise_avg_hr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-549462655c9e6a6b7191",
+    "metric": "exercise_avg_hr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-aaca969263eb738808e3",
+    "metric": "exercise_avg_hr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2790001874679cf119b5",
+    "metric": "exercise_avg_hr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-457dcb5d236ba1d1989d",
+    "metric": "exercise_avg_hr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-79bc99a958f309ff87a6",
+    "metric": "exercise_avg_hr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-41e2c22fba32686e2865",
+    "metric": "exercise_avg_hr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-487e85f753d300332239",
+    "metric": "exercise_avg_hr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ff4c92d1bda2fe691e61",
+    "metric": "exercise_avg_hr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0315b4cbccb446f52b6f",
+    "metric": "exercise_avg_hr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_avg_hr",
+      "quality_flags"
+    ],
+    "unit": "bpm",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3dbddf0b9b2945b2a3df",
+    "metric": "exercise_mets",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-38337e56361969e8d62d",
+    "metric": "exercise_mets",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9210b294a098bd102741",
+    "metric": "exercise_mets",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-cdda7e933a8ee5deef87",
+    "metric": "exercise_mets",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2c50ccdf471a1887c141",
+    "metric": "exercise_mets",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4896c3b11b4f6d8104f8",
+    "metric": "exercise_mets",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-928b75db38bc66eda0ac",
+    "metric": "exercise_mets",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-8df2f39cc9e8850aca7c",
+    "metric": "exercise_mets",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-84a0e9448d762ab3293c",
+    "metric": "exercise_mets",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-45cdb44f602a768ac767",
+    "metric": "exercise_mets",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e7105991258bf7aa3765",
+    "metric": "exercise_mets",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b753217ec683a0ca3d7d",
+    "metric": "exercise_mets",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-d8bce08ce46d410d333b",
+    "metric": "exercise_mets",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6cfa230623f09738b2cc",
+    "metric": "exercise_mets",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-30edf6f6b3448da4a943",
+    "metric": "exercise_mets",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f7b80ac1c40caf26bdfe",
+    "metric": "exercise_mets",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-62f13ed024f5fa9fe8af",
+    "metric": "exercise_mets",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9377900599c06cb8dfd3",
+    "metric": "exercise_mets",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.exercise_mets",
+      "quality_flags"
+    ],
+    "unit": "source_MET_aggregation_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-82410d6f2d8a6db6a922",
+    "metric": "active_burn",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4368631ff87d2a833c17",
+    "metric": "active_burn",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b8075ceac86cd042f9f6",
+    "metric": "active_burn",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-94d694ae0ed2a03aca70",
+    "metric": "active_burn",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9af9f42bd2571198f274",
+    "metric": "active_burn",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2df4f4c15c857878bd98",
+    "metric": "active_burn",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-fc865a2c48e2e5a16fa2",
+    "metric": "active_burn",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3872a06174c7385f95f3",
+    "metric": "active_burn",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2c9ec5264e0489e29398",
+    "metric": "active_burn",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6042913d57ffb55f5a20",
+    "metric": "active_burn",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c8ecae66654b464e4e06",
+    "metric": "active_burn",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-520ed2ffff4b8f7dc9cf",
+    "metric": "active_burn",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9d542567c1db08f2cb7a",
+    "metric": "active_burn",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-aba039e96dbfff34e04d",
+    "metric": "active_burn",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3eef7fe958599ecb9ac4",
+    "metric": "active_burn",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c17802802247a9259649",
+    "metric": "active_burn",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-841f0807cdfcbad0377f",
+    "metric": "active_burn",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2604212b3bfe90452c67",
+    "metric": "active_burn",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.active_burn",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-4ab0df09978e71648dbc",
+    "metric": "calories_bmr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c1aa9525fdb04b7fb4d5",
+    "metric": "calories_bmr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e5817642a4b77c984610",
+    "metric": "calories_bmr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-003085674d5227bd1ed1",
+    "metric": "calories_bmr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e1a9f8127d2d24981f14",
+    "metric": "calories_bmr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-ab464c887964ee03c933",
+    "metric": "calories_bmr",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-898adc1baa43fe72f55e",
+    "metric": "calories_bmr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f30e79509bd4b12999fe",
+    "metric": "calories_bmr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-7c10559d850ed7c9817b",
+    "metric": "calories_bmr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-dc7c54242a6051aff9a7",
+    "metric": "calories_bmr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0681b51b3670c31904d0",
+    "metric": "calories_bmr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-648a7d2f71c824ce239f",
+    "metric": "calories_bmr",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b9a8d6ea26a4dc02fab0",
+    "metric": "calories_bmr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6374fa3f867e60312e52",
+    "metric": "calories_bmr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-cd6d1745d682e06f9c9a",
+    "metric": "calories_bmr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e13640d846203a1fba6e",
+    "metric": "calories_bmr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e5d41e1b353d836ec3c1",
+    "metric": "calories_bmr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-a1bed4224c4e9971ad42",
+    "metric": "calories_bmr",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.calories_bmr",
+      "quality_flags"
+    ],
+    "unit": "source_calories",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6a096842bfa604f8c150",
+    "metric": "vo2_max",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-d94c9dde48fbe6b7851d",
+    "metric": "vo2_max",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-6b5eeca5f6436dc5f8b4",
+    "metric": "vo2_max",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3881a17ce2c3edd61a8d",
+    "metric": "vo2_max",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-dbcee551a69b7cc35a62",
+    "metric": "vo2_max",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-33104d6046e09557ba30",
+    "metric": "vo2_max",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9aaf7a27497fcb86aa17",
+    "metric": "vo2_max",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-1f497748d8055d7dcd29",
+    "metric": "vo2_max",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-c42e4c1c1adf6aa127cf",
+    "metric": "vo2_max",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-155f9d480228d31f2f42",
+    "metric": "vo2_max",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-7971bb3ac2a34506a6cd",
+    "metric": "vo2_max",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-19b3dc4877b897e604b2",
+    "metric": "vo2_max",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-38b53e473a9c293dfcef",
+    "metric": "vo2_max",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3bc90e83137968aef0eb",
+    "metric": "vo2_max",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e95fe9740317f8bd42ef",
+    "metric": "vo2_max",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-9c57e62f8876cc15106e",
+    "metric": "vo2_max",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-85d5e27efadd1db9ea6b",
+    "metric": "vo2_max",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e748db151b4967b8a10f",
+    "metric": "vo2_max",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.vo2_max",
+      "quality_flags"
+    ],
+    "unit": "source_unit_unspecified",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-d1c55befd2c3c462710c",
+    "metric": "avg_stress_level",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b4439930663a2ada8bd5",
+    "metric": "avg_stress_level",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-2e74553962ac7b509689",
+    "metric": "avg_stress_level",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-533d53c573063e991da0",
+    "metric": "avg_stress_level",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-7e8a62cbf0a58b1aea6d",
+    "metric": "avg_stress_level",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0176c7df5d5816dbb3e3",
+    "metric": "avg_stress_level",
+    "window_days": 7,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-b905ad59e817b2fca342",
+    "metric": "avg_stress_level",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-feff2e7087cf5a92d71e",
+    "metric": "avg_stress_level",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-0b76609017642b298883",
+    "metric": "avg_stress_level",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-affc5b800be9ee8bdfff",
+    "metric": "avg_stress_level",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-457aca3689cc758a281a",
+    "metric": "avg_stress_level",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-fa9c17d51fbfae59d030",
+    "metric": "avg_stress_level",
+    "window_days": 14,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-3b0410d2cfc95883a048",
+    "metric": "avg_stress_level",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-51ee5f1771d06f745212",
+    "metric": "avg_stress_level",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "median",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-432e32995e8f18f63d9a",
+    "metric": "avg_stress_level",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "sd",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-f88c77f285823218100f",
+    "metric": "avg_stress_level",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "slope",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score/calendar_day",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-e6a88543aab097ef7500",
+    "metric": "avg_stress_level",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "adjacent_change",
+    "comparison": "none",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  },
+  {
+    "probe_id": "P2-658e6b426dc43ed49741",
+    "metric": "avg_stress_level",
+    "window_days": 28,
+    "offset_days": 0,
+    "operation": "mean_difference",
+    "comparison": "previous_28_days",
+    "required_fields": [
+      "date",
+      "metrics.avg_stress_level",
+      "quality_flags"
+    ],
+    "unit": "source_device_score",
+    "min_coverage": 0.7
+  }
+]

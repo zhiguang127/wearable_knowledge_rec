@@ -1,5 +1,9 @@
 # 数据与第三方来源
 
+C1 Benchmark V2 另外使用 [WearableQA](https://github.com/facebookresearch/WearableQA)，固定提交 `39fb7ab5f25127e290e6e7e09e38b4fb3d2d7df3`，Lee et al., *WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data*, arXiv:2609.05405。原始结构化文件保留 CC BY-NC 4.0 以及上游 LICENSE 中禁止重新识别、禁止临床/诊断/治疗决策、禁止有害或误导使用等额外条款。仅研究与基准用途；伪匿名纵向记录、日期、身份映射和逐条标签不提交 Git。
+
+V2 知识仅抽取 MedlinePlus 的 NLM health-topic full-summary（公共领域；署名 **Source: MedlinePlus, National Library of Medicine**）及 MyHealthfinder v4 API 的固定健康教育主题。未导入 A.D.A.M. 百科、药品专论、图片或外链正文。MyHealthfinder 按其 [API Terms of Use](https://odphp.health.gov/our-work/national-health-initiatives/health-literacy/consumer-health-content/free-web-content/apis-developers/terms-use) 保留原文、出处 URL、logo URL 及 LastUpdate；展示时须显示 MyHealthfinder logo/链接与更新时间。标准化只解码 HTML 与空白，不由模型改写来源内容。原文快照及模型记录均留在忽略目录，未重新授权第三方内容。所有下载 URL、时间和 SHA256 在版本化来源清单中保留。
+
 本项目冻结健康窗口来自 **PMData: A Sports Logging Dataset**，Vajira Thambawita and colleagues，MMSys 2020，DOI: https://doi.org/10.1145/3339825.3394926 。原数据页：https://datasets.simula.no/pmdata/ ，原仓库：https://osf.io/vx4bk/ 。
 
 PMData 及其派生测量数据保留 **Creative Commons Attribution-NonCommercial 4.0 International**：https://creativecommons.org/licenses/by-nc/4.0/ 。本项目未更改许可，没有推定商业使用许可。原许可和下载清单保存在忽略的 `data/raw/pmdata/`。

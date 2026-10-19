@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "knowledge_id": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "SUPPORTED",
+        "REVIEW_REQUIRED",
+        "REJECTED"
+      ]
+    },
+    "unsupported_and": {
+      "type": "boolean"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "anchor_id": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "anchor_id",
+          "source_sha256",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "knowledge_id",
+    "verdict",
+    "unsupported_and",
+    "issues",
+    "source_citations",
+    "rationale"
+  ],
+  "additionalProperties": false
+}

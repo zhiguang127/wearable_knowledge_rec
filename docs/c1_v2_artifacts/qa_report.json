@@ -1,0 +1,37 @@
+{
+  "status": "PASS_ARTIFACT_CONSISTENCY_ONLY",
+  "release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "annotation_release_id": "97475b21f6bb812896edbd41f9f8256651b8b92509cbcb49b52ff8b7d0413336",
+  "counts": {
+    "request_response_chains": 1042,
+    "source_quote_spans": 1900,
+    "review:SILVER_ACCEPTED": 201,
+    "review:REVIEW_REQUIRED": 200,
+    "review:SILVER_REJECTED": 1,
+    "personal_statistics_recomputed": 104
+  },
+  "preserved_validation_errors": {
+    "supported_condition_without_executable_evidence": 138,
+    "citation_quote_not_in_source": 38,
+    "device_aggregate_does_not_verify_symptom_or_psychological_condition": 6,
+    "necessary_ALL_probe_group_has_no_grounded_per_probe_predicates": 11,
+    "source_text_altered": 15,
+    "unsupported_condition_role": 6,
+    "unsupported_AND": 6,
+    "required_intensity_or_activity_type_not_observed": 3,
+    "$.conditions[2].use: enum mismatch": 3,
+    "bedtime_aggregate_unknown_lookback_cannot_fully_verify_condition": 1,
+    "clock_event_or_schedule_inputs_not_available": 4,
+    "$.conditions[1].use: enum mismatch": 1,
+    "citation_source_identity_mismatch": 1,
+    "$.conditions[2].role: enum mismatch": 1,
+    "$.conditions[3].role: enum mismatch": 1
+  },
+  "source_integrity": {
+    "source_files_rehashed": 11,
+    "status": "PASS_EXACT_SOURCE_BYTES"
+  },
+  "human_gold": false,
+  "semantic_correctness_proven": false,
+  "label_count": 120
+}

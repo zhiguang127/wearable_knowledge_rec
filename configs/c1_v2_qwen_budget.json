@@ -1,0 +1,19 @@
+{
+  "version": "c1-v2-qwen-budget-v1",
+  "authorized_cap_cny": 200,
+  "authorization": "User explicitly authorized CNY 200 on 2026-10-19 for this C1 Benchmark V2 task",
+  "max_calls": 1200,
+  "model": "qwen-plus",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "temperature": 0,
+  "enable_thinking": false,
+  "max_tokens": 3000,
+  "max_input_bytes": 60000,
+  "input_cny_per_million": 0.8,
+  "output_cny_per_million": 2,
+  "price_source": "https://help.aliyun.com/en/model-studio/qwen-plus",
+  "price_checked": "2026-10-19",
+  "price_tier": "China mainland, non-thinking, input <=128K; no discounts assumed",
+  "no_automatic_retries": true,
+  "billing_note": "Usage-based estimates, not an invoice; all attempts reserve pessimistically. This authorization is specific to this run."
+}

@@ -1,0 +1,129 @@
+{
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "knowledge_id": {
+      "type": "string"
+    },
+    "applicability": {
+      "type": "string",
+      "enum": [
+        "applicable",
+        "not_applicable",
+        "insufficient_information"
+      ]
+    },
+    "topic_relevance": {
+      "type": "string",
+      "enum": [
+        "relevant",
+        "not_relevant",
+        "uncertain"
+      ]
+    },
+    "recommendation_priority": {
+      "type": "string",
+      "enum": [
+        "undetermined",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "priority_basis": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "probe_id": {
+            "type": "string"
+          },
+          "result_sha256": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": "string"
+          },
+          "start_date": {
+            "type": "string"
+          },
+          "end_date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "probe_id",
+          "result_sha256",
+          "value",
+          "unit",
+          "start_date",
+          "end_date"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "source_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "anchor_id": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "anchor_id",
+          "source_sha256",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rationale": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "case_id",
+    "knowledge_id",
+    "applicability",
+    "topic_relevance",
+    "recommendation_priority",
+    "priority_basis",
+    "evidence",
+    "source_citations",
+    "missing_information",
+    "uncertainties",
+    "rationale"
+  ],
+  "additionalProperties": false
+}
