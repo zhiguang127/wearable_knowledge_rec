@@ -1,0 +1,111 @@
+{
+  "medcpt": {
+    "url": "https://github.com/ncbi/MedCPT",
+    "commit": "11e129be74102c98d16a11c310b0b5ce74c1db5e",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {
+      "LICENSE": "20061e0e4ef5a82eb075b960725cc4dc04d23a4c3e1fbc94f58bb1fe0077d6f2"
+    },
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "trialgpt": {
+    "url": "https://github.com/ncbi-nlp/TrialGPT",
+    "commit": "1b3242cd50c153a9c324661d4a0bd94fc68a4226",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {
+      "LICENSE": "704890f21e31860b65fd547cb4c2f8fb496f5dafa2ff23c8d261f3c0ad072815"
+    },
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "pha": {
+    "url": "https://github.com/Google-Health/consumer-health-research",
+    "commit": "3e9d1e4877a54cf81ce8ef34085006952dd19601",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {
+      "personal_health_agent/LICENSE.txt": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e"
+    },
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "self_refine": {
+    "url": "https://github.com/madaan/self-refine",
+    "commit": "9a206d41e5d2d0c241bb441f41eeadb945afaa55",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {
+      "LICENSE": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "critic": {
+    "url": "https://github.com/ZethWang/CRITIC",
+    "commit": "5e865ed78cd1b325cf53b15c7209227760131abf",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {},
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "rarr": {
+    "url": "https://github.com/anthonywchen/RARR",
+    "commit": "51a1a10fe5bada837a368f98cb55288ac5168c9e",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {},
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "re2": {
+    "url": "https://github.com/zhiyuanc2001/RE2",
+    "commit": "c317f196e34f1a3fbb06d61b48ca924feefbc374",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {},
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "rerec": {
+    "url": "https://github.com/jiani-huang/ReRec",
+    "commit": "65b78c5129617a3dcceb2739342e8b5915011dcf",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {},
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "rankingshap": {
+    "url": "https://github.com/MariaHeuss/RankingShap",
+    "commit": "36e45975f34ee167261af56c69521d55c998b282",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {},
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "trace": {
+    "url": "https://github.com/devUuung/TRACE",
+    "commit": "ab14d963e231f789316a929ae7497f3d1acc674f",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {
+      "LICENSE": "9f2e45816f45bb1ef422ea0eed777977fcc9f5703510b97285ffa5cd1bd58c10"
+    },
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  },
+  "pex_dpo": {
+    "url": "https://github.com/lingjunzhao/PEX_consistency",
+    "commit": "33f6b73590cf2f4a67235329db4b712420bc9156",
+    "verification": "VERIFIED_LOCAL_CHECKOUT",
+    "detail": null,
+    "license_hashes": {},
+    "redistribution": "NOT_VENDORED",
+    "reproduction": "HISTORICAL_RECORDS_ONLY_NO_NEW_RUN"
+  }
+}

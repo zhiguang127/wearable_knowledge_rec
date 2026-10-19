@@ -1,0 +1,18 @@
+{
+  "revision": "p1-v1",
+  "dataset": "PMData",
+  "official_landing_page": "https://datasets.simula.no/pmdata/",
+  "osf_node": "vx4bk",
+  "study_start": "2019-11-01",
+  "baseline_days": 28,
+  "current_days": 14,
+  "blocks_per_participant": 3,
+  "minimum_observed_days_per_phase": 7,
+  "selection": "All participants, first three consecutive non-overlapping 42-day blocks from the fixed study start; retain if at least one imported metric is observed on at least seven days in each phase. No pattern or label based selection.",
+  "target_min": 30,
+  "target_max": 50,
+  "candidate_panel": ["K006", "K017", "K041", "K083", "K094"],
+  "candidate_selection": "Fixed five-item cross-domain panel, identical for every case; applicability and priority remain unknown. No retrieval or outcome based matching.",
+  "randomization_seed": "p1-v1-independent-human-review",
+  "metrics": ["sleep.json", "resting_heart_rate.json", "lightly_active_minutes.json", "moderately_active_minutes.json", "very_active_minutes.json", "sedentary_minutes.json"]
+}

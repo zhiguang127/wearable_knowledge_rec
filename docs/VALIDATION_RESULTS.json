@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-18",
+  "checks": {
+    "status": "PASS",
+    "python": "3.12.8",
+    "results": [
+      {
+        "name": "tests",
+        "command": [
+          "D:\\Python\\python3.12\\python.exe",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "exit_code": 0,
+        "duration_seconds": 2.736684800009243
+      },
+      {
+        "name": "validation",
+        "command": [
+          "D:\\Python\\python3.12\\python.exe",
+          "-m",
+          "src.validate",
+          "--output",
+          "D:\\Python\\py_projects\\wearable_knowledge_rec\\local\\validation\\final-v2\\validation.json",
+          "--source-root",
+          "D:\\Python\\py_projects\\c1_pilot"
+        ],
+        "exit_code": 0,
+        "duration_seconds": 5.937370799976634
+      }
+    ],
+    "scope": "Engineering checks only; no model inference, annotation or training"
+  },
+  "engineering_report": {
+    "status": "PASS_ENGINEERING_ONLY",
+    "stages": {
+      "release_p1": {
+        "status": "PASS",
+        "release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604"
+      },
+      "release_a1": {
+        "status": "PASS",
+        "release_id": "6e92073cf3bfe0cb12ae63f7a281490ab54bf21a44a0ad5cad56e6885512d523"
+      },
+      "release_silver": {
+        "status": "PASS",
+        "release_id": "2bd7232e05fa9bc02c53490430abd8c2bcb889a6174b1f1e7ecde9e9dd50804e"
+      },
+      "migration": {
+        "status": "PASS",
+        "exact_byte_copies": 2504,
+        "adapted_modules": 4,
+        "supplemental_exact_byte_copies": 5,
+        "old_source_live_checked": true,
+        "old_files_rehashed": 2931,
+        "legacy_frozen_hashes_verified": 77
+      },
+      "upstream_pins": {
+        "status": "PASS",
+        "official_repository_pins": 11,
+        "live_local_checkouts_verified": 11,
+        "new_native_runs": 0,
+        "online_verification": false,
+        "license_not_established_not_vendored": [
+          "critic",
+          "rarr",
+          "re2",
+          "rerec",
+          "rankingshap",
+          "pex_dpo"
+        ]
+      },
+      "raw_source_chain": {
+        "status": "PASS",
+        "raw_downloaded": 93,
+        "raw_absent_at_source": 3,
+        "participants": 16,
+        "windows": 48,
+        "daily_rows": 2016,
+        "numeric_source_fields_checked": 10080,
+        "sleep_dates_checked": 2016,
+        "sleep_source_fields_checked": 14112,
+        "quality_flag_counts": {
+          "zero_rhr_source_value_not_valid_for_health_interpretation": 90,
+          "repeated_identical_selected_sleep_fields": 50,
+          "nonzero_sleep_info_code_raw_device_quality_unknown": 28
+        },
+        "hmac_identities_verified": 48,
+        "sampling_plan_bytes_differ": true,
+        "sampling_plan_semantically_equal": true,
+        "license": "CC-BY-NC-4.0"
+      },
+      "participant_splits": {
+        "status": "PASS",
+        "counts": {
+          "train": {
+            "participants": 10,
+            "windows": 30
+          },
+          "dev": {
+            "participants": 3,
+            "windows": 9
+          },
+          "test": {
+            "participants": 3,
+            "windows": 9
+          }
+        },
+        "historically_unexposed_test": false
+      },
+      "knowledge": {
+        "status": "FROZEN_BYTES_VERIFIED_HUMAN_SOURCE_REVIEW_BLOCKED",
+        "legacy_corpus": 96,
+        "p1_candidates": 5,
+        "a1_knowledge": 26,
+        "a1_groups": 6,
+        "a1_unique_case_knowledge_pairs": 1248,
+        "frozen_snapshots_verified": 50,
+        "historical_manifest_disagreements": [
+          {
+            "source_key": "cdc_sleep",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhlbi_habits",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhlbi_enough",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhlbi_definition",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhlbi_effects",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhs_insomnia",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhs_jetlag",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "cdc_adults",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "cdc_intensity",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "cdc_adding",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "cdc_start",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "cdc_benefits",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "cdc_work_sleep",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhs_sit",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhs_benefits",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhs_london_sit",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "nhs_adult_guidelines",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "medline_fitness",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "medline_exercise",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "google_hr",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "google_vitals",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "google_sleep",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "google_stages",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          },
+          {
+            "source_key": "google_activity",
+            "kind": "text",
+            "status": "VERIFIED_CRLF_LF_REPRESENTATION_DIFFERENCE",
+            "frozen_bytes_preserved": true,
+            "historical_lf_hash_verified": true
+          }
+        ],
+        "a1_source_anchor_sets_verified": 26,
+        "legacy_editorial_document": "VERIFIED_ARCHIVED_MACHINE_EDITORIAL_RECORD_NOT_HUMAN_REVIEW",
+        "unavailable_legacy_sources": [
+          {
+            "source_key": "nhlbi_diagnosis",
+            "status": "BLOCKED_SOURCE_UNAVAILABLE_NOT_IN_ACTIVE_PANELS"
+          },
+          {
+            "source_key": "aha_hr",
+            "status": "BLOCKED_SOURCE_UNAVAILABLE_NOT_IN_ACTIVE_PANELS"
+          }
+        ],
+        "human_confirmed_sources": 0,
+        "medical_gold": false
+      },
+      "silver": {
+        "status": "PASS_PROVENANCE_ONLY",
+        "release_id": "2bd7232e05fa9bc02c53490430abd8c2bcb889a6174b1f1e7ecde9e9dd50804e",
+        "records": 160,
+        "unique_case_knowledge_pairs": 80,
+        "accepted_by_historical_reference_schema": 119,
+        "not_accepted": 41,
+        "model_requested": "qwen-max",
+        "label_provenance": "QWEN_MAX_SILVER",
+        "human_gold": false,
+        "caches_including_malformed_verified": 88,
+        "requests_verified": 91,
+        "source_snapshots_verified": 8,
+        "budget": {
+          "model": "qwen-max",
+          "historical_attempts": 91,
+          "historical_accounted_cny": 3.0488784,
+          "historical_cap_cny": 100.0,
+          "actual_invoice_cny": null,
+          "new_calls_authorized": false,
+          "new_calls": 0
+        },
+        "new_model_calls": 0
+      },
+      "baseline_and_c0_replay": {
+        "status": "PASS_HISTORICAL_REPLAY_ONLY",
+        "frozen_payloads_verified": 16,
+        "main_records": 160,
+        "total_records": 200,
+        "all_record_statuses": {
+          "EXECUTED": 163,
+          "FAILED": 24,
+          "INVALID_OUTPUT": 13
+        },
+        "c0_case_cards": 16,
+        "c0_explanation_cards": 140,
+        "c0_failure_slots": 21,
+        "human_annotations": 0,
+        "new_model_calls": 0,
+        "decision_accuracy": null,
+        "explanation_fidelity": null
+      },
+      "git_privacy": {
+        "status": "PASS",
+        "private_path_rules_checked": 7,
+        "private_paths_in_index": 0
+      }
+    },
+    "blocked_stages": [],
+    "research_blockers": [
+      "BLOCKED_INDEPENDENT_HUMAN_SOURCE_REVIEW",
+      "BLOCKED_HUMAN_PRIORITY_GOLD",
+      "BLOCKED_QWEN3_8_MAX_NEW_SILVER_NOT_RUN",
+      "BLOCKED_PRISTINE_HELDOUT_COHORT"
+    ],
+    "new_model_calls": 0,
+    "training_runs": 0,
+    "new_methods_implemented": 0
+  },
+  "test_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "test_stderr_sha256": "5d65e3307830c375f406b0455f8a89bb778e218b3483029aaa75971aea19eab0",
+  "restoration": {
+    "status": "PASS",
+    "public_files_copied": 52,
+    "private_assets_recovered_only_from_old_source": true,
+    "test_count": 35,
+    "full_validation_exit_code": 0,
+    "records": "local/validation/restore-v2/result.json",
+    "earlier_failure_preserved": "local/validation/restore-v1/result.json",
+    "known_constraint": "Windows MAX_PATH at deeply nested destinations; short-path recovery passed"
+  }
+}

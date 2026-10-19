@@ -1,0 +1,38 @@
+{
+  "version": "supplement-corpus-v1",
+  "copies": [
+    {
+      "source": "data/corpus_verification.json",
+      "destination": "data/processed/legacy_knowledge/corpus_verification.json",
+      "sha256": "acadcf7a0f2a9d1323a6902063e28c05150895cb6855cf09260d4ff07daac442",
+      "bytes": 37429
+    },
+    {
+      "source": "data/independent_corpus_review.json",
+      "destination": "data/processed/legacy_knowledge/independent_corpus_review.json",
+      "sha256": "68a908c156a0b652a299713bd0342ad513408e6cb603cf8d7b3fc02f6fa0ed57",
+      "bytes": 44720
+    },
+    {
+      "source": "data/corpus_review_input.json",
+      "destination": "data/processed/legacy_knowledge/corpus_review_input.json",
+      "sha256": "6152a23e0ff5d591572ccee5787630f6e93b9effec9340c10e2e049c99e761e0",
+      "bytes": 428757
+    },
+    {
+      "source": "data/corpus_near_duplicate_candidates.json",
+      "destination": "data/processed/legacy_knowledge/corpus_near_duplicate_candidates.json",
+      "sha256": "bb186efd7f029a4856e46c897b06ad376b01daff632874a263bd7bf2a9ada576",
+      "bytes": 1241
+    },
+    {
+      "source": "reports/CORPUS_AUDIT.md",
+      "destination": "local/archive/legacy_corpus/CORPUS_AUDIT.md",
+      "sha256": "aeeb7a2891bf61912aa81217cc9d756c54a099b2309dfd8f39b3b99fcdb73551",
+      "bytes": 12778
+    }
+  ],
+  "reason": "Follow the knowledge provenance reference to reports/CORPUS_AUDIT.md and existing machine editorial records",
+  "source_unchanged": true,
+  "additional_source_files_outside_initial_scopes": 1
+}

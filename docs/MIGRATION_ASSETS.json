@@ -1,0 +1,1960 @@
+{
+  "scope": "All non-local files in seven requested scopes",
+  "assets": [
+    {
+      "path": "data/annotation_transport_fix_before.json",
+      "sha256": "cac5944b4c60421809fe947c6fe59e301daeda3d6b677111647322f374291b5a",
+      "bytes": 559,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/corpus_near_duplicate_candidates.json",
+      "sha256": "bb186efd7f029a4856e46c897b06ad376b01daff632874a263bd7bf2a9ada576",
+      "bytes": 1241,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/corpus_review_input.json",
+      "sha256": "6152a23e0ff5d591572ccee5787630f6e93b9effec9340c10e2e049c99e761e0",
+      "bytes": 428757,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/corpus_seed.json",
+      "sha256": "5e71ec1f6daa31011996621d99c6efa2ddb7e705be1c26bc4c37287742f7fd68",
+      "bytes": 61798,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/corpus_verification.json",
+      "sha256": "acadcf7a0f2a9d1323a6902063e28c05150895cb6855cf09260d4ff07daac442",
+      "bytes": 37429,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/freezes/input_freeze.pre_runtime_fix1.json",
+      "sha256": "ab545015d6f9ad4d4b24479069427e285f80b8edf0b4cc98c04ab8656a428f13",
+      "bytes": 8938,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/freezes/input_freeze.pre_runtime_fix2.json",
+      "sha256": "c11cb1912d154638aa3ec0728dfbc52b8996ec7730ae2569a58c21b4f9d4adf2",
+      "bytes": 9908,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/independent_corpus_review.json",
+      "sha256": "68a908c156a0b652a299713bd0342ad513408e6cb603cf8d7b3fc02f6fa0ed57",
+      "bytes": 44720,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "data/input_freeze.json",
+      "sha256": "220da742298c0252a21d69aaca092eca50a88b3357e649cb8917da5eccb5c341",
+      "bytes": 10860,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/knowledge_items.jsonl",
+      "sha256": "ecd85ebd39233ef7096fe6825a5be58fa24b43fd0104728be9d82cc26b16ce8b",
+      "bytes": 122102,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/relevance_labels_provisional.csv",
+      "sha256": "8c1e8c84255d766e0c86efa4422d0fde1d119339faf06436560f8a72b85392f0",
+      "bytes": 29984,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "data/relevance_labels_provisional.metadata.json",
+      "sha256": "60d7503c8aff9303d4176bfda274284d64a249ae594168862da500d345fb7fc6",
+      "bytes": 730,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "data/source_manifest.json",
+      "sha256": "67a022a41d9461990d23bb8d0092a80b7990c82ff08e17a5b6644d3c81f79814",
+      "bytes": 19594,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_adding.html",
+      "sha256": "4b77ff8b7edd9b42cb34ab1ce95fbf1e7f95ce71afea3c5f64c2ad66407c8f70",
+      "bytes": 61286,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_adding.txt",
+      "sha256": "df3288bb09503d78f68e1e863bce0733956e61dfb4a59d313089daf001f42503",
+      "bytes": 7120,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_adults.html",
+      "sha256": "0aed3e965bf82b27bcc475a7799282f4ac6aad22fc2b0d46c486fb7b71c15816",
+      "bytes": 52330,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_adults.txt",
+      "sha256": "c9b618cd94a48fe254979d359ab3db1ecc7d52d6ac5b5b6fc73429173b60d672",
+      "bytes": 6647,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_benefits.html",
+      "sha256": "7df4482a4ae7ef42bc799e87de17287299ac23e1093c21033f1b91cd8c1fdf7d",
+      "bytes": 65863,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_benefits.txt",
+      "sha256": "8b0e4782cd8b4167da3fa602926aa662a46149dbe6d0c541fd1ebbdebe47e684",
+      "bytes": 11552,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_intensity.html",
+      "sha256": "13ac43b656e3828fc0ae9147bf6fd92ed6970ad435801a74374deb9c97829c24",
+      "bytes": 55671,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_intensity.txt",
+      "sha256": "b14f8c7c833dcf48f59a0df7f7d0fc06bde41820a171284f5d112bff6433f236",
+      "bytes": 7262,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_sleep.html",
+      "sha256": "fc86bbe162acc8b4619cd9643aad742a21559dd42ba0abda6923ce8625df98a1",
+      "bytes": 54145,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_sleep.txt",
+      "sha256": "2e2d5639eea2d8d6d575b6b596813d837f7c1dbd62333300de630d1be366ff18",
+      "bytes": 6288,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_start.html",
+      "sha256": "ddcfc56322f89ee8c64e3a14bf72584648e26a820b69879a85ed2bea698ea13b",
+      "bytes": 61704,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_start.txt",
+      "sha256": "4eaeb4e0d3bb13096da21e999f14db02900a6220903564a31ad676753f2373de",
+      "bytes": 7974,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_work_sleep.html",
+      "sha256": "223b476c2ec5a4d60b0bba1514b5e952dfea7656680f43b9eb18301d11588d95",
+      "bytes": 78271,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/cdc_work_sleep.txt",
+      "sha256": "ba33be5476af772ef595558b70991a028bfcc7582d35be17b34818861cd69b21",
+      "bytes": 2383,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_accuracy.html",
+      "sha256": "0ed4676f3757f64b37a4cbd08eba65ed4a2b41a57faeb136799883739d019eb0",
+      "bytes": 1727192,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_accuracy.txt",
+      "sha256": "95d98415c63158ef53dcfd9c770facb1728c59a508f8d1e1cdf85dad71f5aaf7",
+      "bytes": 8378,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_activity.html",
+      "sha256": "5f0365f5a7703472ec8cac06ae9f3d363d1b92a34a3fad32836e6c03238c82f8",
+      "bytes": 1727181,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_activity.txt",
+      "sha256": "883491b30d9e42189ad493a54d724ed205ab2bc15735c5a73e2c337a1d7c890d",
+      "bytes": 8377,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_hr.html",
+      "sha256": "1a29066f1a1bb07514145331085705ced85b56799e3b1e5bce934a592c037752",
+      "bytes": 1777813,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_hr.txt",
+      "sha256": "3c73062e3158feb9eabcf205fcb329e1d86d630bb284b95e8189bb8c791baf7b",
+      "bytes": 19232,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_sleep.html",
+      "sha256": "09eb70a4f8d25095cdfabdeea1da0a104c425228b59f9bb11e9dad36ecc75612",
+      "bytes": 1763137,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_sleep.txt",
+      "sha256": "c20ca795fdf91aa78c3ea6c8fb99b1c49cbde3f66fcc9faf135417c637c13c60",
+      "bytes": 12889,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_stages.html",
+      "sha256": "edbf223bb75013031a3971c78560c4bb0abae6fd3dc76e213cd1f3d487c19efa",
+      "bytes": 1741611,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_stages.txt",
+      "sha256": "2bfaf5346077426e11ee02b11bc7ccca29ceebeb657200e90c191265ea7df675",
+      "bytes": 13936,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_vitals.html",
+      "sha256": "f265648a88f8237116135683ae210c7edc76eef343401dcc5eccb4e542004b6c",
+      "bytes": 1814255,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/google_vitals.txt",
+      "sha256": "02a7f74363373fb813525f81165082301def5a18179bf511b6804078313617ef",
+      "bytes": 9902,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/medline_exercise.html",
+      "sha256": "42c4226ce9f0c3e0f8f7b57c37da7216877e22192f06063312d663bf7ef6d862",
+      "bytes": 51846,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/medline_exercise.txt",
+      "sha256": "84fd6777d66795d243cf919e876c2d52b49f5605df5be68c55ef34b9125118ad",
+      "bytes": 7405,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/medline_fitness.html",
+      "sha256": "275aade651310c885ca02781901c1b50666da23804e9849f3c1e94e3dc98539c",
+      "bytes": 25798,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/medline_fitness.txt",
+      "sha256": "bc1478a8b3e089242a1c589b1aaa208ea1cfd90d53975cfca6a5c9bf9599c88b",
+      "bytes": 6121,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_definition.html",
+      "sha256": "3fb3dc0c06c2c7a37d1ee9b6502f6463c16117e56c582d128d476b235333bfa1",
+      "bytes": 66395,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_definition.txt",
+      "sha256": "145f57f08bf7f358e707000ff000936c55ed000883b1f8ba600a9791d968f905",
+      "bytes": 6159,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_effects.html",
+      "sha256": "202c9d66bc4787ae2447f7c49cba51171bd0750879f452f210637e1eb5e56b8e",
+      "bytes": 76284,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_effects.txt",
+      "sha256": "59428a28ed5e14387d7eff3229ce3b97666dfe8764984b042cc5c66cddcbff54",
+      "bytes": 10050,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_enough.html",
+      "sha256": "d5b98797748ee0e05fd710a60358787d27a1c091e6cd41bc0449498f73bc4d8f",
+      "bytes": 66097,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_enough.txt",
+      "sha256": "8aaabc902ed1e6bc5eafa0b2218b96bf619eae7f1cf2675fa22fba698339e5d6",
+      "bytes": 5965,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_habits.html",
+      "sha256": "d23dea9222d0908d8e226892978c1aed8eb36640fcec00debc60f7f3fa57a618",
+      "bytes": 65314,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhlbi_habits.txt",
+      "sha256": "fea7841f264f0c907a1043fc8a67155c9e28c924a6216d86b1496d77943e5c4f",
+      "bytes": 6061,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_adult_guidelines.html",
+      "sha256": "d300a3db995a8453dda3f398447c1f8cdd9618caf0492fc63c36aedead9b5737",
+      "bytes": 42239,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_adult_guidelines.txt",
+      "sha256": "ad8fd9ce3865b9ca5abc74a6afab4fcf0480139d46f881cd4b305bb2e1d828bb",
+      "bytes": 6235,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_benefits.html",
+      "sha256": "cf134d46a91379eeff86b40c11d53b2dc5c69a1caa723eec4090e7934e805792",
+      "bytes": 41133,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_benefits.txt",
+      "sha256": "9a14a1fc68afe5adbe7ea704a47b7c217ee8031b286ab53f65a9ee15d60c6269",
+      "bytes": 5937,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_insomnia.html",
+      "sha256": "ac985d86c15f258d779b686c8d2ab3a96840feb914955467b16d7380db199c84",
+      "bytes": 40043,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_insomnia.txt",
+      "sha256": "ace7886dcf9ff0021e8a215966826c82bf3a4dcf1431111014e6ab53e1f7d4d7",
+      "bytes": 4883,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_jetlag.html",
+      "sha256": "9167bc5a2564ee6bb4fdf4d966aeba5ca90ac408f007b0e5d408810073e91e31",
+      "bytes": 31997,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_jetlag.txt",
+      "sha256": "001982af0555f39b2fcb829ea7d1ff609e517ec3e22f8302cd55cc8ea3f1dd14",
+      "bytes": 2805,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_london_sit.html",
+      "sha256": "1e2e0607a02c7198a971cc74b3281537c50388c19ff9d4185becb2ea769bc37a",
+      "bytes": 39998,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_london_sit.txt",
+      "sha256": "e18a09446f35fc6036fef09ee39fc4f691d0dba651d5e058da62163e6dcd821f",
+      "bytes": 3533,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_sit.html",
+      "sha256": "cf134d46a91379eeff86b40c11d53b2dc5c69a1caa723eec4090e7934e805792",
+      "bytes": 41133,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/source_snapshots/nhs_sit.txt",
+      "sha256": "9a14a1fc68afe5adbe7ea704a47b7c217ee8031b286ab53f65a9ee15d60c6269",
+      "bytes": 5937,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "data/wearable_cases.jsonl",
+      "sha256": "4e15cb2d3e7cc5e2f42f2c4c9135380224cb38f2179cce5daba5e3c3ebaf1052",
+      "bytes": 1693777,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "docs/EXECUTION_PROTOCOL.md",
+      "sha256": "ae755cf495ed3f9e1365d80f98c45c2a436fbacd6bba5565a7f3cec4e16eb4aa",
+      "bytes": 6270,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "docs/annotation_guideline.md",
+      "sha256": "76edcb6d3fd7a2c3a87b616475ff9b722e8ca2767eddcc7ae1afce6df34eabfa",
+      "bytes": 7791,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "docs/benchmark_design.md",
+      "sha256": "232168da8cad6aa4378c877f2335b91a29284348bbac4888955238c9fb15ef7b",
+      "bytes": 19346,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "sha256": "26d6cc110b2dbf8ee5653de811fd5f0a1b1323c563c6c2730df1f5f216e386c4",
+      "bytes": 11605,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "docs/knowledge_taxonomy.md",
+      "sha256": "99cf671ee287794d0d61525e13fa73d938ca3bf13beaaed37ef573be0dee1997",
+      "bytes": 6860,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/.gitignore",
+      "sha256": "134a293fe1dbacafa65c78f851fefa4c0128cd2618eae96ad19abe5d81e7770b",
+      "bytes": 26,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/ANNOTATION_PROTOCOL.md",
+      "sha256": "c9a4a97f7c71017161754447eed63a450b745ae80a78471bb449858c7b75ea2d",
+      "bytes": 3608,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/BASELINE_CONFIG.md",
+      "sha256": "c29bc3c3e78a548603518b9f2f2a6dcf3733bccb7965af378ec904eb659d559d",
+      "bytes": 3208,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/BASELINE_RESULTS.md",
+      "sha256": "e94d4523e276b3f25bd950138ae011e41b60730f02702a387606e631faff02d4",
+      "bytes": 3877,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/CONTINUATION_READOUT.md",
+      "sha256": "8005515dadb949d52f91b0bbef121d205f4b13285e6cca27ae405b1b21de34f4",
+      "bytes": 9251,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/DATA_AUDIT.md",
+      "sha256": "4fcf69e974251e2d75990bf3cab42ea7010162dc2085f1de13f011ee6d43cb62",
+      "bytes": 3368,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/EVIDENCE_AUDIT.md",
+      "sha256": "bf80c8e9f03d7add4954c17ebbb1a7f019355064eb9aacb0fd156ba99162c4ea",
+      "bytes": 5590,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/EXECUTION_RECORD.md",
+      "sha256": "7ee1e0e3250efc90f6839ace8efafd43eb36abb8822ce9b600dfd8def578c180",
+      "bytes": 6898,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/EXPERIMENT_PROTOCOL.md",
+      "sha256": "7c1d9df06b7ba9cb86acd293c520a432bfb1cd971c310ff6955f66076ac70595",
+      "bytes": 6494,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/FAILURE_ANALYSIS.md",
+      "sha256": "7d14f5d75c5b87642331ef659b1c6354f7be9526cae1ad2a073b850922736ba7",
+      "bytes": 1768,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/PROBLEM_DISCOVERY_READOUT.md",
+      "sha256": "d97c8fb91151ffc27ea85920b6405f7a8dcaad7feaff5c817a071b45ae3b5610",
+      "bytes": 6130,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/README.md",
+      "sha256": "65ca807e58a83b010cc8141929559fdf71956f7aaed2514496b1d3a082d30eab",
+      "bytes": 8844,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/REPRODUCTION_AUDIT.md",
+      "sha256": "5574f2d14deb1af34df8d1a1eff7781d9af62bebe9a4c4fbb8eaa084513d6bb8",
+      "bytes": 6437,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/RESEARCH_CONCLUSION.md",
+      "sha256": "3395a6a517dc302a5fa03e3917f1f42434ae4a95f9891f30f23981bc93a5b24f",
+      "bytes": 1950,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/SILVER_ANNOTATION_PROTOCOL.md",
+      "sha256": "432db152246b148e842358988eff23dc3d789411dc1c69388014de0b76dd2d2c",
+      "bytes": 8944,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/SILVER_LABEL_ANALYSIS.md",
+      "sha256": "f1a91608f9a3147f9cb3af25bb95a0c1ecfcdd12b435ec06017dd31a93d89e2f",
+      "bytes": 5450,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/SOURCE_CONDITION_AUDIT.md",
+      "sha256": "ad04404e97dc1ed3459a5fb035578d26976e9862f9738f7ea9d0d8f59b52bbe8",
+      "bytes": 6356,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/__init__.py",
+      "sha256": "dbf16f8a879fd132fd05f1eca7caedb9933d5172c53519019c1f31ef80270a27",
+      "bytes": 80,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/__main__.py",
+      "sha256": "edc80624a4b73306722c83e0d351e393b92a66f1ed92d6acb9a6db3905328452",
+      "bytes": 8791,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/active_baselines.json",
+      "sha256": "94bb53213d76c02d4f45f33adacd0e9355a954292253eae328a87ad4f3ebf7af",
+      "bytes": 297,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/active_protocol.json",
+      "sha256": "68b7c59623601788297e9c344442ec768b352b358990f5cf37b0d49aef12a4fb",
+      "bytes": 46,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/medcpt.lock.txt",
+      "sha256": "ad795bf0aca3a4eeec19e021b0297a09e8f57619df703b2e177c8d3fc7ccf642",
+      "bytes": 573,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/pha.lock.txt",
+      "sha256": "dd5ab341b9c8103073916d33635d56ea756bd3728e1abd974d5dd96d662b4647",
+      "bytes": 2609,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/run_secure.ps1",
+      "sha256": "d86a5a83453dfa5c33a3829070c1aae235ef7cb805e8c89cb8d1bb5716482aad",
+      "bytes": 1455,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/setup.ps1",
+      "sha256": "2fa98525046bbe99143fe0f94089ade3fc890feb5daba95c7d07479d8c5d12d8",
+      "bytes": 2119,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/configs/trialgpt.lock.txt",
+      "sha256": "72c32a40f1917f5e496131ede78d79bb8adaa04da7bce689e38f0b636a1da05a",
+      "bytes": 347,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v1.json",
+      "sha256": "01216e5211796ad4ba4f29706c9e609f1566ead45b6da7fe0c21ba44375033e6",
+      "bytes": 2295,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v10.json",
+      "sha256": "0ddca6ca7de78c55aa9110e768f46191d6d55abc419f36af9c131246cfa05a3c",
+      "bytes": 2605,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v11.json",
+      "sha256": "24cfe458158244718fc412c8ad198ece551bb64ea692327ca41f2b46159f2a1a",
+      "bytes": 4359,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v2.json",
+      "sha256": "47f95419aaaa4a3c8cdce267c0d2f1ff4ab9cd56a49c074f149bb00aa8173a77",
+      "bytes": 4647,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v3.json",
+      "sha256": "d4f2ebd9ff09145990d77be4cef5fa8f11bc3e1446dbc2bf9cbb728a01af14ae",
+      "bytes": 2674,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v4.json",
+      "sha256": "9d87518e49139ff4f0042dce2014eeb72e7e03475e5f204d9cfcb8ab132f8ab3",
+      "bytes": 2592,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v5.json",
+      "sha256": "9e962f6bbd4aa7e94b174bae474485b1dc8892b8656f994346f64156bcd1bc6b",
+      "bytes": 2660,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v6.json",
+      "sha256": "71dbac5850eb6baec8bea42135c252970ee69cc73ba820f2f0bc5d8c148a8176",
+      "bytes": 2694,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v7.json",
+      "sha256": "40df46932bb7f909cce529257480292480202a89e76593aaf5aef60b17cf4a27",
+      "bytes": 2660,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v8.json",
+      "sha256": "ca6da4d17106201890bed9b7831ae3efbcaca0e3cf0310825b08e802ffd7f176",
+      "bytes": 2578,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/protocol_freeze_v9.json",
+      "sha256": "a1e46550679fc28337202110e4251a87c85fc5925146cd9987240010f30da646",
+      "bytes": 2658,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/releases/a1-v1/cases.jsonl",
+      "sha256": "a6acca8f866c3709df7dfd0bb6f40181f6aee146e13dbd303b49204b65fdb4e7",
+      "bytes": 12576,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/releases/a1-v1/freeze.json",
+      "sha256": "f496d5f31a5c9687f764a8664cdff326bfaa41c9c9b293beed47a4327775689c",
+      "bytes": 812,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/releases/a1-v1/groups.json",
+      "sha256": "1bab8129298eeb6f1b872415fdb4b3f1b6ab6bcb2e484b35ff3ec1304e42fa4a",
+      "bytes": 2289,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/releases/a1-v1/knowledge.jsonl",
+      "sha256": "4d6a7fa4241bc3bc6cfa2872e020de880de7393cb454d776dd666876c51cf2e5",
+      "bytes": 33352,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/releases/a1-v1/source_audit.json",
+      "sha256": "c03f24548f601b7e4006ccf43fdb5803d8f5c84a49701cb49d3560c6277a7876",
+      "bytes": 23742,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v1.json",
+      "sha256": "f0c9c44d758a3a2fa328daa07fb4852e440088a08c62cb6e38d18ea8e526f64a",
+      "bytes": 3239,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v2.json",
+      "sha256": "10c9150f47fd3e0b70285a547d447fc7e99bd3913fb4139ecd2637e24a478062",
+      "bytes": 1174,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v3.json",
+      "sha256": "b207467a8894550411be4e3f0675986bbf7344f7922411176111804f0a604100",
+      "bytes": 1319,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v4.json",
+      "sha256": "9de4d3373f62d7a0fb938c42ea3f8205036c4e7d8830da42eb6dd7935cb12f77",
+      "bytes": 3701,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v5.json",
+      "sha256": "fac694a9aee4a7377c8d2e7a69c8fc87dc93e3ff41d7140e7b6fb91b9dcfd4e9",
+      "bytes": 1610,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v6.json",
+      "sha256": "d6ba9e52b174c65609f5558f380de6a41b1dfeaf1cc9b00b4897d3a7ba5cce6b",
+      "bytes": 1611,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v7.json",
+      "sha256": "6f49ae2e7839e9abfb6cf4b76680a41f38d53d1e3c809557e0974762056ac37a",
+      "bytes": 4046,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v8.json",
+      "sha256": "3b3e7bbed9f5bc9a9430af7b99dc120d952e5302dbc918773c350ca3d4c20ba0",
+      "bytes": 1618,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/data/silver_protocol_v9.json",
+      "sha256": "a4d1fc71b6808cdae253d30714bafe73cea9c2487707cc761160ffc6d9c37b45",
+      "bytes": 2720,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/baseline_inventory.json",
+      "sha256": "4a6267c8a749a0b5f79d1219e6b951324b88406ec01bd21f26bddb2bb0d0ad6f",
+      "bytes": 1271,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/bge_model_asset.json",
+      "sha256": "ba838e31765dff828c5444e5d9a422eb925f52998d044ea48e3bbe6c1726456d",
+      "bytes": 476,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/budget.json",
+      "sha256": "216779d7dce533d3fe06dc04ad6461054bfdfb7988a937cb2a3228ff370111fc",
+      "bytes": 908,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/budget_after_smoke.json",
+      "sha256": "8a11f8c7e6f9a7b2aa6e2a4cea5e5fabd594f467863d7eca0ae2ff2f9c288fac",
+      "bytes": 2555,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/budget_after_smoke_20261016.json",
+      "sha256": "8a11f8c7e6f9a7b2aa6e2a4cea5e5fabd594f467863d7eca0ae2ff2f9c288fac",
+      "bytes": 2555,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/credential_continuation.json",
+      "sha256": "60e4d57c81cf418c41e5f0158a32c297790cebfb3a63358aaa46c8ba4a47e130",
+      "bytes": 17814,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/credential_continuation_20261016.json",
+      "sha256": "92849331942c88ec00dfba576579da303650816f2ffa52bb93abd2119e99f30a",
+      "bytes": 17765,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/evaluation_after_smoke.json",
+      "sha256": "b38997565af3b55889d6e91ff190b9c749a4007492836ba14e718fd233dc2a1f",
+      "bytes": 294,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/evaluation_readiness.json",
+      "sha256": "b38997565af3b55889d6e91ff190b9c749a4007492836ba14e718fd233dc2a1f",
+      "bytes": 294,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/execution_final.json",
+      "sha256": "dcd4996f817b4816285f5542f5216ed71983d960e6559abba1ccf6a202c31da0",
+      "bytes": 5729,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/execution_summary.json",
+      "sha256": "93ad0d7f088040a420a6649990e1e8362d633519e97995d2097ed23d54a55447",
+      "bytes": 5729,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/input_audit.json",
+      "sha256": "9dc24926f0e5385a8e5c9387506f1ddd9ebfe32b5e3a4b5673df290ac2f46bf0",
+      "bytes": 40444,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/medcpt_official_smoke.json",
+      "sha256": "f98b197c2380a453a26f06474a2c4a476b677cde0c34d02d5c1f331b354bcfab",
+      "bytes": 8821,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_ds_official_smoke_v1.json",
+      "sha256": "9fc3a157e5a1bb78fe8764384d1a6cfe76117efd8e57d349a0f0d3dd90e6dfe8",
+      "bytes": 1536,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_offline_check.json",
+      "sha256": "6f8159a5750e0c439aca21a9aaf833d9342b5a566bee401185d5ef500e274719",
+      "bytes": 4879,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_offline_check_v2.json",
+      "sha256": "2e0233436056e4c36d35e3dc6b7706c05675ef3df475684efc4bb7e874b989af",
+      "bytes": 4966,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_orchestrator_official_smoke_v3.json",
+      "sha256": "5ce524addbc8bc493eaafe98f643adb73a390ca0559d747e50bb71be9176303c",
+      "bytes": 1407,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_orchestrator_official_smoke_v4.json",
+      "sha256": "e274fa92153b1c036df0b15f07d482add4c39548e844229b24097f37a80c6b6f",
+      "bytes": 1572,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_parallel_official_smoke_v2.json",
+      "sha256": "af771c1ceb9fc5f9d51a82f4779cce98086ff565d629bcc05e5465d694f0e29d",
+      "bytes": 1342,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pha_parallel_official_smoke_v3.json",
+      "sha256": "7de3039e182fa3f8ed8b1bc6c6f3d6c394aed3ca365f45c56e4893be1d8a1eee",
+      "bytes": 1402,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/phia_official_smoke.json",
+      "sha256": "4c574405c39d21901c37a342281e79eea1626a46ba16e5ac5bf3debc2b410311",
+      "bytes": 1198,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/phia_official_smoke_v2.json",
+      "sha256": "8588bab78812af5762174f0f53d001639685bd9d814e855fa538c71c2f467b2b",
+      "bytes": 1333,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/pricing_20261016.json",
+      "sha256": "8f3b64f9d8edee2f841aecf0daa966351f42568607812ce0faddd1dc22ede4bd",
+      "bytes": 614,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/reproduction_corrections.json",
+      "sha256": "9d321f3145b8487490be74d18c0ba8a89fb892b4df41f342247d5757bf6f1060",
+      "bytes": 1458,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/reproduction_status.json",
+      "sha256": "44199bdc0904fe052da19d8d60df7f63e1bb5fa9404f41db6aac2c3a203589a3",
+      "bytes": 2164,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/silver_delivery.json",
+      "sha256": "879627fee208a3fc5feabc084ea1ef6f543d6441c7ff948ce676f9a4834842bb",
+      "bytes": 2629,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/silver_latest.json",
+      "sha256": "09775b1c4b14d7b2325213dc9319471bbd38688ba80b454eae6c01ffc362d2df",
+      "bytes": 168,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/silver_summary_v1.json",
+      "sha256": "29d3465e1add62a9984179109c59b237f10d894deac10b2b2136b5c9a1c65dba",
+      "bytes": 52172,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/silver_summary_v2.json",
+      "sha256": "bc2931714566f0e9a1198caa0456700edc1cfac5952cf14c94028085814a8fcf",
+      "bytes": 52972,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/silver_summary_v3.json",
+      "sha256": "8148f799082fe66ec5fda0399ae90efe58d687b2c8061e2f2f532b5057aa39e8",
+      "bytes": 54674,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/silver_summary_v3_calls.json",
+      "sha256": "8fda3fcd1df67665a720c5edb18aac9966ff07c4e52084e224aca9743e69afe5",
+      "bytes": 117516,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/trialgpt_official_smoke.json",
+      "sha256": "3de4f3fda56a05ddae05504ff05b9cb6878964a2d11a9f408430021cd865793e",
+      "bytes": 2012,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/results/trialgpt_offline_check.json",
+      "sha256": "b58135d4754752508084e062a4b4d9b584383deaf09f44c068e1d2945809c587",
+      "bytes": 216,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/__init__.py",
+      "sha256": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+      "bytes": 72,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/__main__.py",
+      "sha256": "87943210be64e5dcbc3751ea161f2279a00fdd5b3c37b1155ba1f995248fe47c",
+      "bytes": 3047,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/api.py",
+      "sha256": "64456caa707c8d60fd7b9a60914b8b516740ac57c73e41e56b877021880e1ae2",
+      "bytes": 11495,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/evidence.py",
+      "sha256": "5e534ffa570bc0426e875eacb4cef2332474db1c0136fe91ac184ef016061936",
+      "bytes": 11455,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/pipeline.py",
+      "sha256": "48254e6d6614f074f9e68e14c06a442a044d2bf05cb3ca815663a89fa8ac19a9",
+      "bytes": 21516,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/probes.py",
+      "sha256": "44dfbd41c17f99439e04b22b79deea2e8d806592c5b184ff4c852c88c8971710",
+      "bytes": 3645,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/prompts.py",
+      "sha256": "4c7ab6587709d20c5237b153e89d90f4e211afa40a847d492bce1f8f876b884f",
+      "bytes": 8811,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/release.py",
+      "sha256": "069fc5541452d0ddf5072718a2b84534ce2590444da8761cc3688a95cb887ae4",
+      "bytes": 2544,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/report.py",
+      "sha256": "83ce0322a22afe2632890e9d0aeafd0241089d3a854d2e1dd5a02d5d9ef9358e",
+      "bytes": 17441,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/schemas.py",
+      "sha256": "d3098e81b0636cf2596f88a05a37cd6fd360b10a68a19aa9e4cfbc554d467f21",
+      "bytes": 2379,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/silver/sources.py",
+      "sha256": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde",
+      "bytes": 6360,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/__init__.py",
+      "sha256": "8c2fb89c8062257d573b37dc66984509b70314583b1f1dc12ea1fdbe8b902b8f",
+      "bytes": 77,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/annotation.py",
+      "sha256": "127d238759f7a5fdc2017b3d476942b8b06da3c09b5f52b17e674c4ce20d6ccb",
+      "bytes": 12601,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/common.py",
+      "sha256": "bb2e594bec9fa30c7909a5e6b2057f015b071a3380716c1c32976f952feae3d1",
+      "bytes": 2788,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/conditions.py",
+      "sha256": "956d3c098f40f1cf5392164a47a5db4e4beeb9136b74178987b026c26c34ccfe",
+      "bytes": 2062,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/continuation.py",
+      "sha256": "d76b97b8e94e76651e5fd50d04b256916c3c0818d57daf4665b2e5ee69b20cd5",
+      "bytes": 8381,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/data.py",
+      "sha256": "7efe5e2211de3569d09c19d21d0736e181d3186e4358b8c7dba737a34247247a",
+      "bytes": 10482,
+      "decision": "REFACTOR_MIGRATE",
+      "reason": "Pure reusable definitions extracted; full historical implementation only in ignored archive"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/evaluation.py",
+      "sha256": "23d9e14b7e373473d23d7315be54017329efc33d0ca7ab9cd3ee837a03578d06",
+      "bytes": 10203,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/matching.py",
+      "sha256": "cb4ef08c4bd82b119769aacacf34f8d2d627614d13f7024c53a7286e935d390f",
+      "bytes": 17642,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/pha.py",
+      "sha256": "3f2fe26e9ba82a67bce071c03b2868376bbd9ef38747847e07b70a33028be22e",
+      "bytes": 16247,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/reports.py",
+      "sha256": "5fd0d1b4eb6df4179b03b24e35a88939368616a95221646a4bfe5cb2652642ce",
+      "bytes": 2889,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/retrieval.py",
+      "sha256": "071bcdd8a71541c1485534ba28461e49fd38de26d485b8dc12ae11c26c951026",
+      "bytes": 7330,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/transport.py",
+      "sha256": "98e1e262d436a8cbf0a33cc0b017a944f8f1b0e3cb293f1a5404a2397816a1cc",
+      "bytes": 8497,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/trialgpt.py",
+      "sha256": "b5ffa2723c8ffce53ad317f43e153fb49bec8266cb652f63c06f2185ab7631b9",
+      "bytes": 6692,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/src/upstream.py",
+      "sha256": "36c7459e05ea277ac26eb821aa782cf6aba1a66924095b7869cf026e1a1032f3",
+      "bytes": 6090,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/tests/test_experiment_a.py",
+      "sha256": "9a95a0498f7bf840196581fb7bd73b7e99ea13c85efa43e27011165d97b595df",
+      "bytes": 10907,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/tests/test_human_import.py",
+      "sha256": "9882233ccd60f4b630fd6e020cb4e490869421fa2cf724e347f950f5ee11c2b7",
+      "bytes": 4434,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/tests/test_pha_transport.py",
+      "sha256": "502305908f68225dfa7e86ed4fd428adfcced4e28bc6fec1b6541e0f50bde098",
+      "bytes": 4143,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/tests/test_silver.py",
+      "sha256": "179b45185ee039716b7d5068d9cdf800818b4b92394e190f5a3a4758524970dc",
+      "bytes": 22423,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_a/tests/test_transport.py",
+      "sha256": "c71dc4f3e6f27bcf2dec492a399fa25cf60c2fdb06b766a337fff2af8dbd2594",
+      "bytes": 6424,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/.gitignore",
+      "sha256": "134a293fe1dbacafa65c78f851fefa4c0128cd2618eae96ad19abe5d81e7770b",
+      "bytes": 26,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/README.md",
+      "sha256": "6da812c38b89f43e4176012ae4d75dc383964270ce1162ed2c117e8dbecf54f9",
+      "bytes": 3300,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/REVIEW_PROTOCOL.md",
+      "sha256": "867e92e169367ca5eee8ffdcad15e2e63fcbaeac641211e40744401a499ca2b6",
+      "bytes": 2878,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/SOTA_BASELINE_AUDIT.md",
+      "sha256": "0308f13a6ab8e479d15feb25e87af87f594d20adbac0866f15a137a09d9b2d28",
+      "bytes": 17412,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/SOTA_COMPARISON.md",
+      "sha256": "b4d4d378a7c1c9553644fcf8257077b49d64e5691d2291031427fd391ddea914",
+      "bytes": 12743,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/__init__.py",
+      "sha256": "ee1f906c9fa26948601fdd2097a014367cf4264fbdf3fea5e2944593f0e767b3",
+      "bytes": 71,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/audit_upstream.py",
+      "sha256": "842be67bf7eaaeb22cb45283ae2e573fbb0d4866ec4831898833957bc89230ec",
+      "bytes": 2278,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/configs/cpu-audit.lock.txt",
+      "sha256": "69ddbf639e75aaf8cdd859a3dde06dcd6f234176dcafd565208618a30d288496",
+      "bytes": 2974,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/configs/freeze.json",
+      "sha256": "b7537e354e9fe20851029205bf3a2e9d2374cf3f229d7784c772d9806eba94c6",
+      "bytes": 6191,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/configs/freeze_v1.json",
+      "sha256": "4527aac0bb0804d911a776e37249457b12629bcd905e54b95ae96567b5eb6829",
+      "bytes": 6014,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/configs/freeze_v2.json",
+      "sha256": "d42660a071f0496bf00053b0bcba88735d069a53b496a226c21bf60d3d4fd5f9",
+      "bytes": 6014,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/configs/freeze_v3.json",
+      "sha256": "2a23c4afe03ca9829e05509585ee550058b398ce0f13bc14b8fa471f85330627",
+      "bytes": 6100,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/configs/protocol.json",
+      "sha256": "0f3de9719f9c66f8380f98761ea2d359de6c2e1eace207cb36419c6256fc80cd",
+      "bytes": 3292,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/core.py",
+      "sha256": "c49831e22c29e5a737eb0796ef7e8d522d2db96c0384081ff1b721c14053b6b6",
+      "bytes": 13225,
+      "decision": "REFACTOR_MIGRATE",
+      "reason": "Pure reusable definitions extracted; full historical implementation only in ignored archive"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/deliver.py",
+      "sha256": "cafe73018923f6f7553c06533aeb38ba449bf004e99219a509e4f292566f30e0",
+      "bytes": 2811,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/native_audit.py",
+      "sha256": "bed8b1082e9ad616f49259655423a458f9bb14d2110136c0abee4469a8b50551",
+      "bytes": 1826,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/native_cpu.py",
+      "sha256": "ca11a4d9821e0aa6dfde944f78e0d9be05cc2a0b835bb5a8915593d000817764",
+      "bytes": 2546,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/native_model_smoke.py",
+      "sha256": "a2dde960d5a3e6a11352228fd7d7b4f9946c9d45341c891beda9b1526f1a8aa1",
+      "bytes": 3175,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/native_results.py",
+      "sha256": "0f2b05c702b6db882336346337eecf59c0e6dea2c55090c7417bbc329752ae7d",
+      "bytes": 2626,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/prompts.py",
+      "sha256": "042c47a82ceae571a03c76a69abd0f703e3653c0c5af8fbc613ad156ffbe01ae",
+      "bytes": 4714,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/render_delivery.py",
+      "sha256": "87023025393a7602ae43d85e53e775ab2cfc1ecd1a058402430068dbf6df4fff",
+      "bytes": 13002,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/report.py",
+      "sha256": "5defeeca5cb35e820b8056f253ed8aa4c2c37c6d18c4c8d5e3e2ab53603930f7",
+      "bytes": 10509,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/baseline_status.json",
+      "sha256": "4ffa4e47d331c9ac427cfa6ef80af61fff82a0afa8bfcc500a50bdc660582b3e",
+      "bytes": 4618,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/comparison.json",
+      "sha256": "cccec59df0133c245a1fd1cb44c15ce0f63154c389b71710d79cddc0cc8482e9",
+      "bytes": 37106,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/frozen_inputs_verified.json",
+      "sha256": "126433128fc232b0553b47e3db234d98e737b6150436d2b4ad584b8f1eb16290",
+      "bytes": 406,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/native_algorithm_runs.json",
+      "sha256": "42569bf030e6f34d66e4d17b629d7d532d3df13fefd6ff614812f837cf4e7a1b",
+      "bytes": 3098,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/native_entrypoints.json",
+      "sha256": "99891bbeca98f22ece7778788c2fde1daa1cf08bc70278b8485575c6526504d5",
+      "bytes": 2600,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/self_refine_native_domain.json",
+      "sha256": "cf5648087c21d98542c447bd39521a2e10296afff903005029ff22e4d24f2df5",
+      "bytes": 513,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/upstream_pins.json",
+      "sha256": "0c3dd7af86f793448e9f38e8964ac2290b1db2f1db3abf526029175640e3f7f4",
+      "bytes": 2573,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/results/validation.json",
+      "sha256": "d376aa0d185e7a95535bdcc53a03a99214aa6d468fde67ce5ff0cd582d0385c8",
+      "bytes": 1542,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/run.py",
+      "sha256": "f369d1fcdaab5ce6528cc523ed790ee79780c9a8bdb88fe22451c5b9bccfd5de",
+      "bytes": 12481,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/schemas.py",
+      "sha256": "cdfb5add49dcd57bf9a81f6dbda752aad4319c2c7e445605e8c2d80753f4a73f",
+      "bytes": 1276,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/status_report.py",
+      "sha256": "7dd341b9a8a4c2b41645235905712be7ada6d682c5502021f0a25ccd2511d033",
+      "bytes": 2297,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/tests/__init__.py",
+      "sha256": "6a8c6bbe347f59702f738a6640a287ccf2481eea1c591e38deb9e13f9e9cb1fa",
+      "bytes": 66,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/tests/test_b0.py",
+      "sha256": "32d42e7778690a5b8347a2c8dba8e23dcc2980005091dd8a5645be119e68657c",
+      "bytes": 3095,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_b0/tests/test_reporting.py",
+      "sha256": "50615ed120932230c14e45c5a2f18cdace449118a35337bff197ebd7cb04b7c1",
+      "bytes": 1957,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/.gitignore",
+      "sha256": "943065f54cc524d7b41647344b0068d54fc0530ffa03a68d9bc07972383cc5df",
+      "bytes": 109,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/C0A_READOUT.md",
+      "sha256": "ba9cd7005a1c1173c158319c0bdc7f13ece1615bc1a5d35d1d75afe72daa202e",
+      "bytes": 6926,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/README.md",
+      "sha256": "e1afa96bd2e67988b6f70935e1c8567fecaa195c919f120735196862f76ae234",
+      "bytes": 9364,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/__init__.py",
+      "sha256": "8b0d523a3084cf79de1fb33e42de2c4681111bce9fbc0117da11f163363a6a97",
+      "bytes": 68,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/pilot.py",
+      "sha256": "a75cb8343c8c46ba8922497445c1d05070f8eaab53eecec1bfbe1b9da08850be",
+      "bytes": 20212,
+      "decision": "REFACTOR_MIGRATE",
+      "reason": "Pure reusable definitions extracted; full historical implementation only in ignored archive"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/results/local_execution_summary.json",
+      "sha256": "5f41c1621980eb48f004fe77863563116cb925a316b4127d0cf1e80663ff24fc",
+      "bytes": 4413,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/results/public_preflight.json",
+      "sha256": "395dcc86bbce87e068b532aeaf4989c4cad4b8ab30c3df1cafd9f41e09e84683",
+      "bytes": 2598,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/results/source_public_summary_subset.json",
+      "sha256": "be1336e3a6a1879331cc7a31d44f655b8046663a3a40e3fcd5b8161723a10353",
+      "bytes": 2478,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/experiment_c0/tests/test_pilot.py",
+      "sha256": "63efc79dd45329c9e200393c6f26fd51fac39b6d72197eba58cdd54460363b64",
+      "bytes": 10417,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/p1/.gitignore",
+      "sha256": "134a293fe1dbacafa65c78f851fefa4c0128cd2618eae96ad19abe5d81e7770b",
+      "bytes": 26,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/p1/NOTICE.md",
+      "sha256": "83a34c505ce4a4ae63aa4445e0631c54a6a424f9b0ced8860c33d43973f26d6e",
+      "bytes": 1283,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/P1_ANNOTATION_GUIDE.md",
+      "sha256": "8cb5cb1b51145a0f8e5fa85c78d76483d9292045891592fe0fe7ccf7ba49611e",
+      "bytes": 8084,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/P1_DATA_AUDIT.md",
+      "sha256": "eacff11eaa0d221e15d0ef7ab7e0f7f14c39e102ed6ad45c63a103f9df1f3380",
+      "bytes": 6424,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/P1_PROTOCOL.md",
+      "sha256": "e68feae546b0391348921aea1955654360667974eb5916e3053c05e43cac6f2c",
+      "bytes": 9623,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/P1_READOUT.md",
+      "sha256": "2875fd178531e19a3524d63451cb6d1eca9468821f7b666224f2e88a4bfca042",
+      "bytes": 5798,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/README.md",
+      "sha256": "1144c6c568942363fb91f18916b8662ed70a015d38ae3e53083bbf496bab6b08",
+      "bytes": 6683,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/__init__.py",
+      "sha256": "0b52029a954deddbd7da66c2740ae751d50b39e7925ee6972e9be7bb9de594a5",
+      "bytes": 73,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/__main__.py",
+      "sha256": "d4896ef0326782e4bcf0bf92cf6b621bb0ad93387746afcc300cfd1f085427e0",
+      "bytes": 4348,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/annotations.py",
+      "sha256": "d9733dce5b3fc34a730bb05ec260025e64baf59200c2c04cc13067397347ec8d",
+      "bytes": 22031,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/P1_ANNOTATION_GUIDE.md",
+      "sha256": "8cb5cb1b51145a0f8e5fa85c78d76483d9292045891592fe0fe7ccf7ba49611e",
+      "bytes": 8084,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/P1_PROTOCOL.md",
+      "sha256": "e68feae546b0391348921aea1955654360667974eb5916e3053c05e43cac6f2c",
+      "bytes": 9623,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/cases.jsonl",
+      "sha256": "62a81cfe65548c64955311c15ce281ebdaf040d540d3243d9e820fefe72f64b5",
+      "bytes": 1158759,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/freeze.json",
+      "sha256": "61785adaeb19f598f8f8687b8d1fbf5a92eb74c9231a8807cb55b172c116cfc1",
+      "bytes": 1337,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/import_audit.json",
+      "sha256": "f1e1b744b7d17d3aa1e40e8e40d37373e84b8b562ab47516b145448783c757af",
+      "bytes": 8128,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/knowledge.jsonl",
+      "sha256": "65523bdc3324a1ce43ecbbaf75aabb59be2224e9164291b04fcc64af6a0feba8",
+      "bytes": 5257,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/data/releases/p1-v2/sampling_plan.json",
+      "sha256": "71091791f1d0f071fb8e0fdb94e56c3ecaf2a7564262d3b7c43f8af0c69ce605",
+      "bytes": 1120,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/dataset.py",
+      "sha256": "470c6dadc536cf15dad757b83ac0c4487c1a0fbef0d75ab5d7761247c9315160",
+      "bytes": 16170,
+      "decision": "REFACTOR_MIGRATE",
+      "reason": "Pure reusable definitions extracted; full historical implementation only in ignored archive"
+    },
+    {
+      "path": "research/problem_reidentification/p1/download_pmdata.py",
+      "sha256": "2b55a081410acd655464350c0b83203f965a79974f691af91ea4a5b74f668e8e",
+      "bytes": 5224,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/form.py",
+      "sha256": "9114ba28d77feaaa0ffe6c5ff4f5e32d97495647aa58a0c501f21d2507374d3b",
+      "bytes": 8340,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/packets.py",
+      "sha256": "a91347b1e00f49677e04daa6d5be0b69a699730dac712778386eaccb1366f892",
+      "bytes": 7773,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/results/engineering_validation.json",
+      "sha256": "aacc207c850b6994f776d4bc6e60f05e2e54d4aad8fd86679b64d3d98b7934f4",
+      "bytes": 707,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/results/readiness.json",
+      "sha256": "3f0e9874f4b26bfc7abbcc2c08ce177664d7152ce543769dd2856983710058ed",
+      "bytes": 1945,
+      "decision": "RECORD_ONLY",
+      "reason": "Historical evidence retained privately; no legacy runtime import"
+    },
+    {
+      "path": "research/problem_reidentification/p1/sampling_plan.json",
+      "sha256": "adbfb854c183d153300ebbcba45b1d8d72909022b6adb4294886962ef571ff66",
+      "bytes": 1037,
+      "decision": "DIRECT_MIGRATE",
+      "reason": "Exact bytes preserve releases, provenance or complete historical successes and failures"
+    },
+    {
+      "path": "research/problem_reidentification/p1/tests/test_browser_form.py",
+      "sha256": "b3a088c98ada1dc34dcf66e3f9ab003fac8f7e9a51ea9ab673b07fe2c293c2dd",
+      "bytes": 4088,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/p1/tests/test_p1.py",
+      "sha256": "3d8becef39d945d806960c67f592220f47f3101f28fc15a44a6548ec9aba3bf0",
+      "bytes": 17700,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "research/problem_reidentification/p1/tests/verify_real_release.py",
+      "sha256": "b1c33a168b0473e9ea5a3369d13e06441a2aec68b09ddd790ff83336c803761c",
+      "bytes": 6427,
+      "decision": "RECORD_ONLY_NOT_COPIED",
+      "reason": "Not necessary for the scoped independent project; hash inventory retains audit pointer"
+    },
+    {
+      "path": "src/annotate_relevance.py",
+      "sha256": "fbc8b10983f0c208d86e2901cbd95dbe59f8ecb100a229a857a2b08df0114e7f",
+      "bytes": 25098,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/api_llm_client.py",
+      "sha256": "27b30a81d5aca8bda15f4b894fc7507c12ef5cd9aa845d565b570f4cf502bee4",
+      "bytes": 16120,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/assess_hypothesis.py",
+      "sha256": "5750dfe324babe1edda6d3cd77deaed2596a91f9b15f4e9590e58e1ba12ef6d8",
+      "bytes": 6411,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/audit_representations.py",
+      "sha256": "61aeb21f6358d00f94b80e84a246a0a041229b0ebcda8f6397e15ffd014722b1",
+      "bytes": 21201,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/build_corpus.py",
+      "sha256": "6fc705fd9d2d39ec09c7c82e355d48ea0d9acb5dad3d7633461d1ec97a7a7232",
+      "bytes": 15446,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/build_reports.py",
+      "sha256": "6fa3d98ce2b060658f0736e7158cb7fc6f34033c34dbd74d36fe63322a0f6e4a",
+      "bytes": 27445,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/case_statistics.py",
+      "sha256": "0a6098d450319c8a94209b7fb2e6c4a1449ccc89252f5d9b2ffed2c67ba08eeb",
+      "bytes": 5931,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/evaluate.py",
+      "sha256": "510b7eeb87594c614c3745c50a6135bde50f43a823cf8f2726a46676b833ca0c",
+      "bytes": 23320,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/failure_analysis.py",
+      "sha256": "969edae04c126f0b9230908598ef3697854a2e96fd07e1ca05e709a0aa6d3469",
+      "bytes": 21738,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/freeze_inputs.py",
+      "sha256": "4f40ea601495e0ef99876d0fbddc514fa32845089d5e1945d6fe6638de9d9391",
+      "bytes": 2625,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/generate_cases.py",
+      "sha256": "9cc67edcb1df674e77fbeb8a446e3c1c613655126919290453cca9098e6b35a9",
+      "bytes": 13573,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/generate_representations.py",
+      "sha256": "da9292be6ee63e76ce1f16ee1da684d6d18b67d4cdcc6106ab3e4c6d00732be7",
+      "bytes": 27126,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/io_utils.py",
+      "sha256": "00a7dc5971d844edfdeb7ca4af95b5a172dd2a49f4d03f544b86f81aea0eaa6d",
+      "bytes": 1276,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/llm_client.py",
+      "sha256": "9c73a7acdca04092a64c8f28a95cf4d5a20cae7fbd5d250af374ab2a4ef5cfda",
+      "bytes": 729,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/probe_models.py",
+      "sha256": "90208b1bd18a6a2ee9bf43ea157304096346b4fb4e1257f12022fdafcf90e974",
+      "bytes": 1082,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/retrieval.py",
+      "sha256": "19aeeeca5f3e1d303d3549bc964a00e7e5b62fadae91842064ebbbac36a18f58",
+      "bytes": 16054,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/review_corpus.py",
+      "sha256": "9cfa540e566219b9f138645dd4e43698d55d053a2f00fc0e969171f32e4b57b5",
+      "bytes": 4637,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/run_pilot.py",
+      "sha256": "cb2e3f3be19caaefba37f3caeb6fc43d7a7898e250d3fe00cec9564caf861a56",
+      "bytes": 2398,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/validate_cases.py",
+      "sha256": "0dee780091bb4c60f52fdec4cd57ef893a60ed77bdf2fdc556166765759a402a",
+      "bytes": 21885,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    },
+    {
+      "path": "src/validate_pilot.py",
+      "sha256": "34b248c3a1258f6b7b484e769d392fc1222f4784fa56af04198faded3cb530e1",
+      "bytes": 34716,
+      "decision": "DISCARD_FROM_NEW_PROJECT",
+      "reason": "Legacy synthetic pilot/generation or coupled orchestration; source remains untouched"
+    }
+  ],
+  "private_inventory": "local/migration/asset_audit.json",
+  "excluded_dependency_directories": [
+    "research/problem_reidentification/experiment_a/__pycache__",
+    "research/problem_reidentification/experiment_a/local/__pycache__",
+    "research/problem_reidentification/experiment_a/local/embeddings",
+    "research/problem_reidentification/experiment_a/local/envs",
+    "research/problem_reidentification/experiment_a/local/hf",
+    "research/problem_reidentification/experiment_a/local/hf-general",
+    "research/problem_reidentification/experiment_a/local/upstream",
+    "research/problem_reidentification/experiment_a/silver/__pycache__",
+    "research/problem_reidentification/experiment_a/src/__pycache__",
+    "research/problem_reidentification/experiment_a/tests/__pycache__",
+    "research/problem_reidentification/experiment_b0/__pycache__",
+    "research/problem_reidentification/experiment_b0/local/env",
+    "research/problem_reidentification/experiment_b0/local/upstream",
+    "research/problem_reidentification/experiment_b0/tests/__pycache__",
+    "research/problem_reidentification/experiment_c0/__pycache__",
+    "research/problem_reidentification/experiment_c0/tests/__pycache__",
+    "research/problem_reidentification/p1/__pycache__",
+    "research/problem_reidentification/p1/local/checkenv",
+    "research/problem_reidentification/p1/tests/__pycache__",
+    "src/__pycache__"
+  ]
+}

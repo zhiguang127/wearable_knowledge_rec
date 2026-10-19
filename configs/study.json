@@ -1,0 +1,15 @@
+{
+  "version": "migration-v1",
+  "execution_mode": "OFFLINE_ONLY",
+  "paid_model_calls_enabled": false,
+  "training_enabled": false,
+  "new_methods_enabled": false,
+  "future_annotation_model_requested": "qwen3.8-max",
+  "future_model_availability": "BLOCKED_NOT_VERIFIED_NO_CALLS_AUTHORIZED",
+  "legacy_annotation_model": "qwen-max",
+  "legacy_label_provenance": "QWEN_MAX_SILVER",
+  "gold_available": false,
+  "split_participant_counts": {"train": 10, "dev": 3, "test": 3},
+  "historically_unexposed_test": false,
+  "medical_source_review": "BLOCKED_INDEPENDENT_HUMAN_REVIEW_REQUIRED"
+}

@@ -1,0 +1,20 @@
+{
+  "p1": {
+    "directory": "data/releases/p1-v2",
+    "manifest_sha256": "61785adaeb19f598f8f8687b8d1fbf5a92eb74c9231a8807cb55b172c116cfc1",
+    "release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+    "private_git_ignored": true
+  },
+  "a1": {
+    "directory": "data/releases/a1-v1",
+    "manifest_sha256": "f496d5f31a5c9687f764a8664cdff326bfaa41c9c9b293beed47a4327775689c",
+    "release_id": "6e92073cf3bfe0cb12ae63f7a281490ab54bf21a44a0ad5cad56e6885512d523",
+    "private_git_ignored": true
+  },
+  "silver": {
+    "directory": "data/releases/qwen-max-silver-v1",
+    "manifest_sha256": "694f420d173799d0fd5842c807a80aeac61a984d58cfaadac6af976ef55c578c",
+    "release_id": "2bd7232e05fa9bc02c53490430abd8c2bcb889a6174b1f1e7ecde9e9dd50804e",
+    "private_git_ignored": true
+  }
+}
