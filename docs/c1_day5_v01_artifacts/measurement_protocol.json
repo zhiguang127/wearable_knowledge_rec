@@ -1,0 +1,101 @@
+{
+  "version": "c1-day5-source-context-v01",
+  "new_namespace_not_288_probe_extension": true,
+  "measurements": [
+    {
+      "measurement_id": "SR5-listed-sleep-difficulty",
+      "variable": "listed_sleep_difficulty",
+      "question": "截至观察时刻，你是否出现完整来源列举的睡眠相关困扰？例如难以入睡或保持睡眠、白天难以保持清醒。请按来源完整列表作答；不确定请选择 UNKNOWN。",
+      "construct": "Participant report of listed sleep difficulties, not a sleep disorder diagnosis",
+      "source_unit": "C1RC-450782cf53ce34f939b7",
+      "span_id": "SP2-b6e63d8f7fbca38f4224",
+      "role": "SOURCE_ACTION_CUE"
+    },
+    {
+      "measurement_id": "SR5-often-trouble-sleeping",
+      "variable": "often_trouble_sleeping",
+      "question": "截至观察时刻，按你自己的理解，你是否常常觉得睡觉有困难？请注明所指时间范围及你对“常常”的描述；本问卷不设每周次数或周数门槛。",
+      "construct": "Source qualitative self-perception of often having trouble sleeping",
+      "source_unit": "C1RC-450782cf53ce34f939b7",
+      "span_id": "SP2-1ea34f86deeb1f8aaa75",
+      "role": "SOURCE_ACTION_CUE"
+    },
+    {
+      "measurement_id": "SR5-sleep-concern",
+      "variable": "sleep_concern",
+      "question": "截至观察时刻，你是否对自己的睡眠感到困扰或担忧？这是自述，不从研究 Goal 或睡眠均值推断。",
+      "construct": "Self-reported sleep concern, source heading scope; not medical urgency",
+      "source_unit": "C1RC-450782cf53ce34f939b7",
+      "span_id": "SP2-b6e63d8f7fbca38f4224",
+      "role": "SOURCE_HEADING_CONTEXT"
+    },
+    {
+      "measurement_id": "SR5-late-day-caffeine",
+      "variable": "late_day_caffeine",
+      "question": "在你注明的参考时段内，是否在一天较晚的时候摄入含咖啡因饮品？按你对“较晚”的理解作答，可另记时间；不自动设几点以后的门槛。",
+      "construct": "Reported caffeine timing behavior; possible habit-action opportunity, not proven cause",
+      "source_unit": "C1RC-15096c0d015ad39f4f61",
+      "span_id": "SP2-71fb7ca524baad742301",
+      "role": "RECOMMENDATION_TARGET_CONTEXT_NOT_HARD_GATE"
+    }
+  ],
+  "allowed_answers": [
+    "YES",
+    "NO",
+    "UNKNOWN"
+  ],
+  "unknown_answer_vs_not_collected": "ANSWERED/UNKNOWN differs from NOT_COLLECTED/null; neither means NO",
+  "minimum_primary_provenance": [
+    "episode_id",
+    "participant_id",
+    "as_of",
+    "reported_at",
+    "reference_start",
+    "reference_end",
+    "source_record_sha256",
+    "actual respondent attestation"
+  ],
+  "questionnaire_is_validated_clinical_scale": false,
+  "new_clinical_cutoffs": null,
+  "qualitative_terms": "often/late/concern retain respondent meaning; no numeric conversion or percentile thresholds",
+  "source_record_sha256": "Hash of separate contemporaneous original questionnaire/interview record, not a circular hash of the import form itself",
+  "temporal_rule": "reference_start <= reference_end <= reported_at <= as_of; present-day answers cannot backfill historical windows",
+  "prospective_sampling": "First two eligible episodes of first three genuinely consenting/enrolled participants, enrollment/time order; do not select on symptoms or ratings",
+  "retrospective_recall": "Retain only in a separately marked secondary collection; not accepted by the primary importer",
+  "additional_source_variables": [
+    {
+      "variable": "night_sleep_difficulty",
+      "source": "D5-S6",
+      "current_probe": null
+    },
+    {
+      "variable": "daytime_nap_duration_and_event_time",
+      "source": "D5-S6",
+      "source_target_minutes": 20,
+      "target_is_priority_threshold": false
+    },
+    {
+      "variable": "alcohol_use",
+      "source": "D5-S7",
+      "current_probe": null
+    },
+    {
+      "variable": "smoking",
+      "source": "D5-S8",
+      "current_probe": null
+    },
+    {
+      "variable": "daylight_and_activity_timing_large_meal_near_bedtime",
+      "source": "D5-S5",
+      "current_probe": null
+    }
+  ],
+  "unobservable_from_current_probes": [
+    "sleep symptoms/subjective concern",
+    "caffeine intake and timing",
+    "medicines/diagnosis",
+    "exact sleep/wake clock events"
+  ],
+  "existing_sleep_duration_mean": "Descriptive background only, cannot measure these contexts",
+  "automatically_contact_or_submit_to_anyone": false
+}

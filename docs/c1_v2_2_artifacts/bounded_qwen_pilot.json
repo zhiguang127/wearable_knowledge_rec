@@ -1,0 +1,84 @@
+{
+  "version": "c1-v2.2-bounded-repair-pilot-v1",
+  "plan_sha256": "8d903b9605cefbb943edb45bfb4dcfe8fc4743b3a4f27ae3470005aad347e62a",
+  "knowledge_reviews": 12,
+  "case_pairs": 12,
+  "knowledge_statuses": {
+    "SILVER_ACCEPTED": 10,
+    "REVIEW_REQUIRED": 2
+  },
+  "knowledge_program_errors": {
+    "citation_quote_not_in_source": 3
+  },
+  "full_catalog_mapping_calls": true,
+  "full_mapping_registry_count": 288,
+  "reviewed_knowledge_with_probe": 1,
+  "label_statuses": {
+    "SILVER_ACCEPTED": 4,
+    "REVIEW_REQUIRED": 8
+  },
+  "accepted_applicability": {
+    "insufficient_information": 4
+  },
+  "raw_stage1_applicability": {
+    "insufficient_information": 12
+  },
+  "second_stage_verdicts": {
+    "SUPPORTED": 9,
+    "REVIEW_REQUIRED": 3
+  },
+  "label_program_errors": {
+    "$: missing uncertainties": 1,
+    "$: missing rationale": 1,
+    "numeric_hash_unit_or_time_mismatch": 27,
+    "noncomputed_or_unknown_evidence": 1
+  },
+  "stage_disagreements": 0,
+  "old_matched_statuses": {
+    "REVIEW_REQUIRED": 12
+  },
+  "old_matched_empty_evidence": 8,
+  "all_pairs_received_full_registry": true,
+  "cases_with_computed_statistics": 12,
+  "new_cost": {
+    "attempts": 48,
+    "responses": 48,
+    "failures": 0,
+    "reserved_cny": 1.8535472000000002,
+    "cap_cny": 3,
+    "prompt_tokens": 1126075,
+    "completion_tokens": 35105,
+    "usage_priced_cny": 0.97107,
+    "actual_invoice_cny": null,
+    "model_requested": "qwen-plus",
+    "models_returned": [
+      "qwen-plus"
+    ],
+    "unknown_cost_attempts": 0,
+    "accounting": "All attempts retain pessimistic reservations, even after success. Invoice not available."
+  },
+  "combined_task_cost": {
+    "attempts": 1115,
+    "responses": 1115,
+    "failures": 1,
+    "reserved_cny": 18.1464664,
+    "prompt_tokens": 3750543,
+    "completion_tokens": 801919,
+    "usage_priced_cny": 4.6042724,
+    "unknown_cost_attempts": 0,
+    "cap_cny": 200,
+    "actual_invoice_cny": null,
+    "model_requested": "qwen-plus",
+    "models_returned": [
+      "qwen-plus"
+    ],
+    "ledger_count": 3,
+    "accounting": "Combined task-level usage and retained pessimistic reservations; not an invoice"
+  },
+  "condition_semantics": "Targeted per-predicate/connective review still pending; global knowledge audits do not certify necessary AND rules.",
+  "limits": [
+    "Evidence access and prompts both change. Not a single-factor causal estimate or a representative accuracy estimate.",
+    "Qwen self-audit is exploratory Silver, not independent human or clinical verification.",
+    "Do not use this finite nonrepresentative pilot as full-library recall Gold or evidence of KUV value."
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "realized_value": {
+    "ndcg@3": {
+      "delta_C": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    "ndcg@5": {
+      "delta_C": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    "pairwise_agreement": {
+      "delta_C": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    "kendall_tau_b": {
+      "delta_C": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    }
+  },
+  "preacquisition_expected_value": null,
+  "actual_incremental_costs": {
+    "C": 1,
+    "D": 1
+  },
+  "cost_sensitivity": [
+    {
+      "C_cost": 1,
+      "D_cost": 1,
+      "penalty": 0,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 1,
+      "D_cost": 1,
+      "penalty": 0.01,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 1,
+      "D_cost": 1,
+      "penalty": 0.05,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 2,
+      "D_cost": 1,
+      "penalty": 0,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 2,
+      "D_cost": 1,
+      "penalty": 0.01,
+      "net_C_minus_D": {
+        "participant_macro_mean": -0.01,
+        "participant_effects": {
+          "P1": -0.01,
+          "P2": -0.01,
+          "P3": -0.01
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": -0.01,
+        "participant_max": -0.01,
+        "leave_one_participant_out": {
+          "P1": -0.01,
+          "P2": -0.01,
+          "P3": -0.01
+        },
+        "context_sign_counts": {
+          "negative": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 2,
+      "D_cost": 1,
+      "penalty": 0.05,
+      "net_C_minus_D": {
+        "participant_macro_mean": -0.05,
+        "participant_effects": {
+          "P1": -0.05,
+          "P2": -0.05,
+          "P3": -0.05
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": -0.05,
+        "participant_max": -0.05,
+        "leave_one_participant_out": {
+          "P1": -0.05,
+          "P2": -0.05,
+          "P3": -0.05
+        },
+        "context_sign_counts": {
+          "negative": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 1,
+      "D_cost": 2,
+      "penalty": 0,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.0,
+        "participant_effects": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.0,
+        "participant_max": 0.0,
+        "leave_one_participant_out": {
+          "P1": 0.0,
+          "P2": 0.0,
+          "P3": 0.0
+        },
+        "context_sign_counts": {
+          "zero": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 1,
+      "D_cost": 2,
+      "penalty": 0.01,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.01,
+        "participant_effects": {
+          "P1": 0.01,
+          "P2": 0.01,
+          "P3": 0.01
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.01,
+        "participant_max": 0.01,
+        "leave_one_participant_out": {
+          "P1": 0.01,
+          "P2": 0.01,
+          "P3": 0.01
+        },
+        "context_sign_counts": {
+          "positive": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    },
+    {
+      "C_cost": 1,
+      "D_cost": 2,
+      "penalty": 0.05,
+      "net_C_minus_D": {
+        "participant_macro_mean": 0.05,
+        "participant_effects": {
+          "P1": 0.05,
+          "P2": 0.05,
+          "P3": 0.05
+        },
+        "participant_context_counts": {
+          "P1": 4,
+          "P2": 4,
+          "P3": 4
+        },
+        "participant_min": 0.05,
+        "participant_max": 0.05,
+        "leave_one_participant_out": {
+          "P1": 0.05,
+          "P2": 0.05,
+          "P3": 0.05
+        },
+        "context_sign_counts": {
+          "positive": 12
+        },
+        "evaluated_contexts": 12,
+        "population_significance_claim": false
+      }
+    }
+  ]
+}

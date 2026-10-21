@@ -1,0 +1,21 @@
+{
+  "status": "REDESIGN_REQUIRED",
+  "human_gold": false,
+  "aggregate_only": true,
+  "files": {
+    "boundary_audit.json": "590e33670a2dc4b1bc5495f7aa2415f59c628b2558cee446cc8b1c9b2b0f4f04",
+    "change_summary.json": "77a0fe6397b91038d1630ae1c6fbc05acfe40cc01db241a227720f5760646dc0",
+    "config.json": "87abde03cc2a1432884ea79d099e0445a3422eb50f50b50166c0bed687195239",
+    "evaluation_summary.json": "1d123f40fcf76645f43a57c000cb9e2b51dcf55cf332b4bdf1a2cfc58ed24184",
+    "final_qa.json": "ab19e2b2114cd100f7b0ca62de72d46918eaeee720ff0c754d5115279413ec8b",
+    "import_integrity.json": "3ab57e38b24c4570300cfb0ab76ad986b50c2617ba4c66a6fde675f868e2f53e",
+    "index.json": "3dd3ddef641c2cbc4672c76fe42f74c0e11d88e31f02d42ec65dbb5f2ad175a6",
+    "label_quality.json": "f205166cfef74239046a6e58125060711166ded2fbf200c97e7fb4fec794964a",
+    "reference_status.json": "3b6c4e4ad7122a7a8a32275a9cb56c5035f3d47141397bdf04ec88a0d89475d4",
+    "sensitivity.json": "fca45ab88c34905f99e7341cedfb41190c80beb61d9b7ab4a6328971668bf766",
+    "signal_diagnostics.json": "8f2e3043a000f43bd7f1bce7c17370c80fc3e9f1a3d0374c3f72c170e3174e05",
+    "stage_decision.json": "5720ccfdbb78edfb213f376e64c20eb85bf0a51be6f1ee169ba74531e5b3ab06",
+    "value_analysis.json": "3bda2972f91f8e073aa12a7f6648daa5176d989a6e4e1c7d52ed7077c5ff9ebd"
+  },
+  "release_id": "9ca9a062f885616d807d10dc6646e360c502b44cd75b33e515b1525966f58844"
+}

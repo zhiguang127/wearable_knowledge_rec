@@ -1,0 +1,34 @@
+{
+  "version": "day1-live-source-entailment-v03",
+  "status": "SOURCE_REVIEW_EXECUTED_MODEL_SILVER",
+  "items": 204,
+  "statuses": {
+    "NO_ADMITTED_MEASURABLE_RULE": 203,
+    "REVIEW_REQUIRED": 1
+  },
+  "candidate_proposals": 1,
+  "second_stage_reviews": 8,
+  "verified_measurable_knowledge": 0,
+  "accounting": {
+    "attempts": 212,
+    "responses": 212,
+    "failures": 0,
+    "reserved_cny": 84.231228,
+    "cap_cny": null,
+    "prompt_tokens": 2531646,
+    "completion_tokens": 78878,
+    "usage_priced_cny": 33.21936,
+    "actual_invoice_cny": null,
+    "model_requested": "qwen3.8-max",
+    "models_returned": [
+      "qwen3.8-max"
+    ],
+    "unknown_cost_attempts": 0,
+    "accounting": "All attempts retain pessimistic reservations, even after success. Invoice not available."
+  },
+  "human_gold": false,
+  "clinical_validity": null,
+  "new_applicability_labels": 0,
+  "contract_frozen": false,
+  "formal_baseline_allowed": false
+}

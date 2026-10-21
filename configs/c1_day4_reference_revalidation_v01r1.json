@@ -1,0 +1,15 @@
+{
+  "version": "c1-day4-reference-schema-v01r1",
+  "amends": "c1-day4-discriminative-v01",
+  "timing": "After some raw AI responses, before reference signal and ranking utility analysis; not falsely claimed as preregistered",
+  "reason": "Goal relevance for an explicitly unknown personal comparison was omitted from the closed enum. Preserve unknown instead of forcing a negative/background grade or losing all four judgments.",
+  "only_schema_extension": {"fields": ["goal_left", "goal_right"], "additional_allowed_values": ["UNKNOWN", null]},
+  "cross_field_guard": "UNKNOWN/null Goal dimension allowed only with preference UNKNOWN and both grades null; all original preference/basis/source/evidence checks remain",
+  "unchanged": ["raw responses", "ordinal grades", "preference", "ranker rules and weights", "scenario selection", "candidate pairs and Goals", "signal gate", "metric definitions", "semantic exclusions"],
+  "new_model_calls": 0,
+  "reference_output": "local/day4/reference-revalidated-v01r1",
+  "semantic_review": "local/day4/semantic-review-v01r1.json",
+  "analysis_output": "local/day4/analysis-v01r1",
+  "original_failure_layer_preserved": true,
+  "human_gold": false
+}

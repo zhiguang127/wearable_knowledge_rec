@@ -1,0 +1,21 @@
+{
+  "catalog_review_completed": true,
+  "catalog_items_reviewed": 204,
+  "verified_measurable_knowledge": 0,
+  "qwen_live_validation_completed": false,
+  "accepted_mixed_slates": 0,
+  "freeze_allowed": false,
+  "readiness": {
+    "contract_status": "PENDING_FREEZE",
+    "verified_measurable_knowledge": 0,
+    "discriminable_slates": 0,
+    "formal_baseline_allowed": false,
+    "blockers": [
+      "VERIFIED_MEASURABLE_KNOWLEDGE_BELOW_MINIMUM",
+      "DAY1_FIVE_ACCEPTANCE_ITEMS_NOT_FROZEN",
+      "TRUSTWORTHY_MIXED_SLATES_BELOW_EXPLORATORY_THRESHOLD"
+    ]
+  },
+  "zero_budget_execution_guard_passed": true,
+  "new_model_api_calls": 0
+}

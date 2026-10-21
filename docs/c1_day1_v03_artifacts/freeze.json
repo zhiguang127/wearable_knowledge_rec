@@ -1,0 +1,14 @@
+{
+  "version": "day1-real-qwen-v03",
+  "status": "REAL_EXECUTION_WITH_EXPERIMENT_FREEZE_BLOCKED",
+  "human_gold": false,
+  "source_review_release_id": "8030fea9bc956a8e90753b69cc48e2c31d6672fc945624e8079f92b090dbd809",
+  "real_id_check_release_id": "21895306262d04b528fcd939a0c8b47c22529eb24164cb2aee9ec843ebcf25c6",
+  "files": {
+    "freeze_gate.json": "1ea1dd59ae06f850b6198ae14f4b909fa1055e28ed6061f1388b84a1a8491f08",
+    "live_qa.json": "3e20e8d666ffb034a6429681b1ec6947460ad6dcd4ccad0b3fbbc14bca430818",
+    "source_report.json": "85d2e896aac512c9704d40ea13f4a0b6a16f19f9c157a29b7fe7f7543022d67c",
+    "source_review_summary.jsonl": "93ac57ad8500cf523ff373812cfa3dc01728c80468295583c883407e90be0343"
+  },
+  "release_id": "7fa24f36f32056e95032ba754c7a6d45b3946f01cb8817fe820d0993c45ab42f"
+}

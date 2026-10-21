@@ -9,5 +9,8 @@ description = "Reproducible longitudinal wearable health knowledge recommendatio
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+test = ["jsonschema>=4,<5"]
+
 [tool.setuptools.packages.find]
 include = ["src", "src.*"]

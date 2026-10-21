@@ -1,0 +1,21 @@
+{
+  "real_data": {
+    "source": "WearableQA fixed training participants",
+    "people": 3,
+    "scenarios": 12,
+    "paired_queries": 96,
+    "probe_results": 3456,
+    "model_calls": 48,
+    "pair_views": 192,
+    "reference_kind": "QWEN3_8_MAX_SILVER_BLINDED_REQUESTS"
+  },
+  "synthetic_research": {
+    "scenarios": 0,
+    "qrels": 0,
+    "utility": null
+  },
+  "synthetic_software_tests": "Algebraic positive/negative changes, missing and action-isolation fixtures only; no empirical ranking claim",
+  "Observed_delta_U": null,
+  "Expected_V": null,
+  "AI_reference_exploratory_signal_supported": false
+}

@@ -1,0 +1,75 @@
+{
+  "version": "c1-ranking-redesign-v04",
+  "status": "DESIGN_AND_SOURCE_REVIEW_ONLY",
+  "decision": "BUILD_SEPARATE_BENCHMARK_PRESERVE_ORIGINAL_CORPUS",
+  "original_knowledge_release": "data/releases/c1-benchmark-v2.2-r1",
+  "original_knowledge_release_id": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e",
+  "data_release": "data/releases/c1-benchmark-v2.1",
+  "data_release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "original_corpus_policy": "READ_ONLY_ORIGINAL_HEALTH_EDUCATION_CORPUS_NOT_APPLICABILITY_GOLD",
+  "new_benchmark_name": "C1-Ranking-Conditions",
+  "new_benchmark_release": null,
+  "source_semantic_review_status": "REVIEW_REQUIRED",
+  "eligibility_axis": {
+    "purpose": "Only genuinely source-supported personal prerequisites, exclusions or explicit triggers",
+    "condition_role_required": true,
+    "numeric_condition_required_for_all_items": false,
+    "no_hard_gate_definition_is_ineligible": false,
+    "unknown_is_false": false,
+    "recommendation_target_is_prerequisite": false,
+    "legacy_four_way_applicability_is_priority_gold": false
+  },
+  "relevance_axis": {
+    "purpose": "Knowledge relevance to declared topic or explicit goal given personal evidence",
+    "reference_schema": "configs/c1_ranking_judgment_v04.schema.json",
+    "topic_only_target": "TOPIC_CONDITIONED_RELEVANCE",
+    "explicit_goal_target": "GOAL_CONDITIONED_PERSONAL_RELEVANCE",
+    "topic_implies_goal": false,
+    "synthetic_query_goal_represents_observed_user_preference": false,
+    "grade_scale": [0, 1, 2, 3],
+    "gain_mapping": [0, 1, 3, 7],
+    "grade_definitions": {
+      "0": "Judged irrelevant to the declared evaluation question; never assigned merely for missing measurements",
+      "1": "Background information relevant to the declared topic, with limited specific relevance",
+      "2": "Directly relevant to the declared question and supported personal evidence",
+      "3": "Highly specific relevance to the declared question and supported personal evidence, without implying clinical urgency or benefit"
+    },
+    "ties_and_undetermined_allowed": true,
+    "reference_judgments_require_full_allowed_record": true,
+    "silver_is_human_gold": false,
+    "clinical_priority_claim_allowed": false
+  },
+  "acquisition_value_axis": {
+    "purpose": "Marginal change in a frozen ranker's judged ranking utility after obtaining one legal probe",
+    "definition": "E[U(rank(E union result(a)))] - U(rank(E))",
+    "reference_utility": "Graded judged-slate NDCG or predeclared pairwise agreement",
+    "observed_rank_change_alone_is_benefit": false,
+    "information_gain_alone_is_ranking_gain": false,
+    "teacher_requires_train_only": true,
+    "policy_may_see_hidden_results_or_reference_labels": false,
+    "oracle_is_online_baseline": false,
+    "main_cost_unit": "acquired_legal_probe_count",
+    "measurement_latency_reported_separately": true
+  },
+  "candidate_admission": {
+    "select_using": ["frozen source support", "source facet completeness", "probe construct and temporal compatibility", "declared query relevance rubric", "predeclared condition coverage"],
+    "select_using_test_values_or_labels": false,
+    "preserve_intro_list_and_population_context": true,
+    "source_numeric_thresholds_may_be_invented": false,
+    "research_relevance_rubric_is_medical_source_claim": false,
+    "arbitrary_multi_day_mean_may_replace_nightly_rule": false,
+    "new_probe_or_context_requires_new_data_protocol_version": true,
+    "minimum_rule_quota_justifies_label_fabrication": false
+  },
+  "readiness": {
+    "independently_reviewed_source_measurable_items": 0,
+    "accepted_personal_relevance_judgments": 0,
+    "discriminable_judged_slates": 0,
+    "train_dev_test_protocol_frozen": false,
+    "ranker_frozen": false,
+    "experiment_contract_frozen": false,
+    "formal_baseline_allowed": false,
+    "c2_training_allowed": false
+  },
+  "failure_policy": "If source-compatible evidence cannot discriminate relevance, stop and report the task/data mismatch; do not manufacture six rules or twenty slates"
+}

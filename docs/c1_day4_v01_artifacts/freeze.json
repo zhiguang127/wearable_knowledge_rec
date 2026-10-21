@@ -1,0 +1,25 @@
+{
+  "status": "INSUFFICIENT_EVIDENCE",
+  "aggregate_only": true,
+  "human_gold": false,
+  "files": {
+    "C_D_mechanism_results.json": "085886c943798bde037bfd22476388709de7e4d76d717c2b75e5957111a6317d",
+    "calls_and_provenance.json": "693dac7c21aa5a6a53217a3b2d3231c221633ea239712275a52024b8a841cae0",
+    "cross_person_reference_diagnostics.json": "a059940bee8ef4690749c56e94fc6b54c28dde1bb1d561b63833772c2cd971a8",
+    "EVIDENCE_DISCRIMINABILITY_AUDIT.json": "065cf5b6dec2a6a94f2ca1f08b0170c0486496370bb9d47176603aa0012bafbe",
+    "final_qa.json": "091c2954075c9aa10b194ab6d220392a14837a4f22f4732bec488f68c3923676",
+    "human_review_status.json": "6065baaef6b5f248cf0e81ca0a9c71e04ce6a8fbd0c6ebe59dbaa0580b8435b3",
+    "index.json": "5a4fc4bf6db9fa97692d08f86a31f9002411d1d6b86eb029911d7c5fe4f2df1c",
+    "knowledge_pair_source_matrix.jsonl": "c3697b569d3fde988f9afc5b2c01eb87f6f998f52f28ab8dbfea6bbe804729bf",
+    "participant_reliability.json": "e3f77c226feb78a9271e11f4824b861709e41cdad07955d052837ca40ccb785a",
+    "probe_discriminability_summary.jsonl": "cff5d92f4fe8a651e844606615c968638a3623c6b14ab36240d37312a6a6c393",
+    "ranking_utility_summary.json": "7548c73270c90dd7a0c30ca968c02b484d544c885f0245527e3414ec94b4321a",
+    "real_vs_synthetic.json": "2e957ef99eac94aa07c45e4b981b8b105b9fffb62ff12e8bbc1022a017aaa7d3",
+    "reference_isolation_qa.json": "38cb3da65aa1871b61fd54a39c61940033f5e352ba369d6f2cd36b5a643162f5",
+    "reference_quality.json": "a4027deb2597ca0b9f66399ba71893fb67ae7455dbfea77be5f3032219961e46",
+    "schema_amendment.json": "48c3e7e25dbea618786e8aac96d720b5f15f042f44e771a394b476d254acfdd5",
+    "sensitivity.json": "0d0e5d774dd192045df6eff1329edec3e0a81179aa45bc7237ea0e6c9c89a658",
+    "stage_decision.json": "88a5fd973d1d677f0078689193fd85d6075b9ef8eeae277ea4802f16fa26aad8"
+  },
+  "release_id": "1dcdde532ab111dfec8ed1847bfc9500ae0141277929fd2f488d096a6d7a46a0"
+}

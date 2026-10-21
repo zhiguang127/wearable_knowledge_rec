@@ -1,5 +1,7 @@
 # C1 Benchmark V2：真实数据、来源知识与证据探查
 
+**V2.2 审计修正**：下文描述原 V2/V2.1 构建过程。133 条活跃知识及个人标注结果受有损去重、有限映射和证据输入策略影响；联合必要条件还受到验证器的统一限制。当前判断请读 [C1 V2 Audit & Repair](C1_V2_2_AUDIT_AND_REPAIR.md)，不能将原结果解释为真实数据缺少适用证据或来源中不存在联合依赖。原冻结发布没有修改。
+
 2026-10-19。本任务仅建立数据和评估基础设施，不实现 Knowledge-Unlocking Value、M1、RL 或大规模非贪心 AFA。分支 `codex/c1-benchmark-v2` 从 main 创建；旧 PMData、Silver、冻结哈希及实验结果保持原样。V2 使用 [自动 Silver 协议](C1_V2_SILVER_PROTOCOL.md)，不要求本阶段人工逐条审查，也不宣称人工 Gold 或医学验证。
 
 最终实测、133 条活跃知识的目标缺口、有限 Silver 的质量限制和 CNY 3.6332 使用量估价见 [本轮结果](C1_V2_RESULTS.md)；[公开聚合工件](c1_v2_artifacts/aggregate_report.json) 不包含个人记录。

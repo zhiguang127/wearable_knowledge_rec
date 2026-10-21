@@ -1,0 +1,36 @@
+{
+  "status": "REAL_NUMERIC_AUDIT_NOT_PRIORITY_LABELS",
+  "cases": 12,
+  "participants": 3,
+  "probes": 288,
+  "results": 3456,
+  "result_statuses": {
+    "COMPUTED": 1634,
+    "INSUFFICIENT_INFORMATION": 1822
+  },
+  "numeric_variation_probes": 253,
+  "status_only_variation_probes": 2,
+  "constant_or_unobserved_probes": 33,
+  "metric_construct_status": {
+    "active_burn": "DESCRIPTIVE_ONLY_NO_SUPPORTED_PAIRWISE_PRIORITY_RULE",
+    "avg_stress_level": "DEVICE_SCORE_NOT_SUBJECTIVE_OR_CLINICAL_STRESS",
+    "bed_time_std": "RECENT_TIMING_UNASSESSABLE_UPSTREAM_LOOKBACK_UNKNOWN",
+    "calories_bmr": "DESCRIPTIVE_ONLY_NO_SUPPORTED_PAIRWISE_PRIORITY_RULE",
+    "deep_percentage": "DESCRIPTIVE_ONLY_NO_SUPPORTED_PAIRWISE_PRIORITY_RULE",
+    "exercise_avg_hr": "DESCRIPTIVE_ONLY_NO_SUPPORTED_PAIRWISE_PRIORITY_RULE",
+    "exercise_count": "RECORDED_EXERCISE_TOTAL_NOT_INTENSITY_MODALITY_OR_STRENGTH",
+    "exercise_hours": "RECORDED_EXERCISE_TOTAL_NOT_INTENSITY_MODALITY_OR_STRENGTH",
+    "exercise_mets": "UNSPECIFIED_AGGREGATION_OR_UNITS",
+    "hrv": "UNSPECIFIED_AGGREGATION_OR_UNITS",
+    "rem_percentage": "DESCRIPTIVE_ONLY_NO_SUPPORTED_PAIRWISE_PRIORITY_RULE",
+    "rhr": "DESCRIPTIVE_ONLY_NO_SUPPORTED_PAIRWISE_PRIORITY_RULE",
+    "sleep_duration": "DESCRIPTIVE_VALUE_VALID_NO_CLINICAL_OR_NIGHTLY_INFERENCE",
+    "sleep_efficiency": "RATIO_SCALE_UNVERIFIED",
+    "steps": "DESCRIPTIVE_VALUE_VALID_NO_CLINICAL_OR_NIGHTLY_INFERENCE",
+    "vo2_max": "UNSPECIFIED_AGGREGATION_OR_UNITS"
+  },
+  "only_existence_vs_numeric": "All registered probes return numeric aggregates or missing, not diagnostic booleans. The Day 2 B ranker used existence only; that is a consumer choice, not a limitation of the probe numeric values.",
+  "clinical_meaningful_variation": null,
+  "selection_using_values_or_labels": false,
+  "synthetic_research_cases": 0
+}

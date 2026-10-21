@@ -1,0 +1,26 @@
+{
+  "real": {
+    "cases": 12,
+    "new_measurements": 48,
+    "new_measurements_collected": 0,
+    "source_cue_unknown_cases": 12,
+    "actual_C_D_steps": 0,
+    "priority_discrimination": null
+  },
+  "synthetic_only": {
+    "cases": 6,
+    "matched_one_field_edges": 6,
+    "source_cue_counts": {
+      "NO_SELECTED_CUE_REPORTED": 2,
+      "SUPPORTED_SELECTED_CUE": 3,
+      "UNKNOWN": 1
+    },
+    "actual_simulated_steps": 12,
+    "cost_C": 6,
+    "cost_D": 6,
+    "UNKNOWN_answers_still_cost_one": 2,
+    "ranking_labels": 0,
+    "priority_ordering": null
+  },
+  "interpretation": "Source-cue state propagation is a logic check, not ranking utility, a real personal history or a clinical conclusion."
+}

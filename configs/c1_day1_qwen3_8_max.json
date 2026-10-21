@@ -1,0 +1,18 @@
+{
+  "version": "c1-day1-qwen3.8-max-v1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "temperature": 0,
+  "enable_thinking": false,
+  "max_tokens": 3000,
+  "max_input_bytes": 60000,
+  "input_cny_per_million": 12,
+  "output_cny_per_million": 36,
+  "price_source": "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+  "price_checked": "2026-10-20",
+  "price_tier": "China (Beijing), standard inference; no cache or batch discounts assumed",
+  "authorized_cap_cny": 0,
+  "max_calls": 0,
+  "authorization": "User requested the model switch on 2026-10-20. No new paid annotation run or budget is assigned by this configuration change.",
+  "no_automatic_retries": true
+}

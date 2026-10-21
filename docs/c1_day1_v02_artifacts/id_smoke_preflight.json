@@ -1,0 +1,26 @@
+{
+  "status": "PREPARED_AWAITING_CALL_AUTHORIZATION",
+  "scope": "EVIDENCE_ID_SMOKE_ONLY",
+  "checks": 2,
+  "window_selection": "fixed hash among training 14-day block-0 windows, before values",
+  "evidence_choices": 18,
+  "costs": [
+    {
+      "check_id": "check-step-7-and-28",
+      "request_bytes": 8914,
+      "reserved_upper_estimate_cny": 0.148056
+    },
+    {
+      "check_id": "check-sleep-and-rhr-14",
+      "request_bytes": 8925,
+      "reserved_upper_estimate_cny": 0.148188
+    }
+  ],
+  "total_reserved_upper_estimate_cny": 0.29624399999999995,
+  "proposed_hard_cap_cny": 1,
+  "proposed_max_calls": 2,
+  "new_model_calls": 0,
+  "applicability_labels": 0,
+  "contract_frozen": false,
+  "endpoint_and_model_live_verified": false
+}

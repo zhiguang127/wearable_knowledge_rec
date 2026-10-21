@@ -1,0 +1,43 @@
+{
+  "status": "INSUFFICIENT_EVIDENCE",
+  "operational_status": "SOURCE_AND_PROTOCOL_READY_REAL_CONTEXT_AND_REFERENCE_PENDING",
+  "five_stages": {
+    "source_condition_action": {
+      "status": "SUPPORTED_BY_FROZEN_TEXT",
+      "independent_human_source_review": null,
+      "source_entailed_relative_order": false,
+      "true_selected_source_cues_in_real_cases": null
+    },
+    "measurement": {
+      "status": "PROTOCOL_READY_NOT_COLLECTED",
+      "new_protocol": "c1-day5-source-context-v01",
+      "real_responses": 0,
+      "conceptual_collectability": true,
+      "validated_clinical_scale": false
+    },
+    "reference_reliability": {
+      "status": "PENDING_ACTUAL_INDEPENDENT_HUMANS",
+      "actual_reviewers": 0,
+      "stable_reference_cases": 0,
+      "agreement": null
+    },
+    "personal_discrimination": {
+      "status": "UNDETERMINED",
+      "supported_real_contrasts": null
+    },
+    "acquisition_gain": {
+      "status": "NOT_EVALUATED",
+      "Observed_delta_U": null,
+      "Expected_V": null
+    }
+  },
+  "real_cases_checked": 12,
+  "real_source_cue_unknown_cases": 12,
+  "synthetic_cases": 6,
+  "synthetic_source_state_propagation_only": true,
+  "synthetic_judgment_labels": 0,
+  "new_Qwen_requests": 0,
+  "ranking_rule": null,
+  "formal_baseline_C2_or_benchmark_freeze": false,
+  "next_unique_priority_action": "Collect contemporaneous source-defined self-reports for a minimal real paired episode set, then have two actual independent humans complete the sealed sessions; no current-day backfill of historical cases."
+}

@@ -1,5 +1,7 @@
 # C1 Benchmark V2 本轮实际结果
 
+**历史结果的解释已修正**：本文保留 V2.1 原轮次记录。后续审计确认，有损语义去重、联合条件验证限制、映射依赖的证据输入及采样影响了研究结论。本文的“可用个人标签不足”不能用来推断真实数据缺乏有价值证据，“没有确认联合条件”不能用来推断联合条件不存在。修复后的逐项比较见 [V2.2 审计报告](C1_V2_2_AUDIT_AND_REPAIR.md)。原始标签和冻结报告未改写。
+
 2026-10-19。数据发布 V2.1，包含用户补充的 14 天冷启动。所有自动审查和标签均为 QWEN_PLUS_SILVER；没有人工 Gold、专家验证、推荐准确率或临床效果结论。完整机器汇总见 [aggregate_report.json](c1_v2_artifacts/aggregate_report.json)，质量报告见 [qa_report.json](c1_v2_artifacts/qa_report.json)，逐条非个人知识元数据见 [knowledge_index.jsonl](c1_v2_artifacts/knowledge_index.jsonl)。
 
 | 项目 | 实际结果 |

@@ -1,0 +1,16 @@
+{
+  "version": "c1-benchmark-v2.2-audit-repair-r1",
+  "parent_commit": "035bdaef323980824484349ecc60f7804e3df72e",
+  "source_release": "data/releases/c1-benchmark-v2.1",
+  "legacy_annotation": "local/c1-v2/qwen-final-v3",
+  "ledger_directories": ["local/c1-v2/qwen-ledger-v1", "local/c1-v2/qwen-ledger-tail-v1"],
+  "output_release": "data/releases/c1-benchmark-v2.2-r1",
+  "supersedes_audit_release": "data/releases/c1-benchmark-v2.2",
+  "public_output": "docs/c1_v2_2_artifacts",
+  "pair_count": 120,
+  "plan_salt": "c1-v2.2-independent-plan-v1",
+  "new_paid_calls": 0,
+  "dedup_policy": "Exact text, source scope and complete conditions only; model similarity never merges",
+  "label_status": "PENDING_REANNOTATION_WITH_INDEPENDENT_EVIDENCE",
+  "semantic_dependency_status": "CANDIDATES_PRESERVED_TARGETED_SOURCE_REVIEW_PENDING"
+}

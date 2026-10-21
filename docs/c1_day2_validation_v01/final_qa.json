@@ -1,0 +1,66 @@
+{
+  "status": "PASS_ENGINEERING_ONLY_CONDITIONAL_GO_FOR_HUMAN_REVIEW",
+  "old_boundary_files_checked": 146,
+  "unexpected_preexisting_changes": [],
+  "authorized_readme_update": true,
+  "historical_artifact_ids": {
+    "data/releases/c1-benchmark-v2.1": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+    "data/releases/c1-benchmark-v2.2-r1": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e",
+    "docs/c1_day1_v04_artifacts": "d2f81d4d81f67eefc617b33aa047acfb908a5cc5144c76d4e5566e9567e267b0",
+    "local/day1/construction-review-v04": "58f9bfce45d1bea9494ed659368f491a1687548c0bcc909bb6202e5b30b59d79",
+    "local/day1/qwen-source-review-v03": "8030fea9bc956a8e90753b69cc48e2c31d6672fc945624e8079f92b090dbd809"
+  },
+  "day2_artifact_ids": {
+    "prepared-v01": "87e205b58e38f1b7ed7b210548f08bf94bf11cebbb0187fbd0062514f6183019",
+    "executed-v01": "838cf62ad3d89c72820b9f3f8d2818dce984468e94db319b028fe4e28f8713b0",
+    "analysis-v01": "42732e5eb63d18b2d7a3f0be78d1317061cd21c5edc89234fc90e193c0cc4a10",
+    "analysis-qualified-v01": "6459616596eec5572d3c6a12537af0846ca2682a0ada065375a1492379355af3",
+    "semantic-review-v01": "1b89ebd1ff97ac22a0ee5a59a624f1e7f812a6e5bd42e3c01315dde641d9f000",
+    "human-review-v01": "beb0f4a2a3d4fc37ff675b50e1fdb62d959348bd66b8c0ef84039e47719327c2"
+  },
+  "public_aggregate_id": "1c23a0e02ec2383ed78f1344f5a594e3ef47c17dcad30b6a7164c8b464b74b8a",
+  "real_model_requests": 73,
+  "raw_response_retention": true,
+  "auto_retries": 0,
+  "tests_passed": 184,
+  "test_log_sha256": "ca79058f8f50ff4111cb9cc61338f7bad601979b08cf4d1f336178267edc3944",
+  "new_test_count": 21,
+  "precomputed_selected_results_matched": 864,
+  "precomputed_release_id": "156163d639b9c74a9c2dcd5e0213625133d3f4ef1867245de6e55e026532dad7",
+  "protocol_precedes_first_model_attempt": true,
+  "protocol_time_evidence": {
+    "status": "PASS_SELECTED_PRECOMPUTED_RESULTS_AND_PREREGISTRATION_ORDER",
+    "selected_results_matched": 864,
+    "precomputed_release_id": "156163d639b9c74a9c2dcd5e0213625133d3f4ef1867245de6e55e026532dad7",
+    "protocol_id": "87e205b58e38f1b7ed7b210548f08bf94bf11cebbb0187fbd0062514f6183019",
+    "protocol_file_created_utc": "2026-10-20T08:39:30.317354+00:00",
+    "first_model_attempt_utc": "2026-10-20T08:39:36.319254+00:00",
+    "timestamp_evidence": "Filesystem creation time plus unchanged logged attempt times; not a trusted external timestamp authority",
+    "matched_fields": [
+      "probe_id",
+      "window",
+      "status",
+      "value",
+      "unit",
+      "source_references",
+      "comparison",
+      "result_hash"
+    ]
+  },
+  "online_results_restricted_to_declared_arm": true,
+  "online_labels_or_hidden_pool_visible": false,
+  "human_templates_unfilled": true,
+  "human_gold": 0,
+  "gold_accuracy": null,
+  "formal_ndcg": null,
+  "gold_acquisition_gain": null,
+  "formal_benchmark_frozen": false,
+  "formal_baselines_run": false,
+  "c2_training_run": false,
+  "limitations": [
+    "No independent human source or relevance adjudication",
+    "Silver semantic errors retained in sidecar",
+    "Only three train participants",
+    "Weak preregistered diagnostic ranker"
+  ]
+}

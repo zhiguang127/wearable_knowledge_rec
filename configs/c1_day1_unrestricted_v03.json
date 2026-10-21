@@ -1,0 +1,22 @@
+{
+  "version": "day1-unrestricted-authorized-v03",
+  "smoke_protocol": "day1-evidence-id-smoke-v02",
+  "scope": "DAY1_RESEARCH",
+  "authorization_status": "AUTHORIZED",
+  "authorization_ref": "2026-10-20 user: 我的意思是你直接放开用，不设限制. Supersedes proposed 2-call / CNY 1 authorization; Qwen usage for this Day 1 research task has no call-count or cost ceiling.",
+  "budget_mode": "UNLIMITED",
+  "authorized_cap_cny": null,
+  "max_calls": null,
+  "model": "qwen3.8-max",
+  "allowed_returned_models": ["qwen3.8-max", "qwen3.8-max-0902", "qwen3.8-max-2026-09-02"],
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "temperature": 0,
+  "enable_thinking": false,
+  "max_tokens": 800,
+  "max_input_bytes": 60000,
+  "input_cny_per_million": 12,
+  "output_cny_per_million": 36,
+  "price_checked": "2026-10-20",
+  "price_source": "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+  "purpose": "Unrestricted Qwen use within the user's Day 1 task: real ID validation, source-condition review, and applicability pilot when source/data conditions permit. Scientific and provenance criteria remain in force."
+}

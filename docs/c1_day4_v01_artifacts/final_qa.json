@@ -1,0 +1,90 @@
+{
+  "version": "c1-day4-final-qa-v01r1",
+  "status": "PASS_ENGINEERING_AND_PROTECTION_ONLY",
+  "research_status": "INSUFFICIENT_EVIDENCE",
+  "tests_passed": 235,
+  "new_tests": 23,
+  "test_elapsed_seconds": 14.388,
+  "regression_log_sha256": "629ae760d629b2c45ce351d840574dae847399690de1ef8b30e7df04a20db976",
+  "preexisting_boundary_files": 195,
+  "preexisting_changes": [
+    "README.md"
+  ],
+  "old_seals_reverified": {
+    "data/releases/c1-benchmark-v2.1": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+    "data/releases/c1-benchmark-v2.2-r1": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e",
+    "local/day2/prepared-v01": "87e205b58e38f1b7ed7b210548f08bf94bf11cebbb0187fbd0062514f6183019",
+    "local/day2/executed-v01": "838cf62ad3d89c72820b9f3f8d2818dce984468e94db319b028fe4e28f8713b0",
+    "local/day2/analysis-v01": "42732e5eb63d18b2d7a3f0be78d1317061cd21c5edc89234fc90e193c0cc4a10",
+    "local/day2/analysis-qualified-v01": "6459616596eec5572d3c6a12537af0846ca2682a0ada065375a1492379355af3",
+    "local/day3/preregistered-v01": "8c1acb1bcd6948ea0cf37636e01ee4de195a0ba6bdcc914c2002213fcea84faf",
+    "local/day3/imported-v01": "70457fb3b277d525a2fdb55e91e0c3625640ed5e6964dd4e409d96c9be482a5e",
+    "local/day3/evaluated-v01": "7c38144f00ccc6c3e7ee102dd78d41fd84ca5d982d5d6d56b1d0d16335a93bb8",
+    "local/day3/validation-v01": "7fa25860e1f28f9081bc164f1138e94cf23d6af20142a31166175af0087203ed",
+    "docs/c1_day3_v01_artifacts": "9ca9a062f885616d807d10dc6646e360c502b44cd75b33e515b1525966f58844"
+  },
+  "human_package": {
+    "release_id": "beb0f4a2a3d4fc37ff675b50e1fdb62d959348bd66b8c0ef84039e47719327c2",
+    "original_files_verified": 13,
+    "additions": {
+      "human-review-v01.zip": "7b4c17a9f24aed9a15e026f02b55bc26113a5f701eb90bf8ef180c3467394ba8"
+    },
+    "status": "ORIGINAL_PAYLOAD_INTACT_ADDITIVE_ANOMALY_RECORDED"
+  },
+  "Day4_seals_reverified": {
+    "design-v01": "70e8148c2c6e1944ebe857929e2b6bdd11545284c01e60dff44ce546fc1f94dd",
+    "reference-prepared-v01": "29681be7ae61d815622b7d4b393838bae08e0c161b5405698bdb05ca7d0c7360",
+    "reference-executed-v01": "cecd30921e24f7c07a51cbb7d7e8bbfb3e97a6ea8fa97189237898d4dda3f2a3",
+    "schema-amendment-v01r1": "ff8304312c68bd67537ea926b049215091bdc33d0a2cae7e67a65496c35c6373",
+    "reference-revalidated-v01r1": "3f80bb66acabde17d18d000b4e874764d4b988fbd99cdc83459f959d73fa6ad5",
+    "analysis-v01r1": "cd3e9261478d96b928c0e570669602b7c7d73c943f37a4d83939207cf0cf47c2"
+  },
+  "Day4_design_before_audit_and_calls": true,
+  "reference_preparation_before_first_request": true,
+  "schema_amendment_after_partial_responses_before_reference_signal_and_utility": true,
+  "original_code_unchanged_since_registration": true,
+  "schema_fix_only_new_namespace_and_layer": true,
+  "raw_Day4_calls": 48,
+  "raw_Day4_responses_rehashed": 48,
+  "old_Day2_requests_and_responses_rehashed": 73,
+  "old_source_labels_responses_human_constraints_preserved": true,
+  "no_historical_request_reuse": true,
+  "new_revalidation_calls": 0,
+  "new_false_human_or_Gold_attestations": 0,
+  "raw_AI_rows": 192,
+  "source_binding_rows_all_hashed": true,
+  "known_reference_slots": 33,
+  "unknown_reference_slots": 10,
+  "pending_reference_slots": 53,
+  "permitted_canonical_probe_results": 3456,
+  "real_scenarios": 12,
+  "independent_people": 3,
+  "synthetic_research_cases": 0,
+  "legal_action_steps": 288,
+  "unique_acquired_case_probe_results": 60,
+  "C_D_same_initial_states_and_one_step_cost": true,
+  "D_active_control_processed_not_ignored": true,
+  "request_isolation_audit": {
+    "status": "PASS_REQUEST_LEVEL_BLINDING_ONLY",
+    "task_count": 48,
+    "all_full_evidence_pools": true,
+    "no_ranker_or_prior_labels_in_payloads": true,
+    "no_pair_hypothesis_control_or_direction_features": true,
+    "all_candidate_orientations_mirrored": true,
+    "prior_researcher_exposure": true,
+    "same_model_family_dependence": true,
+    "human_gold": false,
+    "same_model_mirror_not_independent": true
+  },
+  "assessor_full_independence_not_claimed": true,
+  "all_utility_outputs_null_due_reference_gate": true,
+  "private_Day4_files_Git_ignored": 260,
+  "clinical_or_priority_Gold": false,
+  "formal_baseline_or_C2": false,
+  "report_sha256": "f8c8e4e8ffc3c3b3c23607f7a54ecb31c0122a986cce513641ad34d80e7c0d96",
+  "new_test_hashes": {
+    "tests/test_day4.py": "b8b25ac3f60043cd1e21df2f7de73835f016dd73dc5cbfa0a5a1876bf94fcdd2",
+    "tests/test_day4_artifacts.py": "88b7f547e48eaba4ffcfc14860b66fa6d792a22e7cd64eea014e68f6d28da10a"
+  },
+  "created_at": "2026-10-21T03:02:08.844046+00:00"
+}

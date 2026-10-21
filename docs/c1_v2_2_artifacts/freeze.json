@@ -1,0 +1,15 @@
+{
+  "version": "c1-benchmark-v2.2-audit-repair-r1",
+  "audit_release_id": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e",
+  "privacy": "ALLOWLISTED_NONPERSONAL_METADATA_AND_AGGREGATES",
+  "human_gold": false,
+  "files": {
+    "aggregate_report.json": "89a4c3ea31a20ae3925644471dda6e96f47b4e86391cad18915f099305fa029a",
+    "bounded_qwen_pilot.json": "378e5eb66a3e79fbb0ab0543a9dfb6b28e65dfc271ff108ccba7fe55e3a2ac78",
+    "historical_dedup_audit.json": "3d498d2e2837b05766877538dc07c8da18c9626f66c68ae06301bdde6b3b4179",
+    "joint_candidates.jsonl": "620174fea7981c49bff86bbcc5c8474e944ca42907206dc2d4c1780051142069",
+    "knowledge_metadata.jsonl": "2c49356542a42393c82da643afd0cdb20ba44cd0063ebad7aa6dce881a3bf8b5",
+    "quality_report.json": "798214ea14b69803249e3ba8ce8ec547da631209307ca7f85d34e0ee6293aa87"
+  },
+  "release_id": "9a4bd6316a0dc09432113fd6a7fabe73c5982e8735fd0b7b3a618571d093a9a9"
+}

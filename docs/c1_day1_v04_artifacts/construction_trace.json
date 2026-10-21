@@ -1,0 +1,733 @@
+{
+  "version": "day1-construction-and-ranking-diagnosis-v04",
+  "source_release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "knowledge_release_id": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e",
+  "source_integrity": {
+    "source_files_rehashed": 11,
+    "status": "PASS_EXACT_SOURCE_BYTES"
+  },
+  "extraction_replay_exact": true,
+  "source_blocks": 515,
+  "extracted_candidates": 402,
+  "excluded_blocks": 113,
+  "exclusion_counts": {
+    "short_fragment_or_link_not_independent_knowledge": 94,
+    "clinical_or_medication_content_quarantined": 19
+  },
+  "whitelist_medline_titles": 21,
+  "whitelist_myhf_titles": 13,
+  "candidate_source_counts": {
+    "medlineplus": 127,
+    "myhealthfinder": 275
+  },
+  "candidate_article_urls": 32,
+  "candidate_anchors": 74,
+  "review_status_counts": {
+    "SILVER_ACCEPTED": 204,
+    "REVIEW_REQUIRED": 197,
+    "SILVER_REJECTED": 1
+  },
+  "old_accepted_before_dedup": 201,
+  "old_active": 133,
+  "repair_promotions": 3,
+  "active_items": 204,
+  "active_article_urls": 28,
+  "active_anchors": 61,
+  "active_source_counts": {
+    "myhealthfinder": 135,
+    "medlineplus": 69
+  },
+  "active_topic_counts": {
+    "stress": 25,
+    "sleep": 26,
+    "nutrition": 39,
+    "healthy_aging": 54,
+    "physical_activity": 60
+  },
+  "adjacent_colon_leadins": [
+    {
+      "lead_in_id": "K2-5f778564cadb7c550a98",
+      "following_block_id": "K2-809b8e8569ecd64fd028",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-7a47e8e7c50f06b2ded1",
+      "following_block_id": "K2-360665579fc65c925e29",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-855b8890fdf0666d16b9",
+      "following_block_id": "K2-713e19f1f0ccef67739e",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-d75284ad34b30c624d27",
+      "following_block_id": "K2-4c17de005fa92131e8a0",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-dd42057f8b2c160553c7",
+      "following_block_id": "K2-96b9013a688a26ff76c4",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-71ffe286597c2107a320",
+      "following_block_id": "K2-653f27870afc87ec8157",
+      "anchor_id": "myhealthfinder:30533:3:The Basics: Trouble Sleeping"
+    },
+    {
+      "lead_in_id": "K2-fce742c0367b2f68e05a",
+      "following_block_id": "K2-13245f7771082e6445e9",
+      "anchor_id": "medlineplus:6601:full-summary"
+    },
+    {
+      "lead_in_id": "K2-45d70bae0354b1fdc4a1",
+      "following_block_id": "K2-64391df0bfb136154986",
+      "anchor_id": "medlineplus:490:full-summary"
+    },
+    {
+      "lead_in_id": "K2-a181c16752177916f8ab",
+      "following_block_id": "K2-4a365ff75554d6eb58bd",
+      "anchor_id": "medlineplus:490:full-summary"
+    },
+    {
+      "lead_in_id": "K2-e7f6f2060101f85d566e",
+      "following_block_id": "K2-db96af31c418313bdffa",
+      "anchor_id": "medlineplus:490:full-summary"
+    },
+    {
+      "lead_in_id": "K2-5ce8bd5ce137ac8c9b29",
+      "following_block_id": "K2-1bb060ee66bbd20bf705",
+      "anchor_id": "medlineplus:6603:full-summary"
+    },
+    {
+      "lead_in_id": "K2-9663b9544a37afc9cbe0",
+      "following_block_id": "K2-dda4b8bdba62816f769a",
+      "anchor_id": "medlineplus:6603:full-summary"
+    },
+    {
+      "lead_in_id": "K2-a855769d0a68b361d8b2",
+      "following_block_id": "K2-31e8f397e535c8d01b64",
+      "anchor_id": "medlineplus:6603:full-summary"
+    },
+    {
+      "lead_in_id": "K2-bea02a750d7f9e8a257a",
+      "following_block_id": "K2-5ce8bd5ce137ac8c9b29",
+      "anchor_id": "medlineplus:6603:full-summary"
+    },
+    {
+      "lead_in_id": "K2-f634ded4b16f1ca24a8d",
+      "following_block_id": "K2-73132c7d47292e866f30",
+      "anchor_id": "medlineplus:6603:full-summary"
+    },
+    {
+      "lead_in_id": "K2-1ff631b9857ce6ba3f91",
+      "following_block_id": "K2-d355f642679fcc88eccc",
+      "anchor_id": "myhealthfinder:30547:6:Take Action: Challenge Yourself"
+    },
+    {
+      "lead_in_id": "K2-e29e5c3ce9c65afd3b4e",
+      "following_block_id": "K2-d304c936e539d87afce9",
+      "anchor_id": "myhealthfinder:30547:1:The Basics: Health Benefits"
+    },
+    {
+      "lead_in_id": "K2-adfc4a2e4e948fa23bb5",
+      "following_block_id": "K2-64df9bc9e6a71ba26cdd",
+      "anchor_id": "myhealthfinder:30547:3:Take Action: Get Started"
+    },
+    {
+      "lead_in_id": "K2-9a70870014c1a308c7be",
+      "following_block_id": "K2-820a1e350500d8a489d9",
+      "anchor_id": "myhealthfinder:30547:4:Take Action: Build Muscles"
+    },
+    {
+      "lead_in_id": "K2-73490d74a3835a928a5e",
+      "following_block_id": "K2-5d8f8084e1c035cb55fc",
+      "anchor_id": "myhealthfinder:30618:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-b6726a4a64572781af2e",
+      "following_block_id": "K2-9a27b025af7fce8a8dee",
+      "anchor_id": "myhealthfinder:30618:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-af8d4df4be6c658d2bc8",
+      "following_block_id": "K2-f05d54ac8a2bf3058d0f",
+      "anchor_id": "medlineplus:1530:full-summary"
+    },
+    {
+      "lead_in_id": "K2-3601c2300b734de7c73c",
+      "following_block_id": "K2-6de5275b64dd1ea385e4",
+      "anchor_id": "medlineplus:1597:full-summary"
+    },
+    {
+      "lead_in_id": "K2-48b8826a603f300e8c0e",
+      "following_block_id": "K2-10622b71d82b8c6eaf21",
+      "anchor_id": "myhealthfinder:25:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-a911304227c91fd14aa6",
+      "following_block_id": "K2-f0de45b502f0ade606af",
+      "anchor_id": "myhealthfinder:25:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-44ae3fd4b8141a28c5ca",
+      "following_block_id": "K2-51b22b20945347c7471f",
+      "anchor_id": "myhealthfinder:25:1:The Basics: What Is Heart Disease?"
+    },
+    {
+      "lead_in_id": "K2-8513f7dd0a867c59b816",
+      "following_block_id": "K2-23e7a3ab3cf37b1fd68c",
+      "anchor_id": "myhealthfinder:30616:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-907ecb470eb5ed75e3c9",
+      "following_block_id": "K2-71a1f614a80b85630d8b",
+      "anchor_id": "myhealthfinder:30616:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-9542afebcd57f9c1d4df",
+      "following_block_id": "K2-b01499297e777aabea0a",
+      "anchor_id": "myhealthfinder:30616:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-64d455ef191127f368e3",
+      "following_block_id": "K2-04e0fca3526220cffa8f",
+      "anchor_id": "medlineplus:422:full-summary"
+    },
+    {
+      "lead_in_id": "K2-94f5069a1817cbe190b0",
+      "following_block_id": "K2-f263bb07e30f06dec9a6",
+      "anchor_id": "medlineplus:422:full-summary"
+    },
+    {
+      "lead_in_id": "K2-cee8fd43f4bcecdf9b6f",
+      "following_block_id": "K2-e85d563aaee689cd54d9",
+      "anchor_id": "medlineplus:422:full-summary"
+    },
+    {
+      "lead_in_id": "K2-fa8b6b9e98fe627edd8e",
+      "following_block_id": "K2-177900a5ee24a4fa59c3",
+      "anchor_id": "myhealthfinder:30560:4:Take Action: Plan and Prepare"
+    },
+    {
+      "lead_in_id": "K2-1d56245ffb492646772a",
+      "following_block_id": "K2-b7518f29fe1461440c07",
+      "anchor_id": "myhealthfinder:30560:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-af25c7424acbd49b7053",
+      "following_block_id": "K2-c3e7c2cbff8bd2903b15",
+      "anchor_id": "myhealthfinder:30560:6:Take Action: Get Active"
+    },
+    {
+      "lead_in_id": "K2-fedc909cdac00700507b",
+      "following_block_id": "K2-7a3fc20dadd4d7417e8d",
+      "anchor_id": "myhealthfinder:30560:3:The Basics: Benefits of Lowering Your Stress Level"
+    },
+    {
+      "lead_in_id": "K2-bcb9a0107cdd26d96080",
+      "following_block_id": "K2-82ae7f200eb8fcc90ed5",
+      "anchor_id": "medlineplus:3670:full-summary"
+    },
+    {
+      "lead_in_id": "K2-727a0bfc5cfe0fb54fde",
+      "following_block_id": "K2-107148fc0b309496a70a",
+      "anchor_id": "medlineplus:3593:full-summary"
+    },
+    {
+      "lead_in_id": "K2-0ff065c6afc192398d05",
+      "following_block_id": "K2-b2f4321e02f62c079cf9",
+      "anchor_id": "medlineplus:3756:full-summary"
+    },
+    {
+      "lead_in_id": "K2-da600b3a5d26c8b01d0b",
+      "following_block_id": "K2-a4674b75b05d73eca587",
+      "anchor_id": "medlineplus:3756:full-summary"
+    },
+    {
+      "lead_in_id": "K2-5b7b35858fd6a0bb4e6d",
+      "following_block_id": "K2-82805ef301b8de34ad28",
+      "anchor_id": "medlineplus:36:full-summary"
+    },
+    {
+      "lead_in_id": "K2-a002a4ee40443b7dc0ae",
+      "following_block_id": "K2-8cf2f8a8651e3d5319c8",
+      "anchor_id": "medlineplus:36:full-summary"
+    },
+    {
+      "lead_in_id": "K2-5ac9637634c7c457a947",
+      "following_block_id": "K2-b57929badd334f7f7a28",
+      "anchor_id": "medlineplus:456:full-summary"
+    },
+    {
+      "lead_in_id": "K2-c06862e7628746409647",
+      "following_block_id": "K2-c411f7635a0cd38c8ad5",
+      "anchor_id": "medlineplus:480:full-summary"
+    },
+    {
+      "lead_in_id": "K2-50b5125177063bdfd022",
+      "following_block_id": "K2-d7657c3aa867419f2212",
+      "anchor_id": "myhealthfinder:30551:2:Take Action: Set Goals"
+    },
+    {
+      "lead_in_id": "K2-ca1e9adb554bca06caea",
+      "following_block_id": "K2-5204cdf236ef13e0ade5",
+      "anchor_id": "myhealthfinder:30551:2:Take Action: Set Goals"
+    },
+    {
+      "lead_in_id": "K2-ef63685c070217e891b8",
+      "following_block_id": "K2-6a5da7340ed14f620034",
+      "anchor_id": "myhealthfinder:30551:2:Take Action: Set Goals"
+    },
+    {
+      "lead_in_id": "K2-05eb51500f706f07ada1",
+      "following_block_id": "K2-8259af67eed849567add",
+      "anchor_id": "myhealthfinder:30539:4:Take Action: Check the Label"
+    },
+    {
+      "lead_in_id": "K2-dcf19c74877f09b751ff",
+      "following_block_id": "K2-f285f3909d02a9312749",
+      "anchor_id": "myhealthfinder:30539:6:Take Action: Eating Out"
+    },
+    {
+      "lead_in_id": "K2-a263112a35ace408d8d2",
+      "following_block_id": "K2-66bb4816b16eaebe549a",
+      "anchor_id": "myhealthfinder:30539:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-0701ad867f780703cc69",
+      "following_block_id": "K2-9c8cf83df76143baaf71",
+      "anchor_id": "myhealthfinder:30596:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-30abef8fcbeee2b18217",
+      "following_block_id": "K2-ede574de94b70af42749",
+      "anchor_id": "myhealthfinder:30559:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-333c271b9da17b68d7b8",
+      "following_block_id": "K2-5c7976728d5642980689",
+      "anchor_id": "myhealthfinder:30559:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-a12b8b982ed91ef90b4b",
+      "following_block_id": "K2-a1c2ebaa9c9babea9499",
+      "anchor_id": "myhealthfinder:30559:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-f531479a3767d714943b",
+      "following_block_id": "K2-5baeabaf896763a78651",
+      "anchor_id": "myhealthfinder:30559:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-35df3f08dadb28e542fd",
+      "following_block_id": "K2-6681527215823f7d743c",
+      "anchor_id": "myhealthfinder:30602:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-6091a9bd3d2a529f55e3",
+      "following_block_id": "K2-04198f7fce310b31d198",
+      "anchor_id": "myhealthfinder:30602:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-8499356c3b3697b069fe",
+      "following_block_id": "K2-a4c93e2d2902f282f522",
+      "anchor_id": "myhealthfinder:30602:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-cb8b0d303ede1b892c03",
+      "following_block_id": "K2-f44ef7bd4f7bb7a03977",
+      "anchor_id": "myhealthfinder:30602:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-aa61057243e9e8c56552",
+      "following_block_id": "K2-9dba3d58675aaf9b849d",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-b4bf418313e53e4ee8ef",
+      "following_block_id": "K2-537b554fa6990cd97f1a",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-ed6003373743df1912ab",
+      "following_block_id": "K2-538342e9a41eaa50c11b",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    }
+  ],
+  "excluded_short_leadins_before_lists": [
+    {
+      "lead_in_id": "K2-bc48820222eb1a9724fc",
+      "lead_in_text": "Regular exercise and physical activity may:",
+      "following_block_id": "K2-24218818d2c2224c4637",
+      "anchor_id": "medlineplus:6601:full-summary"
+    },
+    {
+      "lead_in_id": "K2-3548ce191c136e742199",
+      "lead_in_text": "There are three main types of carbohydrates:",
+      "following_block_id": "K2-cd45e381f8eb67472510",
+      "anchor_id": "medlineplus:3670:full-summary"
+    },
+    {
+      "lead_in_id": "K2-eae085177077cb0128e1",
+      "lead_in_text": "Common foods with carbohydrates include:",
+      "following_block_id": "K2-3c10244cfdbc119a9299",
+      "anchor_id": "medlineplus:3670:full-summary"
+    },
+    {
+      "lead_in_id": "K2-cbd097e3d555911556f3",
+      "lead_in_text": "Good sources of dietary fiber include:",
+      "following_block_id": "K2-3b25839ee8ab0d74a603",
+      "anchor_id": "medlineplus:3059:full-summary"
+    },
+    {
+      "lead_in_id": "K2-8ca00cf7451791fc8015",
+      "lead_in_text": "A few main types of exercise include:",
+      "following_block_id": "K2-d4ddf8b2ff2c68eead9c",
+      "anchor_id": "medlineplus:490:full-summary"
+    },
+    {
+      "lead_in_id": "K2-f405854bd225e400d942",
+      "lead_in_text": "A healthy lifestyle for older adults includes:",
+      "following_block_id": "K2-568377142a135a05faeb",
+      "anchor_id": "medlineplus:5704:full-summary"
+    },
+    {
+      "lead_in_id": "K2-8d11148d67fb2ca8e567",
+      "lead_in_text": "Sleep deprivation can also affect your mood, leading to:",
+      "following_block_id": "K2-9b6c8256d8baaf1c65b6",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-f2e21691adcb8aa18394",
+      "lead_in_text": "To improve your sleep habits, it also may help to:",
+      "following_block_id": "K2-29d22c29d67be3c197c5",
+      "anchor_id": "medlineplus:6469:full-summary"
+    },
+    {
+      "lead_in_id": "K2-750ec86fa8872f6ed9ae",
+      "lead_in_text": "Also, do strengthening activities two or more days per week:",
+      "following_block_id": "K2-045a7759680b805de4f8",
+      "anchor_id": "medlineplus:6603:full-summary"
+    },
+    {
+      "lead_in_id": "K2-b5a5958564de1196dd4a",
+      "lead_in_text": "In general, a healthy eating plan includes:",
+      "following_block_id": "K2-4dff997414a191d8f86a",
+      "anchor_id": "medlineplus:36:full-summary"
+    },
+    {
+      "lead_in_id": "K2-979bb370c6ba0a26e880",
+      "lead_in_text": "To stay healthy as you age, you should:",
+      "following_block_id": "K2-37824cc4afa5a2a06fd9",
+      "anchor_id": "medlineplus:1616:full-summary"
+    },
+    {
+      "lead_in_id": "K2-76bb59fc66b7d7be0855",
+      "lead_in_text": "Causes of long-term stress include:",
+      "following_block_id": "K2-1321d9e1a73467f30e8c",
+      "anchor_id": "medlineplus:422:full-summary"
+    },
+    {
+      "lead_in_id": "K2-0baab554c73d52c950a8",
+      "lead_in_text": "Always get help right away if stress is causing you to:",
+      "following_block_id": "K2-a36f50b000c8162752f0",
+      "anchor_id": "medlineplus:422:full-summary"
+    },
+    {
+      "lead_in_id": "K2-7c6b5f28808cd1134444",
+      "lead_in_text": "To help prevent heart disease, you can:",
+      "following_block_id": "K2-ab17cfdb08d654b03e01",
+      "anchor_id": "myhealthfinder:25:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-93ba9dbc09c3851a1961",
+      "lead_in_text": "Some common signs and symptoms of a heart attack include:",
+      "following_block_id": "K2-e6262f0ff49a93754648",
+      "anchor_id": "myhealthfinder:25:2:Take Action: Know the Signs of a Heart Attack"
+    },
+    {
+      "lead_in_id": "K2-f49d76066608d9fa939d",
+      "lead_in_text": "Heart-healthy items include:",
+      "following_block_id": "K2-67b241c781de4e9b7da1",
+      "anchor_id": "myhealthfinder:25:6:Take Action: Eat Real Food"
+    },
+    {
+      "lead_in_id": "K2-b24debb69c9cc6eb0172",
+      "lead_in_text": "Try to limit foods that:",
+      "following_block_id": "K2-02aae8028b8401310d6f",
+      "anchor_id": "myhealthfinder:25:6:Take Action: Eat Real Food"
+    },
+    {
+      "lead_in_id": "K2-1660054ae792cc5f98d4",
+      "lead_in_text": "You can also check out these heart-healthy recipe collections:",
+      "following_block_id": "K2-57d24f75f8cd7733ac2f",
+      "anchor_id": "myhealthfinder:25:6:Take Action: Eat Real Food"
+    },
+    {
+      "lead_in_id": "K2-f957db65f6529c42665c",
+      "lead_in_text": "Kids need even more sleep than adults:",
+      "following_block_id": "K2-db49b0399fa678d75520",
+      "anchor_id": "myhealthfinder:30533:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-0bea6d6cc9de72d21e2e",
+      "lead_in_text": "Getting enough sleep has many benefits. It can help you:",
+      "following_block_id": "K2-ba8fb9fd0df7c896198d",
+      "anchor_id": "myhealthfinder:30533:1:The Basics: Health Benefits"
+    },
+    {
+      "lead_in_id": "K2-f3eb6a67498a51b80f16",
+      "lead_in_text": "Get sleep tips to help you:",
+      "following_block_id": "K2-f202e8940b19323b8b4b",
+      "anchor_id": "myhealthfinder:30533:2:The Basics: Sleep Schedule"
+    },
+    {
+      "lead_in_id": "K2-1e30b13556f49a8f5c7a",
+      "lead_in_text": "Many things can make it harder for you to sleep, including:",
+      "following_block_id": "K2-ee1da7a8d55f1bf35a3f",
+      "anchor_id": "myhealthfinder:30533:3:The Basics: Trouble Sleeping"
+    },
+    {
+      "lead_in_id": "K2-ff8ca33c29bff199e76b",
+      "lead_in_text": "Common signs of sleep disorders include:",
+      "following_block_id": "K2-781644cfcbe43b8026f5",
+      "anchor_id": "myhealthfinder:30533:4:The Basics: Sleep Disorders"
+    },
+    {
+      "lead_in_id": "K2-623af6da92dd91e5e2b0",
+      "lead_in_text": "To learn more about sleep disorders:",
+      "following_block_id": "K2-cf2934ca68d5a456c089",
+      "anchor_id": "myhealthfinder:30533:4:The Basics: Sleep Disorders"
+    },
+    {
+      "lead_in_id": "K2-b96ac644ce4e75f6f8d6",
+      "lead_in_text": "Get tips for:",
+      "following_block_id": "K2-2bc815698f99db25e869",
+      "anchor_id": "myhealthfinder:30533:5:Take Action: Daytime Habits"
+    },
+    {
+      "lead_in_id": "K2-646591b2f126e1a5ba65",
+      "lead_in_text": "When you eat healthy, you can reduce your risk for:",
+      "following_block_id": "K2-87a7983c9aa1cc7b1672",
+      "anchor_id": "myhealthfinder:30539:1:The Basics: Health Benefits"
+    },
+    {
+      "lead_in_id": "K2-4eec8fe658f28cf5c1e5",
+      "lead_in_text": "Try making 1 or 2 small changes this week. For example:",
+      "following_block_id": "K2-608b15e95fd2e9574a66",
+      "anchor_id": "myhealthfinder:30539:2:Take Action: Make Small Changes"
+    },
+    {
+      "lead_in_id": "K2-45d603d93fbeeb6400c7",
+      "lead_in_text": "The next time you go food shopping:",
+      "following_block_id": "K2-a3836178aecef3fde367",
+      "anchor_id": "myhealthfinder:30539:3:Take Action: Shop Smart"
+    },
+    {
+      "lead_in_id": "K2-373b5301c69682ba2a9c",
+      "lead_in_text": "Use these tips to make healthy choices:",
+      "following_block_id": "K2-2d92fcefc31f5c640d87",
+      "anchor_id": "myhealthfinder:30539:3:Take Action: Shop Smart"
+    },
+    {
+      "lead_in_id": "K2-3fde8752edde302fd817",
+      "lead_in_text": "To learn more about the Nutrition Facts label, check out:",
+      "following_block_id": "K2-181b0a8cb036374b1b44",
+      "anchor_id": "myhealthfinder:30539:4:Take Action: Check the Label"
+    },
+    {
+      "lead_in_id": "K2-e5b0ce99fa20381f674d",
+      "lead_in_text": "To learn more, check out these resources:",
+      "following_block_id": "K2-d67f64a70ae2d7e7a858",
+      "anchor_id": "myhealthfinder:30539:7:Take Action: See Your Doctor"
+    },
+    {
+      "lead_in_id": "K2-64da7cc60582735b0270",
+      "lead_in_text": "Use these resources to learn more about physical activity for:",
+      "following_block_id": "K2-1ac7d60e57f61248f7db",
+      "anchor_id": "myhealthfinder:30547:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-062b05fe2e6bbe314d57",
+      "lead_in_text": "And that’s not all. Being more active can:",
+      "following_block_id": "K2-56c336343e20744bdd85",
+      "anchor_id": "myhealthfinder:30547:1:The Basics: Health Benefits"
+    },
+    {
+      "lead_in_id": "K2-bb6ac521c131f707dadc",
+      "lead_in_text": "You can also:",
+      "following_block_id": "K2-c88f93dc6f8d6c9e8ed0",
+      "anchor_id": "myhealthfinder:30547:2:The Basics: Health Conditions"
+    },
+    {
+      "lead_in_id": "K2-e6abe52b481661d328f6",
+      "lead_in_text": "Here are 2 ways to add more activity to your routine:",
+      "following_block_id": "K2-cd4b54e54a400a240d75",
+      "anchor_id": "myhealthfinder:30547:6:Take Action: Challenge Yourself"
+    },
+    {
+      "lead_in_id": "K2-a4499f81c8e0de5f9fad",
+      "lead_in_text": "Getting to a weight that’s healthy for you can:",
+      "following_block_id": "K2-fef51d7f0870d041312b",
+      "anchor_id": "myhealthfinder:30551:1:The Basics: Health Benefits"
+    },
+    {
+      "lead_in_id": "K2-c429b03aa034e519a07f",
+      "lead_in_text": "Check out these resources for more information:",
+      "following_block_id": "K2-acfce28b83d753956359",
+      "anchor_id": "myhealthfinder:30551:3:Take Action: Get Active"
+    },
+    {
+      "lead_in_id": "K2-aa6446c0ef858b9d51b8",
+      "lead_in_text": "Here are a few healthy eating tips:",
+      "following_block_id": "K2-a76162d0ccc63dfa7815",
+      "anchor_id": "myhealthfinder:30551:4:Take Action: Eat Healthy"
+    },
+    {
+      "lead_in_id": "K2-240c3a0c352f6f6135db",
+      "lead_in_text": "Check out these links to learn more:",
+      "following_block_id": "K2-f2e6c2d2e2ca8734f813",
+      "anchor_id": "myhealthfinder:30551:4:Take Action: Eat Healthy"
+    },
+    {
+      "lead_in_id": "K2-6ff92f2e8738c8383f4f",
+      "lead_in_text": "Here are some ideas for eating smaller portions:",
+      "following_block_id": "K2-16de59551c38302226dc",
+      "anchor_id": "myhealthfinder:30551:5:Take Action: Portion Sizes"
+    },
+    {
+      "lead_in_id": "K2-1b3d623ce7080600ca2a",
+      "lead_in_text": "Try these tips when you eat out:",
+      "following_block_id": "K2-899b6faf44763d835ca4",
+      "anchor_id": "myhealthfinder:30551:5:Take Action: Portion Sizes"
+    },
+    {
+      "lead_in_id": "K2-142e8aa13d22a8b07222",
+      "lead_in_text": "You can also check out these resources about:",
+      "following_block_id": "K2-d6bc8100ddfcf0cf7f66",
+      "anchor_id": "myhealthfinder:30551:6:Take Action: Get Help"
+    },
+    {
+      "lead_in_id": "K2-fb594cd95e400b7a025e",
+      "lead_in_text": "Try these tips when you eat out or get takeout:",
+      "following_block_id": "K2-e95b71f4ddd289e5e46e",
+      "anchor_id": "myhealthfinder:30559:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-8b67648163b9779d38bd",
+      "lead_in_text": "Good sources of potassium include:",
+      "following_block_id": "K2-28da83b1e3ac41cc4b5d",
+      "anchor_id": "myhealthfinder:30559:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-0f17545e44501627be57",
+      "lead_in_text": "You can prevent or reduce stress by:",
+      "following_block_id": "K2-1f31376454e8c694d2c7",
+      "anchor_id": "myhealthfinder:30560:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-5e1e2d738abc1463f799",
+      "lead_in_text": "Read more about ways to prevent and manage stress:",
+      "following_block_id": "K2-62e9076883cf84141586",
+      "anchor_id": "myhealthfinder:30560:0:The Basics: Overview"
+    },
+    {
+      "lead_in_id": "K2-dce1227980287ff9b72e",
+      "lead_in_text": "When you're under stress, you may feel:",
+      "following_block_id": "K2-22d9b60558ce1ec3ff7f",
+      "anchor_id": "myhealthfinder:30560:1:The Basics: Signs and Health Effects"
+    },
+    {
+      "lead_in_id": "K2-7108a20e616247bc0180",
+      "lead_in_text": "Stress also affects your body. Physical signs of stress include:",
+      "following_block_id": "K2-499ef1dd39cd8a26ec88",
+      "anchor_id": "myhealthfinder:30560:1:The Basics: Signs and Health Effects"
+    },
+    {
+      "lead_in_id": "K2-6ffde26e6c5eabaafd3e",
+      "lead_in_text": "Common causes of short-term stress include:",
+      "following_block_id": "K2-ff9ee29187772823d57c",
+      "anchor_id": "myhealthfinder:30560:2:The Basics: Causes of Stress"
+    },
+    {
+      "lead_in_id": "K2-0acd15ed38ff281ffdcf",
+      "lead_in_text": "Common causes of long-term stress include:",
+      "following_block_id": "K2-3afcf8c4287db2920069",
+      "anchor_id": "myhealthfinder:30560:2:The Basics: Causes of Stress"
+    },
+    {
+      "lead_in_id": "K2-c0f4422bc2750ba582ab",
+      "lead_in_text": "Read more about:",
+      "following_block_id": "K2-62b49954700f16dbc970",
+      "anchor_id": "myhealthfinder:30560:6:Take Action: Get Active"
+    },
+    {
+      "lead_in_id": "K2-1671ff8037ebcbddf697",
+      "lead_in_text": "You can say:",
+      "following_block_id": "K2-20711caa01c70637889d",
+      "anchor_id": "myhealthfinder:30596:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-fbde1de207669dd5fcda",
+      "lead_in_text": "Try saying:",
+      "following_block_id": "K2-6c41dd3cb93cdae69d22",
+      "anchor_id": "myhealthfinder:30596:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-ec6f418c44be6ad38ba0",
+      "lead_in_text": "Offer simple suggestions:",
+      "following_block_id": "K2-628b999db85dca9e9b98",
+      "anchor_id": "myhealthfinder:30596:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-260a8ca64d6228cdf6c8",
+      "lead_in_text": "Make sure your loved one knows you’re ready to support them:",
+      "following_block_id": "K2-f2ac96f731df81c8ff37",
+      "anchor_id": "myhealthfinder:30596:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-4faed2fefa36bcfcc9b7",
+      "lead_in_text": "Buy plenty of vegetables and fruits, like:",
+      "following_block_id": "K2-3c15d1f5645b9febc077",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-e4258da459218989c3fe",
+      "lead_in_text": "Here are some whole-grain options to try:",
+      "following_block_id": "K2-da062bec8eb793eff14e",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-cf5de2e6a3cc31b90e9d",
+      "lead_in_text": "Choose options like:",
+      "following_block_id": "K2-1079f80d8a8a726ddc7b",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-ca9221408cf2ce17905a",
+      "lead_in_text": "Choose dairy products, lactose-free dairy products, or fortified soy alternatives like:",
+      "following_block_id": "K2-0bc83f65f8fbbd9b55ff",
+      "anchor_id": "myhealthfinder:30599:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-d82cd5b0c035de294611",
+      "lead_in_text": "Choose a variety of nutrient-dense foods with protein. Options include:",
+      "following_block_id": "K2-2907a2da1d52e095e2fc",
+      "anchor_id": "myhealthfinder:30602:0:untitled_source_section"
+    },
+    {
+      "lead_in_id": "K2-753946a351ee161dc618",
+      "lead_in_text": "Look for fat-free or low-fat options with no added sugars, like:",
+      "following_block_id": "K2-8a9d3b773e2b322001c0",
+      "anchor_id": "myhealthfinder:30602:0:untitled_source_section"
+    }
+  ],
+  "ingestion_requires_personal_condition": false,
+  "active_acceptance_requires_measurable_condition": false,
+  "historical_model": "qwen-plus",
+  "historical_review_provenance": "SILVER_NOT_HUMAN_GOLD",
+  "new_personal_labels": 0,
+  "benchmark_frozen": false
+}

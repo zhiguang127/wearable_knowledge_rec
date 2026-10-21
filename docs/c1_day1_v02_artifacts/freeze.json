@@ -1,0 +1,14 @@
+{
+  "version": "day1-full-catalog-and-id-preflight-v02",
+  "status": "REVIEW_AND_REQUEST_PREPARATION_NOT_EXPERIMENT_FREEZE",
+  "human_gold": false,
+  "source_audit_release_id": "66703f6dc2f4829b507bcb212ae1d7fbf929b596b1c03d6606c77c84c78eb32f",
+  "smoke_plan_release_id": "f6e8f072bd5b74dd6f152066ecab66c1f80b539417ba77ba406e13dd986dba8e",
+  "files": {
+    "catalog_report.json": "1345ef4be3eb3b274eb135a7e9f1f7e2d5cb6bb8a377ae19c7e58830486f7417",
+    "catalog_review.jsonl": "98765ce113f6e6ec14e8ec3e4481fbe461f5171e2ff1cfce23ed8a983983ceb6",
+    "freeze_gate.json": "4062750bb4e76f6b9f2e331ef907a6c936d38ab9a727b74a314fb0662582f463",
+    "id_smoke_preflight.json": "826c9fcebb7b60f701c15f50c6608872c365bec653c9fd7899620fc635649ec0"
+  },
+  "release_id": "bf3e768e0fe5b7838e2fc70c0686aa2313d218f502865b50677b8916c16b0554"
+}

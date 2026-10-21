@@ -1,0 +1,125 @@
+{
+  "real_scenarios": 12,
+  "people": 3,
+  "pairs": 8,
+  "paired_reference_slots": 96,
+  "material_returned_pair_views": 192,
+  "reference_status_counts": {
+    "REVIEW_REQUIRED": 53,
+    "ACCEPTED": 33,
+    "UNKNOWN": 10
+  },
+  "preference_counts": {
+    "UNKNOWN": 63,
+    "STRICT": 29,
+    "TIE": 4
+  },
+  "basis_counts": {
+    "None": 53,
+    "GOAL_ONLY": 29,
+    "INSUFFICIENT_EVIDENCE": 10,
+    "DESCRIPTIVE_EVIDENCE": 4
+  },
+  "mirrored_preference_disagreement_slots": 35,
+  "mirrored_exact_grade_agreement_slots": 35,
+  "source_audited_evidence_conditioned_pairs": [],
+  "reference_signal_gate_passed": false,
+  "comparison_totals": {
+    "WITHIN_PERSON_TIME": {
+      "both_known": 31,
+      "relation_changed": 3,
+      "strict_reversal": 1,
+      "tie_relation_change": 2,
+      "source_audited_evidence_conditioned_change": 0,
+      "non_evidence_basis_change": 3,
+      "same_cited_measurement_opposite": 0
+    },
+    "ACROSS_PERSON_CALENDAR_CONFOUNDED": {
+      "both_known": 90,
+      "relation_changed": 10,
+      "strict_reversal": 1,
+      "tie_relation_change": 9,
+      "source_audited_evidence_conditioned_change": 0,
+      "non_evidence_basis_change": 10,
+      "same_cited_measurement_opposite": 0
+    }
+  },
+  "identical_query_text_verified": true,
+  "synthetic_research_cases": 0,
+  "independent_human_gold": 0,
+  "model_family_independent": false,
+  "per_pair_summary": [
+    {
+      "pair_id": "P4-01",
+      "control": false,
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 11,
+        "ACCEPTED": 1
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-02",
+      "control": false,
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 1,
+        "ACCEPTED": 11
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-03",
+      "control": false,
+      "reference_status_counts": {
+        "ACCEPTED": 6,
+        "REVIEW_REQUIRED": 6
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-04",
+      "control": true,
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 5,
+        "UNKNOWN": 7
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-05",
+      "control": false,
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 11,
+        "ACCEPTED": 1
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-06",
+      "control": true,
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 8,
+        "ACCEPTED": 4
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-07",
+      "control": true,
+      "reference_status_counts": {
+        "UNKNOWN": 3,
+        "REVIEW_REQUIRED": 9
+      },
+      "source_audited_changes": 0
+    },
+    {
+      "pair_id": "P4-08",
+      "control": false,
+      "reference_status_counts": {
+        "ACCEPTED": 10,
+        "REVIEW_REQUIRED": 2
+      },
+      "source_audited_changes": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "day1-all-204-source-measurement-audit-v02",
+  "status": "AUDIT_COMPLETE_MEASURABLE_PANEL_BLOCKED",
+  "reviewer_kind": "model",
+  "human_gold": false,
+  "items_reviewed": 204,
+  "unique_source_anchors": 61,
+  "topic_counts": {
+    "stress": 25,
+    "sleep": 26,
+    "nutrition": 39,
+    "healthy_aging": 54,
+    "physical_activity": 60
+  },
+  "reason_counts_nonexclusive": {
+    "FOOD_INTAKE_OR_PRODUCT_COMPOSITION_NOT_MEASURED": 27,
+    "REQUIRED_CONTEXT_OUTSIDE_ALLOWED_MEASUREMENTS": 95,
+    "PROBE_DOES_NOT_MEASURE_SOURCE_CONSTRUCT": 47,
+    "FRAGMENT_OR_RESOURCE_POINTER_NOT_INDEPENDENT_CRITERION": 21,
+    "GENERAL_EDUCATION_NO_EXPLICIT_PERSONAL_RULE": 67,
+    "THRESHOLD_TIME_OR_APPLICABILITY_ROLE_NOT_ESTABLISHED": 27,
+    "CLINICAL_OR_EMERGENCY_SCOPE_NOT_IN_FIRST_TASK": 11
+  },
+  "source_closure": {
+    "source_files_rehashed": 11,
+    "status": "PASS_EXACT_SOURCE_BYTES"
+  },
+  "citation_integrity_passed": 204,
+  "registry_probes": 288,
+  "verified_measurable_knowledge": 0,
+  "new_applicability_labels": 0,
+  "new_model_api_calls": 0,
+  "contract_frozen": false,
+  "formal_baseline_allowed": false,
+  "blockers": [
+    "NO_SIX_SOURCE_VERIFIED_MEASURABLE_APPLICABILITY_RULES",
+    "REAL_QWEN_ID_SMOKE_AWAITING_AUTHORIZATION",
+    "NO_TWENTY_TRUSTWORTHY_MIXED_SLATES"
+  ],
+  "review_decisions_sha256": "38577928b9dfce355177a3e19a3a7789d4ba14036af9c365f2e95cd4bc17ecc9",
+  "scope": "Frozen 204-item catalog and existing 288 probes only; not a statement that wearable personalization is impossible."
+}

@@ -1,0 +1,18 @@
+{
+  "layer": "AI_REFERENCE_V01",
+  "single_AI": true,
+  "seen_Silver_aggregate": true,
+  "assessor_independence": false,
+  "human_gold": false,
+  "trace_of_label_generation_available": false,
+  "accepted_scope": "EXPOSURE_QUALIFIED_EXPLORATORY_EDUCATIONAL_QUERY_RELEVANCE",
+  "shared_reference_arm": "F",
+  "F_qrel_rows": 126,
+  "F_accepted_rows": 126,
+  "F_conservative_rows": 123,
+  "context_coverage": "12/12",
+  "no_own_arm_evaluation": true,
+  "no_F_fallback": true,
+  "formal_independent_reference_utility": null,
+  "preacquisition_expected_value": null
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASS_RAW_CHAINS_AND_MECHANICAL_BINDING_ONLY",
+  "original_model_requests": 214,
+  "calls_by_ledger": {
+    "id-smoke-ledger-v03": 1,
+    "id-smoke-ledger-v03-r1": 1,
+    "qwen-source-ledger-v03": 212
+  },
+  "source_review_items": 204,
+  "source_request_response_chains": 212,
+  "source_statuses": {
+    "NO_ADMITTED_MEASURABLE_RULE": 203,
+    "REVIEW_REQUIRED": 1
+  },
+  "candidate_proposals": 1,
+  "second_source_reviews": 8,
+  "verified_measurable_knowledge": 0,
+  "real_id_checks": 2,
+  "bound_evidence_recomputed": 4,
+  "bound_statuses": {
+    "COMPUTED": 3,
+    "INSUFFICIENT_INFORMATION": 1
+  },
+  "raw_finish_reasons": {
+    "stop": 214
+  },
+  "models_returned": [
+    "qwen3.8-max"
+  ],
+  "usage": {
+    "prompt_tokens": 2540754,
+    "completion_tokens": 79411
+  },
+  "usage_priced_cny": 33.347844,
+  "actual_invoice_cny": null,
+  "cost_ceiling_cny": null,
+  "call_ceiling": null,
+  "historical_failures_retained": true,
+  "new_applicability_labels": 0,
+  "mixed_slates": 0,
+  "human_gold": false,
+  "clinical_validity": null,
+  "decision_accuracy": null,
+  "contract_frozen": false,
+  "formal_baseline_allowed": false,
+  "blocker": "SOURCE_AND_MEASUREMENT_COMPATIBILITY_REQUIREMENT_UNMET"
+}

@@ -4,3 +4,7 @@
 *.json text eol=lf
 *.jsonl -text
 *.key -text
+
+# Frozen public hashes refer to exact LF bytes, on Windows and Linux.
+docs/c1_v2_artifacts/** -text
+docs/c1_v2_2_artifacts/** -text

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "C1 v04 reference judgment: eligibility and relevance are separate axes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["query_id", "knowledge_id", "query_basis", "explicit_goal", "eligibility", "relevance", "annotation_status", "evidence_ids", "source_condition_ids", "provenance"],
+  "properties": {
+    "query_id": {"type": "string", "minLength": 1},
+    "knowledge_id": {"type": "string", "minLength": 1},
+    "query_basis": {"enum": ["TOPIC_ONLY", "EXPLICIT_USER_GOAL", "SYNTHETIC_BENCHMARK_GOAL"]},
+    "explicit_goal": {"type": ["string", "null"]},
+    "eligibility": {
+      "type": "object", "additionalProperties": false,
+      "required": ["criteria_status", "verdict", "reason_code", "annotation_status"],
+      "properties": {
+        "criteria_status": {"enum": ["VERIFIED_HARD_CRITERIA", "NO_HARD_GATE_DEFINED", "REVIEW_REQUIRED"]},
+        "verdict": {"enum": ["applicable", "not_applicable", "insufficient_information", "not_assessable", null]},
+        "reason_code": {"type": "string", "minLength": 1},
+        "annotation_status": {"enum": ["ACCEPTED", "REVIEW_REQUIRED", "REJECTED"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"criteria_status": {"enum": ["NO_HARD_GATE_DEFINED", "REVIEW_REQUIRED"]}}}, "then": {"properties": {"verdict": {"type": "null"}}}},
+        {"if": {"properties": {"verdict": {"enum": ["applicable", "not_applicable", "insufficient_information", "not_assessable"]}}}, "then": {"properties": {"criteria_status": {"const": "VERIFIED_HARD_CRITERIA"}}}}
+      ]
+    },
+    "relevance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target", "grade", "evidence_sufficiency", "reason_code", "rubric_version", "annotation_status"],
+      "properties": {
+        "target": {"enum": ["TOPIC_CONDITIONED_RELEVANCE", "GOAL_CONDITIONED_PERSONAL_RELEVANCE"]},
+        "grade": {"enum": [0, 1, 2, 3, null]},
+        "evidence_sufficiency": {"enum": ["FULL_ALLOWED_RECORD", "NOT_REQUIRED_FOR_TOPIC_JUDGMENT", "INSUFFICIENT", "UNASSESSED"]},
+        "reason_code": {"type": "string", "minLength": 1},
+        "rubric_version": {"type": "string", "minLength": 1},
+        "annotation_status": {"enum": ["ACCEPTED", "REVIEW_REQUIRED", "REJECTED"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"evidence_sufficiency": {"enum": ["INSUFFICIENT", "UNASSESSED"]}}}, "then": {"properties": {"grade": {"type": "null"}}}},
+        {"if": {"properties": {"target": {"const": "GOAL_CONDITIONED_PERSONAL_RELEVANCE"}}}, "then": {"properties": {"evidence_sufficiency": {"enum": ["FULL_ALLOWED_RECORD", "INSUFFICIENT", "UNASSESSED"]}}}}
+      ]
+    },
+    "annotation_status": {"enum": ["ACCEPTED", "REVIEW_REQUIRED", "REJECTED"]},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "source_condition_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind", "model_id", "human_gold", "prompt_version", "schema_version", "request_hash", "response_hash"],
+      "properties": {
+        "kind": {"enum": ["MODEL_SILVER", "HUMAN_REVIEWED"]},
+        "model_id": {"type": ["string", "null"]},
+        "human_gold": {"type": "boolean"},
+        "prompt_version": {"type": "string"},
+        "schema_version": {"const": "c1-ranking-judgment-v04"},
+        "request_hash": {"type": ["string", "null"]},
+        "response_hash": {"type": ["string", "null"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "MODEL_SILVER"}}}, "then": {"properties": {"human_gold": {"const": false}, "model_id": {"type": "string", "minLength": 1}, "request_hash": {"type": "string", "minLength": 1}, "response_hash": {"type": "string", "minLength": 1}}}}
+      ]
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"query_basis": {"const": "TOPIC_ONLY"}}}, "then": {"properties": {"explicit_goal": {"type": "null"}, "relevance": {"properties": {"target": {"const": "TOPIC_CONDITIONED_RELEVANCE"}}}}}},
+    {"if": {"properties": {"query_basis": {"enum": ["EXPLICIT_USER_GOAL", "SYNTHETIC_BENCHMARK_GOAL"]}}}, "then": {"properties": {"explicit_goal": {"type": "string", "minLength": 1}}}},
+    {"if": {"properties": {"eligibility": {"properties": {"criteria_status": {"const": "VERIFIED_HARD_CRITERIA"}}}}}, "then": {"properties": {"source_condition_ids": {"minItems": 1}}}},
+    {"if": {"properties": {"annotation_status": {"const": "ACCEPTED"}}}, "then": {"properties": {"relevance": {"properties": {"evidence_sufficiency": {"enum": ["FULL_ALLOWED_RECORD", "NOT_REQUIRED_FOR_TOPIC_JUDGMENT", "INSUFFICIENT"]}}}}}}
+  ]
+}

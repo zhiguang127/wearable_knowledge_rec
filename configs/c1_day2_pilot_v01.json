@@ -1,0 +1,66 @@
+{
+  "version": "c1-day2-feasibility-v01",
+  "mode": "TRAIN_ONLY_FEASIBILITY_NOT_FORMAL_BASELINE",
+  "source_release": "data/releases/c1-benchmark-v2.1",
+  "source_release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "original_knowledge_release": "data/releases/c1-benchmark-v2.2-r1",
+  "original_knowledge_release_id": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e",
+  "myhf_titles": ["Get Enough Sleep", "Get Active", "Stay Active as You Get Older: Quick Tips", "Stay Active with a Disability: Quick Tips"],
+  "medline_titles": ["Healthy Sleep", "Benefits of Exercise", "Exercise and Physical Fitness", "How Much Exercise Do I Need?"],
+  "knowledge_unit_rule": "Every complete API section or complete Medline full-summary for these fixed articles, retaining all blocks, headings and article population context; no condition/outcome filter",
+  "candidate_rule": "All rebuilt units of the query topic, ordered by stable new knowledge ID; no selection using measurements or labels",
+  "participants": 3,
+  "participant_selection": "First three train subject IDs ordered by SHA256(selection_salt, subject_id)",
+  "window_selection": "One 42-day-history case per participant ordered by SHA256(selection_salt, case_id); no value/quality filtering, no replacement if missing",
+  "selection_salt": "c1-day2-fixed-before-judgments-20261020-v1",
+  "topics": ["sleep", "physical_activity"],
+  "query_bases": ["TOPIC_ONLY", "SYNTHETIC_BENCHMARK_GOAL"],
+  "context_count": 12,
+  "goals": {
+    "sleep": "I want to understand recent changes in my recorded sleep duration and choose relevant general sleep education. Do not assume insomnia, a particular age, or a personal nightly sleep target.",
+    "physical_activity": "I want to understand recent changes in my recorded physical activity and choose relevant general activity education. Do not assume a weight-loss goal, a diagnosis, exercise intensity or activity modality."
+  },
+  "evidence_arms": {
+    "A": "Topic/Goal only; no personal evidence",
+    "B": "Topic/Goal plus topic metric mean over 14 days",
+    "C": "B plus same metric 14-day mean_difference versus previous 28 days; one acquired probe",
+    "D": "B plus unrelated rhr mean over 14 days; one acquired probe, diagnostic negative control",
+    "F": "Offline reference only: all 288 legal probes from the same case, no future data"
+  },
+  "topic_metrics": {"sleep": "sleep_duration", "physical_activity": "steps"},
+  "measurement_min_coverage": 0.7,
+  "acquisition_cost": {"C": 1, "D": 1},
+  "ranker": {
+    "version": "day2-lexical-descriptive-context-v1",
+    "base_score": "Jaccard of lowercase alphabetic query and knowledge tokens, excluding the predeclared stopword set",
+    "evidence_score": "0.1 * source_context_link * I(valid topic mean) + change_context_link * abs(delta)/(abs(current_mean)+abs(previous_mean))",
+    "missing_delta_contribution": 0,
+    "zero_denominator_contribution": 0,
+    "source_context_link": "1 only for fixed source locations: sleep MyHF overview and Medline Healthy Sleep; activity MyHF Track Progress and Medline Exercise and Physical Fitness. These are descriptive relevance hypotheses, never hard-condition equivalence or clinical priorities.",
+    "change_context_link": "1 only for Medline Healthy Sleep (discussion of sleep patterns and duration) and MyHF Get Active / Track Progress (tracking recorded steps). These are preregistered ranking hypotheses; source does not assert these ranking weights.",
+    "ties": "Equal scores share rank; ID orders serialization only",
+    "trained_parameters": false
+  },
+  "utility": {
+    "name": "graded judged-slate expected-tie NDCG@5",
+    "gain": [0, 1, 3, 7],
+    "unknown": "Exclude only on a fixed paired reference mask; never grade zero",
+    "minimum_judged_items": 2,
+    "minimum_distinct_reference_grades": 2,
+    "formal_utility_requires": "Independent human reference judgments, including adjudication of disagreements",
+    "silver_proxy_is_formal_utility": false
+  },
+  "expected_value_estimation": "NOT_ESTIMATED_NO_TRAINING_REFERENCE_GOLD; no test/full-result access in action selection",
+  "bootstrap": {"unit": "participant", "samples": 2000, "seed": 20261020, "scope": "Exploratory Silver summaries only; three people cannot support population conclusions"},
+  "feasibility_criteria": {
+    "engineering": "All historical hashes preserved, source reconstruction closes, 12 predeclared contexts retained, no hidden-result/label input to ranker, all accepted references bound and all tests pass",
+    "exploratory_personal_signal": "At least two contexts across at least two participants have a B-to-C relative grade change explicitly citing the new COMPUTED evidence and an allowed descriptive source link; this is only a candidate signal, not Gold",
+    "GO": "Engineering gate and independent double-reviewed/adjudicated references cover at least 8 of 12 contexts, with independently supported evidence-dependent relative differences in at least two participants and evaluable nonconstant reference utility",
+    "CONDITIONAL_GO": "Engineering chain works and legitimate descriptive source-evidence relations exist, but independent human references or source adjudication are missing; exploratory differences may be absent",
+    "NO_GO": "Unresolved integrity/access violations, zero valid real measurements, or no legitimate descriptive relation between retained knowledge and permitted measurements"
+  },
+  "model_budget_config": "configs/c1_day2_qwen_unrestricted_v01.json",
+  "formal_benchmark_frozen": false,
+  "formal_baseline_allowed": false,
+  "c2_training_allowed": false
+}

@@ -1,0 +1,284 @@
+{
+  "version": "day2-feasibility-results-v01",
+  "status": "CONDITIONAL_GO",
+  "protocol_id": "87e205b58e38f1b7ed7b210548f08bf94bf11cebbb0187fbd0062514f6183019",
+  "run_id": "838cf62ad3d89c72820b9f3f8d2818dce984468e94db319b028fe4e28f8713b0",
+  "evidence_provenance": {
+    "knowledge": "Frozen public source reconstruction",
+    "measurements": "REAL_WEARABLEQA_DETERMINISTIC_PROBES",
+    "judgments": "QWEN_MODEL_SILVER",
+    "ranker": "PREREGISTERED_PROGRAM_DIAGNOSTIC",
+    "human_gold": "ABSENT",
+    "synthetic": "Explicit query goals and unit-test fixtures only"
+  },
+  "knowledge_units": 21,
+  "knowledge_by_topic": {
+    "physical_activity": 12,
+    "sleep": 9
+  },
+  "participants": 3,
+  "contexts": 12,
+  "fixed_slates": 12,
+  "unique_topic_slates": 2,
+  "query_bases": {
+    "TOPIC_ONLY": 6,
+    "SYNTHETIC_BENCHMARK_GOAL": 6
+  },
+  "candidate_counts": {
+    "9": 6,
+    "12": 6
+  },
+  "raw_requests": 73,
+  "source_requests": 21,
+  "unique_relevance_requests": 52,
+  "raw_schema_failures": 1,
+  "source_statuses": {
+    "SOURCE_SPANS_BOUND_SILVER": 19,
+    "REVIEW_REQUIRED": 1,
+    "CALL_OR_SCHEMA_FAILURE": 1
+  },
+  "silver_statuses": {
+    "REFERENCE_BOUND_SILVER": 49,
+    "REVIEW_REQUIRED": 3
+  },
+  "silver_validation_errors": {
+    "topic_only_claim_has_personal_citations": 3
+  },
+  "arm_reference_assignments": 60,
+  "reused_A_assignments": 8,
+  "silver_grade_distribution_by_assignment": {
+    "2": 290,
+    "1": 237,
+    "3": 67
+  },
+  "silver_grades_by_arm": {
+    "A": {
+      "2": 75,
+      "1": 48,
+      "3": 3
+    },
+    "B": {
+      "2": 52,
+      "3": 19,
+      "1": 55
+    },
+    "C": {
+      "2": 56,
+      "3": 18,
+      "1": 52
+    },
+    "D": {
+      "2": 63,
+      "3": 17,
+      "1": 46
+    },
+    "F": {
+      "2": 44,
+      "3": 10,
+      "1": 36
+    }
+  },
+  "silver_basis_by_assignment": {
+    "TOPIC_OR_GOAL_ONLY": 511,
+    "PERSONAL_EVIDENCE_CONTEXT": 83
+  },
+  "matched_changed_pair_counts_silver": {
+    "A_B": 150,
+    "B_C": 26,
+    "B_D": 57,
+    "A_F": 73
+  },
+  "matched_pair_comparisons": {
+    "A_B": {
+      "comparable_pairs": 612,
+      "changed_pairs": 150,
+      "tie_changes": 150,
+      "reversals": 0
+    },
+    "B_C": {
+      "comparable_pairs": 612,
+      "changed_pairs": 26,
+      "tie_changes": 26,
+      "reversals": 0
+    },
+    "B_D": {
+      "comparable_pairs": 612,
+      "changed_pairs": 57,
+      "tie_changes": 57,
+      "reversals": 0
+    },
+    "A_F": {
+      "comparable_pairs": 414,
+      "changed_pairs": 73,
+      "tie_changes": 73,
+      "reversals": 0
+    }
+  },
+  "cross_person_diagnostics_silver": {
+    "context_pairs": 12,
+    "comparable_candidate_pairs": 612,
+    "changed_candidate_pairs": 64,
+    "preference_reversals": 0
+  },
+  "candidate_signal_contexts_silver": 1,
+  "candidate_signal_participants_silver": 1,
+  "preregistered_exploratory_signal_criterion_met": false,
+  "source_probe_compatibility": {
+    "source_units": 21,
+    "units_with_fixed_descriptive_link": 4,
+    "fixed_descriptive_link_fraction": 0.19047619047619047,
+    "source_facet_kinds_model_silver": {
+      "POPULATION": 24,
+      "RECOMMENDED_TARGET": 44,
+      "BEHAVIOR_STATE": 27,
+      "BACKGROUND": 16,
+      "HARD_TRIGGER": 19,
+      "TIME": 3
+    },
+    "source_facet_relations_model_silver": {
+      "DESCRIPTIVE_CONTEXT_ONLY": 86,
+      "UNMEASURED_CONTEXT": 21,
+      "NON_EQUIVALENT_PROBE": 19,
+      "REVIEW_REQUIRED": 6,
+      "NO_PERSONAL_PREDICATE": 1
+    },
+    "verified_hard_predicates": 0,
+    "exact_hard_predicate_compatibility_rate": null,
+    "rate_note": "No independent semantic adjudication; descriptive links must not be reported as exact predicate compatibility"
+  },
+  "full_backend_measurements": {
+    "COMPUTED": 503,
+    "INSUFFICIENT_INFORMATION": 361
+  },
+  "unique_online_measurements": {
+    "COMPUTED": 15
+  },
+  "unique_online_measurement_count": 15,
+  "valid_measurement_rate": 1.0,
+  "missing_evidence_rate": 0.0,
+  "H": {
+    "verified_measurable_hard_predicates": 0,
+    "personal_hard_verdicts": 0,
+    "status": "NOT_ESTABLISHED"
+  },
+  "R": {
+    "accuracy_gold": null,
+    "independent_human_agreement": null,
+    "status": "SILVER_EXPLORATORY_ONLY",
+    "candidate_assignments": 630,
+    "mechanically_accepted_candidate_assignments": 594,
+    "unknown_grade_assignments": 0
+  },
+  "V": {
+    "expected_value": null,
+    "formal_gold_ndcg": null,
+    "formal_gold_gain": null,
+    "status": "COMPUTATION_AND_SILVER_PROXY_ONLY",
+    "delta_signs": {
+      "C": {
+        "positive": 1,
+        "zero": 8,
+        "undetermined": 3
+      },
+      "D": {
+        "zero": 9,
+        "undetermined": 3
+      }
+    },
+    "rank_changes": {
+      "C": 5,
+      "D": 0
+    },
+    "acquisition_cost_per_C_or_D": 1,
+    "total_C_D_action_slots": 24,
+    "step_latency_ns": {
+      "mean": 657316.6666666666,
+      "max": 1670000
+    },
+    "original_positive_proxy_requires_reference_review": 1,
+    "proxy_signs_after_pending_reference_flags": {
+      "C": {
+        "reference_semantics_pending": 1,
+        "zero": 8,
+        "undetermined": 3
+      },
+      "D": {
+        "reference_semantics_pending": 1,
+        "zero": 8,
+        "undetermined": 3
+      }
+    },
+    "positive_proxy_not_flagged_for_reference_review": 0
+  },
+  "exploratory_participant_bootstrap": {
+    "B_C_changed_pair_fraction": {
+      "mean": 0.039141414141414144,
+      "ci95": [
+        0.03409090909090909,
+        0.045454545454545456
+      ],
+      "participants": 3,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 2000,
+      "seed": 20261020
+    },
+    "C_silver_proxy_delta": {
+      "mean": 0.012769669281077268,
+      "ci95": [
+        0.0,
+        0.0383090078432318
+      ],
+      "participants": 3,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 2000,
+      "seed": 20261020
+    },
+    "D_silver_proxy_delta": {
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "participants": 3,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 2000,
+      "seed": 20261020
+    }
+  },
+  "tokens": {
+    "prompt_tokens": 1811331,
+    "completion_tokens": 105456
+  },
+  "usage_priced_cny": 25.532388,
+  "actual_invoice_cny": null,
+  "model_request_latency_ns": {
+    "mean": 20166639179.452053,
+    "max": 36677653500
+  },
+  "formal_baselines_run": false,
+  "c2_training_run": false,
+  "benchmark_frozen": false,
+  "next_priority": "Independent double human review and source-link adjudication of the prepared blind packets, before interpreting evidence-dependent relevance or ranking benefit",
+  "raw_diagnostic_analysis_id": "42732e5eb63d18b2d7a3f0be78d1317061cd21c5edc89234fc90e193c0cc4a10",
+  "semantic_sidecar_id": "1b89ebd1ff97ac22a0ee5a59a624f1e7f812a6e5bd42e3c01315dde641d9f000",
+  "semantic_model_review": {
+    "human_gold": false,
+    "personal_rationales_inspected": 83,
+    "pending_findings": 15,
+    "pending_tasks": 13,
+    "reason_counts": {
+      "DIRECT_COMPARISON_OF_AGGREGATE_TO_AGE_SCOPED_TARGET": 9,
+      "UNSUPPORTED_NIGHTLY_ADHERENCE_INFERENCE": 1,
+      "SUFFICIENCY_INTERPRETATION_WITH_UNOBSERVED_AGE": 2,
+      "UNSUPPORTED_PERSONAL_SLEEP_DEFICIT": 3
+    },
+    "scope": "Conservative source/measurement review flags, not adjudicated error prevalence; other rows are not certified"
+  },
+  "conclusion": {
+    "true_personal_evidence_dependent_relevance": "NOT_ESTABLISHED",
+    "true_acquisition_utility_improvement": "NOT_EVALUABLE_WITHOUT_INDEPENDENT_REFERENCE",
+    "exploratory_signal_threshold_met": false,
+    "negative_control_warning": "Unrelated-probe B-to-D changes exceed B-to-C changes; no strict pairwise reversal observed",
+    "scope_of_conditional_go": "Proceed only to independent source/relevance adjudication; not formal Benchmark freeze or algorithm comparison"
+  }
+}

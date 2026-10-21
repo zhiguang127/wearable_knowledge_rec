@@ -1,0 +1,9 @@
+{
+  "packets": 24,
+  "paired_judgment_slots": 96,
+  "reviewer_id": null,
+  "human_attestation": false,
+  "independent_human_reviews": 0,
+  "Gold": false,
+  "status": "PREPARED_NOT_ANNOTATED"
+}

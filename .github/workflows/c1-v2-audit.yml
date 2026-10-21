@@ -1,0 +1,30 @@
+name: C1 V2 audit regressions
+
+on:
+  push:
+    branches: [codex/c1-v2-audit-repair]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  portable-regressions:
+    name: Portable regressions (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Run public fixtures and metadata checks without credentials
+        run: python -m unittest tests.test_c1_v2 tests.test_c1_v22_repair -v
+      # Private-source integration is run locally and reported separately.
+      # CI never downloads individual health records or performs paid requests.

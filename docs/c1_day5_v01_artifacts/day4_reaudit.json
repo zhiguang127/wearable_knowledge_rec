@@ -1,0 +1,43 @@
+{
+  "status": "ALL_DAY4_SEALS_AND_RAW_TRACES_REVERIFIED",
+  "seals": {
+    "local/day4/analysis-v01r1": "cd3e9261478d96b928c0e570669602b7c7d73c943f37a4d83939207cf0cf47c2",
+    "local/day4/design-v01": "70e8148c2c6e1944ebe857929e2b6bdd11545284c01e60dff44ce546fc1f94dd",
+    "local/day4/reference-executed-v01": "cecd30921e24f7c07a51cbb7d7e8bbfb3e97a6ea8fa97189237898d4dda3f2a3",
+    "local/day4/reference-prepared-v01": "29681be7ae61d815622b7d4b393838bae08e0c161b5405698bdb05ca7d0c7360",
+    "local/day4/reference-revalidated-v01r1": "3f80bb66acabde17d18d000b4e874764d4b988fbd99cdc83459f959d73fa6ad5",
+    "local/day4/schema-amendment-v01r1": "ff8304312c68bd67537ea926b049215091bdc33d0a2cae7e67a65496c35c6373",
+    "local/day4/validation-v01r1": "d5301926b7abdcd0e2716248266b4f5eff940a5a3973437a804d7d9488b90684",
+    "docs/c1_day4_v01_artifacts": "1dcdde532ab111dfec8ed1847bfc9500ae0141277929fd2f488d096a6d7a46a0",
+    "local/day3/evaluated-v01": "7c38144f00ccc6c3e7ee102dd78d41fd84ca5d982d5d6d56b1d0d16335a93bb8",
+    "local/day2/prepared-v01": "87e205b58e38f1b7ed7b210548f08bf94bf11cebbb0187fbd0062514f6183019",
+    "local/day2/executed-v01": "838cf62ad3d89c72820b9f3f8d2818dce984468e94db319b028fe4e28f8713b0",
+    "data/releases/c1-benchmark-v2.1": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+    "data/releases/c1-benchmark-v2.2-r1": "072ad76eedf22a9bc49b6080e9c1e17006bbb4625e834893befba63615792c1e"
+  },
+  "raw_requests_responses": 48,
+  "original_schema_failures_retained": 7,
+  "reference_status_counts": {
+    "REVIEW_REQUIRED": 53,
+    "ACCEPTED": 33,
+    "UNKNOWN": 10
+  },
+  "day4_decision": {
+    "status": "INSUFFICIENT_EVIDENCE",
+    "source_audited_evidence_conditioned_pairs": [],
+    "reference_material_adequate_for_design_diagnosis": false,
+    "ranking_utility_executed": false,
+    "real_C_minus_D_ndcg5": null,
+    "Expected_V": null,
+    "human_gold": false,
+    "formal_benchmark_frozen": false,
+    "formal_baseline_started": false,
+    "C2_started": false,
+    "assessor_independence": "NEW_REQUESTS_BLINDED_SAME_MODEL_FAMILY_NOT_HUMAN_OR_FULL_EVALUATOR_INDEPENDENCE",
+    "next_unique_priority_action": "Obtain source-grounded contextual measurements needed by the ambiguous paired judgments before enlarging the library or comparing acquisition algorithms.",
+    "population_significance_claim": false
+  },
+  "independent_human_results": 0,
+  "day5_new_model_calls": 0,
+  "boundary_files": 227
+}

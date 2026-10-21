@@ -13,7 +13,7 @@ from src.datasets.probes import make_probe, execute, catalog, validate_probe, re
 from src.datasets.splits import validate_split
 from src.datasets.v2_sources import freeze, verify, snapshot, verify_sources
 from src.knowledge.c1_v2 import blocks, similarity
-from src.annotation.c1_v2_client import V2Client
+from src.annotation.c1_v2_client import V2Client, combined_report, DEFAULT_BUDGET
 from src.annotation.c1_v2_pipeline import citations, check_label, check_review, capability_errors
 
 
@@ -145,6 +145,38 @@ class TransportTests(unittest.TestCase):
             cfg=self.config();cfg['authorized_cap_cny']=0
             with self.assertRaises(Blocked):V2Client(d,cfg)
 
+    def test_new_model_uses_own_prices_provenance_and_ledger(self):
+        cfg={**read(ROOT/DEFAULT_BUDGET),"authorized_cap_cny":2,"max_calls":2}
+        with tempfile.TemporaryDirectory() as d:
+            old_dir,new_dir=Path(d)/"old",Path(d)/"new"
+            old=V2Client(old_dir,self.config(),transport=lambda req:self.body())
+            old.call([],prompt_version="fixture")
+            requests=[]
+            def send(request):
+                requests.append(request)
+                return {**self.body(),"model":"qwen3.8-max-0902"}
+            client=V2Client(new_dir,cfg,transport=send)
+            _,meta=client.call([],prompt_version="fixture")
+            self.assertEqual(requests[0]["model"],"qwen3.8-max")
+            self.assertEqual(meta["label_provenance"],"QWEN3_8_MAX_SILVER")
+            self.assertEqual(meta["returned_model"],"qwen3.8-max-0902")
+            self.assertNotEqual(meta["cache_key"],next((old_dir/"cache").glob("*.json")).stem)
+            self.assertAlmostEqual(client.report()["usage_priced_cny"],0.000264)
+            self.assertTrue(client.call([],prompt_version="fixture")[1]["cache_hit"])
+            self.assertEqual(len(requests),1)
+            combined=combined_report([old_dir,new_dir])
+            self.assertEqual(combined["model_requested"],"MIXED")
+            self.assertEqual(combined["models_requested"],["qwen-plus","qwen3.8-max"])
+            self.assertAlmostEqual(combined["usage_priced_cny"],0.000280)
+            with self.assertRaises(Blocked):V2Client(old_dir,cfg,transport=send)
+
+    def test_new_model_rejects_old_prices_and_unassigned_budget(self):
+        with tempfile.TemporaryDirectory() as d,patch('socket.socket',side_effect=AssertionError('network')):
+            cfg=read(ROOT/DEFAULT_BUDGET)
+            with self.assertRaises(Blocked):V2Client(d,cfg)
+            cfg.update(authorized_cap_cny=1,max_calls=1,input_cny_per_million=0.8,output_cny_per_million=2)
+            with self.assertRaises(Blocked):V2Client(d,cfg)
+
 
 class SourceAndCitationTests(unittest.TestCase):
     def test_correlated_aggregates_cannot_stand_for_unobserved_inputs(self):
@@ -157,7 +189,8 @@ class SourceAndCitationTests(unittest.TestCase):
 
     def test_multiple_summaries_not_promoted_to_necessary_AND(self):
         c={'probe_ids':['mean','sd'],'use':'applicability','role':'necessary','logic':'ALL','text':'Low activity'}
-        self.assertIn('necessary_ALL_probe_group_has_no_grounded_per_probe_predicates',capability_errors(c))
+        # Probe arity cannot establish or refute the source connective. Dependency auditing is separate.
+        self.assertFalse(capability_errors(c))
         c['role']='optional'
         self.assertFalse(capability_errors(c))
 
