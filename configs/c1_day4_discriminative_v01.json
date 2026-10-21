@@ -1,0 +1,69 @@
+{
+  "version": "c1-day4-discriminative-v01",
+  "mode": "TRAIN_ONLY_EXPLORATORY_MECHANISM_NOT_FORMAL_BASELINE",
+  "source_release": "data/releases/c1-benchmark-v2.1",
+  "source_release_id": "d2f61a6c6634c0c713cdac76d8594c1ca30bca3d6b78ef4c235ad3eeff07de2e",
+  "day2_prepared": "local/day2/prepared-v01",
+  "day3_evaluated": "local/day3/evaluated-v01",
+  "sampling": "Same three Day 2 training subjects; all existing 42-day cases (three per person) plus earliest-ending existing 14-day case per person. Select using identity/history/end_date only; no replacement or label/value filtering.",
+  "expected_people": 3,
+  "expected_real_cases": 12,
+  "knowledge": "Eight fixed source-traceable pairs from complete Day 2 units. No new health facts, hard predicates or source thresholds. Candidate discriminability is a hypothesis, not certified by pair construction.",
+  "reference": {
+    "kind": "FRESH_QWEN_PAIRWISE_SILVER_DAY4",
+    "view": "Full 288 legal results for the case, independent of online arms; absolute dates/subject IDs/raw rows excluded",
+    "blinding": "Fresh stateless requests; no old labels, ranker/features/outputs, arm names, intended effect, acquisition choices or previous Silver summaries",
+    "orientation": "Every packet has a fresh mirrored candidate-order packet; no conversation/cache reuse between the two",
+    "independence": "Request-level isolation is testable. Same Qwen family, public data exposure and model prior dependence remain; mirrored review is not a second independent assessor or human Gold.",
+    "primary": "Use primary-view grades only when both views pass binding/semantic checks and their canonical preference agrees. Report exact grade disagreement separately. Unknown never zero.",
+    "bundles": 2,
+    "pairs_per_bundle": 4,
+    "automatic_retries": false
+  },
+  "online": {
+    "A": "Topic/explicit fixed Goal; zero evidence",
+    "B": "Topic metric means at 7 and 14 days, plus rhr mean at 14 days; three given seed probes",
+    "C": "B plus topic metric mean_difference at 14 days versus preceding 28 days",
+    "D": "B plus topic metric mean_difference at 7 days versus preceding 28 days; matched active temporal control, NOT assumed irrelevant",
+    "D0": "B plus rhr mean_difference at 14 days; unrelated structural control, NOT sufficient evidence of acquisition success",
+    "incremental_cost": 1,
+    "same_action_and_billing_path": true
+  },
+  "ranker": {
+    "version": "day4-signed-descriptive-mechanism-v01",
+    "base_score": 0,
+    "formula": "For acquired topic mean_difference with matching observed mean of its horizon: z=delta/(abs(current)+abs(current-delta)), zero denominator=>0. Candidate score=direction_link*z+magnitude_link*abs(z), averaged across acquired compatible horizons. All coefficients fixed in pairs.py before new references.",
+    "coefficient_scope": "Unitless research hypotheses, not thresholds/medical advice or source-asserted priority weights",
+    "unknown": "No acquired valid comparison => tied scores plus explicit unresolved state; missing is not an adverse personal state",
+    "temporal_control": "C and D use identical code/coefficient path, differing only legal horizon/result. D0 has no source-compatible metric; structural suppression reported, never counted as empirical specificity.",
+    "legacy": "Day 2 ranker retained unmodified and replayed as historical diagnostic only; its rhr suppression is not an empirical negative-control success",
+    "fit_or_parameter_search": false
+  },
+  "semantic_rejections": ["NIGHTLY_ADHERENCE_FROM_MEAN", "STEPS_AS_INTENSITY_MINUTES", "BED_TIME_STD_AS_KNOWN_RECENT_CLOCK_REGULARITY", "UNKNOWN_STATE_AS_FALSE", "DECLINE_AS_VERIFIED_INACTIVITY", "UNSUPPORTED_CLINICAL_THRESHOLD_OR_CAUSAL_PRIORITY", "WRONG_SOURCE_EVIDENCE_OR_WINDOW"],
+  "signal_gate": "At least one pair has source-audited, mirrored-consistent known reference relations that differ across real people/windows with the same exact Goal, and at least one changed-context judgment explicitly depends on COMPUTED compatible evidence. GOAL_ONLY variation, unknown-to-known coverage, source-invalid or position-inconsistent variation does not count.",
+  "evaluation": {
+    "run_ranking_utility_only_if_signal_gate": true,
+    "reference": "One shared accepted full-record reference per case/pair, all arms identical qrel mask",
+    "metrics": ["expected-tie NDCG@3", "expected-tie NDCG@5", "strict-reference pairwise agreement", "strict preference recovery", "score/tie/strict-order/utility changes"],
+    "gain": [0, 1, 3, 7],
+    "two_candidate_caveat": "@3 and @5 are identical on a two-item slate; no catalog retrieval claim",
+    "equal_reference_grades": "NDCG and strict-pair metrics null; retain known tie as reference coverage",
+    "utility_sign_tolerance": 1e-12,
+    "deltas": ["C-B", "D-B", "C-D", "D0-B"],
+    "expected_V": null
+  },
+  "reliability": {
+    "aggregation": "Mean within each participant, then unweighted across people; windows/pairs not independent people",
+    "analyses": ["person effects and leave-one-person-out", "exclude all overlapping-source or unequal-granularity pairs", "require exact primary/mirror grade agreement", "42-day vs 14-day missing-comparison cases", "within-person chronological change and across-person same Goal", "C-vs-D matched active control and D0 structural control separately", "same cited evidence with opposite preferences"],
+    "no_population_significance": true,
+    "no_synthetic_research_cohort": "Existing real cases cover observed variation; synthetic values used only in explicitly labeled software/unit mechanism tests, never source-derived qrels"
+  },
+  "decision": {
+    "SIGNAL_SUPPORTED_EXPLORATORY": "Pass source-audited evidence-dependent real reference gate; positive matched C-D participant macro utility with nonnegative leave-one-person-out direction and supported preference recovery beyond structural D0; mirror/granularity sensitivity direction retained. AI evidence remains exploratory and no automatic formal benchmark/baseline authorization.",
+    "MEASUREMENT_OR_TASK_REDESIGN_REQUIRED": "Adequate returned/reviewed real reference material but no defensible evidence-conditioned relation changes, or improvements explained by Goal/source/structural controls rather than evidence discrimination",
+    "INSUFFICIENT_EVIDENCE": "Missing/failed/semantically rejected or position-inconsistent reference material prevents assessing the mechanism"
+  },
+  "minimum_reference_material_for_design_diagnosis": "Returned and source-reviewed judgments for all eight pairs in at least two people; unknown is a reported outcome, not a fabricated grade",
+  "formal_benchmark_frozen": false,
+  "formal_baseline_or_C2": false
+}

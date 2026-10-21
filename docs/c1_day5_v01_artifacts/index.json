@@ -1,0 +1,32 @@
+{
+  "status": "INSUFFICIENT_EVIDENCE",
+  "created_at_UTC": "2026-10-21T03:34:49.619102+00:00",
+  "prepared_release_id": "0738f7ba11e35d0f0efc7079947815503e1798a775fa403bdec231c9f3392d15",
+  "mechanism_release_id": "d01bd6977ce1007ecf0c0776df2e5bf1a0bff72d7bf8c19fb9d3b57d4ddfc6fb",
+  "distribution_release_id": "2e0caab2cb23443d054b1875c525e4a2a556ecf4598b47ed100e3a1857149981",
+  "documents_and_configurations": {
+    "docs/C1_DAY5_SINGLE_PAIR_PROTOCOL_V01.md": "2b0364424a290725d66653468ff6e90da3d1857f6f1a7e9a3a4a0de1f8b494f0",
+    "docs/C1_DAY5_SINGLE_PAIR_REPORT_V01.md": "23b28a9f6df45dd8a9116a0aec52d8ab6d950f093d1a6459f1017ebb44348b2f",
+    "configs/c1_day5_single_pair_v01.json": "58b43a03c1806b932df270122beed16c642ab4ce4a1d3048cad1b1d043647fe9",
+    "configs/c1_day5_source_context_v01.json": "f876cd017cbaaa478804a011c5b6811cff1b0552ac2797fc2984c94e8db85ebf"
+  },
+  "independent_session_ZIPs": {
+    "local/day5/distribution-v01/RATER_A_SESSION_1.zip": "d2bf5db63266b7b0c489f12a0ae3e0248b25f71f8482c5c13f2d221bae10d139",
+    "local/day5/distribution-v01/RATER_A_SESSION_2.zip": "c9a634d862dd8fd744e8059f79add8fcff29df19d2c926399cc029b4b97551e5",
+    "local/day5/distribution-v01/RATER_A_SESSION_3.zip": "46395ebe90e8a7d9ea0b4640994f3bc4c004511f635611455bb8c321a7774093",
+    "local/day5/distribution-v01/RATER_B_SESSION_1.zip": "aacb78aab8da1181413a61d0ffb349fef426cacb11e4bbce20223b660cd1bd0d",
+    "local/day5/distribution-v01/RATER_B_SESSION_2.zip": "8cf7875bb30c31b56b2ddcff41e6a157e9e6c544d0f30d76bc79b197bb50d011",
+    "local/day5/distribution-v01/RATER_B_SESSION_3.zip": "f088ba2d76237ff3d536aed163c183c94eacf3a2e0d249160301185456630aee"
+  },
+  "final_validation_path": "local/day5/validation-v01/final_qa.json",
+  "validation_seal_path": "local/day5/validation-v01/freeze.json",
+  "raw_private_paths": [
+    "local/day5/prepared-v01",
+    "local/day5/mechanism-v01",
+    "local/day5/distribution-v01"
+  ],
+  "actual_human_judgments": 0,
+  "new_model_calls": 0,
+  "benchmark_freeze": false,
+  "reviewer_blinding_warning": "This public researcher report/matrix is not a blind review kit; distribute only the assigned session ZIP."
+}

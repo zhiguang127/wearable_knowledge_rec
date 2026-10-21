@@ -1,5 +1,15 @@
 # C1 V2 自动审查与有限 Silver 标注协议
 
+**2026-10-20 模型切换**：根据用户指定，新标注入口默认请求 `qwen3.8-max`，使用 `configs/c1_day1_qwen3_8_max.json` 和独立的 `local/c1-day1/qwen3.8-max-*` 目录。请求参数继续使用 temperature=0、enable_thinking=false、stream=false、max_tokens=3000。每次保存请求模型、实际返回模型及请求/响应哈希；新来源标记为 `QWEN3_8_MAX_SILVER`，仍不是人工 Gold。滚动别名不宣称固定权重快照。
+
+2026-10-20 核验[官方北京地域价格](https://help.aliyun.com/zh/model-studio/qwen3-8-max)：输入 12、输出 36 CNY/百万 token；不假设缓存、Batch 或活动折扣。旧 `qwen-plus` 预算文件、冻结工件、失败与标签身份原样保留，不能按新模型改名或定价。本次模型配置未分配新付费运行额度（cap/calls=0），仅配置切换和离线验证；`--plan-only` 可先估算且不创建 ledger。此变更不表示粘贴的 Day 1 合同已实现或冻结，四分类 Schema、Evidence ID 绑定及其余验收仍须单独完成。
+
+```powershell
+python -m src.annotation.c1_v2_pipeline --smoke --plan-only --label-pairs 12 --output local/c1-day1/qwen3.8-max-smoke-v1
+```
+
+下文记录历史 V2/V2.2 的模型、预算和执行过程。
+
 **V2.2 修订入口**：[Audit & Repair 协议与报告](C1_V2_2_AUDIT_AND_REPAIR.md) 取代下文关于模型相似连通分量合并、仅执行映射 Probe、按映射排序采样和多 Probe 必要 ALL 的统一拒绝规则。下文保留历史过程，不作为当前实现契约。新调用使用独立完整上下文缓存及完整探查注册表；未知条件不自动成立，不执行过时缓存，不把未运行或待审记录记为信息不足标签。
 
 2026-10-19。本阶段按用户授权使用自动审查替代人工逐条审查；没有人工或医学专家标签。旧 `STUDY_PROTOCOL.md` 的原轮次与冻结发布不回写。研究目标是检查数据/知识条件、探查成本和可辨识性，不预设 Knowledge-Unlocking Value 有效。

@@ -1,0 +1,21 @@
+{
+  "real_cases": 12,
+  "real_context_collected": 0,
+  "real_C_D_actions": 0,
+  "synthetic_cases": 6,
+  "synthetic_step_count": 12,
+  "synthetic_cost_per_arm": 6,
+  "unknown_answers_cost_one": true,
+  "reference_reliable": null,
+  "priority_signal": null,
+  "NDCG_at_3": null,
+  "NDCG_at_5": null,
+  "pairwise_agreement": null,
+  "Observed_delta_C": null,
+  "Observed_delta_D": null,
+  "C_minus_D": null,
+  "Expected_V": null,
+  "ranking_not_manufactured_from_source_cues": true,
+  "ranker_or_labels_retuned": false,
+  "prepared_id": "0738f7ba11e35d0f0efc7079947815503e1798a775fa403bdec231c9f3392d15"
+}

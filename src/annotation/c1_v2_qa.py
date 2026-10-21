@@ -7,11 +7,13 @@ from ..common import ROOT, digest, read, require, rows, sha, write
 from ..datasets.probes import execute, relation_index
 from ..datasets.v2_sources import verify, verify_sources, freeze, jsonl
 from .c1_v2_pipeline import check_review, check_label, candidate_probes
+from .c1_v2_client import label_provenance
 
 
 def audit(release,run,ledger,extra_ledgers=()):
     release,run,ledger=Path(release),Path(run),Path(ledger)
     rf,af=verify(release),verify(run)
+    provenance=af["label_provenance"]
     source_check=verify_sources(ROOT/'data/raw/c1-benchmark-v2',read(release/'sources.json'))
     require(af["source_release_id"]==rf["release_id"],"annotation release mismatch")
     items={k["knowledge_id"]:k for k in rows(release/"knowledge_candidates.jsonl")}
@@ -29,6 +31,7 @@ def audit(release,run,ledger,extra_ledgers=()):
         request=read(matching[0]/"requests"/(stage["cache_key"]+".json"))
         require(digest(cached["response"])==cached["response_sha256"]==stage["response_sha256"],"QA response hash mismatch")
         require(digest(request)==cached["request_sha256"]==stage["request_sha256"],"QA request hash mismatch")
+        require(label_provenance(request["model"])==provenance,"QA request model provenance mismatch")
         stats["request_response_chains"]+=1
     for record in review_records:
         item=items[record["knowledge_id"]]
@@ -47,7 +50,7 @@ def audit(release,run,ledger,extra_ledgers=()):
     for label in labels:
         item=active[label["knowledge_id"]];case=cases[label["case_id"]]
         require(label["input_sha256"]==digest([case,item]),"QA case/knowledge hash mismatch")
-        require(label["human_gold"] is False and label["label_provenance"]=="QWEN_PLUS_SILVER","QA label provenance")
+        require(label["human_gold"] is False and label["label_provenance"]==provenance,"QA label provenance")
         for stage in (label["stage1"],label["stage2"]):request_chain(stage)
         for evidence in label["evidence"]:
             rerun=execute(case,pmap[evidence["probe_id"]])
@@ -100,7 +103,7 @@ def revalidate_labels(release,run,destination):
                   label_review_required_rate=sum(r['status']=='REVIEW_REQUIRED' for r in labels)/max(1,len(labels)))
     write(destination/'report.json',report)
     freeze(destination,{'source_release_id':parent['source_release_id'],'parent_annotation_release_id':parent['release_id'],
-                        'label_provenance':'QWEN_PLUS_SILVER','human_gold':False,'new_model_calls':0})
+                        'label_provenance':parent['label_provenance'],'human_gold':False,'new_model_calls':0})
 
 
 def main():

@@ -11,6 +11,25 @@ from ..common import Blocked, digest, read, require, write
 from .client import SilverClient
 
 _LOCK=threading.Lock()
+MODEL_PROFILES={
+    "qwen-plus": (0.8, 2, "QWEN_PLUS_SILVER"),
+    "qwen3.8-max": (12, 36, "QWEN3_8_MAX_SILVER"),
+}
+DEFAULT_BUDGET="configs/c1_day1_qwen3_8_max.json"
+
+
+def label_provenance(model):
+    require(model in MODEL_PROFILES, "unsupported annotation model")
+    return MODEL_PROFILES[model][2]
+
+
+def validate_model_config(config):
+    require(config["base_url"]=="https://dashscope.aliyuncs.com/compatible-mode/v1", "unapproved endpoint")
+    require(config["model"] in MODEL_PROFILES, "new model requires separate budget/pricing configuration")
+    input_price,output_price,_=MODEL_PROFILES[config["model"]]
+    require(config["input_cny_per_million"]==input_price and config["output_cny_per_million"]==output_price,
+            "pricing changed; recheck the official tier before authorizing a new ledger")
+    require(0<config["max_input_bytes"]<=60000 and 0<config["max_tokens"]<=3000,"unverified token/price tier")
 
 
 @contextmanager
@@ -33,11 +52,7 @@ class V2Client:
         self.transport=transport or self._send
         require(config.get("authorized_cap_cny",0)>0 and config.get("max_calls",0)>0,
                 "BLOCKED_BUDGET_AUTHORIZATION_REQUIRED")
-        require(config["base_url"]=="https://dashscope.aliyuncs.com/compatible-mode/v1", "unapproved endpoint")
-        require(config["model"]=="qwen-plus", "new model requires separate budget/pricing configuration")
-        require(config["input_cny_per_million"]==0.8 and config["output_cny_per_million"]==2,
-                "pricing changed; recheck the official tier before authorizing a new ledger")
-        require(0<config["max_input_bytes"]<=60000 and 0<config["max_tokens"]<=3000,"unverified token/price tier")
+        validate_model_config(config)
         self.directory.mkdir(parents=True,exist_ok=True)
         with ledger_lock(self.directory):
             budget=self.directory/"budget.json"
@@ -84,7 +99,7 @@ class V2Client:
             cached={"cache_key":key,"request_sha256":digest(request),"response_sha256":digest(body),
                     "prompt_version":prompt_version,"requested_model":self.config["model"],
                     "returned_model":body.get("model"),"usage":body.get("usage"),"response":body,
-                    "reserved_cny":reserve,"label_provenance":"QWEN_PLUS_SILVER","human_gold":False}
+                    "reserved_cny":reserve,"label_provenance":label_provenance(self.config["model"]),"human_gold":False}
             write(path,cached)
             return SilverClient.decode(body),{**cached,"cache_hit":False}
         except Exception as exc:
@@ -116,7 +131,9 @@ def combined_report(directories,task_cap_cny=200):
     fields=("attempts","responses","failures","reserved_cny","prompt_tokens","completion_tokens","usage_priced_cny","unknown_cost_attempts")
     result={key:sum(r[key] for r in reports) for key in fields}
     require(result["reserved_cny"]<=task_cap_cny,"combined task budget cap exceeded")
-    result.update(cap_cny=task_cap_cny,actual_invoice_cny=None,model_requested="qwen-plus",
+    models=sorted({r["model_requested"] for r in reports})
+    result.update(cap_cny=task_cap_cny,actual_invoice_cny=None,model_requested=models[0] if len(models)==1 else "MIXED",
+                  models_requested=models,
                   models_returned=sorted({m for r in reports for m in r["models_returned"]}),
                   ledger_count=len(reports),accounting="Combined task-level usage and retained pessimistic reservations; not an invoice")
     return result

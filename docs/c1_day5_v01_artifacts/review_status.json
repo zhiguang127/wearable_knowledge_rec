@@ -1,0 +1,19 @@
+{
+  "status": "PREPARED_NOT_ANNOTATED",
+  "distinct_human_roles": 2,
+  "sessions_per_role": 3,
+  "unique_cases_per_session": 18,
+  "blank_judgments_per_role": 54,
+  "total_blank_judgments": 108,
+  "actual_independent_humans": 0,
+  "actual_human_judgments": 0,
+  "stable_reference_cases": 0,
+  "human_agreement": null,
+  "human_Gold": false,
+  "AI_substitution": false,
+  "real_contexts_not_collected": 12,
+  "synthetic_mechanism_contexts": 6,
+  "real_context_reference_gate_met": false,
+  "actual_source_review": null,
+  "coordinator_instruction": "Deliver one session ZIP at a time to each actual reviewer, >=48 hours apart; never share researcher diagnostics, mapping or reports."
+}

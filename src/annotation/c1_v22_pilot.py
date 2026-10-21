@@ -8,7 +8,7 @@ from pathlib import Path
 from ..common import ROOT, digest, read, require, rows, write
 from ..datasets.v2_sources import freeze, jsonl, verify
 from ..datasets.probes import execute
-from .c1_v2_client import V2Client, combined_report
+from .c1_v2_client import V2Client, combined_report, label_provenance, validate_model_config, DEFAULT_BUDGET
 from .c1_v2_pipeline import review_one, label_one, check_label, check_review, candidate_probes
 from .c1_v22_audit import request_chain_check
 from .personal_evidence import compact_evidence
@@ -95,18 +95,19 @@ def verify_pilot(config, directory, ledger):
 def run(config,args):
     plan=make_plan(config)
     records=ROOT/args.records; planpath=records/"plan.json"
-    if planpath.exists():require(read(planpath)==plan,"pilot plan changed")
-    else:write(planpath,plan)
     budget=read(ROOT/args.budget)
+    validate_model_config(budget)
     require(budget["max_calls"]<=48 and budget["authorized_cap_cny"]<=3,"pilot exceeds declared sub-budget")
     combined=combined_report([ROOT/p for p in config["ledger_directories"]])
     require(combined["reserved_cny"]+budget["authorized_cap_cny"]<=200,"task-level budget exceeded")
-    print(json.dumps({"plan_sha256":digest(plan),"knowledge":len(plan["knowledge_ids"]),"pairs":len(plan["pairs"]),"max_calls":plan["max_calls"],"sub_budget_cny":budget["authorized_cap_cny"]}),flush=True)
+    print(json.dumps({"model":budget["model"],"plan_sha256":digest(plan),"knowledge":len(plan["knowledge_ids"]),"pairs":len(plan["pairs"]),"max_calls":plan["max_calls"],"sub_budget_cny":budget["authorized_cap_cny"]}),flush=True)
     if args.plan_only:return
     require(not (ROOT/args.output).exists(),"pilot release exists; never overwrite")
     credentials=read(ROOT/args.credentials) if args.credentials else {}
     client=V2Client(ROOT/args.ledger,budget,api_key=credentials.get("api_key"))
     require(bool(client.api_key),"BLOCKED_API_KEY_REQUIRED")
+    if planpath.exists():require(read(planpath)==plan,"pilot plan changed")
+    else:write(planpath,plan)
     source, legacy=ROOT/config["source_release"],ROOT/config["legacy_annotation"]
     items=rows(source/"knowledge_candidates.jsonl"); byid={k["knowledge_id"]:k for k in items}
     active={k["knowledge_id"]:k for k in rows(legacy/"knowledge_active.jsonl")}
@@ -139,17 +140,18 @@ def run(config,args):
     output=ROOT/args.output
     write(output/"plan.json",plan);jsonl(output/"knowledge_reviews.jsonl",reviews);jsonl(output/"silver_labels.jsonl",labels)
     write(output/"report.json",report)
-    freeze(output,{"source_release_id":plan["source_release_id"],"repair_release_id":plan["repair_release_id"],"human_gold":False})
+    freeze(output,{"source_release_id":plan["source_release_id"],"repair_release_id":plan["repair_release_id"],
+                   "label_provenance":label_provenance(budget["model"]),"human_gold":False})
     print(json.dumps(report,indent=2),flush=True)
 
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--config",default="configs/c1_v2_2_audit.json")
-    p.add_argument("--budget",default="configs/c1_v2_2_pilot_budget.json")
-    p.add_argument("--ledger",default="local/c1-v2-audit-repair/qwen-ledger-pilot-v1")
-    p.add_argument("--records",default="local/c1-v2-audit-repair/qwen-records-pilot-v1")
-    p.add_argument("--output",default="local/c1-v2-audit-repair/qwen-pilot-v1")
+    p.add_argument("--budget",default=DEFAULT_BUDGET)
+    p.add_argument("--ledger",default="local/c1-day1/qwen3.8-max-pilot-ledger-v1")
+    p.add_argument("--records",default="local/c1-day1/qwen3.8-max-pilot-records-v1")
+    p.add_argument("--output",default="local/c1-day1/qwen3.8-max-pilot-v1")
     p.add_argument("--credentials",help="Ignored local JSON, or use DASHSCOPE_API_KEY")
     p.add_argument("--plan-only",action="store_true")
     p.add_argument("--verify-only",action="store_true")

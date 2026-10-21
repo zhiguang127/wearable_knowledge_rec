@@ -1,0 +1,13 @@
+{
+  "version": "day2-public-diagnostic-export-v01",
+  "status": "AGGREGATE_METADATA_ONLY_NO_PERSONAL_RECORDS",
+  "files": {
+    "knowledge_metadata.jsonl": "bfd602d3d5cbc18674753be166b04725aa7c1fdee054dca98bb49cab077ac880",
+    "protocol.json": "27f46fffbb7c748e3f634ce0d7fbf60f64faf2034d3b27ee44d9bc7509f71170",
+    "qa.json": "d1951801f088a6e140a33d0c84c80d730ebc7fc6d1f6a57c86ee9e2ee35a046f",
+    "query_templates.jsonl": "05cceba7e16aecaafe6bf2e78d14d12dc1937ac61e4ce6489e6bd2c792f0ca0e",
+    "report.json": "551fb54be31c7b80732a9b54248061c035af1118430b31757084033ce680f294",
+    "rubric.json": "a7d49bacf682b71c71e4580e478bb17c1991779b7f2673f05573822f1801b153"
+  },
+  "release_id": "1c23a0e02ec2383ed78f1344f5a594e3ef47c17dcad30b6a7164c8b464b74b8a"
+}

@@ -1,0 +1,30 @@
+{
+  "version": "day5-independent-relative-priority-v1",
+  "topic_goal_relevance": [
+    "DIRECT",
+    "BACKGROUND",
+    "OFF_TOPIC",
+    "UNKNOWN"
+  ],
+  "source_alignment": [
+    "SUPPORTED_CUE",
+    "NO_SELECTED_CUE",
+    "UNKNOWN",
+    "NOT_A_HARD_GATE"
+  ],
+  "relative_priority": [
+    "LEFT",
+    "RIGHT",
+    "TIE",
+    "UNKNOWN"
+  ],
+  "hard_applicability": "NO_VERIFIED_UNIT_LEVEL_GATE",
+  "rules": [
+    "Judge information relevance to the exact Goal, not treatment priority.",
+    "A source cue can support consultation information without requiring it to outrank habit information.",
+    "Both may be relevant; no selected cue is not proof the unit is inapplicable.",
+    "UNKNOWN is missing decisive context, not a known tie; TIE is supported comparable relevance.",
+    "Cite both candidates source spans and actual contextual evidence or its missing status.",
+    "Never derive symptoms or behaviors from mean sleep duration; do not invent frequency or time cutoffs."
+  ]
+}

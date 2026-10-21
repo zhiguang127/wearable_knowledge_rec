@@ -1,0 +1,12 @@
+{
+  "status": "PASS_REQUEST_LEVEL_BLINDING_ONLY",
+  "task_count": 48,
+  "all_full_evidence_pools": true,
+  "no_ranker_or_prior_labels_in_payloads": true,
+  "no_pair_hypothesis_control_or_direction_features": true,
+  "all_candidate_orientations_mirrored": true,
+  "prior_researcher_exposure": true,
+  "same_model_family_dependence": true,
+  "human_gold": false,
+  "same_model_mirror_not_independent": true
+}

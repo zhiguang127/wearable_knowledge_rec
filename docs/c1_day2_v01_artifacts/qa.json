@@ -1,0 +1,16 @@
+{
+  "status": "PASS_RAW_CHAINS_EVIDENCE_BINDING_MATCHED_INPUTS_RANKER_REPLAY_ONLY",
+  "source_units_reconstructed": 21,
+  "raw_chains_verified": 73,
+  "real_results_recomputed": 864,
+  "same_query_candidates_across_arms": true,
+  "online_hidden_results_or_labels": false,
+  "train_only": true,
+  "independent_human_gold": 0,
+  "source_semantic_certification": false,
+  "clinical_priority_validated": false,
+  "standard_schema_check": "PASS_EQUIVALENT_EMPTY_EVIDENCE_ARRAY_DOMAIN; original request schemas untouched",
+  "model_semantic_findings_bound_to_raw": 15,
+  "original_labels_and_reports_edited": false,
+  "model_review_is_human_gold": false
+}

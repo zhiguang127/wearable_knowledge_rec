@@ -1,0 +1,2904 @@
+{
+  "exclude_disputed_semantics_primary": {
+    "arms": {
+      "A": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.6531487282151314,
+          "participant_effects": {
+            "P1": 0.6531487282151314,
+            "P2": 0.6531487282151314,
+            "P3": 0.6531487282151314
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.6531487282151314,
+          "participant_max": 0.6531487282151314,
+          "leave_one_participant_out": {
+            "P1": 0.6531487282151314,
+            "P2": 0.6531487282151314,
+            "P3": 0.6531487282151314
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.7081262337925502,
+          "participant_effects": {
+            "P1": 0.7081262337925502,
+            "P2": 0.7081262337925502,
+            "P3": 0.7081262337925502
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.7081262337925502,
+          "participant_max": 0.7081262337925502,
+          "leave_one_participant_out": {
+            "P1": 0.7081262337925502,
+            "P2": 0.7081262337925502,
+            "P3": 0.7081262337925502
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.35250112917795845,
+          "participant_effects": {
+            "P1": 0.35250112917795845,
+            "P2": 0.35250112917795845,
+            "P3": 0.35250112917795845
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.35250112917795845,
+          "participant_max": 0.35250112917795845,
+          "leave_one_participant_out": {
+            "P1": 0.35250112917795845,
+            "P2": 0.35250112917795845,
+            "P3": 0.35250112917795845
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": -0.16348544960000236,
+          "participant_effects": {
+            "P1": -0.16348544960000236,
+            "P2": -0.16348544960000236,
+            "P3": -0.16348544960000236
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": -0.16348544960000236,
+          "participant_max": -0.16348544960000236,
+          "leave_one_participant_out": {
+            "P1": -0.16348544960000236,
+            "P2": -0.16348544960000236,
+            "P3": -0.16348544960000236
+          },
+          "context_sign_counts": {
+            "negative": 9,
+            "zero": 3
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "B": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.9368382995613187,
+          "participant_effects": {
+            "P1": 0.9368382995613187,
+            "P2": 0.9368382995613187,
+            "P3": 0.9368382995613187
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.9368382995613187,
+          "participant_max": 0.9368382995613187,
+          "leave_one_participant_out": {
+            "P1": 0.9368382995613187,
+            "P2": 0.9368382995613187,
+            "P3": 0.9368382995613187
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.8961077416185039,
+          "participant_effects": {
+            "P1": 0.8961077416185039,
+            "P2": 0.8961077416185039,
+            "P3": 0.8961077416185039
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8961077416185039,
+          "participant_max": 0.8961077416185039,
+          "leave_one_participant_out": {
+            "P1": 0.8961077416185039,
+            "P2": 0.8961077416185039,
+            "P3": 0.8961077416185039
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.6258186540198736,
+          "participant_effects": {
+            "P1": 0.6258186540198736,
+            "P2": 0.6258186540198736,
+            "P3": 0.6258186540198736
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.6258186540198736,
+          "participant_max": 0.6258186540198736,
+          "leave_one_participant_out": {
+            "P1": 0.6258186540198736,
+            "P2": 0.6258186540198736,
+            "P3": 0.6258186540198736
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": 0.17561508839325016,
+          "participant_effects": {
+            "P1": 0.17561508839325016,
+            "P2": 0.17561508839325016,
+            "P3": 0.17561508839325016
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.17561508839325016,
+          "participant_max": 0.17561508839325016,
+          "leave_one_participant_out": {
+            "P1": 0.17561508839325016,
+            "P2": 0.17561508839325016,
+            "P3": 0.17561508839325016
+          },
+          "context_sign_counts": {
+            "negative": 3,
+            "positive": 9
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "C": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.9368382995613187,
+          "participant_effects": {
+            "P1": 0.9368382995613187,
+            "P2": 0.9368382995613187,
+            "P3": 0.9368382995613187
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.9368382995613187,
+          "participant_max": 0.9368382995613187,
+          "leave_one_participant_out": {
+            "P1": 0.9368382995613187,
+            "P2": 0.9368382995613187,
+            "P3": 0.9368382995613187
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.8961077416185039,
+          "participant_effects": {
+            "P1": 0.8961077416185039,
+            "P2": 0.8961077416185039,
+            "P3": 0.8961077416185039
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8961077416185039,
+          "participant_max": 0.8961077416185039,
+          "leave_one_participant_out": {
+            "P1": 0.8961077416185039,
+            "P2": 0.8961077416185039,
+            "P3": 0.8961077416185039
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.6258186540198736,
+          "participant_effects": {
+            "P1": 0.6258186540198736,
+            "P2": 0.6258186540198736,
+            "P3": 0.6258186540198736
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.6258186540198736,
+          "participant_max": 0.6258186540198736,
+          "leave_one_participant_out": {
+            "P1": 0.6258186540198736,
+            "P2": 0.6258186540198736,
+            "P3": 0.6258186540198736
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": 0.17561508839325016,
+          "participant_effects": {
+            "P1": 0.17561508839325016,
+            "P2": 0.17561508839325016,
+            "P3": 0.17561508839325016
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.17561508839325016,
+          "participant_max": 0.17561508839325016,
+          "leave_one_participant_out": {
+            "P1": 0.17561508839325016,
+            "P2": 0.17561508839325016,
+            "P3": 0.17561508839325016
+          },
+          "context_sign_counts": {
+            "negative": 3,
+            "positive": 9
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "D": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.9368382995613187,
+          "participant_effects": {
+            "P1": 0.9368382995613187,
+            "P2": 0.9368382995613187,
+            "P3": 0.9368382995613187
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.9368382995613187,
+          "participant_max": 0.9368382995613187,
+          "leave_one_participant_out": {
+            "P1": 0.9368382995613187,
+            "P2": 0.9368382995613187,
+            "P3": 0.9368382995613187
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.8961077416185039,
+          "participant_effects": {
+            "P1": 0.8961077416185039,
+            "P2": 0.8961077416185039,
+            "P3": 0.8961077416185039
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8961077416185039,
+          "participant_max": 0.8961077416185039,
+          "leave_one_participant_out": {
+            "P1": 0.8961077416185039,
+            "P2": 0.8961077416185039,
+            "P3": 0.8961077416185039
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.6258186540198736,
+          "participant_effects": {
+            "P1": 0.6258186540198736,
+            "P2": 0.6258186540198736,
+            "P3": 0.6258186540198736
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.6258186540198736,
+          "participant_max": 0.6258186540198736,
+          "leave_one_participant_out": {
+            "P1": 0.6258186540198736,
+            "P2": 0.6258186540198736,
+            "P3": 0.6258186540198736
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": 0.17561508839325016,
+          "participant_effects": {
+            "P1": 0.17561508839325016,
+            "P2": 0.17561508839325016,
+            "P3": 0.17561508839325016
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.17561508839325016,
+          "participant_max": 0.17561508839325016,
+          "leave_one_participant_out": {
+            "P1": 0.17561508839325016,
+            "P2": 0.17561508839325016,
+            "P3": 0.17561508839325016
+          },
+          "context_sign_counts": {
+            "negative": 3,
+            "positive": 9
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      }
+    },
+    "value": {
+      "ndcg@3": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "ndcg@5": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "pairwise_agreement": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "kendall_tau_b": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      }
+    }
+  },
+  "drop_all_personal_citations": {
+    "arms": {
+      "A": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.6130568283204898,
+          "participant_effects": {
+            "P1": 0.6130568283204898,
+            "P2": 0.6130568283204898,
+            "P3": 0.6130568283204898
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.6130568283204898,
+          "participant_max": 0.6130568283204898,
+          "leave_one_participant_out": {
+            "P1": 0.6130568283204898,
+            "P2": 0.6130568283204898,
+            "P3": 0.6130568283204898
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.706843325894837,
+          "participant_effects": {
+            "P1": 0.706843325894837,
+            "P2": 0.706843325894837,
+            "P3": 0.706843325894837
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.706843325894837,
+          "participant_max": 0.706843325894837,
+          "leave_one_participant_out": {
+            "P1": 0.706843325894837,
+            "P2": 0.706843325894837,
+            "P3": 0.706843325894837
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.31550925925925927,
+          "participant_effects": {
+            "P1": 0.31550925925925927,
+            "P2": 0.31550925925925927,
+            "P3": 0.31550925925925927
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.31550925925925927,
+          "participant_max": 0.31550925925925927,
+          "leave_one_participant_out": {
+            "P1": 0.31550925925925927,
+            "P2": 0.31550925925925927,
+            "P3": 0.31550925925925927
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": -0.2160080861807756,
+          "participant_effects": {
+            "P1": -0.2160080861807756,
+            "P2": -0.2160080861807756,
+            "P3": -0.2160080861807756
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": -0.2160080861807756,
+          "participant_max": -0.2160080861807756,
+          "leave_one_participant_out": {
+            "P1": -0.2160080861807756,
+            "P2": -0.2160080861807756,
+            "P3": -0.2160080861807756
+          },
+          "context_sign_counts": {
+            "negative": 9,
+            "zero": 3
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "B": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.8724398938352297,
+          "participant_effects": {
+            "P1": 0.8724398938352297,
+            "P2": 0.8724398938352297,
+            "P3": 0.8724398938352297
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8724398938352297,
+          "participant_max": 0.8724398938352297,
+          "leave_one_participant_out": {
+            "P1": 0.8724398938352297,
+            "P2": 0.8724398938352297,
+            "P3": 0.8724398938352297
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.8591194717177406,
+          "participant_effects": {
+            "P1": 0.8591194717177406,
+            "P2": 0.8591194717177406,
+            "P3": 0.8591194717177406
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8591194717177406,
+          "participant_max": 0.8591194717177406,
+          "leave_one_participant_out": {
+            "P1": 0.8591194717177406,
+            "P2": 0.8591194717177406,
+            "P3": 0.8591194717177406
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.5900462962962962,
+          "participant_effects": {
+            "P1": 0.5900462962962962,
+            "P2": 0.5900462962962962,
+            "P3": 0.5900462962962962
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.5900462962962962,
+          "participant_max": 0.5900462962962962,
+          "leave_one_participant_out": {
+            "P1": 0.5900462962962962,
+            "P2": 0.5900462962962962,
+            "P3": 0.5900462962962962
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": 0.1200527015891973,
+          "participant_effects": {
+            "P1": 0.1200527015891973,
+            "P2": 0.1200527015891973,
+            "P3": 0.1200527015891973
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.1200527015891973,
+          "participant_max": 0.1200527015891973,
+          "leave_one_participant_out": {
+            "P1": 0.1200527015891973,
+            "P2": 0.1200527015891973,
+            "P3": 0.1200527015891973
+          },
+          "context_sign_counts": {
+            "negative": 6,
+            "positive": 6
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "C": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.8724398938352297,
+          "participant_effects": {
+            "P1": 0.8724398938352297,
+            "P2": 0.8724398938352297,
+            "P3": 0.8724398938352297
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8724398938352297,
+          "participant_max": 0.8724398938352297,
+          "leave_one_participant_out": {
+            "P1": 0.8724398938352297,
+            "P2": 0.8724398938352297,
+            "P3": 0.8724398938352297
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.8591194717177406,
+          "participant_effects": {
+            "P1": 0.8591194717177406,
+            "P2": 0.8591194717177406,
+            "P3": 0.8591194717177406
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8591194717177406,
+          "participant_max": 0.8591194717177406,
+          "leave_one_participant_out": {
+            "P1": 0.8591194717177406,
+            "P2": 0.8591194717177406,
+            "P3": 0.8591194717177406
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.5900462962962962,
+          "participant_effects": {
+            "P1": 0.5900462962962962,
+            "P2": 0.5900462962962962,
+            "P3": 0.5900462962962962
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.5900462962962962,
+          "participant_max": 0.5900462962962962,
+          "leave_one_participant_out": {
+            "P1": 0.5900462962962962,
+            "P2": 0.5900462962962962,
+            "P3": 0.5900462962962962
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": 0.1200527015891973,
+          "participant_effects": {
+            "P1": 0.1200527015891973,
+            "P2": 0.1200527015891973,
+            "P3": 0.1200527015891973
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.1200527015891973,
+          "participant_max": 0.1200527015891973,
+          "leave_one_participant_out": {
+            "P1": 0.1200527015891973,
+            "P2": 0.1200527015891973,
+            "P3": 0.1200527015891973
+          },
+          "context_sign_counts": {
+            "negative": 6,
+            "positive": 6
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "D": {
+        "ndcg@3": {
+          "participant_macro_mean": 0.8724398938352297,
+          "participant_effects": {
+            "P1": 0.8724398938352297,
+            "P2": 0.8724398938352297,
+            "P3": 0.8724398938352297
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8724398938352297,
+          "participant_max": 0.8724398938352297,
+          "leave_one_participant_out": {
+            "P1": 0.8724398938352297,
+            "P2": 0.8724398938352297,
+            "P3": 0.8724398938352297
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "ndcg@5": {
+          "participant_macro_mean": 0.8591194717177406,
+          "participant_effects": {
+            "P1": 0.8591194717177406,
+            "P2": 0.8591194717177406,
+            "P3": 0.8591194717177406
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.8591194717177406,
+          "participant_max": 0.8591194717177406,
+          "leave_one_participant_out": {
+            "P1": 0.8591194717177406,
+            "P2": 0.8591194717177406,
+            "P3": 0.8591194717177406
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "pairwise_agreement": {
+          "participant_macro_mean": 0.5900462962962962,
+          "participant_effects": {
+            "P1": 0.5900462962962962,
+            "P2": 0.5900462962962962,
+            "P3": 0.5900462962962962
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.5900462962962962,
+          "participant_max": 0.5900462962962962,
+          "leave_one_participant_out": {
+            "P1": 0.5900462962962962,
+            "P2": 0.5900462962962962,
+            "P3": 0.5900462962962962
+          },
+          "context_sign_counts": {
+            "positive": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "kendall_tau_b": {
+          "participant_macro_mean": 0.1200527015891973,
+          "participant_effects": {
+            "P1": 0.1200527015891973,
+            "P2": 0.1200527015891973,
+            "P3": 0.1200527015891973
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.1200527015891973,
+          "participant_max": 0.1200527015891973,
+          "leave_one_participant_out": {
+            "P1": 0.1200527015891973,
+            "P2": 0.1200527015891973,
+            "P3": 0.1200527015891973
+          },
+          "context_sign_counts": {
+            "negative": 6,
+            "positive": 6
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      }
+    },
+    "value": {
+      "ndcg@3": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "ndcg@5": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "pairwise_agreement": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      },
+      "kendall_tau_b": {
+        "delta_C": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_D": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        },
+        "delta_delta": {
+          "participant_macro_mean": 0.0,
+          "participant_effects": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "participant_context_counts": {
+            "P1": 4,
+            "P2": 4,
+            "P3": 4
+          },
+          "participant_min": 0.0,
+          "participant_max": 0.0,
+          "leave_one_participant_out": {
+            "P1": 0.0,
+            "P2": 0.0,
+            "P3": 0.0
+          },
+          "context_sign_counts": {
+            "zero": 12
+          },
+          "evaluated_contexts": 12,
+          "population_significance_claim": false
+        }
+      }
+    }
+  },
+  "by_topic": {
+    "physical_activity": {
+      "arms": {
+        "A": {
+          "ndcg@3": {
+            "participant_macro_mean": 0.5904242244483644,
+            "participant_effects": {
+              "P1": 0.5904242244483644,
+              "P2": 0.5904242244483644,
+              "P3": 0.5904242244483644
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.5904242244483644,
+            "participant_max": 0.5904242244483644,
+            "leave_one_participant_out": {
+              "P1": 0.5904242244483644,
+              "P2": 0.5904242244483644,
+              "P3": 0.5904242244483644
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.6486035564892373,
+            "participant_effects": {
+              "P1": 0.6486035564892373,
+              "P2": 0.6486035564892373,
+              "P3": 0.6486035564892373
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.6486035564892373,
+            "participant_max": 0.6486035564892373,
+            "leave_one_participant_out": {
+              "P1": 0.6486035564892373,
+              "P2": 0.6486035564892373,
+              "P3": 0.6486035564892373
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.3925022583559169,
+            "participant_effects": {
+              "P1": 0.3925022583559169,
+              "P2": 0.3925022583559169,
+              "P3": 0.3925022583559169
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.3925022583559169,
+            "participant_max": 0.3925022583559169,
+            "leave_one_participant_out": {
+              "P1": 0.3925022583559169,
+              "P2": 0.3925022583559169,
+              "P3": 0.3925022583559169
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": -0.15019420390336785,
+            "participant_effects": {
+              "P1": -0.15019420390336785,
+              "P2": -0.15019420390336785,
+              "P3": -0.15019420390336785
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": -0.15019420390336785,
+            "participant_max": -0.15019420390336785,
+            "leave_one_participant_out": {
+              "P1": -0.15019420390336785,
+              "P2": -0.15019420390336785,
+              "P3": -0.15019420390336785
+            },
+            "context_sign_counts": {
+              "negative": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "B": {
+          "ndcg@3": {
+            "participant_macro_mean": 0.8736765991226374,
+            "participant_effects": {
+              "P1": 0.8736765991226374,
+              "P2": 0.8736765991226374,
+              "P3": 0.8736765991226374
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.8736765991226374,
+            "participant_max": 0.8736765991226374,
+            "leave_one_participant_out": {
+              "P1": 0.8736765991226374,
+              "P2": 0.8736765991226374,
+              "P3": 0.8736765991226374
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.8409049331845766,
+            "participant_effects": {
+              "P1": 0.8409049331845766,
+              "P2": 0.8409049331845766,
+              "P3": 0.8409049331845766
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.8409049331845766,
+            "participant_max": 0.8409049331845766,
+            "leave_one_participant_out": {
+              "P1": 0.8409049331845766,
+              "P2": 0.8409049331845766,
+              "P3": 0.8409049331845766
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.564137308039747,
+            "participant_effects": {
+              "P1": 0.564137308039747,
+              "P2": 0.564137308039747,
+              "P3": 0.564137308039747
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.564137308039747,
+            "participant_max": 0.564137308039747,
+            "leave_one_participant_out": {
+              "P1": 0.564137308039747,
+              "P2": 0.564137308039747,
+              "P3": 0.564137308039747
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": 0.0983509596542175,
+            "participant_effects": {
+              "P1": 0.0983509596542175,
+              "P2": 0.0983509596542175,
+              "P3": 0.0983509596542175
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0983509596542175,
+            "participant_max": 0.0983509596542175,
+            "leave_one_participant_out": {
+              "P1": 0.0983509596542175,
+              "P2": 0.0983509596542175,
+              "P3": 0.0983509596542175
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "C": {
+          "ndcg@3": {
+            "participant_macro_mean": 0.8736765991226374,
+            "participant_effects": {
+              "P1": 0.8736765991226374,
+              "P2": 0.8736765991226374,
+              "P3": 0.8736765991226374
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.8736765991226374,
+            "participant_max": 0.8736765991226374,
+            "leave_one_participant_out": {
+              "P1": 0.8736765991226374,
+              "P2": 0.8736765991226374,
+              "P3": 0.8736765991226374
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.8409049331845766,
+            "participant_effects": {
+              "P1": 0.8409049331845766,
+              "P2": 0.8409049331845766,
+              "P3": 0.8409049331845766
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.8409049331845766,
+            "participant_max": 0.8409049331845766,
+            "leave_one_participant_out": {
+              "P1": 0.8409049331845766,
+              "P2": 0.8409049331845766,
+              "P3": 0.8409049331845766
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.564137308039747,
+            "participant_effects": {
+              "P1": 0.564137308039747,
+              "P2": 0.564137308039747,
+              "P3": 0.564137308039747
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.564137308039747,
+            "participant_max": 0.564137308039747,
+            "leave_one_participant_out": {
+              "P1": 0.564137308039747,
+              "P2": 0.564137308039747,
+              "P3": 0.564137308039747
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": 0.0983509596542175,
+            "participant_effects": {
+              "P1": 0.0983509596542175,
+              "P2": 0.0983509596542175,
+              "P3": 0.0983509596542175
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0983509596542175,
+            "participant_max": 0.0983509596542175,
+            "leave_one_participant_out": {
+              "P1": 0.0983509596542175,
+              "P2": 0.0983509596542175,
+              "P3": 0.0983509596542175
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "D": {
+          "ndcg@3": {
+            "participant_macro_mean": 0.8736765991226374,
+            "participant_effects": {
+              "P1": 0.8736765991226374,
+              "P2": 0.8736765991226374,
+              "P3": 0.8736765991226374
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.8736765991226374,
+            "participant_max": 0.8736765991226374,
+            "leave_one_participant_out": {
+              "P1": 0.8736765991226374,
+              "P2": 0.8736765991226374,
+              "P3": 0.8736765991226374
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.8409049331845766,
+            "participant_effects": {
+              "P1": 0.8409049331845766,
+              "P2": 0.8409049331845766,
+              "P3": 0.8409049331845766
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.8409049331845766,
+            "participant_max": 0.8409049331845766,
+            "leave_one_participant_out": {
+              "P1": 0.8409049331845766,
+              "P2": 0.8409049331845766,
+              "P3": 0.8409049331845766
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.564137308039747,
+            "participant_effects": {
+              "P1": 0.564137308039747,
+              "P2": 0.564137308039747,
+              "P3": 0.564137308039747
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.564137308039747,
+            "participant_max": 0.564137308039747,
+            "leave_one_participant_out": {
+              "P1": 0.564137308039747,
+              "P2": 0.564137308039747,
+              "P3": 0.564137308039747
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": 0.0983509596542175,
+            "participant_effects": {
+              "P1": 0.0983509596542175,
+              "P2": 0.0983509596542175,
+              "P3": 0.0983509596542175
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0983509596542175,
+            "participant_max": 0.0983509596542175,
+            "leave_one_participant_out": {
+              "P1": 0.0983509596542175,
+              "P2": 0.0983509596542175,
+              "P3": 0.0983509596542175
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        }
+      },
+      "value": {
+        "ndcg@3": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "ndcg@5": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "pairwise_agreement": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "kendall_tau_b": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        }
+      }
+    },
+    "sleep": {
+      "arms": {
+        "A": {
+          "ndcg@3": {
+            "participant_macro_mean": 0.7158732319818983,
+            "participant_effects": {
+              "P1": 0.7158732319818983,
+              "P2": 0.7158732319818983,
+              "P3": 0.7158732319818983
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.7158732319818983,
+            "participant_max": 0.7158732319818983,
+            "leave_one_participant_out": {
+              "P1": 0.7158732319818983,
+              "P2": 0.7158732319818983,
+              "P3": 0.7158732319818983
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.7676489110958633,
+            "participant_effects": {
+              "P1": 0.7676489110958633,
+              "P2": 0.7676489110958633,
+              "P3": 0.7676489110958633
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.7676489110958633,
+            "participant_max": 0.7676489110958633,
+            "leave_one_participant_out": {
+              "P1": 0.7676489110958633,
+              "P2": 0.7676489110958633,
+              "P3": 0.7676489110958633
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.3125,
+            "participant_effects": {
+              "P1": 0.3125,
+              "P2": 0.3125,
+              "P3": 0.3125
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.3125,
+            "participant_max": 0.3125,
+            "leave_one_participant_out": {
+              "P1": 0.3125,
+              "P2": 0.3125,
+              "P3": 0.3125
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": -0.1767766952966369,
+            "participant_effects": {
+              "P1": -0.1767766952966369,
+              "P2": -0.1767766952966369,
+              "P3": -0.1767766952966369
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": -0.1767766952966369,
+            "participant_max": -0.1767766952966369,
+            "leave_one_participant_out": {
+              "P1": -0.1767766952966369,
+              "P2": -0.1767766952966369,
+              "P3": -0.1767766952966369
+            },
+            "context_sign_counts": {
+              "negative": 3,
+              "zero": 3
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "B": {
+          "ndcg@3": {
+            "participant_macro_mean": 1.0,
+            "participant_effects": {
+              "P1": 1.0,
+              "P2": 1.0,
+              "P3": 1.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 1.0,
+            "participant_max": 1.0,
+            "leave_one_participant_out": {
+              "P1": 1.0,
+              "P2": 1.0,
+              "P3": 1.0
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.9513105500524313,
+            "participant_effects": {
+              "P1": 0.9513105500524313,
+              "P2": 0.9513105500524313,
+              "P3": 0.9513105500524313
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.9513105500524313,
+            "participant_max": 0.9513105500524313,
+            "leave_one_participant_out": {
+              "P1": 0.9513105500524313,
+              "P2": 0.9513105500524313,
+              "P3": 0.9513105500524313
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.6875,
+            "participant_effects": {
+              "P1": 0.6875,
+              "P2": 0.6875,
+              "P3": 0.6875
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.6875,
+            "participant_max": 0.6875,
+            "leave_one_participant_out": {
+              "P1": 0.6875,
+              "P2": 0.6875,
+              "P3": 0.6875
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": 0.2528792171322828,
+            "participant_effects": {
+              "P1": 0.2528792171322828,
+              "P2": 0.2528792171322828,
+              "P3": 0.2528792171322828
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.2528792171322828,
+            "participant_max": 0.2528792171322828,
+            "leave_one_participant_out": {
+              "P1": 0.2528792171322828,
+              "P2": 0.2528792171322828,
+              "P3": 0.2528792171322828
+            },
+            "context_sign_counts": {
+              "negative": 3,
+              "positive": 3
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "C": {
+          "ndcg@3": {
+            "participant_macro_mean": 1.0,
+            "participant_effects": {
+              "P1": 1.0,
+              "P2": 1.0,
+              "P3": 1.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 1.0,
+            "participant_max": 1.0,
+            "leave_one_participant_out": {
+              "P1": 1.0,
+              "P2": 1.0,
+              "P3": 1.0
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.9513105500524313,
+            "participant_effects": {
+              "P1": 0.9513105500524313,
+              "P2": 0.9513105500524313,
+              "P3": 0.9513105500524313
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.9513105500524313,
+            "participant_max": 0.9513105500524313,
+            "leave_one_participant_out": {
+              "P1": 0.9513105500524313,
+              "P2": 0.9513105500524313,
+              "P3": 0.9513105500524313
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.6875,
+            "participant_effects": {
+              "P1": 0.6875,
+              "P2": 0.6875,
+              "P3": 0.6875
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.6875,
+            "participant_max": 0.6875,
+            "leave_one_participant_out": {
+              "P1": 0.6875,
+              "P2": 0.6875,
+              "P3": 0.6875
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": 0.2528792171322828,
+            "participant_effects": {
+              "P1": 0.2528792171322828,
+              "P2": 0.2528792171322828,
+              "P3": 0.2528792171322828
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.2528792171322828,
+            "participant_max": 0.2528792171322828,
+            "leave_one_participant_out": {
+              "P1": 0.2528792171322828,
+              "P2": 0.2528792171322828,
+              "P3": 0.2528792171322828
+            },
+            "context_sign_counts": {
+              "negative": 3,
+              "positive": 3
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "D": {
+          "ndcg@3": {
+            "participant_macro_mean": 1.0,
+            "participant_effects": {
+              "P1": 1.0,
+              "P2": 1.0,
+              "P3": 1.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 1.0,
+            "participant_max": 1.0,
+            "leave_one_participant_out": {
+              "P1": 1.0,
+              "P2": 1.0,
+              "P3": 1.0
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "ndcg@5": {
+            "participant_macro_mean": 0.9513105500524313,
+            "participant_effects": {
+              "P1": 0.9513105500524313,
+              "P2": 0.9513105500524313,
+              "P3": 0.9513105500524313
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.9513105500524313,
+            "participant_max": 0.9513105500524313,
+            "leave_one_participant_out": {
+              "P1": 0.9513105500524313,
+              "P2": 0.9513105500524313,
+              "P3": 0.9513105500524313
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "pairwise_agreement": {
+            "participant_macro_mean": 0.6875,
+            "participant_effects": {
+              "P1": 0.6875,
+              "P2": 0.6875,
+              "P3": 0.6875
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.6875,
+            "participant_max": 0.6875,
+            "leave_one_participant_out": {
+              "P1": 0.6875,
+              "P2": 0.6875,
+              "P3": 0.6875
+            },
+            "context_sign_counts": {
+              "positive": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "kendall_tau_b": {
+            "participant_macro_mean": 0.2528792171322828,
+            "participant_effects": {
+              "P1": 0.2528792171322828,
+              "P2": 0.2528792171322828,
+              "P3": 0.2528792171322828
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.2528792171322828,
+            "participant_max": 0.2528792171322828,
+            "leave_one_participant_out": {
+              "P1": 0.2528792171322828,
+              "P2": 0.2528792171322828,
+              "P3": 0.2528792171322828
+            },
+            "context_sign_counts": {
+              "negative": 3,
+              "positive": 3
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        }
+      },
+      "value": {
+        "ndcg@3": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "ndcg@5": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "pairwise_agreement": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        },
+        "kendall_tau_b": {
+          "delta_C": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_D": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          },
+          "delta_delta": {
+            "participant_macro_mean": 0.0,
+            "participant_effects": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "participant_context_counts": {
+              "P1": 2,
+              "P2": 2,
+              "P3": 2
+            },
+            "participant_min": 0.0,
+            "participant_max": 0.0,
+            "leave_one_participant_out": {
+              "P1": 0.0,
+              "P2": 0.0,
+              "P3": 0.0
+            },
+            "context_sign_counts": {
+              "zero": 6
+            },
+            "evaluated_contexts": 6,
+            "population_significance_claim": false
+          }
+        }
+      }
+    }
+  }
+}

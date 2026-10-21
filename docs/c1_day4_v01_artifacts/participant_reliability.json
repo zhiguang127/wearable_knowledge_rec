@@ -1,0 +1,62 @@
+{
+  "aggregation_unit": "participant",
+  "population_significance_claim": false,
+  "per_person": {
+    "P1": {
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 17,
+        "ACCEPTED": 12,
+        "UNKNOWN": 3
+      },
+      "source_audited_evidence_relation_changes": 0,
+      "C_D_delta_U": null
+    },
+    "P2": {
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 18,
+        "ACCEPTED": 11,
+        "UNKNOWN": 3
+      },
+      "source_audited_evidence_relation_changes": 0,
+      "C_D_delta_U": null
+    },
+    "P3": {
+      "reference_status_counts": {
+        "REVIEW_REQUIRED": 18,
+        "ACCEPTED": 10,
+        "UNKNOWN": 4
+      },
+      "source_audited_evidence_relation_changes": 0,
+      "C_D_delta_U": null
+    }
+  },
+  "leave_one_person_out": {
+    "P1": {
+      "remaining_reference_status_counts": {
+        "REVIEW_REQUIRED": 36,
+        "ACCEPTED": 21,
+        "UNKNOWN": 7
+      },
+      "source_audited_evidence_relation_changes": 0,
+      "C_D_delta_U": null
+    },
+    "P2": {
+      "remaining_reference_status_counts": {
+        "REVIEW_REQUIRED": 35,
+        "ACCEPTED": 22,
+        "UNKNOWN": 7
+      },
+      "source_audited_evidence_relation_changes": 0,
+      "C_D_delta_U": null
+    },
+    "P3": {
+      "remaining_reference_status_counts": {
+        "REVIEW_REQUIRED": 35,
+        "ACCEPTED": 23,
+        "UNKNOWN": 6
+      },
+      "source_audited_evidence_relation_changes": 0,
+      "C_D_delta_U": null
+    }
+  }
+}

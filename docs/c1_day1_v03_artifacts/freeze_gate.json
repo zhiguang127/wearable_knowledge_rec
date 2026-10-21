@@ -1,0 +1,15 @@
+{
+  "budget_authorized": true,
+  "budget_mode": "UNLIMITED",
+  "cost_ceiling_cny": null,
+  "call_ceiling": null,
+  "real_id_chain_passed": true,
+  "all_204_source_reviews_completed": true,
+  "verified_measurable_knowledge": 0,
+  "minimum_required": 6,
+  "trusted_mixed_slates": 0,
+  "target_mixed_slates": 20,
+  "contract_frozen": false,
+  "formal_baseline_allowed": false,
+  "blocker": "SOURCE_AND_MEASUREMENT_COMPATIBILITY_REQUIREMENT_UNMET"
+}

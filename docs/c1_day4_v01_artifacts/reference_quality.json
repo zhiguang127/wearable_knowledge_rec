@@ -1,0 +1,46 @@
+{
+  "raw_pair_views": 192,
+  "mechanical_status_counts": {
+    "ACCEPTED": 166,
+    "REVIEW_REQUIRED": 26
+  },
+  "mechanical_error_occurrences": {
+    "UNKNOWN_GRADE_BASIS_MISMATCH": 9,
+    "GRADE_PREFERENCE_MISMATCH": 6,
+    "UNRELATED_CONSTRUCT_PERSONAL_SUPPORT": 3,
+    "WRONG_LEFT_SOURCE_SPAN": 2,
+    "GOAL_ONLY_HAS_PERSONAL_CITATION": 7
+  },
+  "semantic_status_counts": {
+    "ACCEPTED": 168,
+    "REVIEW_REQUIRED": 24
+  },
+  "semantic_flag_counts": {
+    "MEAN_DIFFERENCE_7_VS_PREVIOUS_28_MISDESCRIBED_AS_WEEK_OVER_WEEK": 1,
+    "UNSUPPORTED_SAFETY_DEFAULT_WITH_UNKNOWN_MODALITY": 3,
+    "UNKNOWN_SYMPTOMS_USED_FOR_PERSONAL_PREFERENCE_OR_KNOWN_TIE": 14,
+    "UNKNOWN_AGE_DOES_NOT_MAKE_GENERAL_DURATION_EDUCATION_INAPPLICABLE": 1,
+    "RECORDED_ACTIVITY_AS_ESTABLISHED_ROUTINE_OR_PREFERABLE_PROGRESSION_WITH_UNOBSERVED_STATE": 4,
+    "SOURCE_CONTRAST_FALSE_FULL_HEALTHY_SLEEP_HAS_NIGHTTIME_ROUTINES": 1
+  },
+  "combined_status_counts": {
+    "ACCEPTED": 146,
+    "REVIEW_REQUIRED": 46
+  },
+  "final_reference_status_counts": {
+    "REVIEW_REQUIRED": 53,
+    "ACCEPTED": 33,
+    "UNKNOWN": 10
+  },
+  "mirrored_preference_agrees": 61,
+  "mirrored_preference_disagrees": 35,
+  "mirror_disagreement_types": {
+    "strict_reversal": 10,
+    "tie_vs_strict": 21,
+    "unknown_vs_known": 4
+  },
+  "known_reference_coverage": 0.34375,
+  "known_plus_unknown_processed_coverage": 0.4479166666666667,
+  "same_model_primary_mirror_not_independent": true,
+  "independent_human_gold": 0
+}

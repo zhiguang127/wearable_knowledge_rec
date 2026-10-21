@@ -1,0 +1,492 @@
+{
+  "arms": {
+    "A": {
+      "ndcg@3": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "ndcg@5": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "pairwise_agreement": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "kendall_tau_b": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "B": {
+      "ndcg@3": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "ndcg@5": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "pairwise_agreement": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "kendall_tau_b": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "C": {
+      "ndcg@3": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "ndcg@5": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "pairwise_agreement": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "kendall_tau_b": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "D": {
+      "ndcg@3": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "ndcg@5": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "pairwise_agreement": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "kendall_tau_b": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "D0": {
+      "ndcg@3": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "ndcg@5": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "pairwise_agreement": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "kendall_tau_b": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    }
+  },
+  "value": {
+    "ndcg@3": {
+      "delta_C": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D0": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "ndcg@5": {
+      "delta_C": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D0": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "pairwise_agreement": {
+      "delta_C": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D0": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    },
+    "kendall_tau_b": {
+      "delta_C": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_delta": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      },
+      "delta_D0": {
+        "participant_macro_mean": null,
+        "participant_effects": {},
+        "participant_context_counts": {},
+        "participant_min": null,
+        "participant_max": null,
+        "leave_one_participant_out": {},
+        "context_sign_counts": {
+          "undetermined": 96
+        },
+        "evaluated_contexts": 0,
+        "population_significance_claim": false
+      }
+    }
+  }
+}

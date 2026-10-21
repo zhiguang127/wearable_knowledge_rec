@@ -1,0 +1,18 @@
+{
+  "status": "INSUFFICIENT_EVIDENCE",
+  "new_model_calls": 0,
+  "historical_changes": 0,
+  "files": {
+    "day4_reaudit.json": "15b9454299087094ce12a7790b1a492607e395b15acec0d4bd3742ed3e1386e4",
+    "index.json": "efb3af7e4975d2fdbfc43c00d23fd61dc387b0a9970024d8a70359107cd1189d",
+    "measurement_protocol.json": "f876cd017cbaaa478804a011c5b6811cff1b0552ac2797fc2984c94e8db85ebf",
+    "mechanism_diagnostics.json": "5e4f7a30fa322e2e85f91d6ba9230c7f3ec2d4739d945752878c5a95e5294b98",
+    "mechanism_summary.json": "982b0648b1e96bd62e39cae231b47d28ecabb31327317324bfc8c5e5005b0ccc",
+    "pair_selection.json": "309ecf1d0c8e29d4a7ffaf1f2c16f1ee431b285d2027664dd5b5e0667daaa40f",
+    "review_status.json": "78e274aff868c32c6a71a8af66b29608c44fdd5a5e99a3070defe46bfaeeef5d",
+    "rubric.json": "62c820ea9a522040e4b720f26a61c21da35c19dab916eb601bb91641f2ad2e77",
+    "source_condition_matrix.jsonl": "f0d48dc5cfe208aea86d902036f54223c5388caa944330e9ca95ad8267d019e9",
+    "stage_decision.json": "87fcf8d2d86cac5df1f1295be82b4a36ee66df37b380e5b2c0ae2ad39aab5562"
+  },
+  "release_id": "32fe503f39d41533bfdffd9f4b888b22053595c04c94edfa552ebfa27ad3c85a"
+}

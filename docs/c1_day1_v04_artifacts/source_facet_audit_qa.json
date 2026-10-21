@@ -1,0 +1,107 @@
+{
+  "version": "day1-construction-and-ranking-diagnosis-v04",
+  "items": 204,
+  "statuses": {
+    "QUOTATIONS_BOUND_MODEL_SILVER": 150,
+    "QUOTATION_REVIEW_REQUIRED": 53,
+    "CALL_OR_SCHEMA_FAILURE": 1
+  },
+  "source_forms_model_judgments": {
+    "NONCONDITIONAL_EDUCATION": 98,
+    "CONDITIONAL_OR_POPULATION_SCOPED": 34,
+    "RESOURCE_OR_FRAGMENT": 1,
+    "QUANTIFIED_RECOMMENDATION": 16,
+    "MIXED": 1
+  },
+  "nonexclusive_diagnostic_counts_model_judgments": {
+    "SOURCE_NO_EXPLICIT_PERSONAL_TRIGGER": 126,
+    "CONDITION_NOT_IN_PROBE_MEASUREMENT_SPACE": 110,
+    "LEGACY_EXTRACTION_COVERAGE_GAP_CANDIDATE": 100,
+    "HARD_GATE_VALIDATION_NOT_RANKING_RELEVANCE": 74,
+    "MEASUREMENT_SEMANTICS_MISMATCH": 5
+  },
+  "items_with_source_facets": 150,
+  "items_with_numeric_target_or_threshold": 34,
+  "facet_purpose_counts": {
+    "RECOMMENDED_TARGET": 118,
+    "RELEVANCE_CONTEXT": 73,
+    "POPULATION_SCOPE": 38,
+    "EXAMPLE_OR_BACKGROUND": 91,
+    "EXPLICIT_ADVICE_TRIGGER": 98
+  },
+  "items_claiming_directly_measurable_facet": [
+    "K2-008e64d019c49e610113",
+    "K2-6c57d5516de8f75bce19",
+    "K2-db49b0399fa678d75520"
+  ],
+  "human_gold": false,
+  "source_semantic_certification": false,
+  "new_personal_labels": 0,
+  "ranking_accuracy": null,
+  "formal_baseline_allowed": false,
+  "status": "PASS_RAW_CHAINS_ONLY_SEMANTIC_REVIEWS_PENDING",
+  "original_corpus_items": 204,
+  "raw_model_requests": 204,
+  "original_responses": 204,
+  "decoded_schema_failures": 1,
+  "total_model_facets": 836,
+  "facets_passing_quote_and_inventory_checks": 726,
+  "directly_measurable_model_claims": [
+    {
+      "knowledge_id": "K2-008e64d019c49e610113",
+      "facet_id": "F2",
+      "probe_ids": [
+        "P2-b905ad59e817b2fca342",
+        "P2-0b76609017642b298883",
+        "P2-affc5b800be9ee8bdfff",
+        "P2-fa9c17d51fbfae59d030"
+      ],
+      "semantic_review_status": "REVIEW_REQUIRED_NOT_ADMITTED"
+    },
+    {
+      "knowledge_id": "K2-6c57d5516de8f75bce19",
+      "facet_id": "F2",
+      "probe_ids": [
+        "P2-f6cd7e678c432eb396ad"
+      ],
+      "semantic_review_status": "REVIEW_REQUIRED_NOT_ADMITTED"
+    },
+    {
+      "knowledge_id": "K2-9663b9544a37afc9cbe0",
+      "facet_id": "F3",
+      "probe_ids": [
+        "P2-975d17074b70be5a2478"
+      ],
+      "semantic_review_status": "REVIEW_REQUIRED_NOT_ADMITTED"
+    },
+    {
+      "knowledge_id": "K2-db49b0399fa678d75520",
+      "facet_id": "F2",
+      "probe_ids": [
+        "P2-ec7dd7766f4179b808fb",
+        "P2-1a22e0b6956dc3d2ec5b",
+        "P2-34243bf4b79280f10977"
+      ],
+      "semantic_review_status": "REVIEW_REQUIRED_NOT_ADMITTED"
+    },
+    {
+      "knowledge_id": "K2-db49b0399fa678d75520",
+      "facet_id": "F4",
+      "probe_ids": [
+        "P2-ec7dd7766f4179b808fb",
+        "P2-1a22e0b6956dc3d2ec5b",
+        "P2-34243bf4b79280f10977"
+      ],
+      "semantic_review_status": "REVIEW_REQUIRED_NOT_ADMITTED"
+    }
+  ],
+  "admitted_direct_measurement_claims": 0,
+  "source_review_artifact_id": "58f9bfce45d1bea9494ed659368f491a1687548c0bcc909bb6202e5b30b59d79",
+  "tokens": {
+    "prompt_tokens": 2508339,
+    "completion_tokens": 185766
+  },
+  "usage_priced_cny": 36.787644,
+  "actual_invoice_cny": null,
+  "limitation": "Quote validity is not role/construct correctness; counts are nonexclusive model screens, not adjudicated causal failure rates"
+}

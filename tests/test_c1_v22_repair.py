@@ -37,7 +37,7 @@ def review(k, conditions=None):
               "issues": [], "source_citations": [cite(k)], "rationale": "Fixture only"}
     return {"knowledge_id": k["knowledge_id"], "input_sha256": digest(k), "prompt_version": pipeline.PROMPT_VERSION,
             "stage1": {"status": "RETURNED", "output": first}, "stage2": {"status": "RETURNED", "output": second},
-            "review_status": "SILVER_ACCEPTED", "validation_errors": []}
+            "review_status": "SILVER_ACCEPTED", "validation_errors": [], "label_provenance": "QWEN3_8_MAX_SILVER"}
 
 
 def case(subject="fixture-subject", length=42):
@@ -156,7 +156,7 @@ class IndependentEvidenceTests(unittest.TestCase):
 
     def test_label_path_receives_full_evidence_without_a_mapping(self):
         k = item(); c = case(); ps = catalog()
-        client = SimpleNamespace(config={"model": "fixture"})
+        client = SimpleNamespace(config={"model": "qwen3.8-max"})
         payloads = []
         def stage(client, task, payload, schema, name):
             payloads.append(payload)
@@ -215,7 +215,7 @@ class IndependentEvidenceTests(unittest.TestCase):
 class ReviewCacheContextTests(unittest.TestCase):
     def test_label_cache_changes_with_registry_even_when_item_has_no_mapping(self):
         k = item(); c = case(); ps = [make_probe("steps",7,"mean")]
-        client = SimpleNamespace(config={"model":"fixture"})
+        client = SimpleNamespace(config={"model":"qwen3.8-max"})
         calls=[]
         def stage(*args):
             calls.append(1)
@@ -228,7 +228,7 @@ class ReviewCacheContextTests(unittest.TestCase):
         self.assertNotEqual(a["annotation_context_sha256"],b["annotation_context_sha256"])
     def test_probe_and_neighbor_changes_invalidate_local_reuse_without_version_change(self):
         k = item(); ps = [make_probe("steps", 7, "mean")]
-        client = SimpleNamespace(config={"model": "fixture", "base_url": "https://example.invalid", "max_tokens": 40})
+        client = SimpleNamespace(config={"model": "qwen3.8-max", "base_url": "https://example.invalid", "max_tokens": 40})
         calls = []
         def stage(client, task, payload, schema, name):
             calls.append(name)
@@ -245,6 +245,23 @@ class ReviewCacheContextTests(unittest.TestCase):
             self.assertNotEqual(a["review_context_sha256"], b["review_context_sha256"])
             self.assertNotEqual(a["review_context_sha256"], c["review_context_sha256"])
             self.assertEqual(read(legacy), {"obsolete": True})
+
+    def test_model_switch_separates_label_cache_and_provenance(self):
+        client = SimpleNamespace(config={"model":"qwen-plus"})
+        calls=[]
+        def stage(*args):
+            calls.append(1)
+            return {"status":"BLOCKED","reason":"Fixture only"}
+        with tempfile.TemporaryDirectory() as d, patch.object(pipeline,"call_stage",side_effect=stage):
+            old=pipeline.label_one(client,case(),item(),[],d)
+            client.config["model"]="qwen3.8-max"
+            new=pipeline.label_one(client,case(),item(),[],d)
+            replay=pipeline.label_one(client,case(),item(),[],d)
+        self.assertEqual(len(calls),2)
+        self.assertNotEqual(old["annotation_context_sha256"],new["annotation_context_sha256"])
+        self.assertEqual(old["label_provenance"],"QWEN_PLUS_SILVER")
+        self.assertEqual(new["label_provenance"],"QWEN3_8_MAX_SILVER")
+        self.assertEqual(new,replay)
 
 
 class RealAuditRegressions(unittest.TestCase):

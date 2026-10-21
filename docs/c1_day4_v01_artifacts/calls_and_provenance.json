@@ -1,0 +1,19 @@
+{
+  "tasks": 48,
+  "task_statuses": {
+    "RESPONSE_RECEIVED": 41,
+    "CALL_OR_SCHEMA_FAILURE": 7
+  },
+  "pair_views_received": 164,
+  "token_usage": {
+    "prompt_tokens": 4729231,
+    "completion_tokens": 66311
+  },
+  "usage_original_price_estimate_cny": 59.137968,
+  "actual_invoice_cny": null,
+  "attempts": 48,
+  "raw_responses": 48,
+  "independent_human_reviews": 0,
+  "same_model_mirror_is_independent": false,
+  "request_blinded_to_ranker_and_old_outputs": true
+}

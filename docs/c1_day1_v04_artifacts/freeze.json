@@ -1,0 +1,12 @@
+{
+  "version": "day1-construction-and-ranking-diagnosis-v04",
+  "status": "DIAGNOSTIC_METADATA_ONLY_NOT_EXPERIMENT_FREEZE",
+  "human_gold": false,
+  "files": {
+    "benchmark_decision.json": "98e28597f783bc382d0043983c5e9e0f8d37842b01524eab41ee1bfdd4948df3",
+    "construction_trace.json": "f773c9b1b1618f42e75ab86b847fbc8dbdad76924d7bf37088104603f1677510",
+    "per_item_diagnostic_summary.jsonl": "40145d8102d600eb21694d59f6a8608b58f762a16d1b8c3374784a5ba34f6da4",
+    "source_facet_audit_qa.json": "ffe271224049b31efe325dfa2f0f44c0422bd595c25ce2e1ff044eb9c61e29b5"
+  },
+  "release_id": "d2f81d4d81f67eefc617b33aa047acfb908a5cc5144c76d4e5566e9567e267b0"
+}

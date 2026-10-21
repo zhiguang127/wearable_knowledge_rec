@@ -89,10 +89,11 @@
 python -m src.annotation.c1_v22_audit --config configs/c1_v2_2_audit.json
 python -m src.annotation.c1_v22_audit --action verify --output local/c1-v2-audit-repair/qa-new.json
 
-# 付费计划先行；真实调用须有本机 DASHSCOPE_API_KEY
-python -m src.annotation.c1_v22_pilot --plan-only
-python -m src.annotation.c1_v22_pilot
-python -m src.annotation.c1_v22_pilot --verify-only
+# 历史 qwen-plus 小批次显式指定旧配置；新默认模型见 C1_V2_SILVER_PROTOCOL.md
+$legacyPilotArgs = @('--budget', 'configs/c1_v2_2_pilot_budget.json', '--ledger', 'local/c1-v2-audit-repair/qwen-ledger-pilot-v1', '--records', 'local/c1-v2-audit-repair/qwen-records-pilot-v1', '--output', 'local/c1-v2-audit-repair/qwen-pilot-v1')
+python -m src.annotation.c1_v22_pilot @legacyPilotArgs --plan-only
+# 仅验证已有历史工件，不重新调用模型
+python -m src.annotation.c1_v22_pilot @legacyPilotArgs --verify-only
 
 # 独立公开导出；目标目录必须不存在
 python -m src.annotation.c1_v22_audit --action export --output docs/c1_v2_2_artifacts --pilot-report local/c1-v2-audit-repair/qwen-pilot-v1/report.json

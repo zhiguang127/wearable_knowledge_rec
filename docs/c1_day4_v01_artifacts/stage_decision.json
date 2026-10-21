@@ -1,0 +1,15 @@
+{
+  "status": "INSUFFICIENT_EVIDENCE",
+  "source_audited_evidence_conditioned_pairs": [],
+  "reference_material_adequate_for_design_diagnosis": false,
+  "ranking_utility_executed": false,
+  "real_C_minus_D_ndcg5": null,
+  "Expected_V": null,
+  "human_gold": false,
+  "formal_benchmark_frozen": false,
+  "formal_baseline_started": false,
+  "C2_started": false,
+  "assessor_independence": "NEW_REQUESTS_BLINDED_SAME_MODEL_FAMILY_NOT_HUMAN_OR_FULL_EVALUATOR_INDEPENDENCE",
+  "next_unique_priority_action": "Obtain source-grounded contextual measurements needed by the ambiguous paired judgments before enlarging the library or comparing acquisition algorithms.",
+  "population_significance_claim": false
+}

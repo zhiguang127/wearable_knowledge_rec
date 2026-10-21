@@ -1,0 +1,66 @@
+{
+  "version": "c1-day3-evaluation-v01",
+  "status": "REDESIGN_REQUIRED",
+  "report": "docs/C1_DAY3_EVALUATION_REPORT_V01.md",
+  "protocol_id": "8c1acb1bcd6948ea0cf37636e01ee4de195a0ba6bdcc914c2002213fcea84faf",
+  "AI_reference_archive_sha256": "33936a3feedcebd2c24ee1350d077562c88d251806d85990c69f9b4d6b968718",
+  "independent_Gold": false,
+  "private_artifacts": {
+    "local/day3/preregistered-v01/freeze.json": {
+      "sha256": "d4c81ee417dfe274dfe0cf2be484d199cf9a05dc462a16ccf7cb93d07b3eeb79",
+      "Git_ignored": true
+    },
+    "local/day3/imported-v01/integrity_report.json": {
+      "sha256": "3ab57e38b24c4570300cfb0ab76ad986b50c2617ba4c66a6fde675f868e2f53e",
+      "Git_ignored": true
+    },
+    "local/day3/imported-v01/labels.jsonl": {
+      "sha256": "47c14223d6dcb7300791632fa252afc0a1523abfe9c2ba47577945d342c077a7",
+      "Git_ignored": true
+    },
+    "local/day3/semantic-review-v01.json": {
+      "sha256": "6662618b16abd577a9938cda37d96753cd079036a4d29554e351db74eeae1c03",
+      "Git_ignored": true
+    },
+    "local/day3/evaluated-v01/shared_F_qrels.jsonl": {
+      "sha256": "2dcfbc6526a3849943369da7c024885ee61043c644ee6f8cc757f0bed77e61b6",
+      "Git_ignored": true
+    },
+    "local/day3/evaluated-v01/ranking_replay.jsonl": {
+      "sha256": "b8cbb640f0a7875d68e2612e7df555c94db1e95a8897b039e477eb155dfb0372",
+      "Git_ignored": true
+    },
+    "local/day3/evaluated-v01/matched_evaluation.jsonl": {
+      "sha256": "850939bc38e8cf068fd5f4724cd66a8621cbfc4bf029a63c776f622ca5a71118",
+      "Git_ignored": true
+    },
+    "local/day3/evaluated-v01/pair_attribution.jsonl": {
+      "sha256": "1e2cc828bb2a1a1c3efee6f99725a5c0c76857d9ea9d93d4829208ccc7dc929b",
+      "Git_ignored": true
+    },
+    "local/day3/evaluated-v01/stage_decision.json": {
+      "sha256": "5720ccfdbb78edfb213f376e64c20eb85bf0a51be6f1ee169ba74531e5b3ab06",
+      "Git_ignored": true
+    },
+    "local/day3/evaluated-v01/freeze.json": {
+      "sha256": "3918d3217e972134d5b5c61cfca5b2372352f9a6950f07519b70c8a7c1ae016e",
+      "Git_ignored": true
+    },
+    "local/day3/validation-v01/unittest.log": {
+      "sha256": "118578ff59b6414289ba5f71a2332572ff60119f2721f68aa2d32154719bb21e",
+      "Git_ignored": true
+    },
+    "local/day3/validation-v01/final_qa.json": {
+      "sha256": "ab19e2b2114cd100f7b0ca62de72d46918eaeee720ff0c754d5115279413ec8b",
+      "Git_ignored": true
+    }
+  },
+  "core_commands": [
+    "python -m src.day3 prepare",
+    "python -m src.day3 import",
+    "python -m src.day3 evaluate"
+  ],
+  "semantic_sidecar_note": "Recorded source-aware model review required between import and evaluation; no new grades or independent human claim",
+  "existing_v01_artifacts_never_overwritten": true,
+  "tests": "python -m unittest discover -s tests -v"
+}

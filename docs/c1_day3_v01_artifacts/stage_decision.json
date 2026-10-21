@@ -1,0 +1,16 @@
+{
+  "status": "REDESIGN_REQUIRED",
+  "reference_layer": "AI_REFERENCE_V01",
+  "evaluable_contexts": 12,
+  "participant_count": 3,
+  "strict_personal_reference_difference_people": 0,
+  "C_D_positive_people": 0,
+  "unresolved_assessor_isolation": true,
+  "benchmark_frozen": false,
+  "formal_baselines_started": false,
+  "C2_started": false,
+  "new_model_calls": 0,
+  "next_unique_priority_action": "Redesign a small source-grounded set of evidence-discriminating query/candidate pairs and obtain blinded independent matched judgments before comparing acquisition policies.",
+  "same_observed_pilot_data_exploratory_only": true,
+  "population_significance_claim": false
+}

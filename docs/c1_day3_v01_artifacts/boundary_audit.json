@@ -1,0 +1,37 @@
+{
+  "Day2_protocol_id": "87e205b58e38f1b7ed7b210548f08bf94bf11cebbb0187fbd0062514f6183019",
+  "Day2_run_id": "838cf62ad3d89c72820b9f3f8d2818dce984468e94db319b028fe4e28f8713b0",
+  "Day3_protocol_id": "8c1acb1bcd6948ea0cf37636e01ee4de195a0ba6bdcc914c2002213fcea84faf",
+  "source_closure": {
+    "source_files_rehashed": 11,
+    "status": "PASS_EXACT_SOURCE_BYTES"
+  },
+  "human_package": {
+    "release_id": "beb0f4a2a3d4fc37ff675b50e1fdb62d959348bd66b8c0ef84039e47719327c2",
+    "original_files_verified": 13,
+    "additions": {
+      "human-review-v01.zip": "7b4c17a9f24aed9a15e026f02b55bc26113a5f701eb90bf8ef180c3467394ba8"
+    },
+    "status": "ORIGINAL_PAYLOAD_INTACT_ADDITIVE_ANOMALY_RECORDED"
+  },
+  "canonical_results_recomputed_and_exact_bound": 864,
+  "ranker_observations_replayed_exactly": 48,
+  "train_people_only": true,
+  "labels_passed_to_ranker": false,
+  "F_results_passed_to_ranker": false,
+  "programmatic_isolation": "PASS_OBSERVED_SUBSET_ONLY",
+  "assessor_independence": "NOT_ESTABLISHED_PRIOR_SILVER_AGGREGATE_EXPOSURE",
+  "new_model_requests": 0,
+  "ranker_weights_changed": false,
+  "measurement_status_slots": {
+    "COMPUTED": 48
+  },
+  "incremental_probe_actions": 24,
+  "cost_units": "PROBE_COUNT",
+  "historical_acquisition_latency_ns": {
+    "total": 15775600,
+    "mean": 657316.6666666666
+  },
+  "latency_is_local_precomputed_lookup_not_healthcare_cost": true,
+  "completed_at": "2026-10-21T02:10:46.536275+00:00"
+}

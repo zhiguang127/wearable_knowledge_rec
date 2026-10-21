@@ -1,0 +1,14 @@
+{
+  "version": "day2-relevance-rubric-v1",
+  "0": "Explicitly irrelevant to the declared topic/goal; never assigned simply because a personal measurement is absent",
+  "1": "Relevant background with limited specificity to the declared question",
+  "2": "Directly relevant to the declared question; may be justified by topic/goal alone or legitimately linked personal evidence",
+  "3": "Especially specific to the declared question and supported context; never a clinical urgency, treatment benefit or inferred preference label",
+  "null": "Needed context/evidence is unknown, or no defensible judgment can be made",
+  "ties": "Equal grades are allowed; unknowns are not ties or zeros",
+  "H_not_R": true,
+  "target_failure_not_priority": true,
+  "no_hard_gate_can_be_relevant": true,
+  "source_relevance_link": "Only the four fixed source locations may receive PERSONAL_EVIDENCE_CONTEXT claims; other units may remain relevant from explicit Topic/Goal alone",
+  "Gold": "Independent human judgments and adjudication required; all Qwen outputs are Silver"
+}

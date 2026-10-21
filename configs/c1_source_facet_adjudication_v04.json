@@ -1,0 +1,44 @@
+{
+  "version": "c1-source-facet-adjudication-v04",
+  "reviewer_kind": "model",
+  "reviewer_id": "Codex direct source and registry comparison",
+  "human_gold": false,
+  "scope": "Review every direct-measurement claim from the v04 source audit; no personal labels",
+  "reviews": [
+    {
+      "knowledge_id": "K2-008e64d019c49e610113",
+      "facet_id": "F2",
+      "decision": "REJECT_DIRECT_MEASUREMENT_CLAIM",
+      "reason_codes": ["DEVICE_SCORE_NOT_SUBJECTIVE_STATE", "OUTCOME_BENEFIT_NOT_PERSONAL_APPLICABILITY_GATE"],
+      "rationale": "The source says feel less stressed. The referenced probes measure a device score. Neither the person's subjective state nor an effect of reducing caffeine is directly observed."
+    },
+    {
+      "knowledge_id": "K2-6c57d5516de8f75bce19",
+      "facet_id": "F2",
+      "decision": "REJECT_DIRECT_MEASUREMENT_CLAIM",
+      "reason_codes": ["MULTIDAY_MEAN_NOT_EACH_NIGHT", "AGE_UNOBSERVED", "TARGET_NOT_PREREQUISITE"],
+      "rationale": "A 14-day sleep-duration mean with 70 percent coverage cannot establish the nightly target. The model explicitly says closest available rather than equivalent."
+    },
+    {
+      "knowledge_id": "K2-9663b9544a37afc9cbe0",
+      "facet_id": "F3",
+      "decision": "REJECT_DIRECT_MEASUREMENT_CLAIM",
+      "reason_codes": ["PROBE_ID_CONSTRUCT_AND_UNIT_MISMATCH", "MULTIDAY_MEAN_NOT_EVERY_DAY", "QUOTE_SCOPE_REVIEW_REQUIRED"],
+      "rationale": "P2-975d17074b70be5a2478 is 14-day mean steps in count/day, not seven-day exercise hours or daily activity minutes. The original record also fails its declared quotation scope."
+    },
+    {
+      "knowledge_id": "K2-db49b0399fa678d75520",
+      "facet_id": "F2",
+      "decision": "REJECT_DIRECT_MEASUREMENT_CLAIM",
+      "reason_codes": ["PROBE_ID_CONSTRUCT_AND_UNIT_MISMATCH", "MULTIDAY_STATISTIC_NOT_EACH_NIGHT", "AGE_UNOBSERVED"],
+      "rationale": "All three referenced IDs are steps adjacent_change probes in count/day, rather than sleep-duration means. The age-specific nightly recommendation cannot be verified."
+    },
+    {
+      "knowledge_id": "K2-db49b0399fa678d75520",
+      "facet_id": "F4",
+      "decision": "REJECT_DIRECT_MEASUREMENT_CLAIM",
+      "reason_codes": ["PROBE_ID_CONSTRUCT_AND_UNIT_MISMATCH", "MULTIDAY_STATISTIC_NOT_EACH_NIGHT", "AGE_UNOBSERVED"],
+      "rationale": "The same steps adjacent_change IDs are incorrectly reused for school-aged children's sleep hours. Population and nightly semantics are also unavailable."
+    }
+  ]
+}

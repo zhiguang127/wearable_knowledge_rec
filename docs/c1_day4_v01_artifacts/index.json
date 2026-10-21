@@ -1,0 +1,87 @@
+{
+  "version": "c1-day4-discriminative-v01-with-reference-schema-r1",
+  "status": "INSUFFICIENT_EVIDENCE",
+  "protocol": "docs/C1_DAY4_DISCRIMINATIVE_PROTOCOL_V01.md",
+  "report": "docs/C1_DAY4_DISCRIMINATIVE_REPORT_V01.md",
+  "config": "configs/c1_day4_discriminative_v01.json",
+  "schema_amendment": "docs/C1_DAY4_REFERENCE_SCHEMA_AMENDMENT_V01R1.md",
+  "design_id": "70e8148c2c6e1944ebe857929e2b6bdd11545284c01e60dff44ce546fc1f94dd",
+  "private_artifacts": {
+    "local/day4/design-v01/freeze.json": {
+      "sha256": "15d7ddd9d14efb2318f7af0901266ae3d091ae2e9dc319913069c417b0fa3f87",
+      "Git_ignored": true
+    },
+    "local/day4/reference-prepared-v01/probe_audit.jsonl": {
+      "sha256": "1faa282ca437708ce3199fd6063bee3fb3fc366f6c78a35764776f49074499f9",
+      "Git_ignored": true
+    },
+    "local/day4/reference-prepared-v01/scenarios.jsonl": {
+      "sha256": "d875bcbb944fac7b872d8d80dea4470fe8c2c084f9bfc6b62c62d0c18f83b3fd",
+      "Git_ignored": true
+    },
+    "local/day4/reference-prepared-v01/pairs.jsonl": {
+      "sha256": "c3697b569d3fde988f9afc5b2c01eb87f6f998f52f28ab8dbfea6bbe804729bf",
+      "Git_ignored": true
+    },
+    "local/day4/reference-prepared-v01/rubric.json": {
+      "sha256": "08942a1996a3b958267f3edde49e35e3b988374ca579a2cab7775e9389164930",
+      "Git_ignored": true
+    },
+    "local/day4/reference-executed-v01/reference_results.jsonl": {
+      "sha256": "f6fdc97e8b26daa8c6235edf9a1a53d1e48768a76aa0cac0d4efdf1b73449c3b",
+      "Git_ignored": true
+    },
+    "local/day4/schema-amendment-v01r1/freeze.json": {
+      "sha256": "f77ab8fdfde2567470acdedcb529662a8c0107472ac39b2895c2b69a9636370c",
+      "Git_ignored": true
+    },
+    "local/day4/reference-revalidated-v01r1/reference_results.jsonl": {
+      "sha256": "8a06cb109cd2857f13d1b1cf83e751316929b5d2afe663a8d123f8762bf89747",
+      "Git_ignored": true
+    },
+    "local/day4/semantic-review-v01r1.json": {
+      "sha256": "506c4309611e1370114310ac05fcb1407318533516b3ee964a6b376b23feccbc",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/shared_full_record_qrels.jsonl": {
+      "sha256": "851bcc369384fa7dae0c1c74490819f490a8d9d14e9f83639e136a41c8f16d0f",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/reference_context_comparisons.jsonl": {
+      "sha256": "4ddf59344dacbc094890042abc49aac2a0f3c22cba5038aaf2cf4940f71a046b",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/ranker_observations.jsonl": {
+      "sha256": "c043484f42191cf097fd7ae4a631e81b74748e8b25bdab0b022ebe19eea3d9c9",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/legacy_ranker_diagnostic.jsonl": {
+      "sha256": "898a599e25e6b56ea77e541c11ce9982b7bb9dbf88a32ede1b8d8863b03472ee",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/acquisition_actions.jsonl": {
+      "sha256": "c0b3083c4809bf56718c129931f7a9203f25508e2408acd2c1f36ea8a024bc4d",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/matched_evaluation.jsonl": {
+      "sha256": "9d4e4b72f0827bafe94d9d36b363a45fdd2966e1bce6690d10a238097b67befc",
+      "Git_ignored": true
+    },
+    "local/day4/analysis-v01r1/stage_decision.json": {
+      "sha256": "88a5fd973d1d677f0078689193fd85d6075b9ef8eeae277ea4802f16fa26aad8",
+      "Git_ignored": true
+    },
+    "local/day4/validation-v01r1/unittest.log": {
+      "sha256": "629ae760d629b2c45ce351d840574dae847399690de1ef8b30e7df04a20db976",
+      "Git_ignored": true
+    },
+    "local/day4/validation-v01r1/final_qa.json": {
+      "sha256": "091c2954075c9aa10b194ab6d220392a14837a4f22f4732bec488f68c3923676",
+      "Git_ignored": true
+    }
+  },
+  "human_gold": false,
+  "formal_benchmark_frozen": false,
+  "actual_research_utility": null,
+  "tests_passed": 235
+}
